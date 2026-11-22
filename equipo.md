@@ -48,6 +48,8 @@ Radar mide → Capo decide qué producir y qué actualizar → Máquina (videos)
 14. Si un error sale publicado: comentario fijado con la corrección y arreglo en el siguiente video; no se borra salvo error grave.
 15. Ahorro de uso (aprobado 2026-11-22; la semana iba a 12% en 7.5 h): chats nuevos y cortos, una sesión de Capo al día (el estado vive en el repo: equipo.md, buzon/, serie.md); tarea diaria de Verdad ligera (dinero, cifras y cambios; revisión completa los domingos); respuestas cortas por defecto, detalle completo en buzon/ y Cristian lo pide con "completo". Atlas y Radar no se abren hasta que haya algo que hacer.
 
+16. Límite de chat (propuesto por Cristian, 2026-11-22): cada agente cuenta sus mensajes y sus búsquedas web. Al llegar a 30 mensajes o a 8 búsquedas web (Verdad: 15), deja su relevo como archivo en buzon/ (qué hizo, qué falta, decisiones pendientes), hace commit y push, y responde solo "Límite alcanzado. Abre un chat nuevo con la plantilla." No sigue trabajando en ese chat aunque se lo pidan. Es un límite blando: depende de que el agente cuente bien.
+
 ## Pendientes de Cristian (para el siguiente chat de Capo)
 - Hoy 20:00: Lucía P1 solo sale con OK de Verdad (Cristian le dice "revisa el buzón" en el chat de Verdad).
 - Mar 24-nov: decidir gancho H1 (Capo recomienda Dinero P2–P4, solo escena 1, sin voz).
@@ -127,3 +129,5 @@ BUZÓN: al empezar, haz git pull y lee en buzon/ los mensajes dirigidos a ti con
 - 2026-11-22 (Capo): dato disputado: "Moses regala el garaje de Port Gellhorn" (GTABase sí; PowerPyx dice que el regalo es un Sultan; TheGamesWiki dice que los garajes se compran). Verdad lo resuelve antes de Gratis P2 y Dinero P5.
 
 - 2026-11-22 (aprobado por Cristian): medidas de ahorro de uso (regla 15). No se aprobó cambiar a modelo ligero en Reloj, Radar y Máquina.
+
+- 2026-11-22 (Cristian): límite de chat de 30 mensajes u 8 búsquedas web (Verdad 15), con relevo en buzon/ (regla 16). Los números son un punto de partida.
