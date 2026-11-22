@@ -1,0 +1,47 @@
+{
+ "voz_id": "pNInz6obpgDQGcFmaJgB",
+ "modelo": "eleven_multilingual_v2",
+ "caracteres": 313,
+ "frases": [
+  {
+   "texto": "¿Quieres que Lucía te quiera más?",
+   "inicio": 0.0,
+   "fin": 1.858
+  },
+  {
+   "texto": "Cada vez que sube, aparece un corazón.",
+   "inicio": 2.299,
+   "fin": 4.934
+  },
+  {
+   "texto": "Salúdala y tómala de la mano.",
+   "inicio": 5.375,
+   "fin": 7.674
+  },
+  {
+   "texto": "Invítale de comer y contesta sus mensajes.",
+   "inicio": 8.185,
+   "fin": 11.053
+  },
+  {
+   "texto": "Hagan cosas juntos: playa o buceo.",
+   "inicio": 11.331,
+   "fin": 14.396
+  },
+  {
+   "texto": "Hasta robar juntos sube la relación.",
+   "inicio": 14.675,
+   "fin": 17.264
+  },
+  {
+   "texto": "Pasar tiempo fuera de las misiones es lo más rápido.",
+   "inicio": 17.647,
+   "fin": 20.724
+  },
+  {
+   "texto": "La próxima: lo que arruina todo. ¡Sígueme!",
+   "inicio": 21.234,
+   "fin": 24.752
+  }
+ ]
+}
