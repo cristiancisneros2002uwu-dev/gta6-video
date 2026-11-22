@@ -22,7 +22,7 @@ def hablar(t):
     t = re.sub(r"\bGTA\s*(VI|6)\b", "GTA seis", t)
     t = re.sub(r"\b(\d+)\.(\d)\b(?!\d)", lambda m: num2words(int(m[1]), lang="es") + " punto " + num2words(int(m[2]), lang="es"), t)
     t = re.sub(r"\d{1,3}(?:[.,]\d{3})+|\d+", lambda m: num2words(int(re.sub(r"[.,]", "", m[0])), lang="es"), t)
-    t = re.sub(r"\buno (mil|millones)", r"un \1", t).replace("veintiun ", "veintiún ")
+    t = re.sub(r"uno (mil|millones)", r"un \1", t).replace("veintiun ", "veintiún ")
     t = t.replace("~", "unos ").replace("$", "")
     return t
 
