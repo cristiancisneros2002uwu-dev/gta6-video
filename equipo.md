@@ -46,6 +46,17 @@ Radar mide → Capo decide qué producir y qué actualizar → Máquina (videos)
 12. Niveles de dato (internos, no salen en los videos): A = Rockstar; B = 2 fuentes independientes; C = una sola fuente (solo "según las guías" o no usar). Lo que Cristian confirma jugando cuenta como fuente para detalles de juego. Más rigor en dinero, cifras, "se pierde", rankings y "gratis"; menos en detalles menores.
 13. Revisión diaria: tarea programada "Verdad: revisión diaria", todos los días 7:17 CDMX, aviso push siempre. Re-verifica verdad.md y audita videos sin OK; reporta en buzon/.
 14. Si un error sale publicado: comentario fijado con la corrección y arreglo en el siguiente video; no se borra salvo error grave.
+15. Ahorro de uso (aprobado 2026-11-22; la semana iba a 12% en 7.5 h): chats nuevos y cortos, una sesión de Capo al día (el estado vive en el repo: equipo.md, buzon/, serie.md); tarea diaria de Verdad ligera (dinero, cifras y cambios; revisión completa los domingos); respuestas cortas por defecto, detalle completo en buzon/ y Cristian lo pide con "completo". Atlas y Radar no se abren hasta que haya algo que hacer.
+
+## Pendientes de Cristian (para el siguiente chat de Capo)
+- Hoy 20:00: Lucía P1 solo sale con OK de Verdad (Cristian le dice "revisa el buzón" en el chat de Verdad).
+- Mar 24-nov: decidir gancho H1 (Capo recomienda Dinero P2–P4, solo escena 1, sin voz).
+- Tras la revisión completa de Verdad: decidir qué se hace con los 6 videos con error en la voz (Top 5, Errores #1, Secretos #1, Datos #1, Dinero P4, Lucía P3).
+- Lote 5: espera lectura de 24 h (lun 23-nov 12:00), temas OK de Verdad y nuevo va. Antes resolver el garaje de Moses (Gratis P2, Dinero P5).
+- Mié 25-nov: 15 min para verificar el mapa del nicho.
+- Sitio: en espera; cuando dé el va, mandarle a Atlas el zip v26.
+- Créditos: revisar en elevenlabs.io (Usage) de qué cuenta es la key del repo; el contador no es confiable.
+- Facebook Page sin conectar a Windsor (no se lee por ahora).
 
 ## Instrucciones de cada agente (copiar y pegar en su chat/proyecto)
 
@@ -114,3 +125,5 @@ BUZÓN: al empezar, haz git pull y lee en buzon/ los mensajes dirigidos a ti con
 - 2026-11-22 (Cristian): los 6 videos con error en la voz (Top 5, Errores #1, Secretos #1, Datos #1, Dinero P4, Lucía P3) NO tienen decisión. Primero todos los videos de todos los lotes pasan por las fases del proceso y luego Cristian decide. Fuera del calendario hasta tener OK de Verdad.
 - 2026-11-22 (Cristian): BuckMe da 100 dólares de bienvenida (jugado por Cristian). Dinero P1 se queda como está.
 - 2026-11-22 (Capo): dato disputado: "Moses regala el garaje de Port Gellhorn" (GTABase sí; PowerPyx dice que el regalo es un Sultan; TheGamesWiki dice que los garajes se compran). Verdad lo resuelve antes de Gratis P2 y Dinero P5.
+
+- 2026-11-22 (aprobado por Cristian): medidas de ahorro de uso (regla 15). No se aprobó cambiar a modelo ligero en Reloj, Radar y Máquina.
