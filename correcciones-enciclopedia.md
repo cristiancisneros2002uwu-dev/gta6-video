@@ -36,4 +36,5 @@ Fuentes: medios y guías reconocidos (PowerPyx, VGC, GTABase, PC Gamer, Beebom, 
 | V13 | Datos #1 | "no se compran"; 30 FPS "en todas las plataformas" | CORREGIR: sin fuente; Rockstar: PS5 y Xbox Series (Beebom) |
 | V14 | Dinero P4 | 21.250; meta 200.000; 16 autos | NO USAR: sin fuente; 16 vs 18 según fuente |
 | V15 | Clonin' Keys, Makin' GS | ¿Es otro nombre de Steal the Zorrusso for Randy? | OK: mismo (GTABase, TheClick, Timesaver) |
-
+| V16 | Lucía P1 | "no por las misiones"; descripciones de niveles 2-4; "primera pestaña del menú de pausa" | SIN OK: las misiones sí cuentan (VGC, PC Gamer); descripciones sin fuente; menú: VGC dice botón táctil → menú Jason y Lucia |
+| V17 | Garaje de Moses | ¿Moses regala el garaje de Port Gellhorn? | OK: Port Gellhorn Station Garage gratis tras Daily Driver (PowerPyx, Beebom, Games.gg, Bloxodes). El "regalo" final de Moses no está identificado |

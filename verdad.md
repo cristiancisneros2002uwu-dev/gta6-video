@@ -4,24 +4,36 @@
 Fuentes: medios y guías (PowerPyx, VGC, GTABase, PC Gamer, Beebom, TheClick, Games.gg), Rockstar Newswire (30 FPS) y soporte de Rockstar (BuckMe). Rockstar no publica números de misión, totales ni cifras de límites.
 
 ## OK (usar con confianza)
-- BuckMe se desbloquea en la misión Buck Me (Cap. 1); 100 dólares de bienvenida.
-- 55 trofeos PS5 (1 platino, 2 oro, 6 plata, 46 bronce); 28 ocultos; ninguno online.
-- 4 niveles de relación con Lucia (di solo "nivel 2" para el segundo); qué sube y qué baja.
-- El efectivo de bolsillo se pierde al empezar Tourist Trap; lo depositado en BuckMe se conserva; se puede depositar en cualquier cajero.
-- Compras hasta ~1.000 dólares en efectivo; las mayores con BuckMe.
-- Family Savings: lo depositado nunca se retira ni se pierde; en 10.000 ahorrados, 20% menos en RydeMe; en 100.000, 20% menos en garajes.
-- Daily Driver (Moses): 1.250 dólares, más 500 si el auto llega en buen estado; Moses regala el garaje de Port Gellhorn.
-- Slam Dunk: 1.700 dólares al día siguiente por BuckMe; saquear a Bill da ~1.000 (opcional).
-- Afternoon Delight: 10.000 dólares por BuckMe al día siguiente.
-- Donnie's Lost Drugs: 1.200 dólares solo si vendes la droga a Brian.
-- Steal the Zorrusso for Randy (Cap. 3) = "Clonin' Keys, Makin' GS" (mismo nombre alterno). Da el clonador de llaves y abre a Randy y su Wish List; bono de 10.000 por entregar el Zorrusso sin daños.
-- Leroy Rook (carta de la nave cerca de Hamlet): ~6.000 en casa de empeño.
-- 480 cromos en 18 sets; 15 sets para el 100%.
-- Leonida es un estado ficticio basado en Florida.
-- 30 FPS: Rockstar (Newswire, 10-nov) apunta a 30 FPS en PS5, PS5 Pro y Xbox Series X|S.
-- Xbox: el platino es un logro Mythic de 0 Gamerscore.
-- OVNI: da el trofeo The Truth Is Out There. Camino al noroeste del Starlet Motel, Kelly County, después de las 2:00, solo, aparición aleatoria.
-- Huevo de la torre de radio de South Vice-Dale County: nido con huevos arriba; lanzar un huevo activa una escena corta; hay un salto BASE.
+Niveles (internos): A = Rockstar o confirmado por Cristian jugando; B = 2 o más fuentes independientes; C = una fuente.
+Fecha de revisión: 2026-11-22 salvo que se indique.
+
+| Dato | Nivel | Fuentes |
+|---|---|---|
+| BuckMe se desbloquea en la misión Buck Me (Cap. 1) y da 100 dólares | A | Cristian (jugando); PowerPyx, GTABase, TheClick |
+| Los límites de BuckMe suben con la historia (sin cifras) | A | Soporte de Rockstar |
+| 55 trofeos PS5 (1 platino, 2 oro, 6 plata, 46 bronce); 28 ocultos; ninguno online | B | GTABase, KeenGamer, OfZenAndComputing |
+| 4 niveles de relación con Lucia; nombres: Running on Empty, Crazy in Love, Hot Together; el nivel 2 se dice "nivel 2" | B | VGC, PC Gamer, PlayDay |
+| La relación sube con afecto, mensajes, robos y misiones hechas en pareja; baja por descuido y misiones fallidas | B | VGC, PC Gamer |
+| El efectivo de bolsillo se pierde al empezar Tourist Trap; lo depositado en BuckMe se conserva | B | PowerPyx, TheGamesWiki, TheClick |
+| Se puede depositar en cualquier cajero | B | PowerPyx, Games.gg |
+| Compras hasta ~1.000 en efectivo; mayores con BuckMe | B | Games.gg, Bloxodes |
+| Family Savings: lo depositado no se retira ni se pierde | B | PowerPyx, TheClick, Egamers |
+| Family Savings: 20% menos en RydeMe con 10.000 ahorrados; 20% menos en garajes con 100.000 | B | TheClick, Egamers |
+| Daily Driver: 1.250 dólares + 500 si el auto llega bien | B | PowerPyx, GTABase, TheClick |
+| Moses da gratis el Port Gellhorn Station Garage tras Daily Driver; se abre la app Vice City Real Estate para comprar otros garajes | B | PowerPyx, Beebom, Games.gg, Bloxodes, PlayNews |
+| Slam Dunk: 1.700 por BuckMe al día siguiente; ~1.000 opcional al saquear a Bill | B | PowerPyx, TheGamesWiki |
+| Afternoon Delight: 10.000 por BuckMe al día siguiente | B | PowerPyx, GTABase, Egamers |
+| Donnie's Lost Drugs: 1.200 solo si vendes la droga a Brian | B | PowerPyx, GTABase |
+| Steal the Zorrusso for Randy (Cap. 3) = "Clonin' Keys, Makin' GS"; da el clonador de llaves, abre a Randy y su Wish List; bono de 10.000 por entregar sin daños | B | GTABase, TheClick, Timesaver, Bloxodes, PC Gamer |
+| Carta Leroy Rook de la nave cerca de Hamlet: ~6.000 en casa de empeño | B | Beebom, BeatCop, Insider Gaming |
+| 480 cromos en 18 sets; 15 sets para el 100% | B | PowerPyx, GTABase, GMTreks |
+| Leonida es un estado ficticio basado en Florida | B | GTABase, Gameranx |
+| 30 FPS en PS5, PS5 Pro y Xbox Series X\|S (Rockstar Newswire, 10-nov) | B | Beebom, TechRadar, VGC |
+| Xbox: el platino es un logro Mythic de 0 Gamerscore | B | Dot Esports, Insider Gaming, TrueAchievements |
+| OVNI: da el trofeo The Truth Is Out There; noroeste del Starlet Motel, después de las 2:00, solo, aleatorio | B | PowerPyx, BeatCop, Beebom, Gamesfuze |
+| Torre de radio de South Vice-Dale County: nido con huevos arriba; lanzar un huevo activa una escena corta; hay salto BASE | B | Games.gg, ProdigyGamers (IBTimes: sin ubicación oficial) |
+| Xbox One puede jugar GTA VI por Xbox Cloud Gaming | B | Beebom, FandomWire |
+| Nave cerca de Hamlet: este de Hamlet, South Vice-Dale County; ~13.000 en efectivo y mercancía + carta | B | Games.gg, GTABoom, Beebom, BeatCop |
 
 ## CORREGIR / matizar
 - Efectivo: se pierde al empezar Tourist Trap, no "tras Recalibration". Guardar antes de Tourist Trap.
@@ -46,6 +58,12 @@ Fuentes: medios y guías (PowerPyx, VGC, GTABase, PC Gamer, Beebom, TheClick, Ga
 - Tiempo de subida de la torre ("6 a 7 minutos"), "agente inmobiliario" y "al norte de Hamlet" (sin fuente).
 - Rankings de "lo que más paga": hay otras vías que pagan más (ej. entregas de Pilot Pete, 20.000 según una fuente).
 
+## Resuelto 22-nov (tarde)
+- Randy: "Clonin' Keys, Makin' GS" es el mismo nombre de Steal the Zorrusso for Randy. Nivel B. Ninguna fuente une Car Service con Randy.
+- Números de misión: no usar. GTABase da 65 y 63 para esa misma misión en dos páginas.
+- Garaje de Moses: Port Gellhorn Station Garage gratis tras Daily Driver (nivel B, 5 fuentes). TheGamesWiki habla de los demás garajes, que se compran. "Collect Moses' Gift" (al final de las misiones de robo de autos de Moses) aparece sin identificar: no decir que es un Sultan sin fuente.
+- Lucía P1: sin OK (ver auditoría).
+
 ## Auditoría de videos (22-nov)
 | Video | Veredicto | Qué cambiar |
 |---|---|---|
@@ -54,6 +72,7 @@ Fuentes: medios y guías (PowerPyx, VGC, GTABase, PC Gamer, Beebom, TheClick, Ga
 | Errores #1 | CORREGIR | Línea 5: "guarda antes de Tourist Trap" (no Recalibration). Resto OK. |
 | Secretos #1 | CORREGIR | Quitar "6 a 7 minutos", "agente inmobiliario", "al norte de Hamlet". Resto OK. |
 | Datos #1 | CORREGIR | "no se compran" fuera; 30 FPS "en PS5 y Xbox Series". Leonida, 480 y cuerpo OK. |
+| Lucía P1 (sale 20:00) | SIN OK | "Sube y baja según cómo juegues, no por las misiones" es falso: las misiones en pareja son de los factores más grandes (VGC, PC Gamer). Descripciones de niveles 2, 3 y 4 ("incómoda", "coquetean mucho") sin fuente; solo el nivel 1 tiene efectos (distancia, diálogos y opciones perdidas, un final bloqueado; VGC). "Míralo en la primera pestaña del menú de pausa": VGC dice botón táctil y menú Jason y Lucia (no confirma pestaña). Nombres de niveles OK. |
 | Dinero P4 | NO USAR hasta nueva versión | Sin fuente: 21.250 y meta de 200.000; 16 vs 18 autos. OK: clonador, rastreador, bono de 10.000. |
 
 ## Recompensas de la relación con Lucia

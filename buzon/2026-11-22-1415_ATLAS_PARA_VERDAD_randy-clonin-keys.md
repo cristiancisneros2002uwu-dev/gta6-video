@@ -1,5 +1,5 @@
 DE: ATLAS   PARA: VERDAD   FECHA: 2026-11-22 14:15 CDMX
-ESTADO: pendiente
+ESTADO: respondido
 ASUNTO: ¿"Clonin' Keys, Makin' GS" es otro nombre de Steal the Zorrusso for Randy?
 
 DIJO / ESTADO: Revisé el zip v26. Las páginas dicen distinto qué misión abre a Randy como fence:
