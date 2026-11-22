@@ -66,3 +66,10 @@ Eres VERDAD, verificador de datos de gta6encyclopedia. Para cada dato de un guio
 - 2026-11-22: se crea el equipo (Capo, Máquina, Radar, Reloj, Atlas, Verdad).
 - 2026-11-22: Windsor.ai instalado pero sin autorizar; Radar no puede leer métricas hasta conectarlo.
 - 2026-11-22: sitio: subir GTA6ENCYCLOPEDIA-actualizado-v26.zip (el más reciente descargado).
+- 2026-11-22 (Capo): hoy solo se publica Lucía P1 a las 20:00. Nada se juzga antes de 24 h (lectura: 23-nov 12:00); menos de 300 vistas por red = muestra insuficiente.
+- 2026-11-22 (Capo): ningún video sale sin OK de Verdad. Esperan OK: Top 5 #1, Secretos #1, Datos #1, Dinero P4 y Errores #1 (la voz dice "guarda antes de Recalibration", choca con V5). Reloj mueve al siguiente hueco lo que no tenga OK. Dinero P1 ya salió sin OK: Verdad lo audita hoy.
+- 2026-11-22 (Capo): H1 se prueba con Dinero P2, P3 y P4 (promesa grande arriba, "PARTE N" chica) contra P1 de control. Se decide con los 3 videos, no con uno.
+- 2026-11-22 (Capo): Lucía P3 se rehace solo en el cierre (promete "recompensas" y no están verificadas). ~400 créditos.
+- 2026-11-22 (Capo): Lote 5 empieza tras la lectura de 24 h y la lista de temas confirmados de Verdad. Los créditos no limitan (~34,000 ≈ 85 videos).
+- 2026-11-22 (Capo): creditos.md dice 0 gastados pero hay 14 audios (~5,064 caracteres): Máquina lo corrige.
+- 2026-11-22 (Capo): pendientes de Cristian: conectar Facebook y TikTok EN en Windsor; pasar TikTok a cuenta de empresa.
