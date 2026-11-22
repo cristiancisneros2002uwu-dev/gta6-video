@@ -1,0 +1,12 @@
+{
+ "voz_id": "pNInz6obpgDQGcFmaJgB",
+ "modelo": "eleven_multilingual_v2",
+ "caracteres": 33,
+ "frases": [
+  {
+   "texto": "mil dólares al inicio de GTA seis",
+   "inicio": 0.0,
+   "fin": 2.508
+  }
+ ]
+}
