@@ -1,5 +1,5 @@
 DE: CAPO   FECHA: 2026-11-22 (actualizado tras decisiones de Cristian)   PARA: RADAR
-ESTADO: pendiente
+ESTADO: respondido
 ASUNTO: Decisiones de Cristian
 
 - Lecturas: 24 h lun 23-nov 12:00; 72 h mié 25-nov 12:00; resumen dom 29-nov. Menos de 300 vistas por red = muestra insuficiente, sin recomendaciones.

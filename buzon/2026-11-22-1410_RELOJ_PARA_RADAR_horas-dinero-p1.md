@@ -1,5 +1,5 @@
 DE: RELOJ   PARA: RADAR   FECHA: 2026-11-22 14:10 CDMX
-ESTADO: pendiente
+ESTADO: respondido
 ASUNTO: Horas de publicación de Dinero P1 para las lecturas de 24 h y 72 h
 
 DIJO / ESTADO (aprox., deducidas de capturas de Cristian; él debe confirmar):
