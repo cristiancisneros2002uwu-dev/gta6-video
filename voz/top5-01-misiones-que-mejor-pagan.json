@@ -1,0 +1,47 @@
+{
+ "voz_id": "pNInz6obpgDQGcFmaJgB",
+ "modelo": "eleven_multilingual_v2",
+ "caracteres": 394,
+ "frases": [
+  {
+   "texto": "¿Cuánto pagan estas misiones en GTA seis?",
+   "inicio": 0.0,
+   "fin": 3.007
+  },
+  {
+   "texto": "Cinco pagos que sí están confirmados.",
+   "inicio": 3.286,
+   "fin": 5.805
+  },
+  {
+   "texto": "La mercancía perdida de Donnie. mil doscientos dólares.",
+   "inicio": 6.316,
+   "fin": 9.834
+  },
+  {
+   "texto": "Daily Driver. mil doscientos cincuenta, más quinientos por buen estado.",
+   "inicio": 10.112,
+   "fin": 14.745
+  },
+  {
+   "texto": "Slam Dunk. mil setecientos, más unos mil si saqueas.",
+   "inicio": 14.988,
+   "fin": 19.04
+  },
+  {
+   "texto": "El encargo de Randy: diez mil de bono si entregas sin daños.",
+   "inicio": 19.365,
+   "fin": 23.638
+  },
+  {
+   "texto": "Afternoon Delight. diez mil dólares.",
+   "inicio": 23.963,
+   "fin": 26.703
+  },
+  {
+   "texto": "Sigue para el número dos. ¡Sígueme!",
+   "inicio": 27.028,
+   "fin": 29.628
+  }
+ ]
+}

@@ -1,0 +1,47 @@
+{
+ "voz_id": "pNInz6obpgDQGcFmaJgB",
+ "modelo": "eleven_multilingual_v2",
+ "caracteres": 398,
+ "frases": [
+  {
+   "texto": "¿Más de treinta mil dólares por un solo auto?",
+   "inicio": 0.0,
+   "fin": 2.38
+  },
+  {
+   "texto": "Randy te pide más de una docena de deportivos.",
+   "inicio": 2.763,
+   "fin": 5.294
+  },
+  {
+   "texto": "Usa el clonador de llaves para robarlos.",
+   "inicio": 5.538,
+   "fin": 7.837
+  },
+  {
+   "texto": "Maneja sin parar o la policía sabrá dónde estás.",
+   "inicio": 8.046,
+   "fin": 11.076
+  },
+  {
+   "texto": "Según las guías, paga más de treinta mil por auto en perfecto estado.",
+   "inicio": 11.459,
+   "fin": 15.604
+  },
+  {
+   "texto": "Y la primera misión da diez mil de bono si lo entregas sin daños.",
+   "inicio": 16.045,
+   "fin": 19.575
+  },
+  {
+   "texto": "Entrégalos sin daños para cobrar completo.",
+   "inicio": 19.784,
+   "fin": 22.349
+  },
+  {
+   "texto": "Sigue para la parte cinco. ¡Sígueme!",
+   "inicio": 22.674,
+   "fin": 25.356
+  }
+ ]
+}

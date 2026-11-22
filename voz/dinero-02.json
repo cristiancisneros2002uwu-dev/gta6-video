@@ -1,0 +1,47 @@
+{
+ "voz_id": "pNInz6obpgDQGcFmaJgB",
+ "modelo": "eleven_multilingual_v2",
+ "caracteres": 358,
+ "frases": [
+  {
+   "texto": "¿Sabías que tus cromos valen miles?",
+   "inicio": 0.0,
+   "fin": 2.206
+  },
+  {
+   "texto": "Hay cuatrocientos ochenta cromos para encontrar.",
+   "inicio": 2.589,
+   "fin": 5.306
+  },
+  {
+   "texto": "Las cartas pagan desde unos veinte hasta más de mil.",
+   "inicio": 5.584,
+   "fin": 8.382
+  },
+  {
+   "texto": "La carta Leroy Rook paga unos seis mil.",
+   "inicio": 8.893,
+   "fin": 11.645
+  },
+  {
+   "texto": "Está en la caja fuerte de una bodega roja cerca de Hamlet.",
+   "inicio": 12.028,
+   "fin": 15.464
+  },
+  {
+   "texto": "Véndela en cualquier casa de empeño.",
+   "inicio": 15.789,
+   "fin": 17.856
+  },
+  {
+   "texto": "Según las guías, venderlas no te quita el avance.",
+   "inicio": 18.1,
+   "fin": 20.898
+  },
+  {
+   "texto": "Hay más formas de ganar. ¡Sígueme!",
+   "inicio": 21.049,
+   "fin": 23.452
+  }
+ ]
+}

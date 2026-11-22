@@ -1,0 +1,42 @@
+{
+ "voz_id": "pNInz6obpgDQGcFmaJgB",
+ "modelo": "eleven_multilingual_v2",
+ "caracteres": 346,
+ "frases": [
+  {
+   "texto": "¿Ganaste miles y lo perdiste en un segundo?",
+   "inicio": 0.0,
+   "fin": 2.519
+  },
+  {
+   "texto": "Si te arrestan o te eliminan, pierdes lo que traes encima.",
+   "inicio": 2.844,
+   "fin": 6.142
+  },
+  {
+   "texto": "Uno: en la recámara de Jason hay una caja bajo las tablas.",
+   "inicio": 6.467,
+   "fin": 10.426
+  },
+  {
+   "texto": "Dos: el buzón. Ahí te paga Brian lo que le vendes.",
+   "inicio": 10.67,
+   "fin": 15.012
+  },
+  {
+   "texto": "Tres: lo que guardas en BuckMe no se pierde.",
+   "inicio": 15.221,
+   "fin": 18.529
+  },
+  {
+   "texto": "Antes de una misión peligrosa, pasa por un cajero.",
+   "inicio": 18.912,
+   "fin": 21.559
+  },
+  {
+   "texto": "Sigue para la parte cuatro. ¡Sígueme!",
+   "inicio": 21.606,
+   "fin": 23.823
+  }
+ ]
+}

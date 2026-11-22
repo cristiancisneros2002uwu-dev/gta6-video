@@ -1,0 +1,42 @@
+{
+ "voz_id": "pNInz6obpgDQGcFmaJgB",
+ "modelo": "eleven_multilingual_v2",
+ "caracteres": 305,
+ "frases": [
+  {
+   "texto": "¿Quieres subir tu relación con Lucía?",
+   "inicio": 0.0,
+   "fin": 2.183
+  },
+  {
+   "texto": "Uno: según una guía, cambia a Lucía de vez en cuando.",
+   "inicio": 2.856,
+   "fin": 6.618
+  },
+  {
+   "texto": "Dos: salúdala, tómala de la mano e invítale de comer.",
+   "inicio": 7.047,
+   "fin": 11.424
+  },
+  {
+   "texto": "Tres: roben juntos, eso sube la relación.",
+   "inicio": 11.738,
+   "fin": 15.43
+  },
+  {
+   "texto": "Cuatro: salgan a la playa o a bucear.",
+   "inicio": 15.697,
+   "fin": 18.796
+  },
+  {
+   "texto": "Cinco: pasen tiempo fuera de las misiones.",
+   "inicio": 19.11,
+   "fin": 22.07
+  },
+  {
+   "texto": "Sigue para la parte cinco. ¡Sígueme!",
+   "inicio": 22.314,
+   "fin": 24.706
+  }
+ ]
+}

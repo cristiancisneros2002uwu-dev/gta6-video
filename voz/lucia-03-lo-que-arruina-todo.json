@@ -1,0 +1,47 @@
+{
+ "voz_id": "pNInz6obpgDQGcFmaJgB",
+ "modelo": "eleven_multilingual_v2",
+ "caracteres": 341,
+ "frases": [
+  {
+   "texto": "Cuatro cosas que arruinan tu relación con Lucía.",
+   "inicio": 0.0,
+   "fin": 2.717
+  },
+  {
+   "texto": "Uno: ignorar sus llamadas y mensajes.",
+   "inicio": 2.926,
+   "fin": 6.002
+  },
+  {
+   "texto": "Dos: pasar mucho tiempo separados.",
+   "inicio": 6.211,
+   "fin": 8.789
+  },
+  {
+   "texto": "Tres: saltarte las misiones en pareja.",
+   "inicio": 8.998,
+   "fin": 11.947
+  },
+  {
+   "texto": "Cuatro: fallar misiones juntos.",
+   "inicio": 12.156,
+   "fin": 14.756
+  },
+  {
+   "texto": "Según las guías, si baja mucho pierdes diálogos, opciones y hasta un final.",
+   "inicio": 15.035,
+   "fin": 20.747
+  },
+  {
+   "texto": "Pero se recupera si pasan tiempo juntos.",
+   "inicio": 21.025,
+   "fin": 23.51
+  },
+  {
+   "texto": "La próxima: consejos. ¡Sígueme!",
+   "inicio": 23.754,
+   "fin": 26.47
+  }
+ ]
+}
