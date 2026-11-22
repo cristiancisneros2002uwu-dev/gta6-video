@@ -1,0 +1,110 @@
+{
+ "modelo": "eleven_multilingual_v2",
+ "prefijo": "",
+ "titulo": "Cómo conquistar a Lucía en GTA VI: Parte 2 — Qué la sube",
+ "serie": "Lucía",
+ "numero": 2,
+ "formato": "PARTE",
+ "fuente": "gta6encyclopedia.com/guia-completa/relacion-con-lucia/",
+ "escenas": [
+  {
+   "tipo": "hook",
+   "dur": 3.0,
+   "serie": "Cómo conquistar a Lucía en GTA VI",
+   "texto": "Súbela al [máximo]",
+   "voz": "¿Quieres que Lucía te quiera más?"
+  },
+  {
+   "tipo": "info",
+   "dur": 3.5,
+   "icono": "heart",
+   "texto": "Busca el [corazón +]",
+   "nota": "Sale en pantalla",
+   "voz": "Cada vez que sube, aparece un corazón."
+  },
+  {
+   "tipo": "checklist",
+   "dur": 4.0,
+   "titulo": "Los *básicos*",
+   "paso": 1.0,
+   "items": [
+    {
+     "icono": "heart",
+     "texto": "*Salúdala* siempre"
+    },
+    {
+     "icono": "heart",
+     "texto": "*Mano* · R2/RT"
+    }
+   ],
+   "voz": "Salúdala y tómala de la mano."
+  },
+  {
+   "tipo": "checklist",
+   "dur": 4.0,
+   "titulo": "*Atenta* siempre",
+   "paso": 1.0,
+   "items": [
+    {
+     "icono": "bag",
+     "texto": "Paga *comida*"
+    },
+    {
+     "icono": "check",
+     "texto": "Contesta *llamadas*"
+    }
+   ],
+   "voz": "Invítale de comer y contesta sus mensajes."
+  },
+  {
+   "tipo": "checklist",
+   "dur": 4.0,
+   "titulo": "*Citas* que suman",
+   "paso": 1.0,
+   "items": [
+    {
+     "icono": "heart",
+     "texto": "*Playa* y zoológico"
+    },
+    {
+     "icono": "heart",
+     "texto": "*Buceo* y kayak"
+    }
+   ],
+   "voz": "Hagan cosas juntos: playa, zoológico, buceo o kayak."
+  },
+  {
+   "tipo": "info",
+   "dur": 3.5,
+   "icono": "bag",
+   "texto": "Roben en [pareja]",
+   "nota": "Tiendas, bancos y golpes",
+   "voz": "Hasta robar juntos sube la relación."
+  },
+  {
+   "tipo": "info",
+   "dur": 3.5,
+   "icono": "house",
+   "texto": "¿Plan en *casa*?",
+   "nota": "Sube al instante",
+   "voz": "Si quiere quedarse en casa, acepta."
+  },
+  {
+   "tipo": "info",
+   "dur": 3.5,
+   "icono": "card",
+   "texto": "El tip *de oro*",
+   "nota": "De lo que más la sube",
+   "voz": "Y si propone algo caro, págalo."
+  },
+  {
+   "tipo": "cta",
+   "dur": 2.5,
+   "voz": "La próxima: qué la baja. ¡Sígueme!"
+  },
+  {
+   "tipo": "end",
+   "dur": 2.0
+  }
+ ]
+}

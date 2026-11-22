@@ -1,0 +1,91 @@
+{
+ "modelo": "eleven_multilingual_v2",
+ "prefijo": "",
+ "titulo": "¿Se puede...? #1 — ¿Se puede detonar en GTA VI?",
+ "serie": "¿Se puede...?",
+ "numero": 1,
+ "formato": "#",
+ "fuente": "gta6encyclopedia.com/guia-completa/se-puede-detonar-en-gta-6/",
+ "escenas": [
+  {
+   "tipo": "hook",
+   "dur": 2.0,
+   "serie": "¿Se puede...?",
+   "texto": "¿*Detonar*? [Sí] se puede",
+   "voz": "¿Se puede detonar? ¡Sí!"
+  },
+  {
+   "tipo": "title",
+   "dur": 3.5,
+   "icono": "heart",
+   "kicker": "Solo una pareja",
+   "texto": "Jason *y* [Lucía]",
+   "voz": "Pero solo entre Jason y Lucía."
+  },
+  {
+   "tipo": "levels",
+   "dur": 4.0,
+   "nivel": 4,
+   "nombre": "Hot Together",
+   "desc": "Requisito para la opción",
+   "voz": "Necesitas la relación al máximo."
+  },
+  {
+   "tipo": "info",
+   "dur": 3.0,
+   "icono": "pause",
+   "texto": "¿En qué *nivel* vas?",
+   "nota": "Pausa · pestaña 1",
+   "voz": "Revísalo en el menú de pausa."
+  },
+  {
+   "tipo": "step",
+   "dur": 3.5,
+   "paso": "PASO 1",
+   "icono": "house",
+   "texto": "Ve con tu *pareja*",
+   "voz": "Acércate a tu pareja; en casa es más fácil."
+  },
+  {
+   "tipo": "step",
+   "dur": 3.5,
+   "paso": "PASO 2",
+   "icono": "heart",
+   "texto": "*Dos* [corazones]",
+   "voz": "Elige la opción con dos corazones."
+  },
+  {
+   "tipo": "info",
+   "dur": 3.5,
+   "icono": "check",
+   "texto": "Pasa *fuera* de cuadro",
+   "nota": "Escena opcional",
+   "voz": "La cámara se corta en el momento clave."
+  },
+  {
+   "tipo": "info",
+   "dur": 3.5,
+   "icono": "heart",
+   "texto": "Escena *fija*",
+   "nota": "Coming Home · Capítulo 1",
+   "voz": "En Coming Home hay una que pasa siempre."
+  },
+  {
+   "tipo": "info",
+   "dur": 3.5,
+   "icono": "updown",
+   "texto": "¿*No* te sale?",
+   "nota": "En misión no aparece",
+   "voz": "Si no aparece, sube la relación o termina la misión."
+  },
+  {
+   "tipo": "cta",
+   "dur": 2.5,
+   "voz": "¿Qué pregunta sigue? ¡Sígueme!"
+  },
+  {
+   "tipo": "end",
+   "dur": 2.0
+  }
+ ]
+}
