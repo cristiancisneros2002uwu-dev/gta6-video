@@ -134,3 +134,4 @@ BUZÓN: al empezar, haz git pull y lee en buzon/ los mensajes dirigidos a ti con
 
 - 2026-11-22 (Cristian): límite de chat de 30 mensajes u 8 búsquedas web (Verdad 15), con relevo en buzon/ (regla 16). Los números son un punto de partida.
 - 2026-11-22 (Cristian): instrucciones completas del Proyecto en un solo bloque (instrucciones-proyecto.md); se eliminó el bloque DATOS VERIFICADOS (ahora verdad.md). Regla 17.
+- 2026-11-22 (aprobado por Cristian, 15:01): auditoría total de los 14 videos de los Lotes 1-4. Lo limpio sale; lo que no esté limpio no sale hasta corregirse y pasar de nuevo por Verdad. Órdenes en buzon/ (1505).
