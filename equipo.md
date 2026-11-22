@@ -42,6 +42,10 @@ Radar mide → Capo decide qué producir y qué actualizar → Máquina (videos)
 8. Fechas límite: Errores #1 resuelto antes del 27-nov; Lote 5 listo antes del día 7; Lucía P5 cambia de tema si depende de la casa de Key Lento.
 9. Si Cristian está cansado: 1) publicar a tiempo, 2) Lote 5, 3) lo demás. Capo lo frena si ve riesgo de error.
 10. TikTok EN no publica por ahora.
+11. Proceso por video (aprobado 2026-11-22): 1) Máquina escribe el guion solo con verdad.md; 2) Verdad revisa guion, texto en pantalla, .txt y palabras que TikTok limita ANTES de generar la voz; 3) Máquina genera la voz solo con guion OK; 4) Verdad revisa el MP4; 5) Reloj publica solo con OK de Verdad y fecha en serie.md; 6) Cristian da el va.
+12. Niveles de dato (internos, no salen en los videos): A = Rockstar; B = 2 fuentes independientes; C = una sola fuente (solo "según las guías" o no usar). Lo que Cristian confirma jugando cuenta como fuente para detalles de juego. Más rigor en dinero, cifras, "se pierde", rankings y "gratis"; menos en detalles menores.
+13. Revisión diaria: tarea programada "Verdad: revisión diaria", todos los días 7:17 CDMX, aviso push siempre. Re-verifica verdad.md y audita videos sin OK; reporta en buzon/.
+14. Si un error sale publicado: comentario fijado con la corrección y arreglo en el siguiente video; no se borra salvo error grave.
 
 ## Instrucciones de cada agente (copiar y pegar en su chat/proyecto)
 
@@ -105,3 +109,8 @@ BUZÓN: al empezar, haz git pull y lee en buzon/ los mensajes dirigidos a ti con
 - 2026-11-22 (aprobado por Cristian): Eco y Babel ninguno esta semana. Mapa del nicho: Radar por web + 15 min de Cristian el 25-nov. Top 5 #1 detenido hasta OK de Verdad; Reloj pone otro con OK en ese hueco.
 - 2026-11-22 (Cristian): pasa TikTok a cuenta de empresa hoy. Facebook (Page) no se conecta por ahora; Radar no lee Facebook.
 - 2026-11-22 (pendiente de Cristian): H1 (gancho nuevo en Dinero P2–P4, solo escena 1, sin voz). Capo recomienda la opción Dinero P2–P4. Cristian decide el martes 24-nov tras la lectura de 24 h.
+
+- 2026-11-22 (aprobado por Cristian): proceso de 6 pasos (regla 11), niveles A/B/C internos (regla 12), revisión completa de los 8 videos sin auditar, y tarea programada diaria de Verdad a las 7:17 CDMX con push siempre (reglas 13).
+- 2026-11-22 (Cristian): los 6 videos con error en la voz (Top 5, Errores #1, Secretos #1, Datos #1, Dinero P4, Lucía P3) NO tienen decisión. Primero todos los videos de todos los lotes pasan por las fases del proceso y luego Cristian decide. Fuera del calendario hasta tener OK de Verdad.
+- 2026-11-22 (Cristian): BuckMe da 100 dólares de bienvenida (jugado por Cristian). Dinero P1 se queda como está.
+- 2026-11-22 (Capo): dato disputado: "Moses regala el garaje de Port Gellhorn" (GTABase sí; PowerPyx dice que el regalo es un Sultan; TheGamesWiki dice que los garajes se compran). Verdad lo resuelve antes de Gratis P2 y Dinero P5.
