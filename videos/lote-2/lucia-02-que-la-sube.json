@@ -64,14 +64,14 @@
    "items": [
     {
      "icono": "heart",
-     "texto": "*Playa* y zoológico"
+     "texto": "*Playa*"
     },
     {
      "icono": "heart",
-     "texto": "*Buceo* y kayak"
+     "texto": "*Buceo*"
     }
    ],
-   "voz": "Hagan cosas juntos: playa, zoológico, buceo o kayak."
+   "voz": "Hagan cosas juntos: playa o buceo."
   },
   {
    "tipo": "info",
@@ -84,23 +84,15 @@
   {
    "tipo": "info",
    "dur": 3.5,
-   "icono": "house",
-   "texto": "¿Plan en *casa*?",
-   "nota": "Sube al instante",
-   "voz": "Si quiere quedarse en casa, acepta."
-  },
-  {
-   "tipo": "info",
-   "dur": 3.5,
-   "icono": "card",
+   "icono": "heart",
    "texto": "El tip *de oro*",
-   "nota": "De lo que más la sube",
-   "voz": "Y si propone algo caro, págalo."
+   "nota": "Fuera de las misiones",
+   "voz": "Pasar tiempo fuera de las misiones es lo más rápido."
   },
   {
    "tipo": "cta",
    "dur": 2.5,
-   "voz": "La próxima: qué la baja. ¡Sígueme!"
+   "voz": "La próxima: lo que arruina todo. ¡Sígueme!"
   },
   {
    "tipo": "end",
