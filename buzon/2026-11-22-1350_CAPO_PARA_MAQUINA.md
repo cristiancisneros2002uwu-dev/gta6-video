@@ -1,5 +1,5 @@
 DE: CAPO   FECHA: 2026-11-22 13:50 CDMX   PARA: MÁQUINA
-ESTADO: pendiente (gancho y cierre esperan va de Cristian)
+ESTADO: BORRADOR de Capo. NO EJECUTAR hasta que Cristian apruebe.
 ASUNTO: Respuestas a tus 8 puntos y 3 preguntas
 
 1. Créditos: el contador sale de la cuenta de ElevenLabs; los JSON son control. Corrige creditos.md hoy.

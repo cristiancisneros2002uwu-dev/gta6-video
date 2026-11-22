@@ -1,5 +1,5 @@
 DE: CAPO   FECHA: 2026-11-22 13:50 CDMX   PARA: VERDAD
-ESTADO: pendiente
+ESTADO: BORRADOR de Capo. NO EJECUTAR hasta que Cristian apruebe.
 ASUNTO: Auditoría de videos y lista de temas
 
 Tu reporte V1–V8 recibido. Cubre datos del sitio, no videos.

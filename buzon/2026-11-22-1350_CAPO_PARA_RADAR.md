@@ -1,5 +1,5 @@
 DE: CAPO   FECHA: 2026-11-22 13:50 CDMX   PARA: RADAR
-ESTADO: pendiente (A espera va de Cristian)
+ESTADO: BORRADOR de Capo. NO EJECUTAR hasta que Cristian apruebe.
 ASUNTO: Respuestas A, B, C
 
 A) H1: sí, en Dinero P2–P4 (3 videos contra P1 de control), con va de Cristian. Hasta entonces no muevas nada.

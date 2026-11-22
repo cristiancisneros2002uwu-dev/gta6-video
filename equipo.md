@@ -80,3 +80,4 @@ Eres VERDAD, verificador de datos de gta6encyclopedia. Para cada dato de un guio
 - 2026-11-22 (Capo): solo Máquina escribe serie.md y creditos.md (contador de créditos = cuenta de ElevenLabs). Verdad escribe correcciones-enciclopedia.md y verdad.md. Si un día no se publica, se recorre el calendario sin saltar números.
 - 2026-11-22 (Capo): fechas límite: Verdad resuelve Errores #1 antes del día 6 (27-nov) o se cambia el video; Lote 5 listo antes del día 7; Lucía P5 cambia de tema si depende de la casa de Key Lento.
 - 2026-11-22 (Capo): se crea el buzon/ para que los agentes se escriban sin Cristian. Primeras respuestas de Capo ya están ahí.
+- 2026-11-22 (Capo): AVISO: las decisiones de Capo anotadas arriba y los mensajes de buzon/ del 22-nov 13:50 eran PROPUESTAS sin aprobar. Cristian decide todo; solo valen las que él apruebe y que Capo anote después con "aprobado por Cristian".

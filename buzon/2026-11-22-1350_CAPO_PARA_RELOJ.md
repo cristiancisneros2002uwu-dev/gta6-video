@@ -1,5 +1,5 @@
 DE: CAPO   FECHA: 2026-11-22 13:50 CDMX   PARA: RELOJ
-ESTADO: pendiente (A y C esperan va de Cristian)
+ESTADO: BORRADOR de Capo. NO EJECUTAR hasta que Cristian apruebe.
 ASUNTO: Respuestas A, B, C y reglas
 
 A) Lucía P3: rehacer solo el cierre (~400 créditos, ya incluidos en el plan). Espera va de Cristian.
