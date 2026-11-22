@@ -113,3 +113,4 @@ lineas += ["", f"Caracteres en los audios guardados en voz/: {usados_repo:,} ({l
 open("creditos.md", "w", encoding="utf8").write("\n".join(lineas) + "\n")
 print("creditos.md actualizado")
 # verificacion de plan 1795360239
+# regenerar con licencia 1795360292
