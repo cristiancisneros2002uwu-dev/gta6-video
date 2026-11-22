@@ -24,3 +24,16 @@ Fuentes: medios y guías reconocidos (PowerPyx, VGC, GTABase, PC Gamer, Beebom, 
 | V6 | Límite de cuenta «unos 15.000 al principio» | NO USAR la cifra | Rockstar solo dice que los límites suben con la historia, sin cifras. Medios: 15.000 aparece como límite al ahorrar 5.000 en Family Savings (Egamers), no como inicial. |
 | V7 | Nivel 2 de Lucia | NO USAR el nombre | Insider Gaming: «Not So Hot». VGC y PlayDay: «Partners in Crime». Decir solo «nivel 2». Niveles 1, 3 y 4: Running on Empty, Crazy in Love, Hot Together (coinciden). |
 | V8 | Positive Mental Attitude | OK con cautela | Posible único perdible (meditación con Lucia en el Cap. 1 tras Down to Earth). No confirmado que bloquee el platino; TheGamesWiki dice que el 100% pide 15 de 18 sitios y el trofeo dice «todos». Usar «podría perderse». |
+
+## Auditoría de videos (22-nov-2026)
+
+| Id | Video | Dato | Veredicto |
+|---|---|---|---|
+| V9 | Dinero P1 (publicado) | "~10.000"; bolsa de 6.000 en una mesa; "elimina a los delincuentes" | CORREGIR: ~13.000 + carta de 6.000 (Beebom, BeatCop); lo demás sin fuente |
+| V10 | Top 5 #1 | "las que más pagan"; Dubious Provenance ~2.500 | CORREGIR: ranking no sostenido; ese pago sin fuente. Daily Driver, Slam Dunk, Afternoon Delight y Donnie OK (PowerPyx, GTABase) |
+| V11 | Errores #1 | "guarda antes de Recalibration" | CORREGIR: antes de Tourist Trap (TheClick, VGC) |
+| V12 | Secretos #1 | 6-7 min; agente inmobiliario; "al norte de Hamlet" | CORREGIR: sin fuente (Games.gg: torre de radio en South Vice-Dale County) |
+| V13 | Datos #1 | "no se compran"; 30 FPS "en todas las plataformas" | CORREGIR: sin fuente; Rockstar: PS5 y Xbox Series (Beebom) |
+| V14 | Dinero P4 | 21.250; meta 200.000; 16 autos | NO USAR: sin fuente; 16 vs 18 según fuente |
+| V15 | Clonin' Keys, Makin' GS | ¿Es otro nombre de Steal the Zorrusso for Randy? | OK: mismo (GTABase, TheClick, Timesaver) |
+

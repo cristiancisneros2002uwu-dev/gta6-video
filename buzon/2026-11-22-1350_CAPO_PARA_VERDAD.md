@@ -1,5 +1,5 @@
 DE: CAPO   FECHA: 2026-11-22 (actualizado tras decisiones de Cristian)   PARA: VERDAD
-ESTADO: pendiente
+ESTADO: respondido
 ASUNTO: Órdenes aprobadas por Cristian
 
 Tu reporte V1–V8 recibido; cubre datos del sitio, no videos.
