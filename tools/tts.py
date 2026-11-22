@@ -67,14 +67,15 @@ for f in sorted(glob.glob("videos/lote-*/*.json")):
         continue
     d = json.load(open(f, encoding="utf8"))
     fr = frases(d)
-    texto, offs = PREFIJO, []
+    modelo = d.get("modelo", MODEL_ID)
+    texto, offs = d.get("prefijo", PREFIJO), []
     for p in fr:
         if texto and not texto.endswith(" "):
             texto += " "
         offs.append((len(texto), len(texto) + len(p)))
         texto += p
     print(f"Voz: {nombre} ({len(texto)} caracteres)")
-    r = tts(texto)
+    r = tts(texto, modelo)
     al = r.get("alignment") or r.get("normalized_alignment")
     st, en = al["character_start_times_seconds"], al["character_end_times_seconds"]
     n = len(st)
@@ -84,7 +85,7 @@ for f in sorted(glob.glob("videos/lote-*/*.json")):
         out.append({"texto": p, "inicio": round(st[a2], 3), "fin": round(en[b2], 3)})
     os.makedirs("voz", exist_ok=True)
     open(mp3, "wb").write(base64.b64decode(r["audio_base64"]))
-    json.dump({"voz_id": VOICE_ID, "modelo": r.get("_modelo", MODEL_ID), "caracteres": len(texto), "frases": out},
+    json.dump({"voz_id": VOICE_ID, "modelo": modelo, "caracteres": len(texto), "frases": out},
               open(meta, "w", encoding="utf8"), ensure_ascii=False, indent=1)
     hechos += 1
 
