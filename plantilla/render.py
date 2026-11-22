@@ -299,8 +299,12 @@ class Stage:
             fr.alpha_composite(lay, (int(xx) - 32, int(yy) - 32))
         return fr
 
-    def corner_logo(self, fr):
-        fr.alpha_composite(self.logo, (MX - 20, SAFE_TOP + 6))
+    def corner_logo(self, fr, a=1.0):
+        if a <= 0: return
+        lg = self.logo
+        if a < 1:
+            lg = lg.copy(); lg.putalpha(lg.getchannel('A').point(lambda v: int(v * a)))
+        fr.alpha_composite(lg, (MX - 20, SAFE_TOP + 6))
 
 # ---------- subtítulos ----------
 class Subs:
@@ -583,12 +587,21 @@ def scene_cta(s, st):
     return draw
 
 def scene_end(s, st):
-    lg = st.hlogo.resize((860, int(860 * st.hlogo.height / st.hlogo.width)), Image.LANCZOS)
-    url = rich('gta6encyclopedia.com', F('title', 70), 1000, base=ORANGE)
+    # logo + ".com" en un solo bloque; el logo de la esquina se desvanece al entrar
+    hl = st.hlogo.crop(st.hlogo.getbbox())
+    h = hl.height
+    com = rich('.com', F('title', int(h * .52)), 600, base=ORANGE)
+    com = com.crop(com.getbbox())
+    gap = 6
+    bw = hl.width + gap + com.width
+    blk = Image.new('RGBA', (bw, h), (0, 0, 0, 0))
+    blk.alpha_composite(hl, (0, 0))
+    blk.alpha_composite(com, (hl.width + gap, int(h * .70 - com.height)))
+    tw = 940
+    lg = blk.resize((tw, int(tw * blk.height / blk.width)), Image.LANCZOS)
     def draw(fr, t):
         p = prog(t, 0, .5)
-        place(fr, lg, CX, H / 2 - 50, ease_out(p), .85 + .15 * ease_out(p))
-        anim_in(fr, url, CX, H / 2 + 110, t, .25, 'up')
+        place(fr, lg, CX, H / 2, ease_out(p), .85 + .15 * ease_out(p))
     return draw
 
 SCENES = dict(hook=scene_hook, title=scene_title, map=scene_map, step=scene_step, counter=scene_counter,
@@ -694,7 +707,7 @@ def frame(st, sc, t):
         x = int(-260 + (W + 260) * ease_out(t / .4)) - 260
         lay = wb.copy(); lay.putalpha(lay.getchannel('A').point(lambda v: int(v * .85 * (1 - t / .4))))
         comp(fr, lay, x, 0)
-    st.corner_logo(fr)
+    st.corner_logo(fr, (1 - clamp(t / .4)) if s['tipo'] == 'end' else 1)
     if subs: subs.draw(fr, t)
     return fr.convert('RGB')
 
