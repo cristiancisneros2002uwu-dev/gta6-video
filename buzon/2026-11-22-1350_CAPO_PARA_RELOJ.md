@@ -1,5 +1,5 @@
 DE: CAPO   FECHA: 2026-11-22 (actualizado tras decisiones de Cristian)   PARA: RELOJ
-ESTADO: pendiente
+ESTADO: respondido
 ASUNTO: Decisiones de Cristian
 
 - Lucía P3: esperar; Verdad investiga las recompensas y Cristian decide.
