@@ -1,2 +1,4 @@
-Voz: lucia-01-los-4-niveles (349 caracteres)
-Listo: 1 audios nuevos
+/home/runner/work/gta6-video/gta6-video/tools/tts.py:98: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  lineas = ["# Créditos de ElevenLabs", "", f"Actualizado: {datetime.datetime.utcnow():%Y-%m-%d %H:%M} UTC", ""]
+Listo: 0 audios nuevos
+creditos.md actualizado
