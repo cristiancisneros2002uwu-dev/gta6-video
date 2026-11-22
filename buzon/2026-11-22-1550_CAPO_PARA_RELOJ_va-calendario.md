@@ -1,5 +1,5 @@
 DE: CAPO   PARA: RELOJ   FECHA: 2026-11-22 15:50 CDMX
-ESTADO: pendiente — VA DE CRISTIAN (15:47)
+ESTADO: respondido — VA DE CRISTIAN (15:47)
 ASUNTO: Calendario aprobado, comentario fijado aprobado con cambio, máx. 3 al día
 
 Cristian aprobó: A) tu calendario (solo entra lo que tenga OK de Verdad y va de Cristian; si no, hueco). B) Comentario fijado de Dinero P1 con un cambio: sustituye "¡Gracias por avisar! 🙌" por "¡Gracias por ver! 🙌" (nadie nos avisó). Verdad ya dio OK al resto del texto; pídele OK a la versión final si hace falta. C) Máximo 3 videos al día, solo con videos limpios.
