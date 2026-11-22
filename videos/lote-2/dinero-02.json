@@ -33,58 +33,41 @@
    "items": [
     {
      "icono": "card",
-     "texto": "Plata · *$100-300*"
+     "texto": "Desde *$20*"
     },
     {
      "icono": "card",
-     "texto": "Oro · *$500-1.000+*"
+     "texto": "Hasta *$1.000+*"
     }
    ],
-   "voz": "La plata paga cientos; el oro, más de 1.000."
+   "voz": "Las cartas pagan desde unos 20 hasta más de 1.000."
   },
   {
    "tipo": "counter",
    "dur": 4.0,
    "icono": "bag",
-   "texto": "Leroy Rook *dorado*",
+   "texto": "Leroy *Rook*",
    "desde": 0,
    "hasta": 6000,
    "prefijo": "~$",
    "nota": "El más caro confirmado",
-   "voz": "El Leroy Rook dorado paga unos 6.000."
+   "voz": "La carta Leroy Rook paga unos 6.000."
   },
   {
    "tipo": "info",
    "dur": 3.5,
    "icono": "safe",
    "texto": "En una *caja fuerte*",
-   "nota": "Belville · condado de Leonard",
-   "voz": "Está en una caja fuerte en Belville."
+   "nota": "Bodega roja · cerca de Hamlet",
+   "voz": "Está en la caja fuerte de una bodega roja cerca de Hamlet."
   },
   {
    "tipo": "info",
    "dur": 3.5,
    "icono": "house",
-   "texto": "¿Cuándo *abren*?",
-   "nota": "Capítulo 2 · tras Coffee Break",
-   "voz": "Las casas de empeño abren en el Capítulo 2."
-  },
-  {
-   "tipo": "checklist",
-   "dur": 4.0,
-   "titulo": "Dónde *vender*",
-   "paso": 1.0,
-   "items": [
-    {
-     "icono": "house",
-     "texto": "*Hamlet* Pawn"
-    },
-    {
-     "icono": "house",
-     "texto": "Vice City *Pawn*"
-    }
-   ],
-   "voz": "Empieza en Hamlet; luego, Vice City Pawn."
+   "texto": "¿Dónde *vender*?",
+   "nota": "Cualquier casa de empeño",
+   "voz": "Véndela en cualquier casa de empeño."
   },
   {
    "tipo": "info",
@@ -92,7 +75,7 @@
    "icono": "check",
    "texto": "Tu *colección* se queda",
    "nota": "El cromo sigue registrado",
-   "voz": "Y venderlos no te quita el avance."
+   "voz": "Según las guías, venderlas no te quita el avance."
   },
   {
    "tipo": "cta",

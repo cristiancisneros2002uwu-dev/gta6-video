@@ -11,7 +11,7 @@
    "tipo": "hook",
    "dur": 4.0,
    "serie": "Errores que te arruinan la partida",
-   "texto": "¿Tu dinero [sobrevive] al Capítulo 2?",
+   "texto": "¿Tu dinero [sobrevive]?",
    "voz": "Este error te deja sin efectivo en el Capítulo 2."
   },
   {
@@ -51,8 +51,8 @@
    "dur": 3.2,
    "icono": "pause",
    "texto": "Guarda a [mano]",
-   "nota": "Y termina lo opcional del Capítulo 1",
-   "voz": "Y guarda manualmente antes de Recalibration."
+   "nota": "Antes de Tourist Trap",
+   "voz": "Y guarda manualmente antes de Tourist Trap."
   },
   {
    "tipo": "cta",

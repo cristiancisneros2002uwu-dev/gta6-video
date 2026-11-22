@@ -12,7 +12,7 @@
    "dur": 3.5,
    "serie": "Cómo conquistar a Lucía en GTA VI",
    "texto": "¿Sabes qué la [aleja]?",
-   "voz": "Cinco cosas que arruinan tu relación con Lucía."
+   "voz": "Cuatro cosas que arruinan tu relación con Lucía."
   },
   {
    "tipo": "step",
@@ -35,32 +35,24 @@
    "dur": 3.2,
    "paso": "3",
    "icono": "arrow_down",
-   "texto": "No la *plantes*",
-   "voz": "Tres: dejarla abandonada cuando andan juntos."
+   "texto": "Misiones *en pareja*",
+   "voz": "Tres: saltarte las misiones en pareja."
   },
   {
    "tipo": "step",
    "dur": 2.5,
    "paso": "4",
    "icono": "arrow_down",
-   "texto": "Nada de [dañarla]",
-   "voz": "Cuatro: lastimarla."
-  },
-  {
-   "tipo": "step",
-   "dur": 3.0,
-   "paso": "5",
-   "icono": "arrow_down",
-   "texto": "Piensa *antes* de elegir",
-   "voz": "Cinco: elegir mal en algunas escenas."
+   "texto": "Nada de [fallar]",
+   "voz": "Cuatro: fallar misiones juntos."
   },
   {
    "tipo": "info",
    "dur": 4.4,
    "icono": "heart",
    "texto": "Ojo con el *descuido*",
-   "nota": "Se pierden gestos de pareja",
-   "voz": "Si la descuidas, pierdes opciones como tomarse de la mano."
+   "nota": "Se pierden diálogos y opciones",
+   "voz": "Según las guías, si baja mucho pierdes diálogos, opciones y hasta un final."
   },
   {
    "tipo": "info",
@@ -68,12 +60,12 @@
    "icono": "check",
    "texto": "Sí tiene [arreglo]",
    "nota": "Nada es permanente",
-   "voz": "Pero se recuperan si vuelven a pasar tiempo juntos."
+   "voz": "Pero se recupera si pasan tiempo juntos."
   },
   {
    "tipo": "cta",
    "dur": 2.8,
-   "voz": "La próxima: las recompensas. ¡Sígueme!"
+   "voz": "La próxima: consejos. ¡Sígueme!"
   },
   {
    "tipo": "end",

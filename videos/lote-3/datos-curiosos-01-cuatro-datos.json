@@ -47,8 +47,8 @@
    "dur": 4.2,
    "paso": "DATO 4",
    "icono": "check",
-   "texto": "Siempre a [30 FPS]",
-   "voz": "Cuatro: el juego va a 30 FPS en todas las plataformas."
+   "texto": "En PS5 y Xbox: [30 FPS]",
+   "voz": "Cuatro: en PS5 y Xbox Series, el juego va a 30 FPS."
   },
   {
    "tipo": "cta",

@@ -20,7 +20,7 @@
    "paso": "1",
    "icono": "heart",
    "texto": "Juega con *los dos*",
-   "voz": "Uno: cambia a Lucía de vez en cuando."
+   "voz": "Uno: según una guía, cambia a Lucía de vez en cuando."
   },
   {
    "tipo": "step",
@@ -35,10 +35,10 @@
    "tipo": "step",
    "dur": 3.8,
    "paso": "3",
-   "icono": "card",
-   "texto": "Págalo *todo*",
-   "nota": "Si propone algo caro",
-   "voz": "Tres: si propone algo caro, págalo. Sube mucho."
+   "icono": "bag",
+   "texto": "Roben *juntos*",
+   "nota": "Tiendas y bancos",
+   "voz": "Tres: roben juntos, eso sube la relación."
   },
   {
    "tipo": "step",
@@ -46,17 +46,17 @@
    "paso": "4",
    "icono": "heart",
    "texto": "Tengan [citas]",
-   "nota": "Playa · zoológico · buceo · kayak",
-   "voz": "Cuatro: salgan a la playa, al zoológico o a bucear."
+   "nota": "Playa · buceo",
+   "voz": "Cuatro: salgan a la playa o a bucear."
   },
   {
    "tipo": "step",
    "dur": 4.2,
    "paso": "5",
-   "icono": "safe",
-   "texto": "Antes del *golpe*",
-   "nota": "Detalles pequeños",
-   "voz": "Cinco: antes de un robo largo, súbela con detalles pequeños."
+   "icono": "heart",
+   "texto": "Fuera de *misiones*",
+   "nota": "Tiempo juntos",
+   "voz": "Cinco: pasen tiempo fuera de las misiones."
   },
   {
    "tipo": "cta",

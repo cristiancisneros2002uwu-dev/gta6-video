@@ -19,7 +19,7 @@
    "dur": 4.8,
    "icono": "bag",
    "texto": "Ojo con el *efectivo*",
-   "nota": "También las armas que no son tuyas",
+   "nota": "Efectivo en mano",
    "voz": "Si te arrestan o te eliminan, pierdes lo que traes encima."
   },
   {
@@ -35,8 +35,8 @@
    "dur": 5.5,
    "paso": "2",
    "icono": "box",
-   "texto": "Revisa el [buzón]",
-   "voz": "Dos: el buzón. Ahí llegan los pagos de misiones y de los fences."
+   "texto": "Revisa el *buzón*",
+   "voz": "Dos: el buzón. Ahí te paga Brian lo que le vendes."
   },
   {
    "tipo": "step",

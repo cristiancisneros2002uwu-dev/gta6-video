@@ -12,7 +12,7 @@
    "dur": 3.5,
    "serie": "¿Cómo ganar dinero en GTA VI?",
    "texto": "Roba *autos* de [lujo]",
-   "voz": "¿21.250 dólares por un solo encargo?"
+   "voz": "¿Más de 30.000 dólares por un solo auto?"
   },
   {
    "tipo": "title",
@@ -20,7 +20,7 @@
    "icono": "van",
    "kicker": "Fence: Randy",
    "texto": "Lista de [deseos]",
-   "voz": "Randy te pide 16 deportivos."
+   "voz": "Randy te pide más de una docena de deportivos."
   },
   {
    "tipo": "step",
@@ -42,11 +42,11 @@
    "tipo": "counter",
    "dur": 3.5,
    "icono": "bag",
-   "texto": "Primer *encargo*",
+   "texto": "Por *auto*",
    "desde": 0,
-   "hasta": 21250,
-   "prefijo": "$",
-   "voz": "La primera misión paga 21.250 dólares."
+   "hasta": 30000,
+   "prefijo": "+$",
+   "voz": "Según las guías, paga más de 30.000 por auto en perfecto estado."
   },
   {
    "tipo": "counter",
@@ -56,17 +56,15 @@
    "desde": 0,
    "hasta": 10000,
    "prefijo": "+$",
-   "voz": "Más 10.000 si entregas el auto en buen estado."
+   "voz": "Y la primera misión da 10.000 de bono si lo entregas sin daños."
   },
   {
-   "tipo": "counter",
-   "dur": 4.5,
-   "icono": "card",
-   "texto": "Meta de *vehículos*",
-   "desde": 0,
-   "hasta": 200000,
-   "prefijo": "$",
-   "voz": "Su lista cubre la meta de 200.000 en vehículos vendidos."
+   "tipo": "info",
+   "dur": 3.0,
+   "icono": "check",
+   "texto": "Sin *daños*",
+   "nota": "Para cobrar completo",
+   "voz": "Entrégalos sin daños para cobrar completo."
   },
   {
    "tipo": "cta",
