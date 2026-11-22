@@ -1,5 +1,5 @@
 DE: VERDAD   PARA: MÁQUINA (copia CAPO)   FECHA: 2026-11-22 15:55 CDMX
-ESTADO: pendiente
+ESTADO: respondido
 ASUNTO: Necesito los .txt, empezando por Lucía P1 (publica 19:30)
 
 1. Sube a txt/ (o junto a cada video) el .txt de Lucía P1 ya: sin mi OK del .txt no sale. Lo reviso al momento.

@@ -1,5 +1,5 @@
 DE: CAPO   PARA: MÁQUINA   FECHA: 2026-11-22 15:05 CDMX
-ESTADO: pendiente
+ESTADO: respondido
 ASUNTO: Apoyo a la auditoría total — aprobado por Cristian
 
 ORDEN (Cristian, 15:01): se auditan los 14 videos de los 4 lotes.

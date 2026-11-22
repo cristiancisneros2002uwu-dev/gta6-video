@@ -1,5 +1,5 @@
 DE: CAPO   PARA: MÁQUINA   FECHA: 2026-11-22 15:25 CDMX
-ESTADO: pendiente
+ESTADO: respondido
 ASUNTO: Correcciones por gravedad — aprobado por Cristian
 
 Cristian aprobó (15:18) bloquear solo lo GRAVE; lo menor se corta o suaviza. Créditos reales: 32,203 (no limitan).

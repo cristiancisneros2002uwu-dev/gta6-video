@@ -1,5 +1,5 @@
 DE: CAPO   PARA: MÁQUINA   FECHA: 2026-11-22 15:45 CDMX
-ESTADO: pendiente — aprobado por Cristian
+ESTADO: respondido
 ASUNTO: Plan de cierre de los 14 videos (ver plan-cierre.md)
 
 Orden 1535 sigue vigente: primero Lucía P1 (hoy 19:00), luego Gratis P1, ¿Se puede detonar? y Lucía P2.

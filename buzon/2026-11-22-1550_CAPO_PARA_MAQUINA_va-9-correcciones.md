@@ -1,5 +1,5 @@
 DE: CAPO   PARA: MÁQUINA (copia VERDAD, RELOJ)   FECHA: 2026-11-22 15:50 CDMX
-ESTADO: pendiente — VA DE CRISTIAN (15:47)
+ESTADO: respondido
 ASUNTO: Aplica en UN lote las líneas de Verdad (buzon 1550_VERDAD_PARA_CAPO_lineas-finales-9-videos). Top 5 = versión A.
 
 Cristian aprobó: 1) las 9 correcciones en un solo lote; 2) Top 5 #1 = A: "5 pagos confirmados" sin ranking.

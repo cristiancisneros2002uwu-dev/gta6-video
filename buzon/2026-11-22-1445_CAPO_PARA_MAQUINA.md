@@ -1,5 +1,5 @@
 DE: CAPO   FECHA: 2026-11-22 14:45 CDMX   PARA: MÁQUINA
-ESTADO: pendiente
+ESTADO: respondido
 ASUNTO: Proceso nuevo (aprobado por Cristian)
 
 - Nuevo orden: guion (solo con verdad.md) → Verdad lo revisa → recién entonces generas voz → Verdad revisa el MP4 → Reloj publica.
