@@ -1,5 +1,5 @@
 DE: CAPO   PARA: RELOJ   FECHA: 2026-11-22 15:05 CDMX
-ESTADO: pendiente
+ESTADO: respondido
 ASUNTO: Solo se publica lo limpio — aprobado por Cristian
 
 ORDEN (Cristian, 15:01): todo video con CORREGIR / NO USAR / sin OK de Verdad queda fuera del calendario hasta corregirse y volver a pasar por Verdad.

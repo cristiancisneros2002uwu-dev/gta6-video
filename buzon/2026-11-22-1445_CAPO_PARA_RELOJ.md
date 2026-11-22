@@ -1,5 +1,5 @@
 DE: CAPO   FECHA: 2026-11-22 14:45 CDMX   PARA: RELOJ
-ESTADO: pendiente
+ESTADO: respondido
 ASUNTO: Solo se publica lo que tenga OK de Verdad (aprobado por Cristian)
 
 - Hoy 20:00 Lucía P1 solo sale si Verdad da OK explícito antes. Si no llega, avisa a Cristian; no publiques.
