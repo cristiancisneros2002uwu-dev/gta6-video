@@ -587,18 +587,10 @@ def scene_cta(s, st):
     return draw
 
 def scene_end(s, st):
-    # logo + ".com" en un solo bloque; el logo de la esquina se desvanece al entrar
-    hl = st.hlogo.crop(st.hlogo.getbbox())
-    h = hl.height
-    com = rich('.com', F('title', int(h * .52)), 600, base=ORANGE)
-    com = com.crop(com.getbbox())
-    gap = 6
-    bw = hl.width + gap + com.width
-    blk = Image.new('RGBA', (bw, h), (0, 0, 0, 0))
-    blk.alpha_composite(hl, (0, 0))
-    blk.alpha_composite(com, (hl.width + gap, int(h * .70 - com.height)))
-    tw = 940
-    lg = blk.resize((tw, int(tw * blk.height / blk.width)), Image.LANCZOS)
+    # logo completo con ".com" (asset propio); el logo de la esquina se desvanece al entrar
+    hl = Image.open(A('logos', 'logo-horizontal-com-para-fondo-oscuro.png')).convert('RGBA')
+    tw = 960
+    lg = hl.resize((tw, int(tw * hl.height / hl.width)), Image.LANCZOS)
     def draw(fr, t):
         p = prog(t, 0, .5)
         place(fr, lg, CX, H / 2, ease_out(p), .85 + .15 * ease_out(p))
