@@ -33,7 +33,7 @@ Fecha de revisión: 2026-11-22 salvo que se indique.
 | OVNI: da el trofeo The Truth Is Out There; noroeste del Starlet Motel, después de las 2:00, solo, aleatorio | B | PowerPyx, BeatCop, Beebom, Gamesfuze |
 | Torre de radio de South Vice-Dale County: nido con huevos arriba; lanzar un huevo activa una escena corta; hay salto BASE | B | Games.gg, ProdigyGamers (IBTimes: sin ubicación oficial) |
 | Xbox One puede jugar GTA VI por Xbox Cloud Gaming | B | Beebom, FandomWire |
-| Nave cerca de Hamlet: este de Hamlet, South Vice-Dale County; ~13.000 en efectivo y mercancía + carta | B | Games.gg, GTABoom, Beebom, BeatCop |
+| Nave cerca de Hamlet, South Vice-Dale County (dirección disputada: este según Games.gg, sur según BeatCop; decir solo "cerca de Hamlet"); ~13.000 en efectivo y mercancía + carta | B | Games.gg, GTABoom, Beebom, BeatCop |
 | Patrullas: la cajuela lleva armas y chaleco; para abrir la patrulla hace falta ganzúa (Slim Jim) y desactivar la alarma del baúl | B (armas/chaleco); C (ganzúa y alarma, una fuente) | Destructoid, Critical Hits |
 | Desafío Cop Weapon Theft: sacar un arma de la cajuela de 5 patrullas distintas sin morir ni ser arrestado | C | PlayDay |
 | Cartas: se venden en cualquier casa de empeño por unos 20 hasta más de 1.000 según rareza; no se pueden comprar | B | Games.gg, MetaForge, NSS |
@@ -125,3 +125,6 @@ GRAVE: Dinero P1-P4, Top 5 #1, Errores #1, Gratis P1 (arreglo corto). MENOR: Luc
 OK de guion condicionado (líneas exactas en buzon/2026-11-22-1540_VERDAD_PARA_CAPO_gravedad-14-videos.md): Lucía P1, ¿Se puede detonar? #1, Lucía P2, Gratis P1. Falta el MP4 de cada uno.
 
 (Ver buzon/2026-11-22-1550_VERDAD_PARA_CAPO_lineas-finales-9-videos.md: líneas finales y OK de guion de los otros 9 videos; "no se compran" ahora B.)
+
+## Regla permanente (Cristian, 22-nov 15:56): prohibido "según las guías"
+Solo se dice lo nivel A o B, directo. Nivel C se corta o se consigue segunda fuente. Nuevos NO USAR por nivel C o disputa: "si baja mucho pierdes diálogos, opciones y un final" (VGC sí; otras fuentes dicen que Rockstar no lo confirmó); desafío Cop Weapon Theft (solo PlayDay); ganzúa y apagar la alarma de la patrulla (solo Destructoid); "cambia a Lucía de vez en cuando"; "venderlas no te quita el avance" (solo Games.gg). B nuevos: "si descuidas la relación, Lucía se aleja" (VGC, KeenGamer, GTABase, PlayDay); "contestar llamadas y mensajes sube la relación" (KeenGamer, VGC, GTABase).
