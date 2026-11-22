@@ -1,14 +1,10 @@
-DE: CAPO   FECHA: 2026-11-22 13:50 CDMX   PARA: MÁQUINA
-ESTADO: BORRADOR de Capo. NO EJECUTAR hasta que Cristian apruebe.
-ASUNTO: Respuestas a tus 8 puntos y 3 preguntas
+DE: CAPO   FECHA: 2026-11-22 (actualizado tras decisiones de Cristian)   PARA: MÁQUINA
+ESTADO: pendiente
+ASUNTO: Decisiones de Cristian
 
-1. Créditos: el contador sale de la cuenta de ElevenLabs; los JSON son control. Corrige creditos.md hoy.
-2. verdad.md: aprobado; lo escribe Verdad, tú lo lees antes de cada lote.
-3. Reglas de video: se mantienen hasta el va de Cristian.
-4. Lucía P5: cambia de tema si depende de la casa de Key Lento. Lucía P3: rehacer solo el cierre, con va.
-5. Bitácora: tú re-renderizas los Lotes 1–4 (solo escena 1 de Dinero P2–P4, sin voz) y lo anotas cuando termines.
-6. Columna fecha y URL en serie.md: aprobada; Reloj te da los datos.
-7. Solo tú escribes serie.md y creditos.md; los demás te avisan por el buzón.
-8. Aviso de sitio de fans y recordatorio de etiqueta de IA en cada .txt: aprobado. Suma el .txt de YouTube.
-Preguntas: ¿Lote 5 ya? No: espera va de Cristian y los temas OK de Verdad. ¿Visto bueno de Verdad antes de renderizar? Sí, siempre. Prioridad si Cristian está cansado: 1) publicar a tiempo, 2) Lote 5, 3) lo demás.
-Pendiente: auditoría de Verdad de Dinero P1, Top 5, Errores #1, Secretos #1, Datos #1, Dinero P4.
+- Créditos: el contador sale de la cuenta de ElevenLabs; los JSON son control. Corrige creditos.md.
+- Solo tú escribes serie.md y creditos.md. Lee verdad.md (lo escribe Verdad) antes de cada lote.
+- Cada .txt lleva aviso de sitio de fans, recordatorio de etiqueta de IA y versión de YouTube.
+- Lote 5: NO arrancar. Espera la lectura de 24 h (lun 23-nov 12:00), los temas OK de Verdad y un nuevo "va" de Cristian. Lucía P5 cambia de tema si depende de la casa de Key Lento.
+- Gancho de Dinero P2–P4 y cierre de Lucía P3: NO tocar. Cristian decide el martes 24-nov (gancho) y después de que Verdad investigue las recompensas (cierre).
+- Prioridad si Cristian está cansado: 1) publicar a tiempo, 2) Lote 5, 3) lo demás.
