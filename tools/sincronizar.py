@@ -34,8 +34,12 @@ jt = os.path.join(tmp, nombre + ".json")
 json.dump(d, open(jt, "w", encoding="utf8"), ensure_ascii=False)
 mudo = os.path.join(tmp, "mudo.mp4")
 subprocess.run([sys.executable, "plantilla/render.py", jt, mudo], check=True, cwd=".")
-subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", mudo, "-i", f"voz/{nombre}.mp3",
-                "-map", "0:v", "-map", "1:a", "-c:v", "copy", "-c:a", "aac", "-b:a", "192k",
-                "-af", "apad", "-shortest", salida], check=True)
 total = sum(s["dur"] for s in d["escenas"])
+MUSICA, VOL = "musica/fondo.mp3", 0.20   # volumen fijo, sin bajar con la voz
+fc = (f"[2:a]atrim=0:{total:.3f},asetpts=PTS-STARTPTS,volume={VOL},afade=t=out:st={max(0, total-1.5):.3f}:d=1.5[m];"
+      f"[1:a]apad[v];[v][m]amix=inputs=2:duration=first:normalize=0,alimiter=limit=0.95[a]")
+subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", mudo, "-i", f"voz/{nombre}.mp3",
+                "-stream_loop", "-1", "-i", MUSICA, "-filter_complex", fc,
+                "-map", "0:v", "-map", "[a]", "-c:v", "copy", "-c:a", "aac", "-b:a", "192k",
+                "-shortest", salida], check=True)
 print(f"{salida}: {total:.1f} s")
