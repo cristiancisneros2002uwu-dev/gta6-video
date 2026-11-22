@@ -1,0 +1,57 @@
+{
+ "voz_id": "pNInz6obpgDQGcFmaJgB",
+ "modelo": "eleven_multilingual_v2",
+ "caracteres": 392,
+ "frases": [
+  {
+   "texto": "¿Armas gratis sin pisar Ammu-Nation?",
+   "inicio": 0.0,
+   "fin": 2.473
+  },
+  {
+   "texto": "Las patrullas llevan armas atrás.",
+   "inicio": 2.752,
+   "fin": 4.807
+  },
+  {
+   "texto": "Busca una sola, sin policías y bien apartada.",
+   "inicio": 5.05,
+   "fin": 8.638
+  },
+  {
+   "texto": "Abre la patrulla con una ganzúa, según las guías.",
+   "inicio": 8.963,
+   "fin": 12.283
+  },
+  {
+   "texto": "Apaga la alarma y abre la cajuela.",
+   "inicio": 12.562,
+   "fin": 15.023
+  },
+  {
+   "texto": "Toma todo y vete corriendo.",
+   "inicio": 15.302,
+   "fin": 16.986
+  },
+  {
+   "texto": "Te tocan armas y chaleco antibalas.",
+   "inicio": 17.265,
+   "fin": 19.83
+  },
+  {
+   "texto": "Guárdalas en tu coche y huye.",
+   "inicio": 20.039,
+   "fin": 21.723
+  },
+  {
+   "texto": "Hazlo en cinco patrullas, sin que te arresten, y cumples un desafío.",
+   "inicio": 21.932,
+   "fin": 25.67
+  },
+  {
+   "texto": "Viene más gratis. ¡Sígueme!",
+   "inicio": 25.821,
+   "fin": 27.911
+  }
+ ]
+}

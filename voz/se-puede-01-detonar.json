@@ -1,0 +1,57 @@
+{
+ "voz_id": "pNInz6obpgDQGcFmaJgB",
+ "modelo": "eleven_multilingual_v2",
+ "caracteres": 372,
+ "frases": [
+  {
+   "texto": "¿Se puede detonar? ¡Sí!",
+   "inicio": 0.0,
+   "fin": 2.136
+  },
+  {
+   "texto": "Pero solo entre Jason y Lucía.",
+   "inicio": 2.519,
+   "fin": 4.342
+  },
+  {
+   "texto": "Necesitas la relación muy alta.",
+   "inicio": 4.586,
+   "fin": 6.269
+  },
+  {
+   "texto": "Mantén derecha en la cruceta para verlo.",
+   "inicio": 6.548,
+   "fin": 8.673
+  },
+  {
+   "texto": "Acércate a tu pareja y pasa tiempo con ella.",
+   "inicio": 8.847,
+   "fin": 11.308
+  },
+  {
+   "texto": "Elige la opción con dos corazones.",
+   "inicio": 11.633,
+   "fin": 13.804
+  },
+  {
+   "texto": "La cámara se corta en el momento clave.",
+   "inicio": 14.187,
+   "fin": 16.393
+  },
+  {
+   "texto": "En Coming Home hay una que pasa siempre.",
+   "inicio": 16.776,
+   "fin": 19.388
+  },
+  {
+   "texto": "Si no sale, pasen tiempo juntos y espera unas horas.",
+   "inicio": 19.539,
+   "fin": 23.127
+  },
+  {
+   "texto": "¿Qué pregunta sigue? ¡Sígueme!",
+   "inicio": 23.336,
+   "fin": 25.542
+  }
+ ]
+}
