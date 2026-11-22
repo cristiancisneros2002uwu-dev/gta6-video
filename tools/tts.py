@@ -6,23 +6,36 @@ Corre en GitHub Actions. Para cada video sin audio, crea:
   voz/<nombre>.json  frases con inicio y fin en segundos
 Necesita el secreto ELEVENLABS_API_KEY.
 """
-import base64, glob, json, os, sys, urllib.request, urllib.error
+import base64, glob, json, os, re, sys, urllib.request, urllib.error
+from num2words import num2words
 
 VOICE_ID = os.environ.get("VOICE_ID", "pNInz6obpgDQGcFmaJgB")  # Adam - Dominant, Firm
-MODEL_ID = os.environ.get("MODEL_ID", "eleven_multilingual_v2")
+MODEL_ID = os.environ.get("MODEL_ID", "eleven_v3")
+RESPALDO = "eleven_multilingual_v2"
 KEY = os.environ.get("ELEVENLABS_API_KEY")
 if not KEY:
     sys.exit("Falta el secreto ELEVENLABS_API_KEY")
 
 
+def hablar(t):
+    """Texto para la voz: GTA VI -> GTA seis, 10.000 -> diez mil, 7.7 -> siete punto siete."""
+    t = re.sub(r"\bGTA\s*(VI|6)\b", "GTA seis", t)
+    t = re.sub(r"\b(\d+)\.(\d)\b(?!\d)", lambda m: num2words(int(m[1]), lang="es") + " punto " + num2words(int(m[2]), lang="es"), t)
+    t = re.sub(r"\d{1,3}(?:[.,]\d{3})+|\d+", lambda m: num2words(int(re.sub(r"[.,]", "", m[0])), lang="es"), t)
+    t = re.sub(r"\buno (mil|millones)", r"un \1", t).replace("veintiun ", "veintiún ")
+    t = t.replace("~", "unos ").replace("$", "")
+    return t
+
+
 def frases(d):
-    return [s["voz"].strip() for s in d["escenas"] if s.get("voz", "").strip() and s["tipo"] != "end"]
+    return [hablar(s["voz"].strip()) for s in d["escenas"] if s.get("voz", "").strip() and s["tipo"] != "end"]
 
 
-def tts(texto):
+def tts(texto, modelo=None):
+    modelo = modelo or MODEL_ID
     body = json.dumps({
         "text": texto,
-        "model_id": MODEL_ID,
+        "model_id": modelo,
         "language_code": "es",
         "voice_settings": {"stability": 0.5, "similarity_boost": 0.75, "style": 0.0, "speed": 1.0},
     }).encode()
@@ -39,6 +52,9 @@ def tts(texto):
             req = urllib.request.Request(req.full_url, data=json.dumps(b).encode(), headers=dict(req.headers), method="POST")
             with urllib.request.urlopen(req, timeout=180) as r:
                 return json.loads(r.read())
+        if modelo != RESPALDO and e.code in (400, 422):
+            print(f"{modelo} no disponible ({e.code}: {msg[:200]}); uso {RESPALDO}")
+            return tts(texto, RESPALDO)
         sys.exit(f"ElevenLabs {e.code}: {msg}")
 
 
@@ -67,7 +83,7 @@ for f in sorted(glob.glob("videos/lote-*/*.json")):
         out.append({"texto": p, "inicio": round(st[a2], 3), "fin": round(en[b2], 3)})
     os.makedirs("voz", exist_ok=True)
     open(mp3, "wb").write(base64.b64decode(r["audio_base64"]))
-    json.dump({"voz_id": VOICE_ID, "modelo": MODEL_ID, "caracteres": len(texto), "frases": out},
+    json.dump({"voz_id": VOICE_ID, "modelo": r.get("_modelo", MODEL_ID), "caracteres": len(texto), "frases": out},
               open(meta, "w", encoding="utf8"), ensure_ascii=False, indent=1)
     hechos += 1
 
