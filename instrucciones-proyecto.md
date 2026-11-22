@@ -43,6 +43,10 @@ Entrega de cada lote
 - Un solo archivo "Lote N.zip" con la carpeta "Lote N". Por cada video, dos archivos con el MISMO nombre: <nombre>.mp4 y <nombre>.txt. El .txt lleva: título/caption corto que termine en pregunta (el mismo para todas las redes); descripción y 5 hashtags de TikTok; Instagram (5 hashtags, cierre "link en bio"); Facebook (2 hashtags, cierre gta6encyclopedia.com); versión de YouTube (título y descripción); la línea "Sitio de fans, no afiliado a Rockstar Games ni Take-Two"; y el recordatorio de activar la etiqueta de contenido con IA.
 - Suelto, fuera del zip: una sola imagen de vista previa del lote (cuadrícula con un fotograma de cada video, con su nombre), sin renderizar nada extra.
 - En el chat, al final: orden sugerido de publicación (2-3 por día, 12:00 y 19:30-21:00 CDMX), 10 hashtags generales del lote y la nota de páginas fuente.
+Miniatura (portada) — desde el Lote 5 (orden de Cristian, 22-nov-2026)
+- A cada video del Lote 5 en adelante se le diseña su propia miniatura/portada (imagen vertical 1080x1920, estilo de marca, con el gancho del video en texto grande dentro del margen seguro). Se entrega suelta junto al MP4 con el mismo nombre (<nombre>.png). Los Lotes 1-4 no llevan.
+Captions cortos (orden de Cristian, 22-nov-2026)
+- El .txt de cada video lleva caption CORTO: pregunta de gancho + una línea de contenido + número de serie + hashtags. TikTok e Instagram con el mismo texto y hashtags distintos (Instagram cierra con "link en bio"). Sin párrafos largos. Anticípate: entrégalo ya corto, sin que lo pida.
 Créditos de ElevenLabs (al final de cada lote)
 - Haz git pull y lee creditos.md. En 3 líneas: créditos gastados en el lote (suma "caracteres" de los voz/*.json del lote), total gastado y cuántos quedan, y fecha de reinicio. El contador de creditos.md no es confiable hasta que Cristian revise Usage en elevenlabs.io: dilo. Si quedan menos de 5,000, avisa en negritas.
 Flujo
