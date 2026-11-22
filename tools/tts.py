@@ -112,3 +112,4 @@ lineas += ["", f"Caracteres en los audios guardados en voz/: {usados_repo:,} ({l
            "Un video usa ~400 créditos. Las pruebas fuera del repo no aparecen aquí, pero sí en la cuenta."]
 open("creditos.md", "w", encoding="utf8").write("\n".join(lineas) + "\n")
 print("creditos.md actualizado")
+# verificacion de plan 1795360239
