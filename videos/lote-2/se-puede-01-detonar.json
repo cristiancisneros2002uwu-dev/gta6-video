@@ -24,27 +24,26 @@
   },
   {
    "tipo": "levels",
-   "dur": 4.0,
-   "nivel": 4,
-   "nombre": "Hot Together",
-   "desc": "Requisito para la opción",
-   "voz": "Necesitas la relación al máximo."
+   "dur": 3.5,
+   "nivel": 0,
+   "texto": "Sube la [relación]",
+   "voz": "Necesitas la relación muy alta."
   },
   {
    "tipo": "info",
    "dur": 3.0,
-   "icono": "pause",
+   "icono": "check",
    "texto": "¿En qué *nivel* vas?",
-   "nota": "Pausa · pestaña 1",
-   "voz": "Revísalo en el menú de pausa."
+   "nota": "Cruceta · derecha",
+   "voz": "Mantén derecha en la cruceta para verlo."
   },
   {
    "tipo": "step",
    "dur": 3.5,
    "paso": "PASO 1",
-   "icono": "house",
+   "icono": "heart",
    "texto": "Ve con tu *pareja*",
-   "voz": "Acércate a tu pareja; en casa es más fácil."
+   "voz": "Acércate a tu pareja y pasa tiempo con ella."
   },
   {
    "tipo": "step",
@@ -75,8 +74,8 @@
    "dur": 3.5,
    "icono": "updown",
    "texto": "¿*No* te sale?",
-   "nota": "En misión no aparece",
-   "voz": "Si no aparece, sube la relación o termina la misión."
+   "nota": "Espera unas horas",
+   "voz": "Si no sale, pasen tiempo juntos y espera unas horas."
   },
   {
    "tipo": "cta",

@@ -44,16 +44,16 @@
    "dur": 3.0,
    "paso": "PASO 1",
    "icono": "check",
-   "texto": "Que *no* te reconozcan",
-   "voz": "Ponte máscara, gorra y lentes."
+   "texto": "Abre con *ganzúa*",
+   "voz": "Abre la patrulla con una ganzúa, según las guías."
   },
   {
    "tipo": "step",
    "dur": 3.5,
    "paso": "PASO 2",
    "icono": "box",
-   "texto": "Fuerza la *cajuela*",
-   "voz": "Fuerza la cajuela. Va a sonar la alarma."
+   "texto": "Abre la *cajuela*",
+   "voz": "Apaga la alarma y abre la cajuela."
   },
   {
    "tipo": "step",
@@ -71,14 +71,14 @@
    "items": [
     {
      "icono": "crosshair",
-     "texto": "*Armas* largas"
+     "texto": "*Armas*"
     },
     {
      "icono": "plus",
-     "texto": "*Chaleco* antibalas"
+     "texto": "*Chaleco*"
     }
    ],
-   "voz": "Te pueden tocar armas largas o chaleco antibalas."
+   "voz": "Te tocan armas y chaleco antibalas."
   },
   {
    "tipo": "info",
@@ -94,7 +94,7 @@
    "icono": "check",
    "texto": "Bonus: [desafío]",
    "nota": "Cop Weapon Theft · 5 patrullas",
-   "voz": "Hazlo en 5 patrullas y cumples un desafío."
+   "voz": "Hazlo en 5 patrullas, sin que te arresten, y cumples un desafío."
   },
   {
    "tipo": "cta",
