@@ -1,4 +1,4 @@
-Última actualización: Lote 4, hecho: Dinero Parte 4, Lucía Parte 4, Top 5 #1, Secretos y easter eggs #1 (2026-11-22)
+Última actualización: Lote 3 rehecho con voz y música: Dinero Parte 3, Lucía Parte 3, Errores #1, Datos curiosos #1 (2026-11-22)
 
 # serie.md — gta6encyclopedia
 
@@ -14,7 +14,7 @@ Regla: cada serie sigue su orden (Parte 1, 2, 3... / #1, #2, #3...) sin saltar n
 | ¿Se puede...? | #1 | ¿Se puede detonar en GTA VI? (sí, solo Jason y Lucía, Hot Together) | 2026-11-22 |
 | Dinero — ¿Cómo ganar dinero en GTA VI? | Parte 3 | Cómo no perder lo que ganas (escondite bajo el piso, buzón, BuckMe) | 2026-11-22 |
 | Lucía — Cómo conquistar a Lucía en GTA VI | Parte 3 | Lo que arruina todo (5 cosas; no decir "qué la baja") | 2026-11-22 |
-| Errores — Errores que te arruinan la partida | #1 | El efectivo del Capítulo 1 no pasa al Capítulo 2 (solo ahorros de BuckMe) | 2026-11-22 |
+| Errores — Errores que te arruinan la partida | #1 | El efectivo se pierde al empezar Tourist Trap (lo depositado en BuckMe se conserva) | 2026-11-22 |
 | Datos curiosos | #1 | Cuatro datos: Leonida inventado, 480 cromos, cuerpo cambia, 30 FPS | 2026-11-22 |
 | Dinero — ¿Cómo ganar dinero en GTA VI? | Parte 4 | Forma con más potencial: lista de deseos de Randy (clonador de llaves, 16 autos de lujo, 21.250 + 10.000 de bono, cubre meta de 200.000 en vehículos) | 2026-11-22 |
 | Lucía — Cómo conquistar a Lucía en GTA VI | Parte 4 | Recompensas: filtros Golden Hour (4 h de la mano), Dollhouse (8 h), Videotape (50 actividades), Faded Glory (50 tiendas) | 2026-11-22 |
