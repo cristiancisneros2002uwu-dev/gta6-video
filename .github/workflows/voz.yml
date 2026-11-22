@@ -3,7 +3,7 @@ name: Generar voz
 on:
   push:
     branches: [main]
-    paths: ["videos/lote-*/**.json"]
+    paths: ["videos/lote-*/**.json", "tools/tts.py", ".github/workflows/voz.yml"]
   workflow_dispatch:
 
 permissions:
@@ -17,11 +17,14 @@ jobs:
   voz:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - name: Generar audios con ElevenLabs
         env:
           ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
-        run: python3 tools/tts.py
+        run: |
+          mkdir -p voz
+          set -o pipefail
+          python3 tools/tts.py 2>&1 | tee voz/registro.txt || echo "FALLO" >> voz/registro.txt
       - name: Guardar audios en el repo
         run: |
           git config user.name "github-actions[bot]"
