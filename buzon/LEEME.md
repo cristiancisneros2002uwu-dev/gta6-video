@@ -26,3 +26,5 @@ Respuestas: archivo nuevo con `RESPUESTA A: <archivo>`. Al responder, cambia a `
 - Un chat no despierta a otro: el mensaje se lee cuando ese agente abre sesión. Cristian solo dice "revisa el buzón".
 - Lo irreversible (gastar dinero, publicar, borrar) sigue necesitando el "va" de Cristian. Escríbelo en ESTADO: `espera va de Cristian`.
 - Nada de datos nuevos sin OK de Verdad.
+
+> RETIRADO el 22-nov-2026 por orden de Cristian: ya no se usa el buzón ni hay agentes separados. Ver equipo.md e instrucciones-proyecto.md.
