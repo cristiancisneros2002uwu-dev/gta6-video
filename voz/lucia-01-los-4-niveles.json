@@ -1,0 +1,52 @@
+{
+ "voz_id": "pNInz6obpgDQGcFmaJgB",
+ "modelo": "eleven_multilingual_v2",
+ "caracteres": 385,
+ "frases": [
+  {
+   "texto": "¿En qué nivel está Lucía contigo?",
+   "inicio": 0.0,
+   "fin": 1.741
+  },
+  {
+   "texto": "La relación tiene cuatro niveles.",
+   "inicio": 2.252,
+   "fin": 4.063
+  },
+  {
+   "texto": "El más bajo: Lucía se aleja de ti.",
+   "inicio": 4.133,
+   "fin": 6.49
+  },
+  {
+   "texto": "Del dos al cuatro, cada vez más cerca.",
+   "inicio": 6.769,
+   "fin": 9.125
+  },
+  {
+   "texto": "Sube con mensajes, robos y misiones en pareja.",
+   "inicio": 9.369,
+   "fin": 12.666
+  },
+  {
+   "texto": "Según las guías, si baja mucho pierdes diálogos, opciones y hasta un final.",
+   "inicio": 13.108,
+   "fin": 18.228
+  },
+  {
+   "texto": "Cuídala con llamadas, mensajes y tiempo juntos.",
+   "inicio": 18.669,
+   "fin": 22.083
+  },
+  {
+   "texto": "Míralo: mantén derecha en la cruceta.",
+   "inicio": 22.292,
+   "fin": 25.182
+  },
+  {
+   "texto": "La próxima: qué la sube. ¡Sígueme!",
+   "inicio": 25.566,
+   "fin": 28.422
+  }
+ ]
+}
