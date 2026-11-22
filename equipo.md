@@ -43,7 +43,7 @@ Radar mide → Capo decide qué producir y qué actualizar → Máquina (videos)
 9. Si Cristian está cansado: 1) publicar a tiempo, 2) Lote 5, 3) lo demás. Capo lo frena si ve riesgo de error.
 10. TikTok EN no publica por ahora.
 11. Proceso por video (aprobado 2026-11-22): 1) Máquina escribe el guion solo con verdad.md; 2) Verdad revisa guion, texto en pantalla, .txt y palabras que TikTok limita ANTES de generar la voz; 3) Máquina genera la voz solo con guion OK; 4) Verdad revisa el MP4; 5) Reloj publica solo con OK de Verdad y fecha en serie.md; 6) Cristian da el va.
-12. Niveles de dato (internos, no salen en los videos): A = Rockstar; B = 2 fuentes independientes; C = una sola fuente (solo "según las guías" o no usar). Lo que Cristian confirma jugando cuenta como fuente para detalles de juego. Más rigor en dinero, cifras, "se pierde", rankings y "gratis"; menos en detalles menores.
+12. Niveles de dato (internos, no salen en los videos): A = Rockstar; B = 2 fuentes independientes; C = una sola fuente (NO se usa: se corta o se consigue segunda fuente). Lo que Cristian confirma jugando cuenta como fuente para detalles de juego. Más rigor en dinero, cifras, "se pierde", rankings y "gratis"; menos en detalles menores.
 13. Revisión diaria: tarea programada "Verdad: revisión diaria", todos los días 7:17 CDMX, aviso push siempre. Re-verifica verdad.md y audita videos sin OK; reporta en buzon/.
 14. Si un error sale publicado: comentario fijado con la corrección y arreglo en el siguiente video; no se borra salvo error grave.
 15. Ahorro de uso (aprobado 2026-11-22; la semana iba a 12% en 7.5 h): chats nuevos y cortos, una sesión de Capo al día (el estado vive en el repo: equipo.md, buzon/, serie.md); tarea diaria de Verdad ligera (dinero, cifras y cambios; revisión completa los domingos); respuestas cortas por defecto, detalle completo en buzon/ y Cristian lo pide con "completo". Atlas y Radar no se abren hasta que haya algo que hacer.
@@ -51,6 +51,8 @@ Radar mide → Capo decide qué producir y qué actualizar → Máquina (videos)
 16. Límite de chat (propuesto por Cristian, 2026-11-22): cada agente cuenta sus mensajes y sus búsquedas web. Al llegar a 30 mensajes o a 8 búsquedas web (Verdad: 15), deja su relevo como archivo en buzon/ (qué hizo, qué falta, decisiones pendientes), hace commit y push, y responde solo "Límite alcanzado. Abre un chat nuevo con la plantilla." No sigue trabajando en ese chat aunque se lo pidan. Es un límite blando: depende de que el agente cuente bien.
 
 17. Cuando Cristian pida instrucciones, se le entregan completas y actualizadas en un solo bloque listo para pegar (fuente: instrucciones-proyecto.md). Capo la actualiza cada vez que cambie una regla.
+
+18. PROHIBIDO decir "según las guías", "según una guía" o cualquier frase que nos deslinde, en videos, pantallas, captions y comentarios. Solo se dice lo nivel A o B, directo. Nivel C = se corta o se consigue segunda fuente. Anula lo que dijeran buzon/ o verdad.md de suavizar con "según las guías" (orden permanente de Cristian, 22-nov-2026).
 
 ## Pendientes de Cristian (para el siguiente chat de Capo)
 - Hoy 20:00: Lucía P1 solo sale con OK de Verdad (Cristian le dice "revisa el buzón" en el chat de Verdad).
@@ -140,3 +142,4 @@ BUZÓN: al empezar, haz git pull y lee en buzon/ los mensajes dirigidos a ti con
 - 2026-11-22 (aprobado por Cristian, 15:33): va a las correcciones de Lucía P1 (hoy 20:00 si Verdad aprueba el MP4), Gratis P1 (lunes 12:00), ¿Se puede detonar? y Lucía P2, con las líneas de Verdad (buzon 1540). Dinero P2-P4, Top 5 #1 y Errores #1 siguen sin OK de guion.
 - 2026-11-22 (aprobado por Cristian, 15:34): "dejar todo listo de una vez". Plan de cierre de los 14 videos en plan-cierre.md (gravedad, solución, responsable y meta por video). Verdad entrega las líneas de los 10 videos restantes en un solo mensaje; Máquina los hace en un solo lote.
 - 2026-11-22 (aprobado por Cristian, 15:47): las 9 correcciones de Verdad (buzon 1550) se aplican en un solo lote; Top 5 #1 = "5 pagos confirmados" sin ranking (opción A); calendario de Reloj aprobado (máx. 3 al día, solo videos limpios, si no hay OK queda hueco); comentario fijado de Dinero P1 con "¡Gracias por ver!" en vez de "¡Gracias por avisar!".
+- 2026-11-22 (orden de Cristian, 15:56, PERMANENTE): nunca "según las guías" ni frases que nos deslinden. Nosotros somos la guía. Solo nivel A o B, dicho directo; nivel C se corta o se consigue segunda fuente. Se retira la regla de "suavizar" de la regla de gravedad (lo menor se corta o se afirma solo si es A/B).
