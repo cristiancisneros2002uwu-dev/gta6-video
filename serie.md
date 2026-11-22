@@ -1,4 +1,4 @@
-Última actualización: Lote 3 rehecho con voz y música: Dinero Parte 3, Lucía Parte 3, Errores #1, Datos curiosos #1 (2026-11-22)
+Última actualización: Lote 4 rehecho con voz y música: Dinero Parte 4, Lucía Parte 4, Top 5 #1, Secretos #1 (2026-11-22)
 
 # serie.md — gta6encyclopedia
 
@@ -16,15 +16,15 @@ Regla: cada serie sigue su orden (Parte 1, 2, 3... / #1, #2, #3...) sin saltar n
 | Lucía — Cómo conquistar a Lucía en GTA VI | Parte 3 | Lo que arruina todo (5 cosas; no decir "qué la baja") | 2026-11-22 |
 | Errores — Errores que te arruinan la partida | #1 | El efectivo se pierde al empezar Tourist Trap (lo depositado en BuckMe se conserva) | 2026-11-22 |
 | Datos curiosos | #1 | Cuatro datos: Leonida inventado, 480 cromos, cuerpo cambia, 30 FPS | 2026-11-22 |
-| Dinero — ¿Cómo ganar dinero en GTA VI? | Parte 4 | Forma con más potencial: lista de deseos de Randy (clonador de llaves, 16 autos de lujo, 21.250 + 10.000 de bono, cubre meta de 200.000 en vehículos) | 2026-11-22 |
-| Lucía — Cómo conquistar a Lucía en GTA VI | Parte 4 | Recompensas: filtros Golden Hour (4 h de la mano), Dollhouse (8 h), Videotape (50 actividades), Faded Glory (50 tiendas) | 2026-11-22 |
-| Top 5 | #1 | Vehículos más rápidos (velocidad sobre 10): Emerus 8.3, Vitello 8.2, Gauntlet Hellfire 7.8, Furia 7.8, Comet S2 7.7 | 2026-11-22 |
+| Dinero — ¿Cómo ganar dinero en GTA VI? | Parte 4 | La lista de deseos de Randy (clonador de llaves, 16 deportivos, 21.250 + 10.000 de bono, cubre meta de 200.000 en vehículos) | 2026-11-22 |
+| Lucía — Cómo conquistar a Lucía en GTA VI | Parte 4 | Consejos para conquistarla (5 consejos de la guía) | 2026-11-22 |
+| Top 5 | #1 | Misiones que mejor pagan: Mercancía de Donnie 1.200, Daily Driver 1.750, Dubious Provenance ~2.500, Slam Dunk ~2.700, Afternoon Delight 10.000 | 2026-11-22 |
 | Secretos y easter eggs | #1 | El huevo de Pascua de la torre de radio (6-7 min de subida, lanzarlo, salto BASE) | 2026-11-22 |
 
 ## Siguientes
 - Dinero: Parte 5
 - Gratis: Parte 2
-- Lucía: Parte 5 (consejos para conquistarla)
+- Lucía: Parte 5 (prepara la casa antes de que salga, Capítulo 1)
 - ¿Se puede...?: #2
 - Errores: #2
 - Datos curiosos: #2
@@ -32,8 +32,7 @@ Regla: cada serie sigue su orden (Parte 1, 2, 3... / #1, #2, #3...) sin saltar n
 - Secretos y easter eggs: #2
 
 ## No publicar (rehacer antes)
-- Top 5 #1 (rehacer por marca/diseño, no por velocidad)
-- Lucía Parte 4 (rehacer solo con datos confirmados)
+- Ninguno por ahora. Nota: el CTA de Lucía Parte 3 dice "la próxima: las recompensas"; Lucía Parte 4 salió con consejos (las recompensas no están verificadas).
 
 ## Cómo se actualiza
 Este archivo vive en el repo (serie.md). El chat de cada lote lo lee con git pull, agrega los videos hechos a la tabla, actualiza "Siguientes" y hace commit + push.
