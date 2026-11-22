@@ -90,3 +90,25 @@ for f in sorted(glob.glob("videos/lote-*/*.json")):
     hechos += 1
 
 print(f"Listo: {hechos} audios nuevos")
+
+
+# ---- Conteo de créditos -> creditos.md ----
+import datetime
+usados_repo = sum(json.load(open(m, encoding="utf8")).get("caracteres", 0) for m in glob.glob("voz/*.json"))
+lineas = ["# Créditos de ElevenLabs", "", f"Actualizado: {datetime.datetime.utcnow():%Y-%m-%d %H:%M} UTC", ""]
+try:
+    req = urllib.request.Request("https://api.elevenlabs.io/v1/user/subscription", headers={"xi-api-key": KEY})
+    with urllib.request.urlopen(req, timeout=60) as r:
+        sub = json.loads(r.read())
+    usados, limite = sub["character_count"], sub["character_limit"]
+    lineas += [f"- Plan: {sub.get('tier', '?')}",
+               f"- Gastados: **{usados:,}** de {limite:,}",
+               f"- Quedan: **{limite - usados:,}**",
+               f"- Reinicia: {datetime.datetime.utcfromtimestamp(sub['next_character_count_reset_unix']):%Y-%m-%d}"
+               if sub.get("next_character_count_reset_unix") else ""]
+except Exception as e:
+    lineas += [f"- (No pude leer la cuenta: {e})"]
+lineas += ["", f"Caracteres en los audios guardados en voz/: {usados_repo:,} ({len(glob.glob('voz/*.mp3'))} audios)",
+           "Un video usa ~400 créditos. Las pruebas fuera del repo no aparecen aquí, pero sí en la cuenta."]
+open("creditos.md", "w", encoding="utf8").write("\n".join(lineas) + "\n")
+print("creditos.md actualizado")
