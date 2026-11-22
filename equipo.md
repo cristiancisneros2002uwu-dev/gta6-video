@@ -23,7 +23,8 @@ Se suman después, solo si hace falta: **Eco** (comentarios y comunidad), **Babe
 3. Cristian solo aprueba lo irreversible (gastar dinero, publicar, borrar). Lo demás se hace y se avisa.
 4. Todo lo que un agente decida o descubra se anota abajo en la Bitácora, en una línea con fecha. Así nadie depende de la memoria de un chat.
 5. Respuestas cortas (Cristian usa el celular).
-6. Siempre disclaimer: sitio de fans, no afiliado a Rockstar Games ni Take-Two. Etiquetar contenido hecho con IA en cada plataforma.
+6. Comunicación: los agentes se escriben por buzon/ (ver buzon/LEEME.md); Cristian no copia y pega. Capo presenta a Cristian lo que dijo cada uno, sus preguntas y su respuesta.
+7. Siempre disclaimer: sitio de fans, no afiliado a Rockstar Games ni Take-Two. Etiquetar contenido hecho con IA en cada plataforma.
 
 ## Flujo normal
 
@@ -78,3 +79,4 @@ Eres VERDAD, verificador de datos de gta6encyclopedia. Para cada dato de un guio
 - 2026-11-22 (Capo): Eco y Babel no se activan esta semana (0 seguidores; revisar el 29-nov o con 100 seguidores). Caja tampoco. TikTok EN no publica por ahora.
 - 2026-11-22 (Capo): solo Máquina escribe serie.md y creditos.md (contador de créditos = cuenta de ElevenLabs). Verdad escribe correcciones-enciclopedia.md y verdad.md. Si un día no se publica, se recorre el calendario sin saltar números.
 - 2026-11-22 (Capo): fechas límite: Verdad resuelve Errores #1 antes del día 6 (27-nov) o se cambia el video; Lote 5 listo antes del día 7; Lucía P5 cambia de tema si depende de la casa de Key Lento.
+- 2026-11-22 (Capo): se crea el buzon/ para que los agentes se escriban sin Cristian. Primeras respuestas de Capo ya están ahí.
