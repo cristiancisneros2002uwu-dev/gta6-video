@@ -38,3 +38,17 @@ Fuentes: medios y guías reconocidos (PowerPyx, VGC, GTABase, PC Gamer, Beebom, 
 | V15 | Clonin' Keys, Makin' GS | ¿Es otro nombre de Steal the Zorrusso for Randy? | OK: mismo (GTABase, TheClick, Timesaver) |
 | V16 | Lucía P1 | "no por las misiones"; descripciones de niveles 2-4; "primera pestaña del menú de pausa" | SIN OK: las misiones sí cuentan (VGC, PC Gamer); descripciones sin fuente; menú: VGC dice botón táctil → menú Jason y Lucia |
 | V17 | Garaje de Moses | ¿Moses regala el garaje de Port Gellhorn? | OK: Port Gellhorn Station Garage gratis tras Daily Driver (PowerPyx, Beebom, Games.gg, Bloxodes). El "regalo" final de Moses no está identificado |
+
+## Auditoría de videos, parte 2 (22-nov-2026, tarde)
+
+| Id | Video | Dato | Veredicto |
+|---|---|---|---|
+| V18 | Gratis P1 | "Ponte máscara, gorra y lentes"; "fuerza la cajuela, suena la alarma"; "armas largas" | CORREGIR: Destructoid pide ganzúa (Slim Jim) para abrir la patrulla y desactivar la alarma del baúl desde el asiento; no habla de disfraz. Armas y chaleco en cajuelas: Destructoid, Critical Hits. Desafío Cop Weapon Theft (5 patrullas, sin morir ni ser arrestado): PlayDay |
+| V19 | Dinero P2 | Leroy Rook "en una caja fuerte en Belville"; casas de empeño "abren en Cap. 2"; "Vice City Pawn"; plata 100-300 / oro 500-1.000+ | CORREGIR: la carta está en la caja fuerte de la oficina de la bodega roja cerca de Hamlet (Games.gg, BeatCop); en Cap. 2 (tras Coffee Break) se abren los ROBOS a casas de empeño (PowerPyx), no consta que la venta empiece ahí; "Vice City Pawn" sin fuente (sí Hamlet Pawn); rangos por color solo GMTreks, el resto da "de 20 a más de 1.000" (Games.gg, MetaForge, NSS) |
+| V20 | Dinero P3 | "el buzón: pagos de misiones y de fences"; "armas que no son tuyas" | CORREGIR: el buzón recibe el pago de Brian por la mercancía (Nerdschalk, Roonby, BeatCop); los pagos de misiones llegan por BuckMe. Armas ajenas: una sola fuente (NoobFeed). Caja bajo las tablas de Jason: OK (GameRiv, GTABase, Digit, Gamesfuze) |
+| V21 | Lucía P2 | "si quiere quedarse en casa, acepta: sube al instante"; "si propone algo caro, págalo: el tip de oro"; zoológico y kayak | CORREGIR: casa sin fuente en "sube al instante" (VGC: dormir juntos en el refugio ayuda); "algo caro" sin fuente en ninguna guía; zoológico y kayak solo KeenGamer |
+| V22 | ¿Se puede detonar? #1 | "relación al máximo"; "pausa, pestaña 1"; "en misión no aparece"; "en casa es más fácil" | CORREGIR: nivel 3 o 4 según Insider Gaming (Games.gg y Beebom dicen nivel 4); menú: VGC y PlayDay dicen menú Jason y Lucia o mantener derecha en la cruceta; "en misión no aparece" sin fuente; Insider: aviso "volver a casa" tras ~20 min juntos y espera de unas horas entre escenas |
+| V23 | Lucía P3 | 5 causas; "pierdes tomarse de la mano"; cierre "las recompensas" | CORREGIR: VGC dice que se pierden diálogos, opciones de misión y un final (no la mano); "lastimarla" y "elegir mal" sin fuente; cierre debe ser "consejos" |
+| V24 | Lucía P4 | Tip 3 "págalo todo, sube mucho"; tip 5 "antes de un robo largo, súbela"; zoológico | CORREGIR: tips 3 y 5 sin fuente; tip 1 (cambiar a Lucía) una sola fuente; VGC no lo cuenta como beneficio |
+| V25 | Menú de relación (Lucía P1) | ¿Dónde se ve el nivel? | VGC y PlayDay: menú Jason y Lucia (botón táctil + bumpers) o mantener derecha en la cruceta; no es una "pestaña del menú de pausa" |
+

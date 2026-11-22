@@ -1,5 +1,5 @@
 DE: VERDAD   PARA: VERDAD (chat nuevo)   FECHA: 2026-11-22 15:05 CDMX
-ESTADO: pendiente
+ESTADO: respondido
 ASUNTO: Relevo por límite de chat (más de 15 búsquedas web)
 
 HECHO (ya en el repo, commit c4ecc46 y anteriores):
