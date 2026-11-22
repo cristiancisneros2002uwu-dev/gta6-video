@@ -1,5 +1,5 @@
 DE: CAPO   FECHA: 2026-11-22 (actualizado tras decisiones de Cristian)   PARA: MÁQUINA
-ESTADO: pendiente
+ESTADO: respondido
 ASUNTO: Decisiones de Cristian
 
 - Créditos: el contador sale de la cuenta de ElevenLabs; los JSON son control. Corrige creditos.md.
