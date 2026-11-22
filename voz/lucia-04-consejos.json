@@ -1,0 +1,42 @@
+{
+ "voz_id": "pNInz6obpgDQGcFmaJgB",
+ "modelo": "eleven_multilingual_v2",
+ "caracteres": 327,
+ "frases": [
+  {
+   "texto": "¿Quieres subir tu relación con Lucía?",
+   "inicio": 0.0,
+   "fin": 2.31
+  },
+  {
+   "texto": "Uno: cambia a Lucía de vez en cuando.",
+   "inicio": 2.635,
+   "fin": 5.306
+  },
+  {
+   "texto": "Dos: salúdala, tómala de la mano e invítale de comer.",
+   "inicio": 5.48,
+   "fin": 9.462
+  },
+  {
+   "texto": "Tres: si propone algo caro, págalo. Sube mucho.",
+   "inicio": 9.671,
+   "fin": 13.479
+  },
+  {
+   "texto": "Cuatro: salgan a la playa, al zoológico o a bucear.",
+   "inicio": 13.653,
+   "fin": 17.717
+  },
+  {
+   "texto": "Cinco: antes de un robo largo, súbela con detalles pequeños.",
+   "inicio": 17.891,
+   "fin": 21.955
+  },
+  {
+   "texto": "Sigue para la parte cinco. ¡Sígueme!",
+   "inicio": 22.071,
+   "fin": 24.567
+  }
+ ]
+}

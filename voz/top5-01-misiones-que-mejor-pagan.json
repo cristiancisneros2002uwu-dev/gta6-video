@@ -1,0 +1,47 @@
+{
+ "voz_id": "pNInz6obpgDQGcFmaJgB",
+ "modelo": "eleven_multilingual_v2",
+ "caracteres": 396,
+ "frases": [
+  {
+   "texto": "¿Qué misiones pagan más en GTA seis?",
+   "inicio": 0.0,
+   "fin": 3.053
+  },
+  {
+   "texto": "Vamos del quinto al primero.",
+   "inicio": 3.228,
+   "fin": 4.818
+  },
+  {
+   "texto": "Quinto: la mercancía perdida de Donnie. mil doscientos dólares.",
+   "inicio": 5.062,
+   "fin": 9.694
+  },
+  {
+   "texto": "Cuarto: Daily Driver. mil doscientos cincuenta, más quinientos por buen estado.",
+   "inicio": 9.903,
+   "fin": 15.441
+  },
+  {
+   "texto": "Tercero: Dubious Provenance. Unos dos mil quinientos.",
+   "inicio": 15.685,
+   "fin": 20.062
+  },
+  {
+   "texto": "Segundo: Slam Dunk. mil setecientos, más unos mil.",
+   "inicio": 20.341,
+   "fin": 25.739
+  },
+  {
+   "texto": "Primero: Afternoon Delight. diez mil dólares.",
+   "inicio": 26.122,
+   "fin": 30.0
+  },
+  {
+   "texto": "Sigue para el número dos. ¡Sígueme!",
+   "inicio": 30.209,
+   "fin": 32.879
+  }
+ ]
+}
