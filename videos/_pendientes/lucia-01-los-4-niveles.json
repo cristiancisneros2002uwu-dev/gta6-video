@@ -1,0 +1,80 @@
+{
+ "titulo": "Cómo conquistar a Lucía en GTA VI: Parte 1 — Los 4 niveles",
+ "serie": "Lucía",
+ "numero": 1,
+ "formato": "PARTE",
+ "fuente": "gta6encyclopedia.com/guia-completa/relacion-con-lucia/",
+ "escenas": [
+  {
+   "tipo": "hook",
+   "dur": 3.0,
+   "serie": "Cómo conquistar a Lucía en GTA VI",
+   "texto": "¿Te *ama* o solo son [socios]?",
+   "voz": "¿En qué nivel está Lucía contigo?"
+  },
+  {
+   "tipo": "levels",
+   "dur": 3.0,
+   "nivel": 0,
+   "texto": "Del *peor* al [mejor]",
+   "voz": "La relación tiene 4 niveles."
+  },
+  {
+   "tipo": "levels",
+   "dur": 4.0,
+   "nivel": 1,
+   "nombre": "Running On Empty",
+   "desc": "No terminan: siguen siendo socios",
+   "voz": "El más bajo: sin coqueteo ni intimidad."
+  },
+  {
+   "tipo": "levels",
+   "dur": 3.5,
+   "nivel": 2,
+   "nombre": "Not So Hot",
+   "desc": "Más amigos que pareja",
+   "voz": "El dos: se pone incómoda, como de amigos."
+  },
+  {
+   "tipo": "levels",
+   "dur": 3.5,
+   "nivel": 3,
+   "nombre": "Crazy In Love",
+   "desc": "Más tiempo juntos",
+   "voz": "El tres: coquetean mucho."
+  },
+  {
+   "tipo": "levels",
+   "dur": 4.0,
+   "nivel": 4,
+   "nombre": "Hot Together",
+   "desc": "Las mejores escenas juntos",
+   "voz": "Y el máximo: la relación más cercana."
+  },
+  {
+   "tipo": "info",
+   "dur": 4.0,
+   "icono": "updown",
+   "texto": "*No* es fijo",
+   "nota": "Cambia durante toda la historia",
+   "voz": "Sube y baja según cómo juegues, no por las misiones."
+  },
+  {
+   "tipo": "info",
+   "dur": 3.5,
+   "icono": "pause",
+   "texto": "¿Dónde *verlo*?",
+   "nota": "Pausa · pestaña 1",
+   "voz": "Míralo en la primera pestaña del menú de pausa."
+  },
+  {
+   "tipo": "cta",
+   "dur": 2.5,
+   "voz": "La próxima: qué la sube. ¡Sígueme!"
+  },
+  {
+   "tipo": "end",
+   "dur": 2.0
+  }
+ ]
+}

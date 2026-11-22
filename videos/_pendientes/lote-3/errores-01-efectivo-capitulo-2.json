@@ -1,0 +1,65 @@
+{
+ "titulo": "Errores que te arruinan la partida #1 — El efectivo del Capítulo 1 no pasa al Capítulo 2",
+ "serie": "Errores",
+ "numero": 1,
+ "formato": "#",
+ "fuente": "gta6encyclopedia.com/guia-completa/dinero/ · /guia-completa/primeros-pasos/ · /guia-completa/consejos/",
+ "escenas": [
+  {
+   "tipo": "hook",
+   "dur": 4.0,
+   "serie": "Errores que te arruinan la partida",
+   "texto": "¿Tu dinero [sobrevive] al Capítulo 2?",
+   "voz": "Este error te deja sin un dólar en el Capítulo 2."
+  },
+  {
+   "tipo": "info",
+   "dur": 4.2,
+   "icono": "bag",
+   "texto": "El efectivo *no pasa*",
+   "nota": "Del Capítulo 1 al 2",
+   "voz": "Al cambiar de capítulo, el efectivo que traes se pierde."
+  },
+  {
+   "tipo": "info",
+   "dur": 4.2,
+   "icono": "card",
+   "texto": "Solo vive [BuckMe]",
+   "nota": "Efectivo y ahorros no son lo mismo",
+   "voz": "Lo único que se conserva son tus ahorros de BuckMe."
+  },
+  {
+   "tipo": "info",
+   "dur": 4.2,
+   "icono": "house",
+   "texto": "¿Y la *casa*?",
+   "nota": "La de Key Lento",
+   "voz": "Tras la misión Recalibration, también pierdes la casa de Key Lento."
+  },
+  {
+   "tipo": "step",
+   "dur": 4.2,
+   "paso": "SOLUCIÓN",
+   "icono": "safe",
+   "texto": "Deja *$5.000* en ahorros",
+   "voz": "Antes de ese punto, deja al menos 5.000 dólares en ahorros."
+  },
+  {
+   "tipo": "info",
+   "dur": 3.2,
+   "icono": "pause",
+   "texto": "Guarda a [mano]",
+   "nota": "Y termina lo opcional del Capítulo 1",
+   "voz": "Y guarda manualmente antes de Recalibration."
+  },
+  {
+   "tipo": "cta",
+   "dur": 2.8,
+   "voz": "Sigue para el número dos. ¡Sígueme!"
+  },
+  {
+   "tipo": "end",
+   "dur": 2.0
+  }
+ ]
+}

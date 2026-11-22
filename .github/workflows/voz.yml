@@ -1,0 +1,33 @@
+name: Generar voz
+
+on:
+  push:
+    branches: [main]
+    paths: ["videos/lote-*/**.json"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: voz
+  cancel-in-progress: false
+
+jobs:
+  voz:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generar audios con ElevenLabs
+        env:
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+        run: python3 tools/tts.py
+      - name: Guardar audios en el repo
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add voz/
+          if git diff --cached --quiet; then echo "Sin audios nuevos"; exit 0; fi
+          git commit -m "Voz generada"
+          git pull --rebase origin main
+          git push origin main

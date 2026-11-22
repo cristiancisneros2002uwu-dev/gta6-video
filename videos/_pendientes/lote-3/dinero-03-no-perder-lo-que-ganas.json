@@ -1,0 +1,65 @@
+{
+ "titulo": "¿Cómo ganar dinero en GTA VI? Parte 3 — Cómo no perder lo que ganas",
+ "serie": "Dinero",
+ "numero": 3,
+ "formato": "PARTE",
+ "fuente": "gta6encyclopedia.com/guia-completa/dinero/ (Cómo no perder lo que ganas) · /guia-completa/consejos/",
+ "escenas": [
+  {
+   "tipo": "hook",
+   "dur": 3.5,
+   "serie": "¿Cómo ganar dinero en GTA VI?",
+   "texto": "¿Ganas dinero y se *esfuma*?",
+   "voz": "¿Ganaste miles y lo perdiste en un segundo?"
+  },
+  {
+   "tipo": "info",
+   "dur": 4.8,
+   "icono": "bag",
+   "texto": "Ojo con el *efectivo*",
+   "nota": "También las armas que no son tuyas",
+   "voz": "Si te arrestan o te eliminan, pierdes lo que traes encima."
+  },
+  {
+   "tipo": "step",
+   "dur": 5.0,
+   "paso": "1",
+   "icono": "house",
+   "texto": "Tu caja [secreta]",
+   "voz": "Uno: en la recámara de Jason hay una caja bajo las tablas."
+  },
+  {
+   "tipo": "step",
+   "dur": 5.5,
+   "paso": "2",
+   "icono": "box",
+   "texto": "Revisa el [buzón]",
+   "voz": "Dos: el buzón. Ahí llegan los pagos de misiones y de los fences."
+  },
+  {
+   "tipo": "step",
+   "dur": 4.0,
+   "paso": "3",
+   "icono": "card",
+   "texto": "Deposita en [BuckMe]",
+   "voz": "Tres: lo que guardas en BuckMe no se pierde."
+  },
+  {
+   "tipo": "info",
+   "dur": 4.0,
+   "icono": "safe",
+   "texto": "Antes del *riesgo*",
+   "nota": "Deposita en cualquier cajero",
+   "voz": "Antes de una misión peligrosa, pasa por un cajero."
+  },
+  {
+   "tipo": "cta",
+   "dur": 2.8,
+   "voz": "Sigue para la parte cuatro. ¡Sígueme!"
+  },
+  {
+   "tipo": "end",
+   "dur": 2.0
+  }
+ ]
+}

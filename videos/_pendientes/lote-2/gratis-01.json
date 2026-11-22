@@ -1,0 +1,107 @@
+{
+ "titulo": "Gratis en GTA VI: Parte 1 — Armas en las patrullas",
+ "serie": "Gratis",
+ "numero": 1,
+ "formato": "PARTE",
+ "fuente": "gta6encyclopedia.com/easter-eggs/, /guia-completa/como-perder-a-la-policia/, /guia-completa/dinero/ y /coleccionables/desafios/",
+ "escenas": [
+  {
+   "tipo": "hook",
+   "dur": 3.0,
+   "serie": "Gratis en GTA VI",
+   "texto": "¿*Armas* sin pagar [nada]?",
+   "voz": "¿Armas gratis sin pisar Ammu-Nation?"
+  },
+  {
+   "tipo": "title",
+   "dur": 3.5,
+   "icono": "box",
+   "kicker": "Están en la cajuela",
+   "texto": "Patrullas *estacionadas*",
+   "voz": "Las patrullas llevan armas atrás."
+  },
+  {
+   "tipo": "checklist",
+   "dur": 4.0,
+   "titulo": "Elige *bien*",
+   "paso": 1.0,
+   "items": [
+    {
+     "icono": "check",
+     "texto": "Sin *policías* cerca"
+    },
+    {
+     "icono": "check",
+     "texto": "Lugar *apartado*"
+    }
+   ],
+   "voz": "Busca una sola, sin policías y bien apartada."
+  },
+  {
+   "tipo": "step",
+   "dur": 3.0,
+   "paso": "PASO 1",
+   "icono": "check",
+   "texto": "Que *no* te reconozcan",
+   "voz": "Ponte máscara, gorra y lentes."
+  },
+  {
+   "tipo": "step",
+   "dur": 3.5,
+   "paso": "PASO 2",
+   "icono": "box",
+   "texto": "Fuerza la *cajuela*",
+   "voz": "Estaciona detrás y rompe la cerradura."
+  },
+  {
+   "tipo": "step",
+   "dur": 3.5,
+   "paso": "PASO 3",
+   "icono": "arrow_down",
+   "texto": "Toma todo y [corre]",
+   "voz": "Salta la alarma: agarra todo y vete."
+  },
+  {
+   "tipo": "checklist",
+   "dur": 4.0,
+   "titulo": "¿Qué te *toca*?",
+   "paso": 0.9,
+   "items": [
+    {
+     "icono": "crosshair",
+     "texto": "*Armas* largas o cortas"
+    },
+    {
+     "icono": "plus",
+     "texto": "*Chaleco* antibalas"
+    }
+   ],
+   "voz": "Te tocan armas, chaleco o una combinación."
+  },
+  {
+   "tipo": "info",
+   "dur": 3.5,
+   "icono": "van",
+   "texto": "*Ojo* con la policía",
+   "nota": "Si está cerca, te detecta",
+   "voz": "Guárdalas en tu coche y no te tardes."
+  },
+  {
+   "tipo": "info",
+   "dur": 3.5,
+   "icono": "check",
+   "texto": "Bonus: [desafío]",
+   "nota": "Cop Weapon Theft · 5 patrullas",
+   "voz": "Hazlo en 5 patrullas y cumples un desafío."
+  },
+  {
+   "tipo": "cta",
+   "dur": 2.5,
+   "voz": "Viene más gratis. ¡Sígueme!"
+  },
+  {
+   "tipo": "end",
+   "dur": 2.0
+  }
+ ]
+}
