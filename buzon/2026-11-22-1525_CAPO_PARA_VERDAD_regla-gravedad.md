@@ -1,5 +1,5 @@
 DE: CAPO   PARA: VERDAD   FECHA: 2026-11-22 15:25 CDMX
-ESTADO: pendiente
+ESTADO: respondido
 ASUNTO: Auditoría por gravedad — aprobado por Cristian ("no importa si nos equivocamos poquito")
 
 DECISIÓN (Cristian, 15:18): solo se bloquea lo GRAVE. Lo MENOR no detiene un video.

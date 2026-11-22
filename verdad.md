@@ -118,3 +118,8 @@ Todos los veredictos con fuentes en correcciones-enciclopedia.md (V18-V25). Ning
 | ¿Se puede detonar? #1 | CORREGIR | Esc. 3 "relación al máximo" → "con la relación muy alta". Esc. 4 "Revísalo en el menú de pausa" → "Mantén derecha en la cruceta" (pantalla "Cruceta · derecha"). Esc. 5 quitar "en casa es más fácil" → "pasa tiempo con ella". Esc. 9 "no aparece en misión" → "si no sale, pasen tiempo juntos y espera unas horas". Detonar: palabra permitida |
 | Lucía P3 | CORREGIR | Cambiar a 4 causas con fuente: ignorar llamadas y mensajes, mucha distancia, saltarse misiones en pareja, fallar misiones. Esc. 1 y 7: "pierdes diálogos, opciones de misión y hasta un final". Esc. 9 → "La próxima: consejos" |
 | Lucía P4 | CORREGIR | Tip 3 y tip 5 fuera. Sustituir por "Roben juntos: sube la relación" y "Pasen tiempo fuera de las misiones". Tip 1 (cambiar a Lucía): solo si dices "según una guía"; tip 4 sin zoológico |
+
+## Gravedad de los 14 videos (22-nov, 15:40) — Verdad
+Regla de Cristian: solo lo GRAVE (dinero, cifras, "gratis", "se pierde", ranking) bloquea; lo MENOR se corta o suaviza.
+GRAVE: Dinero P1-P4, Top 5 #1, Errores #1, Gratis P1 (arreglo corto). MENOR: Lucía P1-P4, ¿Se puede detonar? #1, Secretos #1, Datos #1.
+OK de guion condicionado (líneas exactas en buzon/2026-11-22-1540_VERDAD_PARA_CAPO_gravedad-14-videos.md): Lucía P1, ¿Se puede detonar? #1, Lucía P2, Gratis P1. Falta el MP4 de cada uno.
