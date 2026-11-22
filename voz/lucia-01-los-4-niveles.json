@@ -1,0 +1,52 @@
+{
+ "voz_id": "pNInz6obpgDQGcFmaJgB",
+ "modelo": "eleven_multilingual_v2",
+ "caracteres": 349,
+ "frases": [
+  {
+   "texto": "¿En qué nivel está Lucía contigo?",
+   "inicio": 0.0,
+   "fin": 1.846
+  },
+  {
+   "texto": "La relación tiene cuatro niveles.",
+   "inicio": 2.786,
+   "fin": 4.841
+  },
+  {
+   "texto": "El más bajo: sin coqueteo ni intimidad.",
+   "inicio": 5.224,
+   "fin": 8.255
+  },
+  {
+   "texto": "El dos: se pone incómoda, como de amigos.",
+   "inicio": 8.696,
+   "fin": 12.005
+  },
+  {
+   "texto": "El tres: coquetean mucho.",
+   "inicio": 12.446,
+   "fin": 14.652
+  },
+  {
+   "texto": "Y el máximo: la relación más cercana.",
+   "inicio": 15.093,
+   "fin": 18.007
+  },
+  {
+   "texto": "Sube y baja según cómo juegues, no por las misiones.",
+   "inicio": 18.321,
+   "fin": 21.827
+  },
+  {
+   "texto": "Míralo en la primera pestaña del menú de pausa.",
+   "inicio": 22.523,
+   "fin": 24.984
+  },
+  {
+   "texto": "La próxima: qué la sube. ¡Sígueme!",
+   "inicio": 25.495,
+   "fin": 28.746
+  }
+ ]
+}
