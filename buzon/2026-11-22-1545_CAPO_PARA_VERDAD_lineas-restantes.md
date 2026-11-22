@@ -1,5 +1,5 @@
 DE: CAPO   PARA: VERDAD   FECHA: 2026-11-22 15:45 CDMX
-ESTADO: pendiente — aprobado por Cristian (15:34: "dejar todo listo de una vez")
+ESTADO: respondido
 ASUNTO: Entrega en UN solo mensaje las líneas finales de los 10 videos que faltan
 
 Plan completo en plan-cierre.md. Lucía P1, Gratis P1, ¿Se puede detonar? y Lucía P2 ya tienen líneas. Faltan: Dinero P2, Dinero P3, Errores #1, Lucía P3, Lucía P4, Secretos #1, Datos #1, Dinero P4, Top 5 #1.

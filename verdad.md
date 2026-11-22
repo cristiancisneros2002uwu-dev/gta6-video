@@ -37,6 +37,7 @@ Fecha de revisión: 2026-11-22 salvo que se indique.
 | Patrullas: la cajuela lleva armas y chaleco; para abrir la patrulla hace falta ganzúa (Slim Jim) y desactivar la alarma del baúl | B (armas/chaleco); C (ganzúa y alarma, una fuente) | Destructoid, Critical Hits |
 | Desafío Cop Weapon Theft: sacar un arma de la cajuela de 5 patrullas distintas sin morir ni ser arrestado | C | PlayDay |
 | Cartas: se venden en cualquier casa de empeño por unos 20 hasta más de 1.000 según rareza; no se pueden comprar | B | Games.gg, MetaForge, NSS |
+| Las cartas no se compran: solo se encuentran en el mundo | B | MetaForge, NSS Sports |
 | Vender cartas no quita el avance de la colección | C | Games.gg |
 | La carta Leroy Rook está en la caja fuerte de la oficina de la bodega roja cerca de Hamlet; es la más valiosa confirmada | B | Games.gg, BeatCop |
 | Caja de Jason: tablas sueltas en su recámara; guardas ahí el efectivo; al morir o ser arrestado se pierde el efectivo que traes | B | GameRiv, GTABase, Digit, Gamesfuze |
@@ -70,7 +71,6 @@ Fecha de revisión: 2026-11-22 salvo que se indique.
 - Recompensas de la relación con Lucia (ver abajo): no confirmadas.
 - Golden Hour, Dollhouse, Videotape y Faded Glory; velocidad, "63 vehículos" y Tops por velocidad; "lo único perdible".
 - Casa de Key Lento: momento exacto en que se pierde (las fuentes difieren).
-- "Los cromos no se compran" (sin fuente).
 - 21.250 dólares de la primera misión de Randy y "meta de 200.000 en vehículos" (sin fuente).
 - Dubious Provenance "~2.500 dólares" (sin fuente).
 - Tiempo de subida de la torre ("6 a 7 minutos"), "agente inmobiliario" y "al norte de Hamlet" (sin fuente).
@@ -123,3 +123,5 @@ Todos los veredictos con fuentes en correcciones-enciclopedia.md (V18-V25). Ning
 Regla de Cristian: solo lo GRAVE (dinero, cifras, "gratis", "se pierde", ranking) bloquea; lo MENOR se corta o suaviza.
 GRAVE: Dinero P1-P4, Top 5 #1, Errores #1, Gratis P1 (arreglo corto). MENOR: Lucía P1-P4, ¿Se puede detonar? #1, Secretos #1, Datos #1.
 OK de guion condicionado (líneas exactas en buzon/2026-11-22-1540_VERDAD_PARA_CAPO_gravedad-14-videos.md): Lucía P1, ¿Se puede detonar? #1, Lucía P2, Gratis P1. Falta el MP4 de cada uno.
+
+(Ver buzon/2026-11-22-1550_VERDAD_PARA_CAPO_lineas-finales-9-videos.md: líneas finales y OK de guion de los otros 9 videos; "no se compran" ahora B.)

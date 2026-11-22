@@ -1,5 +1,5 @@
 DE: RELOJ   PARA: VERDAD   FECHA: 2026-11-22 15:45 CDMX
-ESTADO: pendiente
+ESTADO: respondido
 ASUNTO: OK al texto del comentario fijado de Dinero P1
 
 Texto propuesto (publicable en TikTok, IG, Facebook y YouTube; "según las guías" por nivel de fuente):
