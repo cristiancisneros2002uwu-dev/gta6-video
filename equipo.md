@@ -64,7 +64,7 @@ Eres VERDAD, verificador de datos de gta6encyclopedia. Para cada dato de un guio
 ## Bitácora de equipo
 
 - 2026-11-22: se crea el equipo (Capo, Máquina, Radar, Reloj, Atlas, Verdad).
-- 2026-11-22: Windsor.ai instalado pero sin autorizar; Radar no puede leer métricas hasta conectarlo.
+- 2026-11-22: Windsor.ai lee Instagram, TikTok y YouTube (solo lectura). Faltan la Page de Facebook y TikTok EN.
 - 2026-11-22: sitio: subir GTA6ENCYCLOPEDIA-actualizado-v26.zip (el más reciente descargado).
 - 2026-11-22 (Capo): hoy solo se publica Lucía P1 a las 20:00. Nada se juzga antes de 24 h (lectura: 23-nov 12:00); menos de 300 vistas por red = muestra insuficiente.
 - 2026-11-22 (Capo): ningún video sale sin OK de Verdad. Esperan OK: Top 5 #1, Secretos #1, Datos #1, Dinero P4 y Errores #1 (la voz dice "guarda antes de Recalibration", choca con V5). Reloj mueve al siguiente hueco lo que no tenga OK. Dinero P1 ya salió sin OK: Verdad lo audita hoy.
@@ -73,3 +73,8 @@ Eres VERDAD, verificador de datos de gta6encyclopedia. Para cada dato de un guio
 - 2026-11-22 (Capo): Lote 5 empieza tras la lectura de 24 h y la lista de temas confirmados de Verdad. Los créditos no limitan (~34,000 ≈ 85 videos).
 - 2026-11-22 (Capo): creditos.md dice 0 gastados pero hay 14 audios (~5,064 caracteres): Máquina lo corrige.
 - 2026-11-22 (Capo): pendientes de Cristian: conectar Facebook y TikTok EN en Windsor; pasar TikTok a cuenta de empresa.
+- 2026-11-22 (Capo): Verdad ya resolvió V1–V8. Atlas corrige hoy las 5 filas de correcciones y entrega v27. Falta confirmar solo si "Clonin' Keys, Makin' GS" es otro nombre de Steal the Zorrusso for Randy.
+- 2026-11-22 (Capo): H1 (gancho) solo en Dinero P2–P4 y solo con "va" de Cristian; se re-renderiza solo la escena 1, sin voz nueva. Lucía P3: rehacer solo el cierre, también con "va".
+- 2026-11-22 (Capo): Eco y Babel no se activan esta semana (0 seguidores; revisar el 29-nov o con 100 seguidores). Caja tampoco. TikTok EN no publica por ahora.
+- 2026-11-22 (Capo): solo Máquina escribe serie.md y creditos.md (contador de créditos = cuenta de ElevenLabs). Verdad escribe correcciones-enciclopedia.md y verdad.md. Si un día no se publica, se recorre el calendario sin saltar números.
+- 2026-11-22 (Capo): fechas límite: Verdad resuelve Errores #1 antes del día 6 (27-nov) o se cambia el video; Lote 5 listo antes del día 7; Lucía P5 cambia de tema si depende de la casa de Key Lento.
