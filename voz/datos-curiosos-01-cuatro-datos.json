@@ -1,0 +1,37 @@
+{
+ "voz_id": "pNInz6obpgDQGcFmaJgB",
+ "modelo": "eleven_multilingual_v2",
+ "caracteres": 306,
+ "frases": [
+  {
+   "texto": "Cuatro datos de GTA seis que quizá no sabías.",
+   "inicio": 0.0,
+   "fin": 2.856
+  },
+  {
+   "texto": "Uno: Leonida no existe, pero se inspira en Florida.",
+   "inicio": 3.1,
+   "fin": 7.187
+  },
+  {
+   "texto": "Dos: hay cuatrocientos ochenta cromos, y no se compran.",
+   "inicio": 7.43,
+   "fin": 11.517
+  },
+  {
+   "texto": "Tres: comer, entrenar y dormir cambian tus estadísticas.",
+   "inicio": 11.796,
+   "fin": 15.697
+  },
+  {
+   "texto": "Cuatro: el juego va a treinta FPS en todas las plataformas.",
+   "inicio": 16.022,
+   "fin": 20.434
+  },
+  {
+   "texto": "Sigue para el número dos. ¡Sígueme!",
+   "inicio": 20.608,
+   "fin": 22.756
+  }
+ ]
+}

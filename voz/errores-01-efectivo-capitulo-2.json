@@ -1,0 +1,42 @@
+{
+ "voz_id": "pNInz6obpgDQGcFmaJgB",
+ "modelo": "eleven_multilingual_v2",
+ "caracteres": 333,
+ "frases": [
+  {
+   "texto": "Este error te deja sin efectivo en el Capítulo dos.",
+   "inicio": 0.0,
+   "fin": 2.984
+  },
+  {
+   "texto": "Al empezar la misión Tourist Trap, el efectivo que traes se pierde.",
+   "inicio": 3.309,
+   "fin": 7.628
+  },
+  {
+   "texto": "Lo que depositaste en BuckMe sí se conserva.",
+   "inicio": 7.953,
+   "fin": 11.134
+  },
+  {
+   "texto": "Y puedes depositar en cualquier cajero.",
+   "inicio": 11.343,
+   "fin": 13.688
+  },
+  {
+   "texto": "Antes de esa misión, deposita todo tu efectivo.",
+   "inicio": 13.897,
+   "fin": 17.554
+  },
+  {
+   "texto": "Y guarda manualmente antes de Recalibration.",
+   "inicio": 17.798,
+   "fin": 20.387
+  },
+  {
+   "texto": "Sigue para el número dos. ¡Sígueme!",
+   "inicio": 20.596,
+   "fin": 22.988
+  }
+ ]
+}
