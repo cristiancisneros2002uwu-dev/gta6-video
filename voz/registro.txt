@@ -1,4 +1,9 @@
 /home/runner/work/gta6-video/gta6-video/tools/tts.py:98: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
   lineas = ["# Créditos de ElevenLabs", "", f"Actualizado: {datetime.datetime.utcnow():%Y-%m-%d %H:%M} UTC", ""]
-Listo: 0 audios nuevos
+/home/runner/work/gta6-video/gta6-video/tools/tts.py:107: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  f"- Reinicia: {datetime.datetime.utcfromtimestamp(sub['next_character_count_reset_unix']):%Y-%m-%d}"
+Voz: gratis-01-armas-patrullas (371 caracteres)
+Voz: lucia-02-que-la-sube (338 caracteres)
+Voz: se-puede-01-detonar (361 caracteres)
+Listo: 3 audios nuevos
 creditos.md actualizado

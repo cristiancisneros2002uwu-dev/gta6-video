@@ -1,0 +1,57 @@
+{
+ "voz_id": "pNInz6obpgDQGcFmaJgB",
+ "modelo": "eleven_multilingual_v2",
+ "caracteres": 361,
+ "frases": [
+  {
+   "texto": "¿Se puede detonar? ¡Sí!",
+   "inicio": 0.0,
+   "fin": 2.02
+  },
+  {
+   "texto": "Pero solo entre Jason y Lucía.",
+   "inicio": 2.136,
+   "fin": 4.11
+  },
+  {
+   "texto": "Necesitas la relación al máximo.",
+   "inicio": 4.284,
+   "fin": 6.118
+  },
+  {
+   "texto": "Revísalo en el menú de pausa.",
+   "inicio": 6.327,
+   "fin": 7.964
+  },
+  {
+   "texto": "Acércate a tu pareja; en casa es más fácil.",
+   "inicio": 8.081,
+   "fin": 10.786
+  },
+  {
+   "texto": "Elige la opción con dos corazones.",
+   "inicio": 10.96,
+   "fin": 13.038
+  },
+  {
+   "texto": "La cámara se corta en el momento clave.",
+   "inicio": 13.282,
+   "fin": 15.499
+  },
+  {
+   "texto": "En Coming Home hay una que pasa siempre.",
+   "inicio": 15.615,
+   "fin": 18.065
+  },
+  {
+   "texto": "Si no aparece, sube la relación o termina la misión.",
+   "inicio": 18.239,
+   "fin": 21.757
+  },
+  {
+   "texto": "¿Qué pregunta sigue? ¡Sígueme!",
+   "inicio": 21.885,
+   "fin": 24.056
+  }
+ ]
+}
