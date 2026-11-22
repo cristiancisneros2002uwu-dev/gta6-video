@@ -1,0 +1,90 @@
+{
+ "modelo": "eleven_multilingual_v2",
+ "prefijo": "",
+ "titulo": "Top 5 misiones que mejor pagan en GTA VI #1",
+ "serie": "Top 5",
+ "numero": 1,
+ "formato": "#",
+ "fuente": "gta6encyclopedia.com/guia-completa/dinero/ (Misiones que pagan bien) · /misiones/historia/afternoon-delight/, /slam-dunk/, /dubious-provenance/, /daily-driver/, /donnies-lost-drugs/",
+ "escenas": [
+  {
+   "tipo": "hook",
+   "dur": 3.5,
+   "serie": "Top 5",
+   "texto": "Las que *más* [pagan]",
+   "voz": "¿Qué misiones pagan más en GTA VI?"
+  },
+  {
+   "tipo": "info",
+   "dur": 3.5,
+   "icono": "bag",
+   "texto": "Del [5] al [1]",
+   "nota": "Por pago",
+   "voz": "Vamos del quinto al primero."
+  },
+  {
+   "tipo": "counter",
+   "dur": 4.0,
+   "icono": "box",
+   "texto": "[#5] Mercancía de Donnie",
+   "nota": "Capítulo 1",
+   "desde": 0,
+   "hasta": 1200,
+   "prefijo": "$",
+   "voz": "Quinto: la mercancía perdida de Donnie. 1.200 dólares."
+  },
+  {
+   "tipo": "counter",
+   "dur": 4.0,
+   "icono": "van",
+   "texto": "[#4] Daily Driver",
+   "nota": "1.250 + 500 de bono",
+   "desde": 0,
+   "hasta": 1750,
+   "prefijo": "$",
+   "voz": "Cuarto: Daily Driver. 1.250, más 500 por buen estado."
+  },
+  {
+   "tipo": "counter",
+   "dur": 4.0,
+   "icono": "safe",
+   "texto": "[#3] Dubious Provenance",
+   "nota": "Joyas y efectivo, aprox.",
+   "desde": 0,
+   "hasta": 2500,
+   "prefijo": "$",
+   "voz": "Tercero: Dubious Provenance. Unos 2.500."
+  },
+  {
+   "tipo": "counter",
+   "dur": 4.0,
+   "icono": "bag",
+   "texto": "[#2] Slam Dunk",
+   "nota": "1.700 + unos 1.000",
+   "desde": 0,
+   "hasta": 2700,
+   "prefijo": "$",
+   "voz": "Segundo: Slam Dunk. 1.700, más unos 1.000."
+  },
+  {
+   "tipo": "counter",
+   "dur": 4.5,
+   "icono": "card",
+   "texto": "[#1] Afternoon Delight",
+   "nota": "Pago de una sola vez",
+   "desde": 0,
+   "hasta": 10000,
+   "prefijo": "$",
+   "voz": "Primero: Afternoon Delight. 10.000 dólares."
+  },
+  {
+   "tipo": "cta",
+   "dur": 2.5,
+   "voz": "Sigue para el número dos. ¡Sígueme!"
+  },
+  {
+   "tipo": "end",
+   "dur": 2.0
+  }
+ ]
+}

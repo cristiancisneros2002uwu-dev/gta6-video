@@ -1,0 +1,71 @@
+{
+ "modelo": "eleven_multilingual_v2",
+ "prefijo": "",
+ "titulo": "Cómo conquistar a Lucía en GTA VI: Parte 4 — Consejos",
+ "serie": "Lucía",
+ "numero": 4,
+ "formato": "PARTE",
+ "fuente": "gta6encyclopedia.com/guia-completa/relacion-con-lucia/ (Consejos para conquistar a Lucia, Qué sube la relación)",
+ "escenas": [
+  {
+   "tipo": "hook",
+   "dur": 3.5,
+   "serie": "Cómo conquistar a Lucía en GTA VI",
+   "texto": "5 consejos para [conquistarla]",
+   "voz": "¿Quieres subir tu relación con Lucía?"
+  },
+  {
+   "tipo": "step",
+   "dur": 4.0,
+   "paso": "1",
+   "icono": "heart",
+   "texto": "Juega con *los dos*",
+   "voz": "Uno: cambia a Lucía de vez en cuando."
+  },
+  {
+   "tipo": "step",
+   "dur": 4.0,
+   "paso": "2",
+   "icono": "check",
+   "texto": "Gestos [pequeños]",
+   "nota": "Saludo · mano · comida",
+   "voz": "Dos: salúdala, tómala de la mano e invítale de comer."
+  },
+  {
+   "tipo": "step",
+   "dur": 3.8,
+   "paso": "3",
+   "icono": "card",
+   "texto": "Págalo *todo*",
+   "nota": "Si propone algo caro",
+   "voz": "Tres: si propone algo caro, págalo. Sube mucho."
+  },
+  {
+   "tipo": "step",
+   "dur": 4.0,
+   "paso": "4",
+   "icono": "heart",
+   "texto": "Tengan [citas]",
+   "nota": "Playa · zoológico · buceo · kayak",
+   "voz": "Cuatro: salgan a la playa, al zoológico o a bucear."
+  },
+  {
+   "tipo": "step",
+   "dur": 4.2,
+   "paso": "5",
+   "icono": "safe",
+   "texto": "Antes del *golpe*",
+   "nota": "Detalles pequeños",
+   "voz": "Cinco: antes de un robo largo, súbela con detalles pequeños."
+  },
+  {
+   "tipo": "cta",
+   "dur": 2.5,
+   "voz": "Sigue para la parte cinco. ¡Sígueme!"
+  },
+  {
+   "tipo": "end",
+   "dur": 2.0
+  }
+ ]
+}

@@ -1,0 +1,81 @@
+{
+ "modelo": "eleven_multilingual_v2",
+ "prefijo": "",
+ "titulo": "¿Cómo ganar dinero en GTA VI? Parte 4 — La lista de deseos de Randy",
+ "serie": "Dinero",
+ "numero": 4,
+ "formato": "PARTE",
+ "fuente": "gta6encyclopedia.com/guia-completa/dinero/ · /misiones/historia/steal-the-zorrusso-for-randy/ · /logros-y-trofeos/supply-demand/",
+ "escenas": [
+  {
+   "tipo": "hook",
+   "dur": 3.5,
+   "serie": "¿Cómo ganar dinero en GTA VI?",
+   "texto": "Roba *autos* de [lujo]",
+   "voz": "¿21.250 dólares por un solo encargo?"
+  },
+  {
+   "tipo": "title",
+   "dur": 4.0,
+   "icono": "van",
+   "kicker": "Fence: Randy",
+   "texto": "Lista de [deseos]",
+   "voz": "Randy te pide 16 deportivos."
+  },
+  {
+   "tipo": "step",
+   "dur": 4.0,
+   "paso": "PASO 1",
+   "icono": "card",
+   "texto": "Clona las *llaves*",
+   "voz": "Usa el clonador de llaves para robarlos."
+  },
+  {
+   "tipo": "info",
+   "dur": 4.5,
+   "icono": "van",
+   "texto": "No *frenes*",
+   "nota": "El rastreador avisa a la policía",
+   "voz": "Maneja sin parar o la policía sabrá dónde estás."
+  },
+  {
+   "tipo": "counter",
+   "dur": 3.5,
+   "icono": "bag",
+   "texto": "Primer *encargo*",
+   "desde": 0,
+   "hasta": 21250,
+   "prefijo": "$",
+   "voz": "La primera misión paga 21.250 dólares."
+  },
+  {
+   "tipo": "counter",
+   "dur": 4.0,
+   "icono": "plus",
+   "texto": "Bono *extra*",
+   "desde": 0,
+   "hasta": 10000,
+   "prefijo": "+$",
+   "voz": "Más 10.000 si entregas el auto en buen estado."
+  },
+  {
+   "tipo": "counter",
+   "dur": 4.5,
+   "icono": "card",
+   "texto": "Meta de *vehículos*",
+   "desde": 0,
+   "hasta": 200000,
+   "prefijo": "$",
+   "voz": "Su lista cubre la meta de 200.000 en vehículos vendidos."
+  },
+  {
+   "tipo": "cta",
+   "dur": 2.5,
+   "voz": "Sigue para la parte cinco. ¡Sígueme!"
+  },
+  {
+   "tipo": "end",
+   "dur": 2.0
+  }
+ ]
+}
