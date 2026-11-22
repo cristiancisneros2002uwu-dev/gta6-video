@@ -1,0 +1,83 @@
+{
+ "modelo": "eleven_multilingual_v2",
+ "prefijo": "",
+ "titulo": "Cómo conquistar a Lucía en GTA VI: Parte 3 — Lo que arruina todo",
+ "serie": "Lucía",
+ "numero": 3,
+ "formato": "PARTE",
+ "fuente": "gta6encyclopedia.com/guia-completa/relacion-con-lucia/",
+ "escenas": [
+  {
+   "tipo": "hook",
+   "dur": 3.5,
+   "serie": "Cómo conquistar a Lucía en GTA VI",
+   "texto": "¿Sabes qué la [aleja]?",
+   "voz": "Cinco cosas que arruinan tu relación con Lucía."
+  },
+  {
+   "tipo": "step",
+   "dur": 3.0,
+   "paso": "1",
+   "icono": "arrow_down",
+   "texto": "Dejarla en *visto*",
+   "voz": "Uno: ignorar sus llamadas y mensajes."
+  },
+  {
+   "tipo": "step",
+   "dur": 3.0,
+   "paso": "2",
+   "icono": "arrow_down",
+   "texto": "Mucha [distancia]",
+   "voz": "Dos: pasar mucho tiempo separados."
+  },
+  {
+   "tipo": "step",
+   "dur": 3.2,
+   "paso": "3",
+   "icono": "arrow_down",
+   "texto": "No la *plantes*",
+   "voz": "Tres: dejarla abandonada cuando andan juntos."
+  },
+  {
+   "tipo": "step",
+   "dur": 2.5,
+   "paso": "4",
+   "icono": "arrow_down",
+   "texto": "Nada de [dañarla]",
+   "voz": "Cuatro: lastimarla."
+  },
+  {
+   "tipo": "step",
+   "dur": 3.0,
+   "paso": "5",
+   "icono": "arrow_down",
+   "texto": "Piensa *antes* de elegir",
+   "voz": "Cinco: elegir mal en algunas escenas."
+  },
+  {
+   "tipo": "info",
+   "dur": 4.4,
+   "icono": "heart",
+   "texto": "Ojo con el *descuido*",
+   "nota": "Se pierden gestos de pareja",
+   "voz": "Si la descuidas, pierdes opciones como tomarse de la mano."
+  },
+  {
+   "tipo": "info",
+   "dur": 4.0,
+   "icono": "check",
+   "texto": "Sí tiene [arreglo]",
+   "nota": "Nada es permanente",
+   "voz": "Pero se recuperan si vuelven a pasar tiempo juntos."
+  },
+  {
+   "tipo": "cta",
+   "dur": 2.8,
+   "voz": "La próxima: las recompensas. ¡Sígueme!"
+  },
+  {
+   "tipo": "end",
+   "dur": 2.0
+  }
+ ]
+}

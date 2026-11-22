@@ -1,0 +1,63 @@
+{
+ "modelo": "eleven_multilingual_v2",
+ "prefijo": "",
+ "titulo": "Datos curiosos #1 — Cuatro datos de GTA VI",
+ "serie": "Datos curiosos",
+ "numero": 1,
+ "formato": "#",
+ "fuente": "gta6encyclopedia.com/guia-completa/ (Ficha) · /cromos/ · /guia-completa/primeros-pasos/",
+ "escenas": [
+  {
+   "tipo": "hook",
+   "dur": 3.8,
+   "serie": "Datos curiosos",
+   "texto": "¿Cuántos [conocías]?",
+   "voz": "Cuatro datos de GTA VI que quizá no sabías."
+  },
+  {
+   "tipo": "step",
+   "dur": 3.6,
+   "paso": "DATO 1",
+   "icono": "van",
+   "texto": "Un estado *inventado*",
+   "voz": "Uno: Leonida no existe, pero se inspira en Florida."
+  },
+  {
+   "tipo": "counter",
+   "dur": 4.2,
+   "icono": "card",
+   "texto": "[Cromos] por juntar",
+   "desde": 0,
+   "hasta": 480,
+   "prefijo": "",
+   "sufijo": "",
+   "nota": "En 18 colecciones",
+   "voz": "Dos: hay 480 cromos, y no se compran."
+  },
+  {
+   "tipo": "step",
+   "dur": 3.6,
+   "paso": "DATO 3",
+   "icono": "updown",
+   "texto": "Tu cuerpo *cambia*",
+   "voz": "Tres: comer, entrenar y dormir cambian tus estadísticas."
+  },
+  {
+   "tipo": "step",
+   "dur": 4.2,
+   "paso": "DATO 4",
+   "icono": "check",
+   "texto": "Siempre a [30 FPS]",
+   "voz": "Cuatro: el juego va a 30 FPS en todas las plataformas."
+  },
+  {
+   "tipo": "cta",
+   "dur": 2.8,
+   "voz": "Sigue para el número dos. ¡Sígueme!"
+  },
+  {
+   "tipo": "end",
+   "dur": 2.0
+  }
+ ]
+}

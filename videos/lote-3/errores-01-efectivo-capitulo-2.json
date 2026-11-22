@@ -1,0 +1,67 @@
+{
+ "modelo": "eleven_multilingual_v2",
+ "prefijo": "",
+ "titulo": "Errores que te arruinan la partida #1 — El efectivo del Capítulo 1 no pasa al Capítulo 2",
+ "serie": "Errores",
+ "numero": 1,
+ "formato": "#",
+ "fuente": "gta6encyclopedia.com/guia-completa/dinero/ · /misiones/historia/get-shirleys-rum/ · /guia-completa/consejos/ · /guia-completa/primeros-pasos/",
+ "escenas": [
+  {
+   "tipo": "hook",
+   "dur": 4.0,
+   "serie": "Errores que te arruinan la partida",
+   "texto": "¿Tu dinero [sobrevive] al Capítulo 2?",
+   "voz": "Este error te deja sin efectivo en el Capítulo 2."
+  },
+  {
+   "tipo": "info",
+   "dur": 4.2,
+   "icono": "bag",
+   "texto": "El efectivo *no pasa*",
+   "nota": "Se pierde al empezar Tourist Trap",
+   "voz": "Al empezar la misión Tourist Trap, el efectivo que traes se pierde."
+  },
+  {
+   "tipo": "info",
+   "dur": 4.2,
+   "icono": "card",
+   "texto": "Tu [BuckMe] se queda",
+   "nota": "Efectivo y ahorros no son lo mismo",
+   "voz": "Lo que depositaste en BuckMe sí se conserva."
+  },
+  {
+   "tipo": "info",
+   "dur": 4.2,
+   "icono": "safe",
+   "texto": "Cualquier *cajero* sirve",
+   "nota": "Con la app BuckMe",
+   "voz": "Y puedes depositar en cualquier cajero."
+  },
+  {
+   "tipo": "step",
+   "dur": 4.2,
+   "paso": "SOLUCIÓN",
+   "icono": "safe",
+   "texto": "Deposita *todo* antes",
+   "voz": "Antes de esa misión, deposita todo tu efectivo."
+  },
+  {
+   "tipo": "info",
+   "dur": 3.2,
+   "icono": "pause",
+   "texto": "Guarda a [mano]",
+   "nota": "Y termina lo opcional del Capítulo 1",
+   "voz": "Y guarda manualmente antes de Recalibration."
+  },
+  {
+   "tipo": "cta",
+   "dur": 2.8,
+   "voz": "Sigue para el número dos. ¡Sígueme!"
+  },
+  {
+   "tipo": "end",
+   "dur": 2.0
+  }
+ ]
+}
