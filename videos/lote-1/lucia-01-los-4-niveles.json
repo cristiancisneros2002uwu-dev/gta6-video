@@ -23,51 +23,49 @@
   },
   {
    "tipo": "levels",
-   "dur": 4.0,
+   "dur": 3.5,
    "nivel": 1,
    "nombre": "Running On Empty",
-   "desc": "No terminan: siguen siendo socios",
-   "voz": "El más bajo: sin coqueteo ni intimidad."
+   "voz": "El más bajo: Lucía se aleja de ti."
   },
   {
    "tipo": "levels",
    "dur": 3.5,
-   "nivel": 2,
-   "nombre": "Nivel 2",
-   "desc": "Más amigos que pareja",
-   "voz": "El dos: se pone incómoda, como de amigos."
-  },
-  {
-   "tipo": "levels",
-   "dur": 3.5,
-   "nivel": 3,
-   "nombre": "Crazy In Love",
-   "desc": "Más tiempo juntos",
-   "voz": "El tres: coquetean mucho."
-  },
-  {
-   "tipo": "levels",
-   "dur": 4.0,
-   "nivel": 4,
-   "nombre": "Hot Together",
-   "desc": "Las mejores escenas juntos",
-   "voz": "Y el máximo: la relación más cercana."
-  },
-  {
-   "tipo": "info",
-   "dur": 4.0,
-   "icono": "updown",
-   "texto": "*No* es fijo",
-   "nota": "Cambia durante toda la historia",
-   "voz": "Sube y baja según cómo juegues, no por las misiones."
+   "nivel": 0,
+   "texto": "*1* · *2* · *3* · [4]",
+   "voz": "Del dos al cuatro, cada vez más cerca."
   },
   {
    "tipo": "info",
    "dur": 3.5,
-   "icono": "pause",
+   "icono": "plus",
+   "texto": "Lo que la [sube]",
+   "nota": "Hecho en pareja",
+   "voz": "Sube con mensajes, robos y misiones en pareja."
+  },
+  {
+   "tipo": "info",
+   "dur": 4.5,
+   "icono": "arrow_down",
+   "texto": "Si *baja* mucho",
+   "nota": "Según las guías",
+   "voz": "Según las guías, si baja mucho pierdes diálogos, opciones y hasta un final."
+  },
+  {
+   "tipo": "info",
+   "dur": 3.5,
+   "icono": "heart",
+   "texto": "*Cuídala*",
+   "nota": "Llamadas · mensajes · tiempo",
+   "voz": "Cuídala con llamadas, mensajes y tiempo juntos."
+  },
+  {
+   "tipo": "info",
+   "dur": 3.0,
+   "icono": "check",
    "texto": "¿Dónde *verlo*?",
-   "nota": "Pausa · pestaña 1",
-   "voz": "Míralo en la primera pestaña del menú de pausa."
+   "nota": "Cruceta · derecha",
+   "voz": "Míralo: mantén derecha en la cruceta."
   },
   {
    "tipo": "cta",
