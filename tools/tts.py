@@ -12,6 +12,7 @@ from num2words import num2words
 VOICE_ID = os.environ.get("VOICE_ID", "pNInz6obpgDQGcFmaJgB")  # Adam - Dominant, Firm
 MODEL_ID = os.environ.get("MODEL_ID", "eleven_v3")
 RESPALDO = "eleven_multilingual_v2"
+PREFIJO = os.environ.get("PREFIJO", "[Mexican Spanish accent] ")
 KEY = os.environ.get("ELEVENLABS_API_KEY")
 if not KEY:
     sys.exit("Falta el secreto ELEVENLABS_API_KEY")
@@ -66,9 +67,9 @@ for f in sorted(glob.glob("videos/lote-*/*.json")):
         continue
     d = json.load(open(f, encoding="utf8"))
     fr = frases(d)
-    texto, offs = "", []
+    texto, offs = PREFIJO, []
     for p in fr:
-        if texto:
+        if texto and not texto.endswith(" "):
             texto += " "
         offs.append((len(texto), len(texto) + len(p)))
         texto += p
