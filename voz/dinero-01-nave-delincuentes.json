@@ -1,0 +1,52 @@
+{
+ "voz_id": "pNInz6obpgDQGcFmaJgB",
+ "modelo": "eleven_multilingual_v2",
+ "caracteres": 404,
+ "frases": [
+  {
+   "texto": "¿diez mil dólares al inicio de GTA seis?",
+   "inicio": 0.0,
+   "fin": 2.543
+  },
+  {
+   "texto": "Busca la nave de los delincuentes.",
+   "inicio": 3.239,
+   "fin": 5.166
+  },
+  {
+   "texto": "Está en South Vice-Dale County, al este de Hamlet.",
+   "inicio": 5.608,
+   "fin": 8.858
+  },
+  {
+   "texto": "Elimina a los delincuentes.",
+   "inicio": 9.242,
+   "fin": 10.82
+  },
+  {
+   "texto": "En una mesa hay una bolsa con más de seis mil dólares.",
+   "inicio": 11.262,
+   "fin": 14.303
+  },
+  {
+   "texto": "Luego abre la caja fuerte de adentro y saquea las furgonetas.",
+   "inicio": 14.814,
+   "fin": 18.657
+  },
+  {
+   "texto": "En total, unos diez mil dólares, mercancía y un cromo exclusivo.",
+   "inicio": 19.04,
+   "fin": 23.766
+  },
+  {
+   "texto": "Llévalo a casa antes de arriesgarte.",
+   "inicio": 24.207,
+   "fin": 26.308
+  },
+  {
+   "texto": "Hay más botines así. ¡Sígueme!",
+   "inicio": 26.552,
+   "fin": 28.886
+  }
+ ]
+}

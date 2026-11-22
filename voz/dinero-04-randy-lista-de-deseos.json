@@ -1,0 +1,47 @@
+{
+ "voz_id": "pNInz6obpgDQGcFmaJgB",
+ "modelo": "eleven_multilingual_v2",
+ "caracteres": 405,
+ "frases": [
+  {
+   "texto": "¿veintiún mil doscientos cincuenta dólares por un solo encargo?",
+   "inicio": 0.0,
+   "fin": 3.727
+  },
+  {
+   "texto": "Randy te pide dieciséis deportivos.",
+   "inicio": 4.423,
+   "fin": 6.803
+  },
+  {
+   "texto": "Usa el clonador de llaves para robarlos.",
+   "inicio": 7.129,
+   "fin": 9.497
+  },
+  {
+   "texto": "Maneja sin parar o la policía sabrá dónde estás.",
+   "inicio": 9.88,
+   "fin": 13.421
+  },
+  {
+   "texto": "La primera misión paga veintiún mil doscientos cincuenta dólares.",
+   "inicio": 13.862,
+   "fin": 17.775
+  },
+  {
+   "texto": "Más diez mil si entregas el auto en buen estado.",
+   "inicio": 18.379,
+   "fin": 20.828
+  },
+  {
+   "texto": "Su lista cubre la meta de doscientos mil en vehículos vendidos.",
+   "inicio": 21.154,
+   "fin": 24.358
+  },
+  {
+   "texto": "Sigue para la parte cinco. ¡Sígueme!",
+   "inicio": 24.567,
+   "fin": 27.028
+  }
+ ]
+}

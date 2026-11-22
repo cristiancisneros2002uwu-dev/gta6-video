@@ -1,6 +1,6 @@
 # Créditos de ElevenLabs
 
-Actualizado: 2026-11-22 15:10 UTC
+Actualizado: 2026-11-22 15:12 UTC
 
 - Plan: starter
 - Gastados: **0** de 34,215

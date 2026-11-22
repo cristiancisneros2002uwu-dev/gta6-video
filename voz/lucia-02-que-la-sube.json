@@ -1,0 +1,52 @@
+{
+ "voz_id": "pNInz6obpgDQGcFmaJgB",
+ "modelo": "eleven_multilingual_v2",
+ "caracteres": 338,
+ "frases": [
+  {
+   "texto": "¿Quieres que Lucía te quiera más?",
+   "inicio": 0.0,
+   "fin": 1.602
+  },
+  {
+   "texto": "Cada vez que sube, aparece un corazón.",
+   "inicio": 2.287,
+   "fin": 4.818
+  },
+  {
+   "texto": "Salúdala y tómala de la mano.",
+   "inicio": 5.306,
+   "fin": 7.152
+  },
+  {
+   "texto": "Invítale de comer y contesta sus mensajes.",
+   "inicio": 7.825,
+   "fin": 10.612
+  },
+  {
+   "texto": "Hagan cosas juntos: playa, zoológico, buceo o kayak.",
+   "inicio": 10.983,
+   "fin": 16.289
+  },
+  {
+   "texto": "Hasta robar juntos sube la relación.",
+   "inicio": 16.672,
+   "fin": 18.924
+  },
+  {
+   "texto": "Si quiere quedarse en casa, acepta.",
+   "inicio": 19.516,
+   "fin": 22.151
+  },
+  {
+   "texto": "Y si propone algo caro, págalo.",
+   "inicio": 22.755,
+   "fin": 24.682
+  },
+  {
+   "texto": "La próxima: qué la baja. ¡Sígueme!",
+   "inicio": 25.007,
+   "fin": 28.096
+  }
+ ]
+}
