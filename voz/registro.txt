@@ -2,14 +2,6 @@
   lineas = ["# Créditos de ElevenLabs", "", f"Actualizado: {datetime.datetime.utcnow():%Y-%m-%d %H:%M} UTC", ""]
 /home/runner/work/gta6-video/gta6-video/tools/tts.py:107: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
   f"- Reinicia: {datetime.datetime.utcfromtimestamp(sub['next_character_count_reset_unix']):%Y-%m-%d}"
-Voz: dinero-02 (358 caracteres)
-Voz: datos-curiosos-01-cuatro-datos (307 caracteres)
-Voz: dinero-03-no-perder-lo-que-ganas (346 caracteres)
-Voz: errores-01-efectivo-capitulo-2 (332 caracteres)
-Voz: lucia-03-lo-que-arruina-todo (341 caracteres)
-Voz: dinero-04-randy-lista-de-deseos (398 caracteres)
-Voz: lucia-04-consejos (305 caracteres)
-Voz: secretos-01-huevo-torre-de-radio (322 caracteres)
-Voz: top5-01-misiones-que-mejor-pagan (394 caracteres)
-Listo: 9 audios nuevos
+Voz: gratis-02-caricatura-ruiner (338 caracteres)
+Listo: 1 audios nuevos
 creditos.md actualizado

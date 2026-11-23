@@ -1,0 +1,37 @@
+{
+ "voz_id": "pNInz6obpgDQGcFmaJgB",
+ "modelo": "eleven_multilingual_v2",
+ "caracteres": 338,
+ "frases": [
+  {
+   "texto": "¿Un coche con nitro, gratis, junto a la casa de Jason?",
+   "inicio": 0.0,
+   "fin": 3.611
+  },
+  {
+   "texto": "Este no tiene localizador: te lo puedes quedar.",
+   "inicio": 3.936,
+   "fin": 6.757
+  },
+  {
+   "texto": "Está cerrado y con alarma: fuerza la puerta y aléjate rápido.",
+   "inicio": 7.036,
+   "fin": 11.192
+  },
+  {
+   "texto": "Ojo: el nitro es muy fuerte. Frena antes de las curvas.",
+   "inicio": 11.401,
+   "fin": 15.569
+  },
+  {
+   "texto": "¿Tú ya te lo llevaste? Cuéntame en los comentarios.",
+   "inicio": 15.662,
+   "fin": 18.645
+  },
+  {
+   "texto": "Sigue para la Parte tres. La guía completa está en nuestro sitio.",
+   "inicio": 18.82,
+   "fin": 22.616
+  }
+ ]
+}
