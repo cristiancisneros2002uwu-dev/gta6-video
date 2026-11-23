@@ -1,4 +1,4 @@
-# marketing-estado.md — relevo del Director de Marketing (23-nov-2026)
+# marketing-estado.md — relevo del Director de Marketing (23-nov-2026, tarde)
 Lee esto + estrategia.md. No releas el sitio completo ni pidas datos ya entregados.
 
 ## Hecho
@@ -8,6 +8,8 @@ Lee esto + estrategia.md. No releas el sitio completo ni pidas datos ya entregad
 - 7 páginas EN de ubicaciones (gyms, banks, police-stations, dealerships, fire-stations, hospitals, pawn-shops): título nuevo + FAQ + JSON-LD FAQPage.
 - Sitemap: +613 páginas indexables (ahora 1,464 URLs).
 - estrategia.md v2 en este repo (reglas Lote 5 + temas de Search Console).
+- 23-nov tarde: títulos acortados en 576 páginas (ya en main, sin sufijo de marca cuando pasaban de 60). Quedan 72 largos (logros EN, ubicaciones/tacon, easter eggs) para revisar a mano. Índice de búsqueda regenerado.
+- 23-nov tarde: bancos = 22 trabajos (14 pequeños + 8 bóvedas, dato de Cristian, verificado en mapa de terceros; texto propio). Título/recuadro actualizados EN/ES. La lista del sitio nombra 21: falta identificar cuál (nombres difieren en el mapa de terceros; Hobbs Milford no aparece ahí).
 - TikTok ES: cuenta de empresa enviada a verificación (Pending, 22-nov). Pendiente poner sitio en Editar perfil → Sitio web cuando aprueben.
 
 ## Datos clave (22-nov)
@@ -16,10 +18,10 @@ Lee esto + estrategia.md. No releas el sitio completo ni pidas datos ya entregad
 - Hipótesis: pregunta con drama retiene más que respuesta directa.
 
 ## Pendiente (en orden)
-1. 25-nov: revisión 72 h de los videos del 22-nov (Windsor).
-2. Acortar títulos >60 caracteres (668 páginas) y reforzar misiones EN (52 vs 129 ES).
+1. 25-nov: revisión 72 h de los videos del 22-nov (Windsor) y arrancar Lote 5 con las reglas de estrategia.md.
+2. Reforzar misiones EN (52 vs 129 ES) y revisar a mano los 72 títulos largos restantes.
 3. Páginas con <300 palabras (838): ampliar las que tienen impresiones, antes de pedir AdSense.
-4. Bancos: la descripción dice 14+8=22 pero la lista tiene 21: pedir a Cristian el dato real jugando.
+4. Bancos: identificar el 22.º (agregar a la lista y al mapa).
 5. Pie del sitio sin enlaces a TikTok/IG/FB/YouTube.
 6. Competencia (GTA Base, PowerPyx, Fandom, Vandal) y ruta AdSense.
 7. 29-nov: meta ajustada de seguidores (hipótesis actual: 2,000-5,000 a 30 días, no 25,000).

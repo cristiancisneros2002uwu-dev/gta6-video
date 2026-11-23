@@ -29,7 +29,7 @@ Google ya nos manda ~73 clics al día, 69% de las impresiones vienen de EE. UU.,
 | Tema | Impresiones 24 h | Página |
 |---|---|---|
 | Gimnasios de Vice City (9) | 1,070 | /en/locations/establishments/gyms/ |
-| Bancos (21, 8 con bóveda) | 858 | /en/locations/establishments/banks/ |
+| Bancos (22 trabajos, 8 con bóveda) | 858 | /en/locations/establishments/banks/ |
 | Comisarías (5) | 753 | /en/locations/establishments/police-stations/ |
 | Concesionarios (Baller y Vapid) | 476 | /en/locations/establishments/dealerships/ |
 | '67 Transgressor | 360 | /en/vehicles/67-transgressor/ |
