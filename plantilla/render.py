@@ -596,9 +596,218 @@ def scene_end(s, st):
         place(fr, lg, CX, H / 2, ease_out(p), .85 + .15 * ease_out(p))
     return draw
 
+
+# ---------- caricatura (experimento 23-nov-2026) ----------
+import caricatura as K
+_sp = {}
+def spr(kind, *a):
+    key = (kind,) + a
+    if key not in _sp: _sp[key] = getattr(K, kind)(*a)
+    return _sp[key]
+
+def put(fr, im, x, y, sx=1., sy=1., rot=0., flip=False, alpha=1., anchor=None):
+    """Pone un sprite con el ancla (por defecto: pies, abajo al centro) en (x, y)."""
+    ax, ay = anchor or (im.width / 2, im.height - 10)
+    if flip:
+        im = im.transpose(Image.FLIP_LEFT_RIGHT); ax = im.width - ax
+    w, h = max(1, int(im.width * sx)), max(1, int(im.height * sy))
+    if (w, h) != im.size: im = im.resize((w, h), Image.BILINEAR)
+    ax *= sx; ay *= sy
+    if abs(rot) > .05:
+        R = int(math.hypot(w, h)) + 4
+        pad = Image.new('RGBA', (2 * R, 2 * R), (0, 0, 0, 0)); pad.paste(im, (int(R - ax), int(R - ay)))
+        im = pad.rotate(rot, resample=Image.BICUBIC, center=(R, R)); ax = ay = R
+    if alpha < .999:
+        im = im.copy(); im.putalpha(im.getchannel('A').point(lambda v: int(v * alpha)))
+    comp(fr, im, int(x - ax), int(y - ay))
+
+def burbuja(texto, tail_dx=0, maxw=560, size=64):
+    f = F('title', size); lines, cur = [], ''
+    for w in texto.split():
+        t = (cur + ' ' + w).strip()
+        if cur and f.getlength(t) > maxw: lines.append(cur); cur = w
+        else: cur = t
+    lines.append(cur)
+    tw = int(max(f.getlength(l) for l in lines)); lh = int(size * 1.12)
+    bw, bh = tw + 80, lh * len(lines) + 46; tail = 56; S = 2
+    im = Image.new('RGBA', (bw * S, (bh + tail) * S), (0, 0, 0, 0)); d = ImageDraw.Draw(im)
+    d.rounded_rectangle((4 * S, 4 * S, (bw - 4) * S, (bh - 4) * S), radius=40 * S, fill=CREAM, outline=BG, width=7 * S)
+    tx = bw / 2 + tail_dx
+    d.polygon([((tx - 24) * S, (bh - 6) * S), ((tx + 24) * S, (bh - 6) * S), (tx * S, (bh + tail - 2) * S)], fill=CREAM)
+    d.line([((tx - 24) * S, (bh - 5) * S), (tx * S, (bh + tail - 2) * S), ((tx + 24) * S, (bh - 5) * S)], fill=BG, width=7 * S, joint='curve')
+    d.rectangle(((tx - 20) * S, (bh - 10) * S, (tx + 20) * S, (bh - 3) * S), fill=CREAM)
+    im = im.resize((bw, bh + tail), Image.LANCZOS); d = ImageDraw.Draw(im)
+    for i, l in enumerate(lines):
+        d.text((bw / 2, 23 + lh * i + lh / 2), l, font=f, fill=BG, anchor='mm')
+    im.info['tail'] = (tx, bh + tail - 2)
+    return im
+
+def pop_burbuja(fr, im, x, y, t, t0, t1=None):
+    """Burbuja que aparece con rebote en t0 y se va en t1; (x, y) = punta de la cola."""
+    if t < t0 or (t1 is not None and t > t1 + .2): return
+    p = prog(t, t0, .28); sc = .3 + .7 * ease_back(p)
+    if t1 is not None and t > t1: sc *= max(0, 1 - (t - t1) / .2)
+    put(fr, im, x, y, sc, sc, anchor=im.info['tail'])
+
+def sfx(texto, size=104):
+    return rich(texto, F('title', size), W - 2 * MX)
+
+def lentes():
+    c = K.Lienzo(140, 70)
+    c.rrect(6, 10, 62, 56, 16, (34, 22, 60)); c.rrect(78, 10, 134, 56, 16, (34, 22, 60))
+    c.linea([(60, 26), (80, 26)], 7, K.OUT)
+    return c.fin()
+
+GROUND = 1250
+FL, GS, CS = .70, .70, .82
+CAR_X0, PALM_X = 640, 1010
+
+def calle(fr, t):
+    d = ImageDraw.Draw(fr)
+    d.rectangle((0, 1138, W, 1158), fill=(122, 63, 191, 235))
+    d.rectangle((0, 1158, W, 1340), fill=(42, 20, 72, 238))
+    for x in range(-40 + int(-t * 40) % 140, W, 140): d.rectangle((x, 1318, x + 70, 1326), fill=(255, 241, 234, 150))
+
+def fondo_caricatura(fr, t, casa_pill=None):
+    put(fr, spr('casa'), 150, 1150, .78, .78, alpha=.78)
+    if casa_pill is not None: place(fr, casa_pill, 150, 930)
+    calle(fr, t)
+
+def palmera_fondo(fr, t, sacudida=0.):
+    put(fr, spr('palmera', 0.), PALM_X + math.sin(t * 40) * 6 * sacudida, GROUND - 14, .92, .92, anchor=(190 * 1., 690 - 10))
+
+def personaje_flami(fr, x, y, t, boca=0., gafas=1., cuello=0., rot=0., flip=False, sx=FL, sy=None, recorte=False):
+    im = spr('flami', 'feliz', round(boca * 4) / 4, round(gafas), round(cuello * 3) / 3, 0.)
+    if recorte: im = im.crop((0, 0, im.width, 450))
+    put(fr, im, x, y, sx, sy if sy else sx, rot, flip, anchor=(220, 610 if not recorte else 450))
+
+def personaje_gus(fr, x, y, t, emocion='nervioso', boca=0., brazos=0., flip=False, sx=GS, sy=None, rot=0.):
+    im = spr('gus', emocion, round(boca * 4) / 4, round(brazos * 4) / 4)
+    put(fr, im, x, y, sx, sy if sy else sx, rot, flip, anchor=(220, 590))
+
+def idle(t, v=6., a=.02): return 1 + a * math.sin(t * v)
+def saltito(t, v=11., a=16.): return abs(math.sin(t * v)) * a
+
+def scene_cartoon(s, st):
+    acc = s['accion']; bub = s.get('burbujas', [])
+    B = [burbuja(b['texto'], b.get('cola', 0)) for b in bub]
+    casa_pill = pill('Casa de Jason', F('800', 38), fg=CREAM, bg=PURPLE, gradient=False, padx=26, pady=10) if s.get('casa') else None
+    chip = tt = None
+    if acc == 'llega':
+        chip = pill(f"{s.get('serie', '')} · {s.get('parte', '')}", F('800', 42), fg=BG, padx=36, pady=12)
+        tt = rich(s['texto'], F('title', 112), W - 2 * MX)
+    chat = spr('icono_chat', 150)
+    pillc = pill('Dímelo en comentarios', F('800', 50), fg=BG, padx=40, pady=18)
+    sello = pill('SIN LOCALIZADOR', F('title', 56), fg=BG, bg=None, padx=34, pady=16)
+    uiii = sfx('[¡UIII UIII!]', 96)
+    crash = sfx('[¡CRASH!]', 150)
+    signo = sfx('[¡¿?!]', 120)
+    nombre = pill('Ruiner Turbo', F('700', 36), fg=CREAM, bg=PURPLE, gradient=False, padx=24, pady=8)
+
+    def car_draw(fr, t, x, rot=0., llama=0., luces=0, y=GROUND, refl=0.):
+        put(fr, spr('coche', round(llama * 5) / 5, luces, round(refl * 8) / 8), x, y, CS, CS, rot, anchor=(380, 320))
+
+    def draw(fr, t):
+        fondo_caricatura(fr, t, casa_pill if acc in ('llega', 'localizador') else None)
+        palmera_fondo(fr, t, 1. if (acc == 'nitro' and 2.05 < t < 2.6) else 0.)
+        if acc == 'llega':
+            anim_in(fr, chip, CX, TOP + 10, t, 0, 'pop', .3)
+            anim_in(fr, tt, CX, TOP + 90 + tt.height / 2, t, 0.05, 'up', .35)
+            x = -140 + 480 * ease_out(prog(t, .0, 1.0))
+            moving = t < 1.0
+            car_draw(fr, t, CAR_X0, refl=prog(t, 1.2, .8) if 1.2 < t < 2.0 else 0.)
+            if 1.0 < t < 2.2:
+                for k, (dx, dy) in enumerate(((-120, -150), (60, -230), (190, -120))):
+                    p = (t * 1.6 + k * .33) % 1; put(fr, star_spr(), CAR_X0 + dx, 1090 + dy, p, p, anchor=(30, 30), alpha=1 - p * .6)
+            personaje_flami(fr, x, GROUND - (saltito(t) if moving else 0), t, boca=1. if not moving else 0.,
+                            gafas=1. if moving else (0. if (t > 1.0 and t < 2.4) else 1.), cuello=0. if moving else .6 * ease_out(prog(t, 1., .3)),
+                            sy=FL * (idle(t) if not moving else 1))
+            anim_in(fr, signo, 470, 1010, t, 1.05, 'pop', .35)
+        elif acc == 'localizador':
+            car_draw(fr, t, CAR_X0)
+            personaje_flami(fr, 340, GROUND, t, boca=0., gafas=1., sy=FL * idle(t, 5), cuello=.3)
+            gp = prog(t, .15, .35)
+            personaje_gus(fr, 150, GROUND, t, 'nervioso', boca=(.7 if 0.5 < t < 1.8 else 0.), sx=GS * ease_back(gp), sy=GS * ease_back(gp) * idle(t, 14, .03), flip=False)
+            pop_burbuja(fr, B[0], 190, GROUND - 400, t, .5, 1.8)
+            pop_burbuja(fr, B[1], 360, GROUND - 440, t, 1.9, None)
+            anim_in(fr, nombre, CAR_X0, 905, t, .2, 'fade', .3)
+            p = prog(t, 2.2, .3)
+            if p > 0:
+                put(fr, sello, 640, 790, .5 + .5 * ease_back(p), .5 + .5 * ease_back(p), rot=-7, alpha=clamp(p * 3), anchor=(sello.width / 2, sello.height / 2))
+        elif acc == 'alarma':
+            luces = 0 if t < 1.2 else (1 if int((t - 1.2) / .16) % 2 == 0 else 2)
+            sh = math.sin(t * 60) * 3 if t > 1.2 else 0
+            car_draw(fr, t, CAR_X0 + sh, luces=luces)
+            # Gus: tapa los oídos y retrocede
+            gx = 150 - 30 * ease_out(prog(t, 1.2, .4)); br = ease_out(prog(t, 1.2, .3))
+            personaje_gus(fr, gx + sh, GROUND, t, 'asombro' if t > 1.2 else 'nervioso', boca=1. if t > 1.2 else 0., brazos=br, sy=GS * idle(t, 14, .03))
+            # Flami: camina a la puerta, forcejea, salta al coche
+            if t < 2.6:
+                fx = 340 + 130 * ease_out(prog(t, .2, .7)); hop = saltito(t, 12, 14) if .2 < t < .9 else 0
+                tw = math.sin(t * 25) * 4 if 1.0 < t < 2.6 else 0
+                personaje_flami(fr, fx, GROUND - hop, t, boca=.5 if t > 1.2 else 0., rot=tw, sy=FL * idle(t, 5))
+            else:
+                p = prog(t, 2.6, .6)
+                if p < 1:
+                    fx = 470 + (668 - 470) * p; fy = GROUND - 190 * math.sin(math.pi * p) + 50 * p
+                    personaje_flami(fr, fx, fy, t, boca=.5, rot=-20 * math.sin(math.pi * p))
+                else:
+                    personaje_flami(fr, 668, GROUND - 50, t, boca=.5, recorte=True)
+            pop_burbuja(fr, B[0], 460, GROUND - 330, t, .55, 1.6)
+            if t > 1.25:
+                pp = prog(t, 1.25, .3)
+                put(fr, uiii, 690, 880, .4 + .6 * ease_back(pp), .4 + .6 * ease_back(pp), rot=math.sin(t * 14) * 5, alpha=clamp(pp * 3), anchor=(uiii.width / 2, uiii.height / 2))
+            pop_burbuja(fr, B[1], 190, GROUND - 390, t, 2.0, None)
+        elif acc == 'nitro':
+            ll = prog(t, .1, .5); lanz = ease_out(prog(t, 1.5, .55)) if t < 2.05 else 1.
+            cx = CAR_X0 + (740 - CAR_X0) * (lanz if t < 2.05 else 1.)
+            hit = t >= 2.05
+            vib = math.sin(t * 70) * 3 * (1 - lanz) if t < 1.5 else 0
+            rot = 0. if not hit else -5 * math.exp(-(t - 2.05) * 3) * math.cos((t - 2.05) * 12) - 3 * min(1, (t - 2.05) * 2)
+            if t < 2.05:
+                personaje_flami(fr, cx + 18 + vib, GROUND - 50 + vib, t, boca=1., recorte=True, rot=0)
+                car_draw(fr, t, cx + vib, llama=ll * (1.2 if t > 1.5 else .6), rot=0)
+                if t > 1.5:
+                    for k in range(4): d = ImageDraw.Draw(fr); y = 960 + k * 70; d.line([(60 + k * 40, y), (330 + k * 40, y)], fill=(255, 241, 234, 150), width=7)
+            else:
+                personaje_flami(fr, cx - 4 + 18, GROUND - 50 - (t - 2.05) * 40 * 0, t, boca=1., recorte=True, rot=rot * .6)
+                car_draw(fr, t, cx, rot=rot)
+                p = prog(t, 2.05, .35)
+                put(fr, spr('explosion', 1.), 985, 1075, .3 + .8 * ease_out(p), .3 + .8 * ease_out(p), alpha=1 - prog(t, 2.5, .5), anchor=(140, 140))
+                lp = prog(t, 2.05, 1.0)
+                put(fr, lentes(), 880 - 260 * lp, 880 - 300 * math.sin(math.pi * lp) * 1.2 + 150 * lp, .9, .9, rot=lp * 540, alpha=1 - prog(t, 2.9, .3) * 0, anchor=(70, 35))
+                anim_in(fr, crash, 520, 760, t, 2.2, 'pop', .3)
+            pop_burbuja(fr, B[0], 560, GROUND - 300, t, .35, 1.4)
+        elif acc == 'final':
+            car_draw(fr, t, 740, rot=-3)
+            personaje_flami(fr, 768, GROUND - 50, t, boca=.6, gafas=0., cuello=math.sin(t * 3), recorte=True, rot=-4)
+            put(fr, K.estrellas_mareo(t), 760, 805, 1.2, 1.2, anchor=(110, 45))
+            for k in range(3):
+                p = (t * .9 + k * .33) % 1
+                d = ImageDraw.Draw(fr); r = 18 + 40 * p
+                d.ellipse((900 - r + k * 12, 1000 - 220 * p - r, 900 + r + k * 12, 1000 - 220 * p + r), fill=(200, 190, 215, int(190 * (1 - p))))
+            gx = 140 + 200 * ease_out(prog(t, .0, .7))
+            personaje_gus(fr, gx, GROUND - (saltito(t, 12, 10) if t < .7 else 0), t, 'nervioso', boca=.2, sy=GS * idle(t, 5))
+            pop_burbuja(fr, B[0], gx + 60, GROUND - 400, t, .6, 1.9)
+            pop_burbuja(fr, B[1], 700, GROUND - 340, t, 1.95, 2.75)
+            p = prog(t, 2.6, .4)
+            if p > 0:
+                put(fr, chat, CX - 270, 600, (.4 + .6 * ease_back(p)) * (1 + .05 * math.sin(t * 8)), (.4 + .6 * ease_back(p)) * (1 + .05 * math.sin(t * 8)), anchor=(75, 75))
+                place(fr, pillc, CX + 70, 600, clamp(p * 3), .5 + .5 * ease_back(p))
+    return draw
+
+def star_spr():
+    if 'star' not in _sp:
+        c = K.Lienzo(60, 60); pts = []
+        for k in range(8):
+            r = 28 if k % 2 == 0 else 7; a = -math.pi / 2 + k * math.pi / 4
+            pts.append((30 + math.cos(a) * r, 30 + math.sin(a) * r))
+        c.poli(pts, (255, 241, 190), ow=0); _sp['star'] = c.fin()
+    return _sp['star']
+
 SCENES = dict(hook=scene_hook, title=scene_title, map=scene_map, step=scene_step, counter=scene_counter,
               checklist=scene_checklist, total=scene_total, info=scene_info, levels=scene_levels,
-              cta=scene_cta, end=scene_end)
+              cta=scene_cta, end=scene_end, cartoon=scene_cartoon)
 
 # ---------- render ----------
 # Palabras que TikTok e Instagram suelen limitar (y su alternativa suave)
@@ -631,7 +840,7 @@ def numeracion(spec):
     fmt = spec.get('formato', 'PARTE')            # 'PARTE' o '#'
     lab = (lambda k: f'PARTE {k}') if fmt == 'PARTE' else (lambda k: f'#{k}')
     for s in spec['escenas']:
-        if s['tipo'] == 'hook': s['parte'] = lab(n)
+        if s['tipo'] == 'hook' or (s['tipo'] == 'cartoon' and s.get('accion') == 'llega'): s['parte'] = lab(n)
         if s['tipo'] == 'cta': s['siguiente'] = lab(n + 1)
 
 def build(spec):

@@ -1,0 +1,28 @@
+{
+ "modelo": "eleven_multilingual_v2",
+ "prefijo": "",
+ "titulo": "Gratis en GTA VI: Parte 2 — Coche con nitro (caricatura)",
+ "serie": "Gratis",
+ "numero": 2,
+ "formato": "PARTE",
+ "fuente": "gta6encyclopedia.com/vehiculos/ocultos/ (Ruiner Turbo junto a la casa de Jason)",
+ "escenas": [
+  {"tipo": "cartoon", "accion": "llega", "dur": 3.2, "serie": "GRATIS EN GTA VI", "casa": true,
+   "texto": "¿Un coche con *nitro* [gratis]?",
+   "voz": "¿Un coche con nitro, gratis, junto a la casa de Jason?"},
+  {"tipo": "cartoon", "accion": "localizador", "dur": 4.0, "casa": true,
+   "burbujas": [{"texto": "¿Y el localizador?", "cola": 0}, {"texto": "¡Cero localizador!", "cola": 0}],
+   "voz": "Este no tiene localizador: te lo puedes quedar."},
+  {"tipo": "cartoon", "accion": "alarma", "dur": 4.4,
+   "burbujas": [{"texto": "¡A forzar la puerta!", "cola": 0}, {"texto": "¡Vámonos!", "cola": 0}],
+   "voz": "Está cerrado y con alarma: fuerza la puerta y aléjate rápido."},
+  {"tipo": "cartoon", "accion": "nitro", "dur": 4.0,
+   "burbujas": [{"texto": "¡Siente el nitro!", "cola": 0}],
+   "voz": "Ojo: el nitro es muy fuerte. Frena antes de las curvas."},
+  {"tipo": "cartoon", "accion": "final", "dur": 3.8,
+   "burbujas": [{"texto": "Te dije que frenaras...", "cola": 0}, {"texto": "¡Valió la pena!", "cola": 0}],
+   "voz": "¿Tú ya te lo llevaste? Cuéntame en los comentarios."},
+  {"tipo": "cta", "dur": 3.0, "voz": "Sigue para la Parte 3. La guía completa está en nuestro sitio."},
+  {"tipo": "end", "dur": 2.0}
+ ]
+}
