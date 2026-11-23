@@ -48,3 +48,7 @@ Google ya nos manda ~73 clics al día, 69% de las impresiones vienen de EE. UU.,
 
 ## Próxima revisión
 - 25-nov (72 h de Dinero P1 y Lucía P1) y 29-nov (semana 1 completa). Aquí se ajustan estas reglas.
+
+## Experimento: videos de caricatura (decidido 23-nov, Cristian)
+- Prueba de 1 video en estilo caricatura con personajes PROPIOS (no copiar a otras cuentas), paleta y tipografía de la marca, sin gameplay. Se compara contra los videos de motion graphics (retención 3 s, tiempo promedio, compartidos). Mínimo 3 videos antes de decidir si se adopta.
+- Nueva sección: "Secretos de Leonida" (viaje en el tiempo: portal en la planta nuclear al Vice City original, 12 interruptores, moto). Cristian confirmó que el portal es real jugando; falta que dé los pasos exactos y se agregue al sitio ANTES del video. Después de la prueba de estilo se hace la historia.
