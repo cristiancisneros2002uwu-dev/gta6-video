@@ -1,5 +1,5 @@
 # estrategia.md — decisiones de Marketing y Growth para el chat de videos
-Actualizado: 22-nov-2026 (v1). Lo escribe el Director de Marketing. El chat de videos lo lee al empezar cada lote y lo aplica desde el Lote 5. Lotes 1-4 se publican tal cual.
+Actualizado: 22-nov-2026 (v2, con Search Console). Lo escribe el Director de Marketing. El chat de videos lo lee al empezar cada lote y lo aplica desde el Lote 5. Lotes 1-4 se publican tal cual.
 
 ## Lo que dicen los datos (2 videos, ~24 h o menos; muestra chica = hipótesis)
 | Video | Red | Vistas | Tiempo prom. | Salto 3 s | Likes | Compartidos | Guardados | Seguidores |
@@ -23,6 +23,21 @@ Actualizado: 22-nov-2026 (v1). Lo escribe el Director de Marketing. El chat de v
 7. **Temas prioritarios**: lo que la gente busca en Google en las primeras semanas: dinero rápido, armas y vehículos gratis, coleccionables/cromos con ubicación, medallas de oro, secretos poco conocidos. Siempre con algo que casi nadie sabe.
 8. **Inglés**: desde el Lote 5, los 2 videos con mejor retención del lote anterior se hacen también en inglés para @gta6encyclopedia.en (voz nueva solo para esos 2).
 9. **Captions**: pregunta con drama + 1 línea + número de serie + hashtags. En TikTok, misma pregunta que en IG (Lucía P1 usó una distinta en TikTok; unificar).
+
+## Temas que Google ya pide (Search Console, 22-nov, últimas 24 h)
+Google ya nos manda ~73 clics al día, 69% de las impresiones vienen de EE. UU., Reino Unido, Canadá y Australia. Lo más buscado son ubicaciones ("where is X in GTA 6"). Haz videos de estos temas, con el dato en el segundo 0 y la página del sitio en el cierre:
+| Tema | Impresiones 24 h | Página |
+|---|---|---|
+| Gimnasios de Vice City (9) | 1,070 | /en/locations/establishments/gyms/ |
+| Bancos (21, 8 con bóveda) | 858 | /en/locations/establishments/banks/ |
+| Comisarías (5) | 753 | /en/locations/establishments/police-stations/ |
+| Concesionarios (Baller y Vapid) | 476 | /en/locations/establishments/dealerships/ |
+| '67 Transgressor | 360 | /en/vehicles/67-transgressor/ |
+| Estaciones de bomberos (4) | 253 | /en/locations/establishments/fire-stations/ |
+| Cromo Right-Wing America's Hero / Immigrantasma | 212 | /en/collectible-cards/right-wing-americas-hero/ |
+| Casas de empeño (19) | 163 | /en/locations/establishments/pawn-shops/ |
+- Formato sugerido: "¿Dónde están TODOS los bancos en GTA VI?" con mapa dibujado y contador. Nueva serie: "Ubicaciones" (#1, #2...), o dentro de Datos curiosos/Secretos si no quieres serie nueva.
+- Estos temas van primero en inglés (@gta6encyclopedia.en): es donde está la búsqueda.
 
 ## Horarios
 - Se mantienen 12:00 y 20:00 CDMX. Se revisa cuando haya 100+ seguidores (horas activas de la audiencia).
