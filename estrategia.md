@@ -1,0 +1,35 @@
+# estrategia.md — decisiones de Marketing y Growth para el chat de videos
+Actualizado: 22-nov-2026 (v1). Lo escribe el Director de Marketing. El chat de videos lo lee al empezar cada lote y lo aplica desde el Lote 5. Lotes 1-4 se publican tal cual.
+
+## Lo que dicen los datos (2 videos, ~24 h o menos; muestra chica = hipótesis)
+| Video | Red | Vistas | Tiempo prom. | Salto 3 s | Likes | Compartidos | Guardados | Seguidores |
+|---|---|---|---|---|---|---|---|---|
+| Dinero P1 (31 s) | TikTok | 494 | 4.6 s (15%) | — | 21 | 12 | 6 | 1 |
+| Dinero P1 | IG | 189 | 5.6 s | 58% | 0 | 1 | 2 | 0 |
+| Lucía P1 (27 s) | TikTok | 518 | 7.8 s (29%) | — | 35 | 0 | 2 | 0 |
+| Lucía P1 | IG | 118 | 8.9 s | 50% | 4 | 0 | 1 | 0 |
+- Más de la mitad se va antes del segundo 3. Ese es el problema número 1.
+- Lucía retiene casi el doble que Dinero (pregunta con drama). Dinero se comparte más (dato útil).
+- 0 comentarios y 0 visitas al perfil: el cierre "Sigue para la Parte N+1" no convierte.
+- Casi nadie ve el video completo (~2%).
+
+## Reglas para el Lote 5 en adelante
+1. **Gancho en el segundo 0**: la voz arranca desde el primer cuadro con la promesa o la pregunta con drama. Nada de entrada lenta. La promesa es lo más grande en pantalla; "Parte N" va chico arriba (aplica la prueba H1).
+2. **Duración objetivo 20-26 s** (hoy 27-31 s). Máximo 55 palabras de voz. Si no cabe, se corta.
+3. **Dato fuerte en los primeros 5 s**: la cifra, el lugar o el secreto va primero; la explicación después.
+4. **Una pregunta para comentar** antes del cierre (ej. "¿Tú ya la encontraste? Dímelo en comentarios"). Meta: comentarios > 0 en cada video.
+5. **Cierre**: "Sigue para la Parte N+1" se queda, pero sumado a "La guía completa está en gta6encyclopedia.com" (voz corta). Cada video apunta a UNA página del sitio y el .txt la indica.
+6. **Mezcla por lote**: 50% temas de drama/personaje (Lucía, ¿Se puede...?, Secretos), 50% temas útiles que se comparten (Dinero, Gratis, Errores). Nunca dos del mismo tipo seguidos.
+7. **Temas prioritarios**: lo que la gente busca en Google en las primeras semanas: dinero rápido, armas y vehículos gratis, coleccionables/cromos con ubicación, medallas de oro, secretos poco conocidos. Siempre con algo que casi nadie sabe.
+8. **Inglés**: desde el Lote 5, los 2 videos con mejor retención del lote anterior se hacen también en inglés para @gta6encyclopedia.en (voz nueva solo para esos 2).
+9. **Captions**: pregunta con drama + 1 línea + número de serie + hashtags. En TikTok, misma pregunta que en IG (Lucía P1 usó una distinta en TikTok; unificar).
+
+## Horarios
+- Se mantienen 12:00 y 20:00 CDMX. Se revisa cuando haya 100+ seguidores (horas activas de la audiencia).
+
+## Qué repetir y qué dejar (se actualiza cada semana)
+- Repetir: preguntas con drama tipo "¿Te ama o solo son socios?". Datos con cifra concreta (se comparten).
+- Dejar: títulos planos y entradas de más de 1 s sin voz.
+
+## Próxima revisión
+- 25-nov (72 h de Dinero P1 y Lucía P1) y 29-nov (semana 1 completa). Aquí se ajustan estas reglas.
