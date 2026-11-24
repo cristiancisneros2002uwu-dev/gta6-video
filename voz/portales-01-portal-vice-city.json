@@ -1,0 +1,42 @@
+{
+ "voz_id": "pNInz6obpgDQGcFmaJgB",
+ "modelo": "eleven_multilingual_v2",
+ "caracteres": 356,
+ "frases": [
+  {
+   "texto": "¿Jason acaba de romper el tiempo en GTA seis?",
+   "inicio": 0.0,
+   "fin": 2.844
+  },
+  {
+   "texto": "Jugadores encontraron un portal en la planta nuclear.",
+   "inicio": 3.123,
+   "fin": 6.153
+  },
+  {
+   "texto": "Jason viaja a un Vice City antiguo y ahí está Kent Paul.",
+   "inicio": 6.478,
+   "fin": 10.937
+  },
+  {
+   "texto": "El portal los trae a los dos de vuelta. Kent es clave en Vice City y San Andreas.",
+   "inicio": 11.262,
+   "fin": 16.73
+  },
+  {
+   "texto": "Al volver aparece Throwback uno de cinco: parece que hay cuatro viajes más.",
+   "inicio": 17.055,
+   "fin": 21.931
+  },
+  {
+   "texto": "¿Tú ya lo viste?",
+   "inicio": 22.14,
+   "fin": 23.232
+  },
+  {
+   "texto": "Sigue para la Parte dos.",
+   "inicio": 23.51,
+   "fin": 25.263
+  }
+ ]
+}
