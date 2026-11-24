@@ -20,10 +20,11 @@ Regla: cada serie sigue su orden (Parte 1, 2, 3... / #1, #2, #3...) sin saltar n
 | Lucía — Cómo conquistar a Lucía en GTA VI | Parte 4 | Consejos para conquistarla (5 consejos con fuente: cambiar a Lucía, gestos, robar juntos, playa/buceo, tiempo fuera de misiones) | 2026-11-22 |
 | Top 5 | #1 | 5 pagos confirmados, sin ranking: Donnie 1.200, Daily Driver 1.250+500, Slam Dunk 1.700+~1.000, encargo de Randy +10.000, Afternoon Delight 10.000 | 2026-11-22 |
 | Secretos y easter eggs | #1 | El huevo de Pascua de la torre de radio (subida larga, lanzarlo, salto BASE) | 2026-11-22 |
+| Gratis — Gratis en GTA VI | Parte 2 | Coche con nitro sin localizador junto a la casa de Jason (caricatura, prueba de estilo: Flami y Gus) | 2026-11-23 |
 
 ## Siguientes
 - Dinero: Parte 5
-- Gratis: Parte 2
+- Gratis: Parte 3
 - Lucía: Parte 5 (prepara la casa antes de que salga, Capítulo 1)
 - ¿Se puede...?: #2
 - Errores: #2
