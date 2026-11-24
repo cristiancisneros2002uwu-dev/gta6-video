@@ -5,15 +5,18 @@ Lo propone el Analista; la aprueba Cristian. El chat de videos aplica los gancho
 - IG: mediana 402 vistas; salto 3 s 35-53%; mejor 1,375 (Top 5).
 - TikTok: mediana 538 vistas; mejor 2,010 (Lucía P1).
 
-## Calendario (12:00 y 20:00 CDMX; mismo archivo y misma pregunta de caption en todas las redes; Cristian da el va)
+## Calendario ACTUALIZADO (decisión de Cristian, 24-nov 01:44): entran videos nuevos desde mañana
+Ola 1 = guiones de guiones-ola-1.md. 12:00 y 20:00 CDMX; Cristian da el va.
 | Día | 12:00 | 20:00 |
 |---|---|---|
-| Mar 24 | dinero-03 BuckMe | errores-01 efectivo |
-| Mié 25 | portales-01 portal (ES; EN en @gta6encyclopedia.en) | lucia-02 qué la sube |
-| Jue 26 | dinero-04 Randy | se-puede-01 detonar |
-| Vie 27 | gratis-02 nitro | lucia-03 lo que arruina |
-| Sáb 28 | secretos-01 torre | datos-curiosos-01 (CONTROL: gancho viejo) |
-| Dom 29 | lucia-04 consejos | nuevo: Ubicaciones "22 bancos" (hay que hacerlo) |
+| Mar 24 | Neza | 5 ajustes |
+| Mié 25 | Controles ocultos | Mansión 30k |
+| Jue 26 | Cajero con grúa | Auto de Rápido y Furioso |
+| Vie 27 | por escribir (ola 2: Lambo policía, Charger) | ola 2 |
+| Sáb 28 | ola 2 (5 Lambos, desaparecidos) | ola 2 |
+| Dom 29 | ola 2 (Lucía demonio, Diablo, 22 bancos) | ola 2 |
+Respaldo: si un nuevo no está listo, sale uno viejo con gancho nuevo (errores-01, se-puede-01, portales-01, lucia-02, dinero-04, gratis-02, secretos-01). Dinero P3 sale del calendario. Lucía 03/04 y Datos curiosos en reserva.
+Comparación al final: nuevos (de Cristian) vs viejos (con gancho nuevo) vs línea base.
 
 ## Ganchos FINALES (decididos por Cristian, 24-nov 01:13; voz seg. 0 / texto en pantalla)
 Se cambia solo la voz de la escena 1 (y el texto si se indica). Lo demás de cada video no se toca.
