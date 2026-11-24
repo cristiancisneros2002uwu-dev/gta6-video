@@ -31,6 +31,21 @@ def hablar(t, idioma="es"):
     return t
 
 
+def buscar_voz(nombre):
+    """Busca una voz de la cuenta por nombre (sin distinguir mayusculas)."""
+    pag = None
+    for _ in range(20):
+        u = "https://api.elevenlabs.io/v2/voices?page_size=100&include_total_count=false" + (f"&next_page_token={pag}" if pag else "")
+        with urllib.request.urlopen(urllib.request.Request(u, headers={"xi-api-key": KEY}), timeout=60) as r:
+            j = json.load(r)
+        for v in j.get("voices", []):
+            if nombre.lower() in v["name"].lower():
+                print("Voz encontrada:", v["name"], v["voice_id"]); return v["voice_id"]
+        pag = j.get("next_page_token")
+        if not j.get("has_more"): break
+    sys.exit("FALLO: no encuentro la voz " + nombre)
+
+
 def frases(d):
     return [hablar(s["voz"].strip(), d.get("idioma", "es")) for s in d["escenas"] if s.get("voz", "").strip() and s["tipo"] != "end"]
 
@@ -71,6 +86,7 @@ for f in sorted(glob.glob("videos/lote-*/*.json")):
     d = json.load(open(f, encoding="utf8"))
     fr = frases(d)
     modelo = d.get("modelo", MODEL_ID)
+    VOICE_ID = d.get("voz_id") or (buscar_voz(d["voz_nombre"]) if d.get("voz_nombre") else os.environ.get("VOICE_ID", "pNInz6obpgDQGcFmaJgB"))
     texto, offs = d.get("prefijo", PREFIJO), []
     for p in fr:
         if texto and not texto.endswith(" "):

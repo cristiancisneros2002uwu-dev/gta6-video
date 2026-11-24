@@ -1,0 +1,63 @@
+{
+ "modelo": "eleven_multilingual_v2",
+ "prefijo": "",
+ "titulo": "5 ajustes (caricatura)",
+ "escenas": [
+  {
+   "tipo": "cartoon",
+   "accion": "a_hook",
+   "dur": 3.0,
+   "voz": "Tu GTA VI tiene configuración de gringo."
+  },
+  {
+   "tipo": "cartoon",
+   "accion": "a_lista",
+   "dur": 2.0,
+   "voz": "Cámbiala con estos cinco ajustes."
+  },
+  {
+   "tipo": "cartoon",
+   "accion": "a_uni",
+   "dur": 2.0,
+   "voz": "Uno: unidades en métrico."
+  },
+  {
+   "tipo": "cartoon",
+   "accion": "a_retic",
+   "dur": 2.0,
+   "voz": "Dos: retícula en punto."
+  },
+  {
+   "tipo": "cartoon",
+   "accion": "a_aviso",
+   "dur": 2.0,
+   "voz": "Tres: avisos de progreso."
+  },
+  {
+   "tipo": "cartoon",
+   "accion": "a_subs",
+   "dur": 2.0,
+   "voz": "Cuatro: subtítulos solo en misiones."
+  },
+  {
+   "tipo": "cartoon",
+   "accion": "a_mini",
+   "dur": 4.0,
+   "voz": "Cinco: interfaz de minijuegos, para puentear y usar ganzúa."
+  },
+  {
+   "tipo": "cartoon",
+   "accion": "a_cierre",
+   "dur": 5.0,
+   "voz": "¿Cuál vas a cambiar primero? La guía completa está en gta6encyclopedia.com",
+   "sub_size": 52
+  },
+  {
+   "tipo": "end",
+   "dur": 2.0
+  }
+ ],
+ "sin_panel_sub": true,
+ "sin_logo_esquina": true,
+ "voz_nombre": "Ryou"
+}

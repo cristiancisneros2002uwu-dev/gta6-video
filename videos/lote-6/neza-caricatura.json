@@ -1,0 +1,46 @@
+{
+ "modelo": "eleven_multilingual_v2",
+ "prefijo": "",
+ "titulo": "¿Qué pasaría si GTA VI fuera en Neza? (caricatura)",
+ "escenas": [
+  {
+   "tipo": "cartoon",
+   "accion": "n_hook",
+   "dur": 3.0,
+   "voz": "¿Qué pasaría si GTA VI fuera en Neza?"
+  },
+  {
+   "tipo": "cartoon",
+   "accion": "n_persec",
+   "dur": 8.0,
+   "sub_size": 50,
+   "voz": "Persecución: en Mexibús, por el bordo de Xochiaca, tras un tipo con riñonera y Jordan \"originales\" de 500 pesos.",
+   "sub": "Persecución: en Mexibús, por el bordo de Xochiaca, tras un tipo con riñonera y tenis \"originales\" de 500 pesos."
+  },
+  {
+   "tipo": "cartoon",
+   "accion": "n_escala",
+   "dur": 5.0,
+   "voz": "Misión secundaria: ir al Escala con tus compas un martes en la noche."
+  },
+  {
+   "tipo": "cartoon",
+   "accion": "n_vehic",
+   "dur": 5.0,
+   "voz": "Vehículos: peseros y una que otra combi tuneada en la ciclovía."
+  },
+  {
+   "tipo": "cartoon",
+   "accion": "n_cierre",
+   "dur": 4.0,
+   "voz": "¿Qué colonia pondrías tú? gta6encyclopedia.com"
+  },
+  {
+   "tipo": "end",
+   "dur": 2.0
+  }
+ ],
+ "sin_panel_sub": true,
+ "sin_logo_esquina": true,
+ "voz_nombre": "Ryou"
+}

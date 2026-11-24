@@ -307,9 +307,11 @@ class Stage:
         fr.alpha_composite(lg, (MX - 20, SAFE_TOP + 6))
 
 # ---------- subtítulos ----------
+OPT = {'sin_panel': False, 'sin_logo': False}
+
 class Subs:
-    def __init__(self, text, dur):
-        self.f = F('800', 62); self.words = text.split(); self.dur = dur
+    def __init__(self, text, dur, size=62):
+        self.f = F('800', size); self.words = text.split(); self.dur = dur
         maxw = W - 2 * MX - 80; space = self.f.getlength(' ')
         lines, cur, cw = [], [], 0
         for w in self.words:
@@ -317,7 +319,7 @@ class Subs:
             if cur and cw + space + ww > maxw: lines.append(cur); cur, cw = [], 0
             cur.append(w); cw += (space if cw else 0) + ww
         if cur: lines.append(cur)
-        self.lines = lines; self.lh = 78
+        self.lines = lines; self.lh = round(size * 1.258)
         self.box_h = self.lh * len(lines) + 44
         self.box_w = int(max(sum(self.f.getlength(w) for w in l) + space * (len(l) - 1) for l in lines)) + 80
         self.y0 = SAFE_BOT - 30 - self.box_h
@@ -329,7 +331,7 @@ class Subs:
 
     def draw(self, fr, t):
         a = ease_out(prog(t, 0, .2))
-        place(fr, self.panel, CX, self.y0 + self.box_h / 2 + (1 - a) * 20, a * .92)
+        if not OPT['sin_panel']: place(fr, self.panel, CX, self.y0 + self.box_h / 2 + (1 - a) * 20, a * .92)
         d = ImageDraw.Draw(fr); space = self.f.getlength(' '); k = 0
         for li, l in enumerate(self.lines):
             lw = sum(self.f.getlength(w) for w in l) + space * (len(l) - 1)
@@ -337,7 +339,8 @@ class Subs:
             for w in l:
                 on = t >= self.wt[k]; cur = on and (k + 1 >= len(self.wt) or t < self.wt[k + 1])
                 col = ORANGE if cur else (CREAM if on else (170, 150, 190))
-                d.text((x, y), w, font=self.f, fill=col + (int(255 * a),))
+                if OPT['sin_panel']: d.text((x, y), w, font=self.f, fill=col + (int(255 * a),), stroke_width=max(5, self.f.size // 9), stroke_fill=(26, 16, 48, int(255 * a)))
+                else: d.text((x, y), w, font=self.f, fill=col + (int(255 * a),))
                 x += self.f.getlength(w) + space; k += 1
 
 # ---------- escenas ----------
@@ -691,6 +694,9 @@ def saltito(t, v=11., a=16.): return abs(math.sin(t * v)) * a
 
 def scene_cartoon(s, st):
     if s['accion'].startswith('p_'): return scene_portal(s, st)
+    if s['accion'][:2] in ('n_', 'a_'):
+        import escenas2; escenas2.R = sys.modules[__name__]
+        return getattr(escenas2, s['accion'])(s)
     acc = s['accion']; bub = s.get('burbujas', [])
     B = [burbuja(b['texto'], b.get('cola', 0)) for b in bub]
     casa_pill = pill('Casa de Jason', F('800', 38), fg=CREAM, bg=PURPLE, gradient=False, padx=26, pady=10) if s.get('casa') else None
@@ -1042,7 +1048,7 @@ def build(spec):
     for i, s in enumerate(spec['escenas']):
         s['_i'] = i; s['_idioma'] = spec.get('idioma', 'es')
         draw = SCENES[s['tipo']](s, st)
-        subs = Subs(s['voz'], s['dur']) if s.get('voz') else None
+        subs = Subs(s.get('sub', s['voz']), s['dur'], s.get('sub_size', 62)) if s.get('voz') else None
         out.append((s, draw, subs, T0)); T0 += s['dur']
     return st, out, T0
 
@@ -1101,12 +1107,13 @@ def frame(st, sc, t):
         x = int(-260 + (W + 260) * ease_out(t / .4)) - 260
         lay = wb.copy(); lay.putalpha(lay.getchannel('A').point(lambda v: int(v * .85 * (1 - t / .4))))
         comp(fr, lay, x, 0)
-    st.corner_logo(fr, (1 - clamp(t / .4)) if s['tipo'] == 'end' else 1)
+    if not OPT['sin_logo']: st.corner_logo(fr, (1 - clamp(t / .4)) if s['tipo'] == 'end' else 1)
     if subs: subs.draw(fr, t)
     return fr.convert('RGB')
 
 def render(spec_path, out_path=None, preview=None):
     spec = json.load(open(spec_path, encoding='utf-8'))
+    OPT['sin_panel'] = bool(spec.get('sin_panel_sub')); OPT['sin_logo'] = bool(spec.get('sin_logo_esquina'))
     st, scenes, total = build(spec)
     out_path = out_path or os.path.splitext(spec_path)[0] + '.mp4'
     if preview:
