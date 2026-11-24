@@ -18,8 +18,11 @@ if not KEY:
     sys.exit("Falta el secreto ELEVENLABS_API_KEY")
 
 
-def hablar(t):
+def hablar(t, idioma="es"):
     """Texto para la voz: GTA VI -> GTA seis, 10.000 -> diez mil, 7.7 -> siete punto siete."""
+    if idioma == "en":
+        t = re.sub(r"\bGTA\s*(VI|6)\b", "GTA six", t)
+        return re.sub(r"\d+", lambda m: num2words(int(m[0]), lang="en"), t)
     t = re.sub(r"\bGTA\s*(VI|6)\b", "GTA seis", t)
     t = re.sub(r"\b(\d+)\.(\d)\b(?!\d)", lambda m: num2words(int(m[1]), lang="es") + " punto " + num2words(int(m[2]), lang="es"), t)
     t = re.sub(r"\d{1,3}(?:[.,]\d{3})+|\d+", lambda m: num2words(int(re.sub(r"[.,]", "", m[0])), lang="es"), t)
@@ -29,15 +32,15 @@ def hablar(t):
 
 
 def frases(d):
-    return [hablar(s["voz"].strip()) for s in d["escenas"] if s.get("voz", "").strip() and s["tipo"] != "end"]
+    return [hablar(s["voz"].strip(), d.get("idioma", "es")) for s in d["escenas"] if s.get("voz", "").strip() and s["tipo"] != "end"]
 
 
-def tts(texto, modelo=None):
+def tts(texto, modelo=None, idioma="es"):
     modelo = modelo or MODEL_ID
     body = json.dumps({
         "text": texto,
         "model_id": modelo,
-        "language_code": "es",
+        "language_code": idioma,
         "voice_settings": {"stability": 0.5, "similarity_boost": 0.75, "style": 0.0, "speed": 1.0},
     }).encode()
     req = urllib.request.Request(
@@ -55,7 +58,7 @@ def tts(texto, modelo=None):
                 return json.loads(r.read())
         if modelo != RESPALDO and e.code in (400, 422):
             print(f"{modelo} no disponible ({e.code}: {msg[:200]}); uso {RESPALDO}")
-            return tts(texto, RESPALDO)
+            return tts(texto, RESPALDO, idioma)
         sys.exit(f"ElevenLabs {e.code}: {msg}")
 
 
@@ -75,7 +78,7 @@ for f in sorted(glob.glob("videos/lote-*/*.json")):
         offs.append((len(texto), len(texto) + len(p)))
         texto += p
     print(f"Voz: {nombre} ({len(texto)} caracteres)")
-    r = tts(texto, modelo)
+    r = tts(texto, modelo, d.get("idioma", "es"))
     al = r.get("alignment") or r.get("normalized_alignment")
     st, en = al["character_start_times_seconds"], al["character_end_times_seconds"]
     n = len(st)

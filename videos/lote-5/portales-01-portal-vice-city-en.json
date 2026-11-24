@@ -1,0 +1,29 @@
+{
+ "modelo": "eleven_multilingual_v2",
+ "prefijo": "",
+ "idioma": "en",
+ "titulo": "Multidimensional Portals in GTA 6: Part 1 — Portal to old Vice City (cartoon, EN)",
+ "serie": "MULTIDIMENSIONAL PORTALS",
+ "numero": 1,
+ "formato": "PARTE",
+ "fuente": "Player discovery (unconfirmed); version in English for @gta6encyclopedia.en",
+ "escenas": [
+  {"tipo": "cartoon", "accion": "p_hook", "dur": 3.4, "serie": "MULTIDIMENSIONAL PORTALS",
+   "texto": "A *portal* to the [past]?",
+   "voz": "Did Jason just break time in GTA VI?"},
+  {"tipo": "cartoon", "accion": "p_planta", "dur": 3.4,
+   "burbujas": [{"texto": "A portal!", "cola": 0}],
+   "voz": "Players found a portal inside the nuclear plant."},
+  {"tipo": "cartoon", "accion": "p_vice", "dur": 4.2,
+   "burbujas": [{"texto": "It's Kent Paul!", "cola": 0}, {"texto": "Hi!", "cola": 0}],
+   "voz": "Jason travels to an old Vice City, and Kent Paul is there."},
+  {"tipo": "cartoon", "accion": "p_regreso", "dur": 5.8,
+   "voz": "The portal brings them both back. Kent is key in Vice City and San Andreas."},
+  {"tipo": "cartoon", "accion": "p_throwback", "dur": 5.0,
+   "voz": "When they return, Throwback one of five appears: looks like four more trips."},
+  {"tipo": "cartoon", "accion": "p_pregunta", "dur": 1.8,
+   "voz": "Have you seen it yet?"},
+  {"tipo": "cta", "dur": 2.0, "voz": "Follow for Part two."},
+  {"tipo": "end", "dur": 2.0}
+ ]
+}

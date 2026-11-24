@@ -573,9 +573,10 @@ def scene_levels(s, st):
 
 def scene_cta(s, st):
     sig = s['siguiente']
-    t1 = rich('Sigue para el' if sig.startswith('#') else 'Sigue para la', F('title', 110), W - 2 * MX)
+    en = s.get('_idioma') == 'en'
+    t1 = rich('Follow for' if en else ('Sigue para el' if sig.startswith('#') else 'Sigue para la'), F('title', 110), W - 2 * MX)
     t2 = rich(f"[{sig}]", F('title', 200), W - 2 * MX)
-    btn = pill('+ Seguir', F('800', 60), fg=BG, padx=60, pady=26)
+    btn = pill('+ Follow' if en else '+ Seguir', F('800', 60), fg=BG, padx=60, pady=26)
     arrow = icon('arrow_down', 90, color=ORANGE)
     def draw(fr, t):
         anim_in(fr, t1, CX, TOP + 90, t, 0, 'up')
@@ -825,9 +826,11 @@ def scene_portal(s, st):
     acc = s['accion']; D = s['dur']; G = 1190
     B = [burbuja(b['texto'], b.get('cola', 0)) for b in s.get('burbujas', [])]
     fs = 27
-    lab = pill('Descubrimiento de jugadores · Sin confirmar', F('800', fs), fg=CREAM, bg=(150, 40, 110), gradient=False, padx=24, pady=9, outline=ORANGE)
+    en = s.get('_idioma') == 'en'
+    LAB = 'Player discovery · Unconfirmed' if en else 'Descubrimiento de jugadores · Sin confirmar'
+    lab = pill(LAB, F('800', fs), fg=CREAM, bg=(150, 40, 110), gradient=False, padx=24, pady=9, outline=ORANGE)
     while lab.width > W - 215 - 30 and fs > 20:
-        fs -= 1; lab = pill('Descubrimiento de jugadores · Sin confirmar', F('800', fs), fg=CREAM, bg=(150, 40, 110), gradient=False, padx=24, pady=9, outline=ORANGE)
+        fs -= 1; lab = pill(LAB, F('800', fs), fg=CREAM, bg=(150, 40, 110), gradient=False, padx=24, pady=9, outline=ORANGE)
     lab_cx = 215 + lab.width / 2
     tj = pill('Jason', F('800', 36), fg=CREAM, bg=PURPLE, gradient=False, padx=24, pady=8, outline=ORANGE)
     tk = pill('Kent Paul', F('800', 36), fg=CREAM, bg=PURPLE, gradient=False, padx=24, pady=8, outline=ORANGE)
@@ -864,30 +867,30 @@ def scene_portal(s, st):
     if acc == 'p_hook':
         chip = pill(f"{s['serie']} · {s['parte']}", F('800', 32), fg=BG, padx=30, pady=10)
         tt = rich(s['texto'], F('title', 112), W - 2 * MX)
-        zap = sfx('[¡ZAP!]', 130)
+        zap = sfx('[¡ZAP!]', 100)
         def draw(fr, t):
             draw_common(fr, t)
             anim_in(fr, chip, CX, TOP + 10, t, 0, 'pop', .3)
             anim_in(fr, tt, CX, TOP + 95 + tt.height / 2, t, .05, 'up', .35)
             piso(fr, t)
             p = prog(t, 0, .55)
-            portal_at(fr, t, 720, 1000, .56 * ease_back(p) if p < 1 else .56)
+            portal_at(fr, t, 730, 1050, .5 * ease_back(p) if p < 1 else .5)
             moving = t < .9
             x = -120 + 420 * ease_out(prog(t, 0, .9))
             fl(fr, x, G - (saltito(t) if moving else 0), boca=0 if moving else 1., gafas=1. if t < 1.0 else 0.,
-               cuello=0. if moving else .6 * ease_out(prog(t, .9, .3)), sc=.62, sy=.62 * (1 if moving else idle(t)))
+               cuello=0. if moving else .6 * ease_out(prog(t, .9, .3)), sc=.6, sy=.6 * (1 if moving else idle(t)))
             u = prog(t, .5, 1.6)
             if 0 < u < 1:
-                put(fr, spr('reloj_roto'), 720 + 230 * u, 1000 - 320 * math.sin(math.pi * u * .85) + 80 * u, .7, .7, rot=u * 540, anchor=(105, 105))
-            anim_in(fr, zap, 820, 760, t, .5, 'pop', .3)
+                put(fr, spr('reloj_roto'), 730 + 200 * u, 1050 - 200 * math.sin(math.pi * u * .85) + 60 * u, .6, .6, rot=u * 540, anchor=(105, 105))
+            anim_in(fr, zap, 840, 890, t, .5, 'pop', .3)
         return draw
 
     # ------------------------------------------------ 2) planta nuclear + portal
     if acc == 'p_planta':
-        pn = pill('Planta nuclear', F('800', 40), fg=CREAM, bg=PURPLE, gradient=False, padx=28, pady=10)
+        pn = pill('Nuclear plant' if en else 'Planta nuclear', F('800', 40), fg=CREAM, bg=PURPLE, gradient=False, padx=28, pady=10)
         def draw(fr, t):
             draw_common(fr, t)
-            anim_in(fr, pn, CX, 600, t, .05, 'pop', .3)
+            anim_in(fr, pn, CX, 510, t, .05, 'pop', .3)
             planta_bg(fr, t)
             p = prog(t, .45, .5)
             if p > 0: portal_at(fr, t, 540, G - 150, PS * ease_back(p), clamp(p * 3))
@@ -900,12 +903,12 @@ def scene_portal(s, st):
 
     # ------------------------------------------------ 3) Vice City antiguo + Kent
     if acc == 'p_vice':
-        pv = pill('Vice City antiguo', F('800', 40), fg=BG, padx=30, pady=10)
+        pv = pill('Old Vice City' if en else 'Vice City antiguo', F('800', 40), fg=BG, padx=30, pady=10)
         def draw(fr, t):
             draw_common(fr, t)
             ciudad_bg(fr, t)
             anim_in(fr, pv, CX, 560, t, .05, 'pop', .3)
-            portal_at(fr, t, 140, G - 200, .42, clamp(1 - prog(t, 1.6, .5) * .6))
+            portal_at(fr, t, 140, G - 200, .42, clamp(1 - prog(t, 1.3, .6)))
             u = ease_out(prog(t, .1, 1.0)); x = 120 + 260 * u; moving = u < 1
             fl(fr, x, G - (saltito(t) if moving else 0), boca=0 if moving else .6, gafas=1., sc=FL * (.3 + .7 * min(1, u * 3)), pixel=True)
             gu(fr, 830, G, 'nervioso', boca=.5 if t > 2.0 else 0., sy=GS * idle(t, 5), flip=True, pixel=True)
@@ -951,26 +954,26 @@ def scene_portal(s, st):
     # ------------------------------------------------ 5) Throwback 1/5
     if acc == 'p_throwback':
         big = rich('[Throwback 1/5]', F('title', 118), W - 2 * MX)
-        mas = pill('¿4 viajes más?', F('800', 58), fg=BG, padx=44, pady=18)
+        mas = pill('4 more trips?' if en else '¿4 viajes más?', F('800', 52), fg=BG, padx=40, pady=16)
         def draw(fr, t):
             draw_common(fr, t)
             f = t / D
             planta_bg(fr, t, .35)
             p = prog(t, .1, .5)
-            place(fr, big, CX, 600, clamp(p * 3), (1.5 - .5 * ease_out(p)) * (1 + .03 * math.sin(max(0, t - .6) * 6)))
+            place(fr, big, CX, 560, clamp(p * 3), (1.5 - .5 * ease_out(p)) * (1 + .03 * math.sin(max(0, t - .6) * 6)))
             for i in range(5):
                 tp = prog(t, .45 + i * .13, .3)
                 if tp > 0:
-                    put(fr, spr('portal_mini', i == 0, 150), 125 + i * 207, 820, .9 * ease_back(tp), .9 * ease_back(tp), anchor=(75, 75))
-            if f > .55: anim_in(fr, mas, CX, 1010, t, .55 * D, 'pop', .3)
-            fl(fr, 190, G, boca=1., gafas=0., cuello=.5, sc=.58)
-            gu(fr, 890, G, 'asombro', boca=.7, sc=.58, flip=True)
+                    put(fr, spr('portal_mini', i == 0, 150), 140 + i * 200, 740, .8 * ease_back(tp), .8 * ease_back(tp), anchor=(75, 75))
+            if f > .55: anim_in(fr, mas, CX, 930, t, .55 * D, 'pop', .3)
+            fl(fr, 170, 1130, boca=1., gafas=0., cuello=.5, sc=.5)
+            gu(fr, 910, 1130, 'asombro', boca=.7, sc=.5, flip=True)
         return draw
 
     # ------------------------------------------------ 6) pregunta para comentar
     if acc == 'p_pregunta':
         chat = spr('icono_chat', 150)
-        pillc = pill('Dímelo en comentarios', F('800', 50), fg=BG, padx=40, pady=18)
+        pillc = pill('Tell me in the comments' if en else 'Dímelo en comentarios', F('800', 50), fg=BG, padx=40, pady=18)
         def draw(fr, t):
             draw_common(fr, t)
             planta_bg(fr, t, .45)
@@ -1027,7 +1030,8 @@ def numeracion(spec):
     n = spec.get('numero')
     if n is None: return
     fmt = spec.get('formato', 'PARTE')            # 'PARTE' o '#'
-    lab = (lambda k: f'PARTE {k}') if fmt == 'PARTE' else (lambda k: f'#{k}')
+    en = spec.get('idioma') == 'en'
+    lab = (lambda k: f'PART {k}' if en else f'PARTE {k}') if fmt == 'PARTE' else (lambda k: f'#{k}')
     for s in spec['escenas']:
         if s['tipo'] == 'hook' or (s['tipo'] == 'cartoon' and s.get('accion') in ('llega', 'p_hook')): s['parte'] = lab(n)
         if s['tipo'] == 'cta': s['siguiente'] = lab(n + 1)
@@ -1036,7 +1040,7 @@ def build(spec):
     revisar_texto(spec); numeracion(spec)
     st = Stage(); out = []; T0 = 0
     for i, s in enumerate(spec['escenas']):
-        s['_i'] = i
+        s['_i'] = i; s['_idioma'] = spec.get('idioma', 'es')
         draw = SCENES[s['tipo']](s, st)
         subs = Subs(s['voz'], s['dur']) if s.get('voz') else None
         out.append((s, draw, subs, T0)); T0 += s['dur']
