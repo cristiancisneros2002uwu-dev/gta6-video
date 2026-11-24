@@ -1,74 +1,75 @@
 # analisis-competencia.md — Analista de Competencia y Crecimiento
-Actualizado: 24-nov-2026 (v1). Lo escribe el Analista; el Director de Marketing lo lee. No cambia estrategia.md: aquí solo se PROPONE.
+Actualizado: 24-nov-2026 (v2, con capturas de Cristian). Lo escribe el Analista; el Director de Marketing lo lee. No cambia estrategia.md: aquí solo se PROPONE.
 
-## Límites de este análisis (leer primero)
-- NO pude abrir Instagram (bloquea la lectura automática y Chrome no estaba conectado desde el celular). No tengo seguidores, vistas ni frecuencia de @gtacoulture, @gta.6.culture ni @eltina00844. Todo lo que sigue sobre la competencia sale de las 15 transcripciones de reels que Cristian armó (GUIONES VIDEOS GTA 6.zip). Cada conclusión sobre "por qué crecen" es HIPÓTESIS hasta ver sus números.
-- Datos nuestros: Windsor (IG y TikTok, 14 días al 24-nov). Son 5 videos por red; muestra chica.
+## Corrección v2
+- v1 decía que la competencia gana por mostrar gameplay. ERA FALSO: las 3 cuentas son animaciones hechas con IA (motion graphics), igual que nosotros. Esa hipótesis queda borrada.
+- No puedo abrir Instagram desde aquí; todo lo de abajo sale de las capturas de Cristian (24-nov, 00:27-00:28). Solo se ven vistas en gta.6.culture; en las otras dos hay likes/compartidos de 1 reel o nada. Lo no visible se marca así.
 
-## Nuestros datos (medidos)
-IG (4 de 5 videos con cifras completas):
-| Video | Vistas | Salto 3 s | Tiempo prom. | Guardados | Comentarios |
-|---|---|---|---|---|---|
-| Top 5 misiones que pagan más | 1,375 | 35% | 13.2 s | 21 | 0 |
-| Dinero P2 (nave) | 684 | 48% | 6.5 s | 16 | 0 |
-| Cromos valen miles | 402 | 35% | 9.7 s | 6 | 0 |
-| Armas gratis | 144 | 53% | 7.2 s | 3 | 0 |
-| Lucía P1 | 121 | 50% | 9.1 s | 2 | 0 |
-Cuenta IG: 2 seguidores, 6 publicaciones.
+## Las 3 cuentas (datos de captura)
+| Cuenta | Seguidores | Publicaciones | Nota |
+|---|---|---|---|
+| @gtacoulture | 6,065 | 34 | Bio: "Datos, novedades y tips"; "Powered by @asckstudio_". Sigue a 0. |
+| @gta.6.culture | 486 | 32 | "GTA 6 - Community". Sigue a 1. |
+| @eltina00844 (El Tina) | 609 | 18 | Bio: "Videos virales con Claude · $50,000 al mes con iA". |
 
-TikTok: Lucía P1 2,010 vistas, 11.5 s promedio, 6.8% lo ve completo, 3 comentarios, 3 seguidores nuevos (primeros comentarios de la cuenta). Los otros 4: 470-565 vistas, 4.6-7.5 s, 0 comentarios, 0 visitas al perfil.
+Reels medidos:
+- gtacoulture, "El coche de Paul Walker... escondido": 77.3 mil likes, 100 comentarios, 1,734 reposts, 27.9 mil compartidos, 22.6 mil guardados. (Vistas no visibles.)
+- gta.6.culture (vistas): "Terminó GTA 6 SIN DORMIR" 157 mil (5,920 likes, 38 comentarios, 54 reposts, 179 compartidos, 129 guardados); "GTA 6 esconde a GTA 5 / barco de Michael" 57.1 mil; "Auto de Paul Walker" 12.2 mil; "Perro te rescata" 5,181; "Actores de Hollywood" 3,076; "Raperos" 2,973. Faltan vistas de "480 cartas", "rompió internet", "más nominado".
+- eltina00844: no se ven vistas. Solo portadas.
 
-Lectura:
-- DATO: el mismo tipo de video rinde al revés según la red. Top 5 gana en IG (3x lo demás) y Lucía gana en TikTok (4x lo demás).
-- HIPÓTESIS: en IG pegan cifras/dinero/ranking; en TikTok pega personaje/drama. 1 video por caso, falta repetir.
-- DATO: 0 comentarios en IG y casi 0 en TikTok pese a la pregunta de cierre. La pregunta va al final, cuando ya se fue la gente.
+## Lo que sale de los datos
+1. DATO: el tamaño de la cuenta no manda. 486 seguidores hizo 157 mil vistas. Nuestros 2 seguidores NO son el freno; el freno es el gancho/tema.
+2. DATO: el rango de vistas de gta.6.culture va de ~3 mil a 157 mil con el mismo estilo. El tema pesa más que el diseño.
+3. DATO: los 3 repiten los mismos temas: auto de Paul Walker (3 de 3), barco de Michael (2 de 3), cajero (1), 6 estrellas (1), tanque/búnker, Lamborghini, 480 cartas. Los temas que ya funcionan están "quemados" por varios; hay que hacerlos mejor, no igual.
+4. DATO: hasta el reel de 77 mil likes tiene solo 100 comentarios. Los comentarios no son lo que mueve la distribución aquí; compartidos y guardados sí (27.9 mil compartidos y 22.6 mil guardados, 36% y 29% de los likes).
+5. DATO: los 3 usan la misma plantilla: portada con título grande de 2 líneas, UNA palabra en color, fondo morado/neón y etiqueta amarilla o blanca debajo ("y casi nadie sabe dónde está", "y su GPS lo delata", "SI NADAS LEJOS", "50 HORAS DESPIERTO"). Nuestro estilo (fondo oscuro, crema y naranja) cae en el mismo carril visual. HIPÓTESIS: la plantilla ya es commodity.
+6. DATO: los títulos son un sustantivo fuerte y específico: PERRO, TANQUE, Lamborghini de ORO, CAJERO entero, 20,000 DÓLARES sin disparar, NPC más RARO, Paul Walker, Michael. Formatos repetidos: "En GTA 6 hay un X", "GTA 6 esconde X", "X GRATIS en GTA 6", "¿Qué pasa con...?".
+7. DATO: el mayor éxito visible (157 mil) NO es una guía: es un evento con contador animado en pantalla ("EN VIVO", horas despierto 24:03:12 → 50:00:21) y un hecho extremo. Su caption: "Terminó GTA 6 sin dormir". HIPÓTESIS: contador + reto/evento gana a "tip útil". No puedo verificar si lo que cuentan es real.
+8. DATO: nombres conocidos en el gancho: Paul Walker, Michael, Rubius, actores de Hollywood. HIPÓTESIS: caras/nombres conocidos aumentan clics.
+9. DATO: Tina promueve "una página que te dice dónde está TODO (casi 3,000 lugares, gratis)". Eso es lo que es nuestra enciclopedia: alguien ya está usando ese gancho para mandar tráfico a un mapa. Hay que ocupar ese espacio con datos propios.
 
-## Patrones de los ganchos de la competencia (de las 15 transcripciones)
-1. Apilan la recompensa en la primera frase: "más de 30 mil, arma legendaria y un superdeportivo gratis"; "mejora de salud, tatuajes y escopeta legendaria". Promesa concreta, no pregunta suelta.
-2. Nombre propio + "gratis": Lamborghini, Charger, auto de película. Cosa específica que se puede imaginar.
-3. Gancho de miedo a perder: "o te pasas el juego en millas y Fahrenheit sin enterarte".
-4. Gancho de guardado: "guárdate este video que te van a hacer falta" (controles, ajustes).
-5. Lista con número en el gancho (5 Lamborghinis, 7 controles, 10 controles).
-6. Gancho de misterio/miedo ("el más aterrador", "uno de los misterios más perturbantes").
-7. Referencia de cultura pop: 3 de 15 amarran Rápido y Furioso.
-8. Muestran gameplay con pin en el mapa (es su prueba). Nosotros NO podemos: nuestra regla prohíbe gameplay.
-9. Voz de persona ("yo las pongo en métrico", "mi canal de YouTube"): cuenta con cara/voz propia. La nuestra es de marca.
-10. Duración 20-50 s; muchos pasan de 40 s con 7-10 puntos. HIPÓTESIS: ellos crecen aunque sean largos porque cada 3-5 s hay un dato nuevo.
+## Comparación con nosotros
+| | Ellos (visto) | Nosotros (medido) |
+|---|---|---|
+| Vistas por video | 3 mil a 157 mil (gta.6.culture) | 121 a 1,375 en IG; 470 a 2,010 en TikTok |
+| Gancho | sustantivo específico + etiqueta que promete ("y casi nadie sabe") | título genérico ("Gratis en GTA VI: Parte 1") o pregunta sin premio |
+| Series | no se ven "Parte N" en las portadas | todo en series numeradas |
+| Comentarios | pocos incluso en el mejor | 0 |
+| Compartidos/guardados | muy altos en el mejor | IG: Top 5 con 21 guardados; TikTok Dinero P1 con 12 compartidos |
+
+Nuestros números IG: Top 5 misiones 1,375 vistas (salto 3 s 35%, 13.2 s); Cromos 402 (35%); Dinero P2 684 (48%); Armas gratis 144 (53%); Lucía P1 121 (50%). TikTok: Lucía P1 2,010 vistas, 11.5 s, 6.8% completo, 3 comentarios, 3 seguidores.
 
 ## Por qué nos ganan (hipótesis, de más a menos probable)
-1. Prueba visual: ellos enseñan el juego; nosotros mapas dibujados y texto. Frente a un tip suelto, el gameplay gana.
-2. Gancho débil: nuestros ganchos son título o pregunta sin recompensa apilada ("Gratis en GTA VI: Parte 1"). Salto 3 s de 48-53% en 3 de 5.
-3. Series numeradas: "Parte 2" no le dice nada a quien no vio la Parte 1 y no da razón para seguir.
-4. Cuenta nueva con 2 seguidores: poca confianza y sin historial que ayude a la distribución. No se arregla con un video.
-5. Sin cara ni voz propia (HIPÓTESIS sin medir).
+1. Gancho = sustantivo específico y llamativo en grande (CAJERO, TANQUE, Lamborghini de ORO), no "Parte N".
+2. Temas ya probados (Paul Walker, Michael, 6 estrellas). Ellos los tomaron primero; nosotros los habríamos ignorado.
+3. Nombres conocidos y eventos extremos con contador.
+4. Etiqueta que da una razón extra para quedarse ("y su GPS lo delata").
+5. Plantilla ya conocida por la audiencia.
 
-## Revisión de los guiones nuevos de Cristian (10 guiones "NUEVO GUION ORIGINAL")
-Contra estrategia.md:
-- Palabras (conteo propio, con el cierre): 6 de 10 pasan de 55: Diablo 60, Neza 59, Creepy 58, Toretto 56, Ajustes 56, Desaparecidos 56. Los que dicen "54 palabras" no lo son. Ok: Controles 47, Mansión 47, Lamborghini policía 48, Grúa 46.
-- Gancho: casi todos arrancan con "¿Quieres...?/¿Buscas...?/¿Sabías...?". Los guiones originales tenían mejor gancho que las versiones nuevas: se perdió la recompensa apilada ("30 mil + arma legendaria + superdeportivo"). Regla: el primer renglón lleva la cifra o el premio.
-- Dato en 5 s: se cumple en Mansión, Controles y Toretto; no en Creepy y Desaparecidos (el dato llega tarde).
-- Pregunta para comentar y cierre con el sitio: cumplen todos.
-- Se agregaron cosas que no estaban en el video fuente: Toretto "lo pinta negro mate"; Diablo "te manda a otra dimensión". Quitar o confirmar jugando.
-- Riesgo de verdad: Diablo marca "(?) si la misión existe": es el punto central; confirmar jugando antes. Lamborghini policía y 5 Lamborghinis: confirmar el nombre real que usa el juego. Ajustes y Controles: confirmar en pantalla cada botón (hay errores de transcripción, ej. "WAINK", "Cal/Cali", "Heathen FÖRST").
-- Mejor guion de la tanda: "Controles ocultos" (cifra + guardar + utilidad), "Mansión/loot" (recompensa apilada, ubicación) y "Ajustes" (miedo a perder). Más débil: "Neza" para búsqueda en inglés, pero fuerte para compartir en México.
+## Revisión de los guiones de Cristian (sin cambios respecto a v1, con una corrección)
+- 6 de 10 pasan de 55 palabras (Diablo 60, Neza 59, Creepy 58, Toretto 56, Ajustes 56, Desaparecidos 56). Los que dicen "54" no lo son.
+- Las versiones nuevas perdieron la recompensa apilada del gancho original.
+- Se agregaron datos no vistos en el video fuente (Toretto "negro mate", Diablo "otra dimensión").
+- Confirmar jugando: Diablo (¿existe?), nombres de coches, botones.
+- Corrección: el guion "Paul Walker/Penumbra verde" que Cristian trajo es justo el tema que las 3 cuentas ya hicieron (gtacoulture: 77.3 mil likes). Tiene demanda probada. Hacerlo una vez, con ubicación exacta confirmada jugando.
 
-## Las series que ya tenemos
-- Funcionan como orden interno, no como gancho. Proponer: título = promesa; "Parte N" chico arriba.
-- Dinero/Top 5: lo mejor en IG. Lucía: lo mejor en TikTok. Gratis (armas en cajuela) y Errores: flojos en IG (53% de salto).
-- Ya hay 14 videos cerrados y varios lotes en _pendientes (lote-2, lote-3, lote-4) hechos con la plantilla vieja (27-31 s, gancho tipo título).
+## Series que tenemos
+- Funcionan como orden interno, no como gancho. Título = promesa concreta; "Parte N" chico arriba. Dinero/Top 5 mejor en IG; Lucía mejor en TikTok (ninguna de las 3 cuentas muestra Lucía en su portada: carril propio).
 
 ## Oportunidades (3-5, bajo costo)
-1. "TODOS los X de GTA VI" (completos). Qué hacer: gimnasios 9, bancos 22, casas de empeño 19, comisarías 5, con mapa dibujado y contador. Por qué: la competencia muestra 1 lugar con gameplay; nosotros tenemos la lista COMPLETA en la enciclopedia, y Google ya pide estas páginas (1,070 y 858 impresiones en 24 h). Cómo medir: salto 3 s <40%, guardados, visitas al sitio desde el video, clics en esa página.
-2. Gancho con recompensa apilada. Qué hacer: primer renglón = cifra + premio + "gratis" o "secreto" (ej. "30 mil, arma legendaria y un deportivo: gratis"). Por qué: es el patrón más repetido de la competencia y Top 5 (cifras) fue nuestro mejor. Medir: salto 3 s y tiempo promedio vs. los 5 actuales.
-3. Separar por red. Qué hacer: IG = dinero/cifras/rankings; TikTok = Lucía/drama/personajes. Por qué: los datos de arriba. Medir: vistas por video en cada red durante 7 días con 3 videos de cada tipo.
-4. Pregunta para comentar AL INICIO o a mitad, no al cierre ("¿Cuál era tu número 1? Dímelo y lo reviso"). Por qué: 0 comentarios con la pregunta al final. Medir: comentarios > 0 por video.
-5. Un video de identidad mexicana (tipo "GTA en Neza") como prueba de alcance y compartidos. Por qué: nadie de la lista lo hace y se comparte entre amigos. Riesgo: no alimenta la búsqueda en inglés. Medir: compartidos y seguidores por 1,000 vistas.
+1. Re-titular con sustantivo fuerte + etiqueta propia. Qué hacer: "Armas GRATIS en la cajuela de las patrullas" + etiqueta "ubicación exacta"; "10,000 dólares sin disparar... en una nave" etc. Por qué: es el patrón repetido de las 3 cuentas. Medir: salto 3 s <40% y vistas vs. lote anterior. Ojo: no copiar "y casi nadie sabe"; usar algo nuestro ("con mapa", "ubicación exacta", "paso a paso").
+2. "TODOS los X de GTA VI" con mapa y contador animado. Por qué: nadie de las 3 lo hace con datos completos; Tina ya usa el gancho de "dónde está todo". Gimnasios 9, bancos 22, empeños 19, comisarías 5 (Search Console pide estos). Medir: guardados, compartidos, visitas a esa página.
+3. Hacer los temas probados UNA vez, mejores: Paul Walker/Penumbra (ubicación + cómo registrarlo), barco de Michael, cajero con grúa, 6 estrellas. Condición: confirmar jugando antes. Medir: compartidos y guardados vs. 4 videos anteriores.
+4. Un video de evento con contador animado (formato del 157 mil), con algo verdadero que podamos medir/confirmar. HIPÓTESIS; probar 1. Medir: vistas y tiempo promedio.
+5. Carril propio: Lucía (TikTok) y la guía completa del portal (12 pasos). Nadie de las 3 lo muestra en portada. Medir: seguidores por 1,000 vistas.
 
-## Qué hacer con los 3 lotes listos (propuesta)
-- No publicar todo junto ni tirarlo. Escoger los que ya traen cifra, dinero o ranking (Top 5, Dinero, Cromos) y cambiar solo el primer renglón de voz (cuesta créditos de voz solo de esa escena).
-- Prueba de 7 días: 2 videos al día; 1 del lote viejo con gancho nuevo + 1 formato nuevo ("TODOS los X" o recompensa apilada). Comparar contra la tabla de arriba.
-- Dejar en reserva los de Lucía para TikTok y los de "gratis/armas" hasta cambiar gancho.
+KPIs nuevos: compartidos y guardados por 1,000 vistas (antes pedíamos comentarios); salto 3 s; tiempo promedio; seguidores por 1,000 vistas. Comentarios quedan como extra.
 
-## Próximo paso del Analista
-- Ver los números de las 3 cuentas (capturas de perfil y de los reels con más vistas) y completar la comparación.
-- Revisar la prueba de 7 días el 1-dic.
+## Qué hacer con los 3 lotes listos
+- No publicar todo junto. Escoger los de cifra/dinero/ranking (Top 5, Dinero, Cromos), cambiar solo título de portada y primer renglón de voz.
+- Prueba de 7 días: 2 videos al día; 1 lote viejo con título nuevo + 1 video nuevo ("TODOS los X" o tema probado). Comparar con la tabla de arriba. Revisar el 1-dic.
+- Guardar Lucía para TikTok. Armas gratis, hasta cambiar título.
+
+## Pendiente
+- Vistas de los reels de gtacoulture y El Tina (pestaña de Reels), y los reels que Cristian marcó como más virales.
+- Ver 2-3 reels completos de cada una (primeros 2 s) para describir el gancho animado, no solo la portada.
