@@ -1,50 +1,37 @@
 # analisis-competencia.md — Analista de Competencia y Crecimiento
-Actualizado: 24-nov-2026 (v2, con capturas de Cristian). Lo escribe el Analista; el Director de Marketing lo lee. No cambia estrategia.md: aquí solo se PROPONE.
+Actualizado: 24-nov-2026 (v3, con vistas de Reels). Lo escribe el Analista; el Director de Marketing lo lee. No cambia estrategia.md: aquí solo se PROPONE.
 
 ## Corrección v2
 - v1 decía que la competencia gana por mostrar gameplay. ERA FALSO: las 3 cuentas son animaciones hechas con IA (motion graphics), igual que nosotros. Esa hipótesis queda borrada.
 - No puedo abrir Instagram desde aquí; todo lo de abajo sale de las capturas de Cristian (24-nov, 00:27-00:28). Solo se ven vistas en gta.6.culture; en las otras dos hay likes/compartidos de 1 reel o nada. Lo no visible se marca así.
 
-## Las 3 cuentas (datos de captura)
-| Cuenta | Seguidores | Publicaciones | Nota |
-|---|---|---|---|
-| @gtacoulture | 6,065 | 34 | Bio: "Datos, novedades y tips"; "Powered by @asckstudio_". Sigue a 0. |
-| @gta.6.culture | 486 | 32 | "GTA 6 - Community". Sigue a 1. |
-| @eltina00844 (El Tina) | 609 | 18 | Bio: "Videos virales con Claude · $50,000 al mes con iA". |
+## Las 3 cuentas (capturas de Cristian, 24-nov 00:27-00:37; vistas de la pestaña Reels)
+| Cuenta | Seguidores | Reels vistos | Mediana de vistas | Mejor | Peor |
+|---|---|---|---|---|---|
+| @gtacoulture | 6,065 | 9 de 34 | ~168 mil | 1.3 M | 6,388 |
+| @gta.6.culture | 486 | 18 de 32 | ~10.6 mil | 222 mil | 2,978 |
+| @eltina00844 | 609 | 18 de 18 | ~18.4 mil | 194 mil | 1,348 |
+| Nosotros IG | 2 | 5 | 402 | 1,375 | 121 |
+| Nosotros TikTok | 6 | 5 | 538 | 2,010 | 469 |
+Las 3 llevan la etiqueta "NUEVO": son cuentas recientes, como la nuestra. Su peor reel (1.3-6 mil) ya es parecido a nuestro mejor (1,375 IG / 2,010 TikTok). No tengo las fechas de publicación; los suyos pueden llevar más tiempo publicados que los nuestros (1-2 días).
 
-Reels medidos:
-- gtacoulture, "El coche de Paul Walker... escondido": 77.3 mil likes, 100 comentarios, 1,734 reposts, 27.9 mil compartidos, 22.6 mil guardados. (Vistas no visibles.)
-- gta.6.culture (vistas): "Terminó GTA 6 SIN DORMIR" 157 mil (5,920 likes, 38 comentarios, 54 reposts, 179 compartidos, 129 guardados); "GTA 6 esconde a GTA 5 / barco de Michael" 57.1 mil; "Auto de Paul Walker" 12.2 mil; "Perro te rescata" 5,181; "Actores de Hollywood" 3,076; "Raperos" 2,973. Faltan vistas de "480 cartas", "rompió internet", "más nominado".
-- eltina00844: no se ven vistas. Solo portadas.
+Reels con más vistas (portada = tema):
+- gtacoulture: 1.3 M "¿Qué pasa si te ponen seis (estrellas)"; 918 mil "registra es gratis, MOSES TUYO 0$" (auto verde tipo Rápido y Furioso; parece ser el reel de 77.3 mil likes, 27.9 mil compartidos y 22.6 mil guardados); 243 mil "guardados para el tacón" (billetes en un zapato); 226 mil "los billetes limpios" (BuckMe); 168 mil "¿Cómo ser millonario en GTA"; 31.7 mil huevo de Pascua; 8.8 mil lista de streamers; 7.9 mil "Rockstar ha elegido mal"; 6.4 mil "¿Sabes quién mata".
+- gta.6.culture: 222 mil "El LORO sabe dónde está el dinero"; 158 mil "Terminó GTA 6 SIN DORMIR"; 99 mil "212 GB"; 82 mil "parodia de marcas"; 57 mil "esconde a GTA 5 / barco de Michael"; 53.6 mil "¿Habrá GTA 6 ONLINE?"; 43 mil "bugs"; 14.6 mil disfraz; 12.2 mil auto Paul Walker; resto 3-9 mil (PC, nominado, 480 cartas 4,380, perro 5,328, raperos, actores, Dexter).
+- eltina00844: 194 mil "20,000 DÓLARES sin disparar" (almacén del capítulo 1); 190 mil "Si ves caer esta avioneta... corre hacia el humo"; 57 mil "esta página te dice dónde está TODO"; 54 mil "ROBAR EL CAJERO entero"; 50 mil Lamborghini de oro; 45 mil "truco secreto: dinero, armas y coches, pero tiene trampa"; 27.5 mil barco de Michael; 22.6 mil 6 estrellas; 19.9 mil NPC raro; 16.9 mil perro; resto 1.3-5 mil (auto Paul Walker 1,446; tanque 1,457; policía 3,213; 30 FPS 1,990; tráiler récord 1,604; Ocarina 1,348).
 
 ## Lo que sale de los datos
-1. DATO: el tamaño de la cuenta no manda. 486 seguidores hizo 157 mil vistas. Nuestros 2 seguidores NO son el freno; el freno es el gancho/tema.
-2. DATO: el rango de vistas de gta.6.culture va de ~3 mil a 157 mil con el mismo estilo. El tema pesa más que el diseño.
-3. DATO: los 3 repiten los mismos temas: auto de Paul Walker (3 de 3), barco de Michael (2 de 3), cajero (1), 6 estrellas (1), tanque/búnker, Lamborghini, 480 cartas. Los temas que ya funcionan están "quemados" por varios; hay que hacerlos mejor, no igual.
-4. DATO: hasta el reel de 77 mil likes tiene solo 100 comentarios. Los comentarios no son lo que mueve la distribución aquí; compartidos y guardados sí (27.9 mil compartidos y 22.6 mil guardados, 36% y 29% de los likes).
-5. DATO: los 3 usan la misma plantilla: portada con título grande de 2 líneas, UNA palabra en color, fondo morado/neón y etiqueta amarilla o blanca debajo ("y casi nadie sabe dónde está", "y su GPS lo delata", "SI NADAS LEJOS", "50 HORAS DESPIERTO"). Nuestro estilo (fondo oscuro, crema y naranja) cae en el mismo carril visual. HIPÓTESIS: la plantilla ya es commodity.
-6. DATO: los títulos son un sustantivo fuerte y específico: PERRO, TANQUE, Lamborghini de ORO, CAJERO entero, 20,000 DÓLARES sin disparar, NPC más RARO, Paul Walker, Michael. Formatos repetidos: "En GTA 6 hay un X", "GTA 6 esconde X", "X GRATIS en GTA 6", "¿Qué pasa con...?".
-7. DATO: el mayor éxito visible (157 mil) NO es una guía: es un evento con contador animado en pantalla ("EN VIVO", horas despierto 24:03:12 → 50:00:21) y un hecho extremo. Su caption: "Terminó GTA 6 sin dormir". HIPÓTESIS: contador + reto/evento gana a "tip útil". No puedo verificar si lo que cuentan es real.
-8. DATO: nombres conocidos en el gancho: Paul Walker, Michael, Rubius, actores de Hollywood. HIPÓTESIS: caras/nombres conocidos aumentan clics.
-9. DATO: Tina promueve "una página que te dice dónde está TODO (casi 3,000 lugares, gratis)". Eso es lo que es nuestra enciclopedia: alguien ya está usando ese gancho para mandar tráfico a un mapa. Hay que ocupar ese espacio con datos propios.
-
-## Comparación con nosotros
-| | Ellos (visto) | Nosotros (medido) |
-|---|---|---|
-| Vistas por video | 3 mil a 157 mil (gta.6.culture) | 121 a 1,375 en IG; 470 a 2,010 en TikTok |
-| Gancho | sustantivo específico + etiqueta que promete ("y casi nadie sabe") | título genérico ("Gratis en GTA VI: Parte 1") o pregunta sin premio |
-| Series | no se ven "Parte N" en las portadas | todo en series numeradas |
-| Comentarios | pocos incluso en el mejor | 0 |
-| Compartidos/guardados | muy altos en el mejor | IG: Top 5 con 21 guardados; TikTok Dinero P1 con 12 compartidos |
-
-Nuestros números IG: Top 5 misiones 1,375 vistas (salto 3 s 35%, 13.2 s); Cromos 402 (35%); Dinero P2 684 (48%); Armas gratis 144 (53%); Lucía P1 121 (50%). TikTok: Lucía P1 2,010 vistas, 11.5 s, 6.8% completo, 3 comentarios, 3 seguidores.
-
-## Por qué nos ganan (hipótesis, de más a menos probable)
-1. Gancho = sustantivo específico y llamativo en grande (CAJERO, TANQUE, Lamborghini de ORO), no "Parte N".
-2. Temas ya probados (Paul Walker, Michael, 6 estrellas). Ellos los tomaron primero; nosotros los habríamos ignorado.
-3. Nombres conocidos y eventos extremos con contador.
-4. Etiqueta que da una razón extra para quedarse ("y su GPS lo delata").
-5. Plantilla ya conocida por la audiencia.
+1. DATO: las vistas están muy desiguales. Cada cuenta tiene 1 a 3 éxitos (190 mil a 1.3 M) y muchos reels de 1.3-10 mil. Los éxitos no son la regla: son ~1 de cada 5-6.
+2. DATO: el dinero manda. De los 9 reels sobre 150 mil, 7 son de dinero o algo gratis (918 mil coche gratis 0$, 243 mil, 226 mil, 222 mil, 194 mil, 190 mil, 168 mil). Los otros 2 son 6 estrellas (1.3 M) y el contador "sin dormir" (158 mil). El "tacón" lo leo como dinero por los billetes del zapato en la portada.
+3. DATO: noticias, fechas y datos técnicos van bajo: PC 5.4 mil, nominado 3.2 mil, "rompió internet" 7.4 mil, 30 FPS 1,990, tráiler récord 1,604, Ocarina 1,348. Excepciones: "212 GB" (99 mil) y "¿Habrá ONLINE?" (53.6 mil). Nuestro "Datos curiosos #1" (30 FPS, 480 cromos) cae en este grupo.
+4. DATO: el mismo tema da resultados muy distintos. Auto de Paul Walker: 918 mil / 12.2 mil / 1,446. 6 estrellas: 1.3 M / 22.6 mil. Barco de Michael: 57 mil / 27.5 mil. El tema solo no basta; cuenta cómo se cuenta.
+5. DATO: el pago concreto en dólares suma. Perro que rescata: 5,328 sin premio vs 16.9 mil con "te regala 1.200 dólares". Casi 3x.
+6. DATO: el título "¿Cómo ser millonario en GTA" tiene 168 mil; el nuestro "¿Cómo ganar dinero en GTA VI? Parte 1" tuvo 512 en TikTok y 670 en IG. No es solo el título: HIPÓTESIS = primeros segundos, ritmo, premio concreto, tiempo publicado y cuenta. Hay que ver el reel.
+7. DATO: tenemos el contenido de lo que vende y no lo estamos empaquetando así: BuckMe (Dinero P3; ellos 226 mil "billetes limpios"), pagos concretos (Top 5: 10.000, 1.700), cromos (el "480 cartas" de ellos solo 4,380).
+8. DATO: hasta el éxito de 918 mil tiene solo 100 comentarios. Comentarios no son la meta; compartidos y guardados sí (27.9 mil y 22.6 mil).
+9. HIPÓTESIS: seguidores por 1,000 vistas, aprox y solo con reels visibles: gtacoulture ~2.1, El Tina ~0.9, gta.6.culture ~0.6, nosotros IG 0.7 y TikTok 1.5. No convertimos peor; nos falta alcance (vistas).
+10. Plantilla: los 3 usan título grande de 2 líneas, una palabra en color y etiqueta amarilla/blanca. @gtacoulture parece usar subtítulos animados con caja en la palabra clave y es la más grande. Nuestro estilo cae en el mismo carril.
+11. @eltina00844 vende "videos virales con Claude" y "$50,000 al mes con iA" en su bio, y promociona "una página que te dice dónde está TODO": el mismo espacio que nuestra enciclopedia.
 
 ## Revisión de los guiones de Cristian (sin cambios respecto a v1, con una corrección)
 - 6 de 10 pasan de 55 palabras (Diablo 60, Neza 59, Creepy 58, Toretto 56, Ajustes 56, Desaparecidos 56). Los que dicen "54" no lo son.
@@ -57,19 +44,19 @@ Nuestros números IG: Top 5 misiones 1,375 vistas (salto 3 s 35%, 13.2 s); Cromo
 - Funcionan como orden interno, no como gancho. Título = promesa concreta; "Parte N" chico arriba. Dinero/Top 5 mejor en IG; Lucía mejor en TikTok (ninguna de las 3 cuentas muestra Lucía en su portada: carril propio).
 
 ## Oportunidades (3-5, bajo costo)
-1. Re-titular con sustantivo fuerte + etiqueta propia. Qué hacer: "Armas GRATIS en la cajuela de las patrullas" + etiqueta "ubicación exacta"; "10,000 dólares sin disparar... en una nave" etc. Por qué: es el patrón repetido de las 3 cuentas. Medir: salto 3 s <40% y vistas vs. lote anterior. Ojo: no copiar "y casi nadie sabe"; usar algo nuestro ("con mapa", "ubicación exacta", "paso a paso").
-2. "TODOS los X de GTA VI" con mapa y contador animado. Por qué: nadie de las 3 lo hace con datos completos; Tina ya usa el gancho de "dónde está todo". Gimnasios 9, bancos 22, empeños 19, comisarías 5 (Search Console pide estos). Medir: guardados, compartidos, visitas a esa página.
-3. Hacer los temas probados UNA vez, mejores: Paul Walker/Penumbra (ubicación + cómo registrarlo), barco de Michael, cajero con grúa, 6 estrellas. Condición: confirmar jugando antes. Medir: compartidos y guardados vs. 4 videos anteriores.
-4. Un video de evento con contador animado (formato del 157 mil), con algo verdadero que podamos medir/confirmar. HIPÓTESIS; probar 1. Medir: vistas y tiempo promedio.
-5. Carril propio: Lucía (TikTok) y la guía completa del portal (12 pasos). Nadie de las 3 lo muestra en portada. Medir: seguidores por 1,000 vistas.
-
-KPIs nuevos: compartidos y guardados por 1,000 vistas (antes pedíamos comentarios); salto 3 s; tiempo promedio; seguidores por 1,000 vistas. Comentarios quedan como extra.
+1. DINERO primero, con cifra y premio en el primer renglón. Qué hacer: reempaquetar lo que ya tenemos (BuckMe/lavado, nave de 10.000, Top 5 de pagos, cromos, dinero sin disparar) con títulos tipo "BuckMe: billetes limpios", "10.000 dólares en una nave" y subtítulo con el pago exacto. Por qué: 7 de los 9 reels sobre 150 mil de las 3 cuentas son dinero/gratis. Medir: vistas y salto 3 s contra Dinero P1-P4.
+2. Premio concreto en dólares en cualquier tema (el perro triplicó con "1.200 dólares"). Medir: vistas del video vs. sin cifra.
+3. Serie "¿Qué pasa si...?" con consecuencias verificadas: el formato dio 1.3 M en @gtacoulture y 22.6 mil en otra cuenta con el mismo tema, así que la ejecución manda. Usar las 3 que ya tenemos confirmadas (relación con Lucía baja, vender cromos, efectivo en Tourist Trap) y subir a probar las de ellos solo tras confirmar jugando. Medir: compartidos y guardados por 1,000 vistas.
+4. "TODOS los X de GTA VI" con mapa y contador (bancos 22, empeños 19, gimnasios 9). Tina ya usa "dónde está TODO" con 57 mil. Medir: guardados, visitas a la página.
+5. Dejar de apostar a noticias y datos técnicos (30 FPS, fechas, tráiler): rinden poco en las 3 cuentas. Si se hacen, 1 por semana.
+Probar UNA vez el auto de Rápido y Furioso con el ángulo "registrarlo es gratis" (el de 918 mil), confirmando jugando.
+KPIs: vistas por video (mediana actual IG 402, TikTok 538), compartidos y guardados por 1,000 vistas, salto 3 s, seguidores por 1,000 vistas.
 
 ## Qué hacer con los 3 lotes listos
-- No publicar todo junto. Escoger los de cifra/dinero/ranking (Top 5, Dinero, Cromos), cambiar solo título de portada y primer renglón de voz.
-- Prueba de 7 días: 2 videos al día; 1 lote viejo con título nuevo + 1 video nuevo ("TODOS los X" o tema probado). Comparar con la tabla de arriba. Revisar el 1-dic.
-- Guardar Lucía para TikTok. Armas gratis, hasta cambiar título.
+- No publicar todo. Escoger los de dinero/cifra (Dinero P1-P4, Top 5, Cromos, Errores de efectivo) y cambiar título de portada y primer renglón de voz.
+- Prueba de 7 días: 2 videos al día, de los cuales al menos 1 es de dinero con premio concreto en el gancho. Comparar con las medianas de arriba. Revisar el 1-dic.
+- Lucía se queda para TikTok. Datos curiosos (30 FPS y similares) a reserva.
 
 ## Pendiente
-- Vistas de los reels de gtacoulture y El Tina (pestaña de Reels), y los reels que Cristian marcó como más virales.
-- Ver 2-3 reels completos de cada una (primeros 2 s) para describir el gancho animado, no solo la portada.
+- Ver 2-3 reels completos de gtacoulture (918 mil, 1.3 M, 226 mil) y de El Tina (194 mil, 190 mil) para describir el gancho animado, el ritmo y el cierre.
+- Fechas de publicación de esos reels (para saber si es tiempo o gancho).
