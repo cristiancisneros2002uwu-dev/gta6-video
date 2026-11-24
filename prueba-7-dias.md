@@ -1,5 +1,5 @@
 # prueba-7-dias.md — Prueba martes 24 a domingo 29-nov-2026
-Lo propone el Analista; la aprueba Cristian. El chat de videos aplica los ganchos (el Analista no toca videos). Cambia SOLO el gancho (primer renglón de voz + texto de portada). El resto de cada video no se toca.
+Lo propone el Analista; la aprueba Cristian. El chat de videos aplica los ganchos (el Analista no toca videos). Cambia SOLO el gancho de los 7 videos marcados (primer renglón de voz). El resto de cada video no se toca.
 
 ## Línea base (medida, 22-23 nov)
 - IG: mediana 402 vistas; salto 3 s 35-53%; mejor 1,375 (Top 5).
@@ -15,19 +15,23 @@ Lo propone el Analista; la aprueba Cristian. El chat de videos aplica los gancho
 | Sáb 28 | secretos-01 torre | datos-curiosos-01 (CONTROL: gancho viejo) |
 | Dom 29 | lucia-04 consejos | nuevo: Ubicaciones "22 bancos" (hay que hacerlo) |
 
-## Ganchos nuevos (voz seg. 0 / texto en pantalla ≤12 palabras)
-- dinero-03: "Si no haces esto, pierdes lo que ganas." / "NO PIERDAS TU DINERO"
-- errores-01: "¿Qué pasa si empiezas Tourist Trap con efectivo? Lo pierdes." / "EFECTIVO PERDIDO"
-- portales-01: "Hay un portal al Vice City original. Son 12 pasos." / "PORTAL AL VICE CITY ORIGINAL" (descubrimiento de jugadores; confirmar jugando)
-- lucia-02: "Lo que más sube tu relación con Lucía: tiempo fuera de misiones." / "LO QUE MÁS LA SUBE"
-- dinero-04: "Más de 30.000 dólares por un solo coche." / "+30.000 $ POR COCHE"
-- se-puede-01: "¿Se puede detonar en GTA VI? Sí, pero solo Jason y Lucía." / "¿SE PUEDE DETONAR?"
-- gratis-02: "Un coche con nitro, gratis, junto a la casa de Jason." / "NITRO GRATIS"
-- lucia-03: "4 cosas que arruinan tu relación con Lucía." / "LO QUE LO ARRUINA"
-- secretos-01: "Sube a esta torre de radio y lánzate." / "EL SECRETO DE LA TORRE"
-- lucia-04: "5 consejos para conquistar a Lucía." / "5 CONSEJOS"
-- Ubicaciones (nuevo): "22 bancos, solo 8 con bóveda. Aquí están todos." / "22 BANCOS · 8 BÓVEDAS"
-Nota: el nuevo gancho cambia el texto hablado de la primera escena; eso genera voz nueva solo de esa escena (créditos de ElevenLabs).
+## Ganchos FINALES (decididos por Cristian, 24-nov 01:13; voz seg. 0 / texto en pantalla)
+Se cambia solo la voz de la escena 1 (y el texto si se indica). Lo demás de cada video no se toca.
+| Video | Gancho final |
+|---|---|
+| dinero-03 | Voz: "Si no haces esto, pierdes lo que ganas." Texto: "NO PIERDAS TU DINERO" |
+| errores-01 | Voz: "¿Qué pasa si empiezas Tourist Trap con efectivo? Lo pierdes." Texto: "EFECTIVO PERDIDO" |
+| portales-01 | Voz: "Un portal en la planta nuclear te manda al Vice City antiguo." Texto actual se queda ("¿Un portal al pasado?"). NO decir "12 pasos": el video no los trae. (descubrimiento de jugadores; Cristian lo confirmó jugando) |
+| lucia-02 | SIN CAMBIO: "¿Quieres que Lucía te quiera más?" |
+| dinero-04 | Voz: "Más de 30.000 dólares por un solo coche." |
+| se-puede-01 | Voz: "¿Se puede detonar en GTA VI?" El "Sí" queda en pantalla en la escena 1 (regla de la serie: respuesta en los primeros 2 s). |
+| gratis-02 | SIN CAMBIO |
+| lucia-03 | SIN CAMBIO |
+| secretos-01 | Por decidir: Cristian descartó "Hay un huevo de verdad" y "Sube a esta torre y lánzate". Opciones: A "Hay un nido de huevos en lo alto de esta torre. Lanza uno." B "¿Qué pasa si lanzas un huevo desde esta torre?" C "Esta torre esconde una escena secreta." Por defecto va la B. |
+| lucia-04 | Voz: "5 consejos para conquistar a Lucía." |
+| datos-curiosos-01 | CONTROL, sin cambio |
+| Ubicaciones (nuevo, dom 29) | "22 bancos, solo 8 con bóveda. Aquí están todos." |
+Total de voces nuevas (solo escena 1): 7 (dinero-03, errores-01, portales-01, dinero-04, se-puede-01, secretos-01, lucia-04).
 
 ## Qué se mide (Windsor, IG + TikTok) y cuándo
 - Vistas por video, salto 3 s (IG), tiempo promedio, compartidos y guardados por 1,000 vistas, seguidores.
