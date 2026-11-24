@@ -689,6 +689,7 @@ def idle(t, v=6., a=.02): return 1 + a * math.sin(t * v)
 def saltito(t, v=11., a=16.): return abs(math.sin(t * v)) * a
 
 def scene_cartoon(s, st):
+    if s['accion'].startswith('p_'): return scene_portal(s, st)
     acc = s['accion']; bub = s.get('burbujas', [])
     B = [burbuja(b['texto'], b.get('cola', 0)) for b in bub]
     casa_pill = pill('Casa de Jason', F('800', 38), fg=CREAM, bg=PURPLE, gradient=False, padx=26, pady=10) if s.get('casa') else None
@@ -796,6 +797,194 @@ def scene_cartoon(s, st):
                 place(fr, pillc, CX + 70, 600, clamp(p * 3), .5 + .5 * ease_back(p))
     return draw
 
+# ---------- serie Portales Multidimensionales (23-nov-2026) ----------
+_pix = {}
+def pix(im, key, f=6):
+    """Versión pixelada (Vice City antiguo) de un sprite."""
+    if key not in _pix:
+        w, h = im.size
+        sm = im.resize((max(1, w // f), max(1, h // f)), Image.BOX)
+        sm.putalpha(sm.getchannel('A').point(lambda v: 255 if v > 110 else 0))
+        _pix[key] = sm.resize((w, h), Image.NEAREST)
+    return _pix[key]
+
+def fl(fr, x, y, boca=0., gafas=1., cuello=0., rot=0., flip=False, sc=FL, sy=None, pixel=False, alpha=1., recorte=False):
+    key = ('flami', 'feliz', round(boca * 4) / 4, round(gafas), round(cuello * 3) / 3, 0.)
+    im = spr(*key)
+    if recorte: im = im.crop((0, 0, im.width, 450))
+    if pixel: im = pix(im, key + (recorte,))
+    put(fr, im, x, y, sc, sy if sy else sc, rot, flip, alpha, anchor=(220, 450 if recorte else 610))
+
+def gu(fr, x, y, emocion='nervioso', boca=0., brazos=0., rot=0., flip=False, sc=GS, sy=None, pixel=False, alpha=1.):
+    key = ('gus', emocion, round(boca * 4) / 4, round(brazos * 4) / 4)
+    im = spr(*key)
+    if pixel: im = pix(im, key)
+    put(fr, im, x, y, sc, sy if sy else sc, rot, flip, alpha, anchor=(220, 590))
+
+def scene_portal(s, st):
+    acc = s['accion']; D = s['dur']; G = 1190
+    B = [burbuja(b['texto'], b.get('cola', 0)) for b in s.get('burbujas', [])]
+    fs = 27
+    lab = pill('Descubrimiento de jugadores · Sin confirmar', F('800', fs), fg=CREAM, bg=(150, 40, 110), gradient=False, padx=24, pady=9, outline=ORANGE)
+    while lab.width > W - 215 - 30 and fs > 20:
+        fs -= 1; lab = pill('Descubrimiento de jugadores · Sin confirmar', F('800', fs), fg=CREAM, bg=(150, 40, 110), gradient=False, padx=24, pady=9, outline=ORANGE)
+    lab_cx = 215 + lab.width / 2
+    tj = pill('Jason', F('800', 36), fg=CREAM, bg=PURPLE, gradient=False, padx=24, pady=8, outline=ORANGE)
+    tk = pill('Kent Paul', F('800', 36), fg=CREAM, bg=PURPLE, gradient=False, padx=24, pady=8, outline=ORANGE)
+    PS = .46                                           # escala del portal en la planta
+
+    def piso(fr, t):
+        d = ImageDraw.Draw(fr)
+        d.rectangle((0, G - 52, W, G - 32), fill=(122, 63, 191, 235))
+        d.rectangle((0, G - 32, W, G + 150), fill=(42, 20, 72, 238))
+        for x in range(-40 + int(-t * 40) % 140, W, 140): d.rectangle((x, G + 60, x + 70, G + 68), fill=(255, 241, 234, 150))
+
+    def portal_at(fr, t, x, y, sc, alpha=1.):
+        k = sc * (1 + .03 * math.sin(t * 6))
+        put(fr, spr('portal', int(t * 14) % 12), x, y, k, k, alpha=alpha, anchor=(260, 350))
+
+    def planta_bg(fr, t, alpha=1.):
+        put(fr, spr('planta'), 540, G + 10, 1., 1., alpha=alpha, anchor=(500, 508))
+        for k, x0 in enumerate((275, 765)):
+            for j in range(3):
+                u = (t * .35 + j / 3 + k * .17) % 1
+                put(fr, spr('humo', 46), x0 + math.sin(u * 6 + k) * 22, 770 - 230 * u, .6 + .7 * u, .6 + .7 * u,
+                    alpha=.75 * (1 - u) * alpha, anchor=(69, 70))
+
+    def ciudad_bg(fr, t):
+        put(fr, spr('ciudad_pixel'), CX, G + 60, anchor=(540, 640))
+
+    def etiqueta(fr, im, x, y, t, t0=0.):
+        anim_in(fr, im, x, y, t, t0, 'pop', .25)
+
+    def draw_common(fr, t):
+        anim_in(fr, lab, lab_cx, 362, t, 0, 'fade', .25)
+
+    # ------------------------------------------------ 1) gancho
+    if acc == 'p_hook':
+        chip = pill(f"{s['serie']} · {s['parte']}", F('800', 32), fg=BG, padx=30, pady=10)
+        tt = rich(s['texto'], F('title', 112), W - 2 * MX)
+        zap = sfx('[¡ZAP!]', 130)
+        def draw(fr, t):
+            draw_common(fr, t)
+            anim_in(fr, chip, CX, TOP + 10, t, 0, 'pop', .3)
+            anim_in(fr, tt, CX, TOP + 95 + tt.height / 2, t, .05, 'up', .35)
+            piso(fr, t)
+            p = prog(t, 0, .55)
+            portal_at(fr, t, 720, 1000, .56 * ease_back(p) if p < 1 else .56)
+            moving = t < .9
+            x = -120 + 420 * ease_out(prog(t, 0, .9))
+            fl(fr, x, G - (saltito(t) if moving else 0), boca=0 if moving else 1., gafas=1. if t < 1.0 else 0.,
+               cuello=0. if moving else .6 * ease_out(prog(t, .9, .3)), sc=.62, sy=.62 * (1 if moving else idle(t)))
+            u = prog(t, .5, 1.6)
+            if 0 < u < 1:
+                put(fr, spr('reloj_roto'), 720 + 230 * u, 1000 - 320 * math.sin(math.pi * u * .85) + 80 * u, .7, .7, rot=u * 540, anchor=(105, 105))
+            anim_in(fr, zap, 820, 760, t, .5, 'pop', .3)
+        return draw
+
+    # ------------------------------------------------ 2) planta nuclear + portal
+    if acc == 'p_planta':
+        pn = pill('Planta nuclear', F('800', 40), fg=CREAM, bg=PURPLE, gradient=False, padx=28, pady=10)
+        def draw(fr, t):
+            draw_common(fr, t)
+            anim_in(fr, pn, CX, 600, t, .05, 'pop', .3)
+            planta_bg(fr, t)
+            p = prog(t, .45, .5)
+            if p > 0: portal_at(fr, t, 540, G - 150, PS * ease_back(p), clamp(p * 3))
+            x = 120 + 190 * ease_out(prog(t, .0, .9)); moving = t < .9
+            fl(fr, x, G - (saltito(t) if moving else 0), boca=0 if moving else 1., gafas=1., cuello=.2 if not moving else 0., sy=FL * (1 if moving else idle(t)))
+            gp = ease_back(prog(t, .5, .35))
+            gu(fr, 900, G, 'asombro', boca=.8, sc=GS * gp, sy=GS * gp * idle(t, 14, .03), flip=True)
+            pop_burbuja(fr, B[0], x + 40, G - 430, t, 1.0, None)
+        return draw
+
+    # ------------------------------------------------ 3) Vice City antiguo + Kent
+    if acc == 'p_vice':
+        pv = pill('Vice City antiguo', F('800', 40), fg=BG, padx=30, pady=10)
+        def draw(fr, t):
+            draw_common(fr, t)
+            ciudad_bg(fr, t)
+            anim_in(fr, pv, CX, 560, t, .05, 'pop', .3)
+            portal_at(fr, t, 140, G - 200, .42, clamp(1 - prog(t, 1.6, .5) * .6))
+            u = ease_out(prog(t, .1, 1.0)); x = 120 + 260 * u; moving = u < 1
+            fl(fr, x, G - (saltito(t) if moving else 0), boca=0 if moving else .6, gafas=1., sc=FL * (.3 + .7 * min(1, u * 3)), pixel=True)
+            gu(fr, 830, G, 'nervioso', boca=.5 if t > 2.0 else 0., sy=GS * idle(t, 5), flip=True, pixel=True)
+            anim_in(fr, tj, x, G - 400, t, .9, 'pop', .25)
+            anim_in(fr, tk, 830, G - 318, t, 1.4, 'pop', .25)
+            pop_burbuja(fr, B[0], x, G - 435, t, 1.1, 2.2)
+            pop_burbuja(fr, B[1], 830, G - 350, t, 2.3, None)
+        return draw
+
+    # ------------------------------------------------ 4) regreso + Kent clave
+    if acc == 'p_regreso':
+        pa = pill('Vice City', F('800', 40), fg=BG, padx=30, pady=10)
+        pb = pill('San Andreas', F('800', 40), fg=BG, padx=30, pady=10)
+        def draw(fr, t):
+            draw_common(fr, t)
+            f = t / D; K0 = .38
+            if f < K0:
+                ciudad_bg(fr, t)
+                u = ease_out(prog(f, .02, K0 - .08)); sh = 1 - u
+                portal_at(fr, t, 760, G - 230, .5)
+                fl(fr, 280 + 440 * u, G - saltito(t, 12, 12) * (1 - u), boca=.5, sc=FL * max(.02, sh), pixel=True)
+                gu(fr, 160 + 560 * u, G - saltito(t, 12, 12) * (1 - u), 'nervioso', sc=GS * max(.02, sh), pixel=True)
+                tx = 280 + 440 * u
+                if sh > .3:
+                    anim_in(fr, tj, tx, G - 400 * max(.3, sh), t, 0, 'fade', .1)
+            else:
+                planta_bg(fr, t)
+                portal_at(fr, t, 540, G - 150, PS)
+                q = ease_back(prog(f, K0, .09)); q2 = ease_back(prog(f, K0 + .04, .09))
+                jx = 540 - 230 * ease_out(prog(f, K0, .1)); kx = 540 + 230 * ease_out(prog(f, K0 + .03, .1))
+                fl(fr, jx, G - 60 * math.sin(math.pi * clamp(prog(f, K0, .1))), boca=.5, sc=FL * max(.02, q))
+                gu(fr, kx, G - 60 * math.sin(math.pi * clamp(prog(f, K0 + .03, .1))), 'asombro', boca=.4, sc=GS * max(.02, q2), sy=GS * max(.02, q2) * idle(t, 12, .03), flip=True)
+                if f > K0 + .1:
+                    anim_in(fr, tj, jx, G - 400, t, (K0 + .1) * D, 'pop', .25)
+                    anim_in(fr, tk, kx, G - 318, t, (K0 + .1) * D, 'pop', .25)
+                anim_in(fr, pa, kx - 40, G - 410, t, .60 * D, 'pop', .3)
+                anim_in(fr, pb, kx - 40, G - 485, t, .74 * D, 'pop', .3)
+            a = prog(f, K0 - .02, .05) * (1 - prog(f, K0 + .04, .1))
+            if a > 0:
+                ov = Image.new('RGBA', (W, H), (255, 241, 234, int(235 * a))); comp(fr, ov, 0, 0)
+        return draw
+
+    # ------------------------------------------------ 5) Throwback 1/5
+    if acc == 'p_throwback':
+        big = rich('[Throwback 1/5]', F('title', 118), W - 2 * MX)
+        mas = pill('¿4 viajes más?', F('800', 58), fg=BG, padx=44, pady=18)
+        def draw(fr, t):
+            draw_common(fr, t)
+            f = t / D
+            planta_bg(fr, t, .35)
+            p = prog(t, .1, .5)
+            place(fr, big, CX, 600, clamp(p * 3), (1.5 - .5 * ease_out(p)) * (1 + .03 * math.sin(max(0, t - .6) * 6)))
+            for i in range(5):
+                tp = prog(t, .45 + i * .13, .3)
+                if tp > 0:
+                    put(fr, spr('portal_mini', i == 0, 150), 125 + i * 207, 820, .9 * ease_back(tp), .9 * ease_back(tp), anchor=(75, 75))
+            if f > .55: anim_in(fr, mas, CX, 1010, t, .55 * D, 'pop', .3)
+            fl(fr, 190, G, boca=1., gafas=0., cuello=.5, sc=.58)
+            gu(fr, 890, G, 'asombro', boca=.7, sc=.58, flip=True)
+        return draw
+
+    # ------------------------------------------------ 6) pregunta para comentar
+    if acc == 'p_pregunta':
+        chat = spr('icono_chat', 150)
+        pillc = pill('Dímelo en comentarios', F('800', 50), fg=BG, padx=40, pady=18)
+        def draw(fr, t):
+            draw_common(fr, t)
+            planta_bg(fr, t, .45)
+            portal_at(fr, t, 540, G - 150, PS, .8)
+            fl(fr, 290, G, boca=.6, gafas=1., cuello=.3, sy=FL * idle(t, 5))
+            gu(fr, 800, G, 'nervioso', boca=.2, sy=GS * idle(t, 6), flip=True)
+            p = prog(t, .1, .4)
+            if p > 0:
+                put(fr, chat, CX - 270, 700, (.4 + .6 * ease_back(p)), (.4 + .6 * ease_back(p)), anchor=(75, 75))
+                place(fr, pillc, CX + 70, 700, clamp(p * 3), .5 + .5 * ease_back(p))
+        return draw
+
+    raise SystemExit('accion de portales desconocida: ' + acc)
+
 def star_spr():
     if 'star' not in _sp:
         c = K.Lienzo(60, 60); pts = []
@@ -840,7 +1029,7 @@ def numeracion(spec):
     fmt = spec.get('formato', 'PARTE')            # 'PARTE' o '#'
     lab = (lambda k: f'PARTE {k}') if fmt == 'PARTE' else (lambda k: f'#{k}')
     for s in spec['escenas']:
-        if s['tipo'] == 'hook' or (s['tipo'] == 'cartoon' and s.get('accion') == 'llega'): s['parte'] = lab(n)
+        if s['tipo'] == 'hook' or (s['tipo'] == 'cartoon' and s.get('accion') in ('llega', 'p_hook')): s['parte'] = lab(n)
         if s['tipo'] == 'cta': s['siguiente'] = lab(n + 1)
 
 def build(spec):

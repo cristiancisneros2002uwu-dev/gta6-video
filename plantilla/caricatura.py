@@ -256,3 +256,125 @@ def icono_chat(tam=150):
     c.poli([(40, tam - 42), (30, tam - 8), (74, tam - 42)], CREAM)
     for i in range(3): c.elipse(tam * .3 + i * tam * .2, (tam - 32) / 2 + 4, 9, 9, OUT, ow=0)
     return c.fin()
+
+
+# ------------------------------------------------------------------ PORTALES (serie 23-nov-2026)
+PURPLE = (122, 63, 191); PURPLE_D = (42, 20, 72)
+
+
+def portal(fase=0, w=520, h=700):
+    """Portal morado vertical con espiral que gira (fase 0..11)."""
+    c = Lienzo(w, h)
+    cx, cy, rx, ry = w / 2, h / 2, w / 2 - 20, h / 2 - 20
+    for k, col in enumerate([(70, 30, 120), (96, 44, 150), PURPLE, (150, 80, 215), (194, 89, 255)]):
+        f = 1 - k * .1
+        c.elipse(cx, cy, rx * f, ry * f, col, ow=8 if k == 0 else 0)
+    for arm in range(4):
+        col = (PINK, ORANGE, CREAM, (255, 224, 138))[arm]
+        for i in range(26):
+            r = .92 - i * .032
+            a = arm * math.pi / 2 + fase * math.pi / 6 + (1 - r) * 5.2
+            x, y = cx + math.cos(a) * rx * r * .92, cy + math.sin(a) * ry * r * .92
+            rad = 3 + 13 * r
+            c.d.ellipse([(x - rad) * SS, (y - rad) * SS, (x + rad) * SS, (y + rad) * SS], fill=col)
+    c.elipse(cx, cy, 34, 52, CREAM, ow=0)
+    c.elipse(cx, cy, 18, 30, (255, 224, 138), ow=0)
+    return c.fin()
+
+
+def reloj_roto(w=210):
+    c = Lienzo(w, w)
+    m = w / 2
+    c.elipse(m, m, m - 10, m - 10, CREAM)
+    for k in range(12):
+        a = k * math.pi / 6
+        c.linea([(m + math.cos(a) * (m - 30), m + math.sin(a) * (m - 30)), (m + math.cos(a) * (m - 22), m + math.sin(a) * (m - 22))], 5, OUT)
+    c.linea([(m, m), (m, m - 52)], 8, OUT)
+    c.linea([(m, m), (m + 38, m + 14)], 8, OUT)
+    c.linea([(m - 40, m - 70), (m - 10, m - 30), (m - 34, m + 6), (m + 6, m + 44), (m - 14, m + 80)], 6, PINK)
+    return c.fin()
+
+
+def planta(w=1000, h=520):
+    """Planta nuclear de caricatura: dos torres de enfriamiento, domo y cerca."""
+    c = Lienzo(w, h)
+    base = h - 12
+    for ox, tono in ((70, (176, 150, 214)), (560, (160, 132, 204))):
+        pts = [(ox, base), (ox + 330, base), (ox + 262, base - 170), (ox + 250, base - 300), (ox + 272, base - 430),
+               (ox + 58, base - 430), (ox + 80, base - 300), (ox + 68, base - 170)]
+        c.poli(pts, tono)
+        c.linea([(ox + 66, base - 428), (ox + 264, base - 428)], 14, (230, 210, 250), ow=0)
+        c.linea([(ox + 120, base - 360), (ox + 108, base - 40)], 8, (150, 120, 196))
+        c.linea([(ox + 200, base - 360), (ox + 216, base - 40)], 8, (150, 120, 196))
+    # edificio central + domo
+    c.rrect(400, base - 190, 560, base, 6, (96, 80, 150))
+    c.d.pieslice([410 * SS, (base - 300) * SS, 550 * SS, (base - 80) * SS], 180, 360, fill=(120, 100, 176), outline=OUT, width=6 * SS)
+    for i in range(3):
+        c.rrect(420 + i * 46, base - 150, 450 + i * 46, base - 118, 4, ORANGE, ow=4)
+    # símbolo de radiación
+    sx, sy, r = 480, base - 232, 34
+    c.elipse(sx, sy, r, r, (255, 224, 138), ow=5)
+    for a0 in (-30, 90, 210):
+        c.d.pieslice([(sx - r * .8) * SS, (sy - r * .8) * SS, (sx + r * .8) * SS, (sy + r * .8) * SS], a0, a0 + 60, fill=OUT)
+    c.elipse(sx, sy, 8, 8, (255, 224, 138), ow=0)
+    # cerca
+    for x in range(20, w - 20, 44):
+        c.linea([(x, base), (x, base - 54)], 6, (200, 190, 220), ow=3)
+    c.linea([(20, base - 40), (w - 20, base - 40)], 6, (200, 190, 220), ow=3)
+    return c.fin()
+
+
+def humo(r=60):
+    c = Lienzo(r * 3, r * 3)
+    for dx, dy, rr in ((0, 0, r), (-r * .6, r * .5, r * .7), (r * .65, r * .45, r * .75)):
+        c.elipse(r * 1.5 + dx, r * 1.4 + dy, rr, rr, (236, 226, 246), ow=0)
+    return c.fin()
+
+
+def ciudad_pixel():
+    """Vice City antiguo en pixel art (135x80 px escalado x8 = 1080x640)."""
+    import random
+    rnd = random.Random(11)
+    W0, H0 = 135, 80
+    im = Image.new('RGBA', (W0, H0), (0, 0, 0, 255)); d = ImageDraw.Draw(im)
+    bandas = [(48, 22, 96), (92, 34, 130), (160, 52, 150), (236, 84, 140), (255, 128, 120), (255, 179, 107), (255, 224, 138)]
+    for i, col in enumerate(bandas):
+        d.rectangle([0, i * 7, W0, i * 7 + 7], fill=col)
+    d.ellipse([46, 18, 84, 56], fill=(255, 241, 190))
+    for y in range(34, 56, 4):
+        d.rectangle([40, y, 90, y + 1], fill=bandas[min(6, y // 7)])
+    x = 0
+    while x < W0:
+        w = rnd.randint(9, 16); h = rnd.randint(18, 46)
+        col = rnd.choice([(30, 16, 64), (42, 20, 80), (58, 28, 100)])
+        d.rectangle([x, 70 - h, x + w, 70], fill=col)
+        for wy in range(70 - h + 3, 67, 5):
+            for wx in range(x + 2, x + w - 1, 4):
+                if rnd.random() < .5:
+                    d.rectangle([wx, wy, wx + 1, wy + 2], fill=rnd.choice([(255, 224, 138), (255, 107, 139), (110, 230, 255)]))
+        x += w + rnd.randint(0, 2)
+    d.rectangle([0, 70, W0, H0], fill=(30, 14, 56))
+    d.rectangle([0, 70, W0, 71], fill=(255, 107, 139))
+    for xx in range(2, W0, 14):
+        d.rectangle([xx, 76, xx + 6, 77], fill=(255, 241, 234))
+    for px in (14, 118):
+        for y in range(48, 71):
+            d.point((px, y), fill=(96, 50, 30))
+        for ang in (-2.6, -2.0, -1.2, -0.5):
+            for k in range(1, 11):
+                d.point((int(px + math.cos(ang) * k * 1.2), int(48 + math.sin(ang) * k * .8 + k * k * .03)), fill=(40, 170, 110))
+    return im.resize((W0 * 8, H0 * 8), Image.NEAREST)
+
+
+def portal_mini(encendido=True, size=150):
+    c = Lienzo(size, size)
+    m = size / 2
+    if encendido:
+        c.elipse(m, m, m - 8, m - 8, PURPLE)
+        c.elipse(m, m, m * .62, m * .62, (194, 89, 255), ow=0)
+        c.elipse(m, m, m * .28, m * .28, CREAM, ow=0)
+    else:
+        c.elipse(m, m, m - 8, m - 8, (58, 40, 96))
+        c.linea([(m - 14, m - 14), (m + 14, m + 14)], 8, (130, 110, 160))
+        c.linea([(m + 14, m - 14), (m - 14, m + 14)], 8, (130, 110, 160))
+    return c.fin()
