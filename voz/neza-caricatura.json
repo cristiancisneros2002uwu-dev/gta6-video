@@ -1,0 +1,32 @@
+{
+ "voz_id": "sB5MBhkSEfh9M6eBEJbX",
+ "modelo": "eleven_multilingual_v2",
+ "caracteres": 343,
+ "frases": [
+  {
+   "texto": "¿Qué pasaría si GTA seis fuera en Neza?",
+   "inicio": 0.0,
+   "fin": 2.322
+  },
+  {
+   "texto": "Persecución: en Mexibús, por el bordo de Xochiaca, tras un tipo con riñonera y Jordan \"originales\" de quinientos pesos.",
+   "inicio": 2.647,
+   "fin": 9.23
+  },
+  {
+   "texto": "Misión secundaria: ir al Escala con tus compas un martes en la noche.",
+   "inicio": 9.671,
+   "fin": 13.374
+  },
+  {
+   "texto": "Vehículos: peseros y una que otra combi tuneada en la ciclovía.",
+   "inicio": 13.816,
+   "fin": 17.264
+  },
+  {
+   "texto": "¿Qué colonia pondrías tú? gtaseisencyclopedia.com",
+   "inicio": 17.31,
+   "fin": 21.269
+  }
+ ]
+}

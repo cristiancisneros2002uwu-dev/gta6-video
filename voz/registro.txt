@@ -1,24 +1,8 @@
-Traceback (most recent call last):
-  File "/home/runner/work/gta6-video/gta6-video/tools/tts.py", line 89, in <module>
-    VOICE_ID = d.get("voz_id") or (buscar_voz(d["voz_nombre"]) if d.get("voz_nombre") else os.environ.get("VOICE_ID", "pNInz6obpgDQGcFmaJgB"))
-                                   ~~~~~~~~~~^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/gta6-video/gta6-video/tools/tts.py", line 39, in buscar_voz
-    with urllib.request.urlopen(urllib.request.Request(u, headers={"xi-api-key": KEY}), timeout=60) as r:
-         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.14/urllib/request.py", line 187, in urlopen
-    return opener.open(url, data, timeout)
-           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.14/urllib/request.py", line 493, in open
-    response = meth(req, response)
-  File "/usr/lib/python3.14/urllib/request.py", line 602, in http_response
-    response = self.parent.error(
-        'http', request, response, code, msg, hdrs)
-  File "/usr/lib/python3.14/urllib/request.py", line 531, in error
-    return self._call_chain(*args)
-           ~~~~~~~~~~~~~~~~^^^^^^^
-  File "/usr/lib/python3.14/urllib/request.py", line 464, in _call_chain
-    result = func(*args)
-  File "/usr/lib/python3.14/urllib/request.py", line 611, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 401: Unauthorized
-FALLO
+/home/runner/work/gta6-video/gta6-video/tools/tts.py:117: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  lineas = ["# Créditos de ElevenLabs", "", f"Actualizado: {datetime.datetime.utcnow():%Y-%m-%d %H:%M} UTC", ""]
+/home/runner/work/gta6-video/gta6-video/tools/tts.py:126: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  f"- Reinicia: {datetime.datetime.utcfromtimestamp(sub['next_character_count_reset_unix']):%Y-%m-%d}"
+Voz: 5-ajustes-caricatura (327 caracteres)
+Voz: neza-caricatura (343 caracteres)
+Listo: 2 audios nuevos
+creditos.md actualizado
