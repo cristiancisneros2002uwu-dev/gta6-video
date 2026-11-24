@@ -33,6 +33,7 @@ Regla: cada serie sigue su orden (Parte 1, 2, 3... / #1, #2, #3...) sin saltar n
 - Top 5: #2
 - Secretos y easter eggs: #2
 - Portales Multidimensionales en GTA 6: Parte 2
+- ¿Qué pasaría si...? (nueva serie, 23-nov, decisión de Cristian): #1 (en prueba; mínimo 3 videos antes de decidir si se queda)
 
 ## No publicar (rehacer antes)
 - Ninguno pendiente de rehacer. Los 13 videos corregidos esperan OK de Verdad al MP4 y va de Cristian. Dinero P1 ya salió: corrección en comentario fijado (Reloj).

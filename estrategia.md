@@ -52,3 +52,11 @@ Google ya nos manda ~73 clics al día, 69% de las impresiones vienen de EE. UU.,
 ## Experimento: videos de caricatura (decidido 23-nov, Cristian)
 - Prueba de 1 video en estilo caricatura con personajes PROPIOS (no copiar a otras cuentas), paleta y tipografía de la marca, sin gameplay. Se compara contra los videos de motion graphics (retención 3 s, tiempo promedio, compartidos). Mínimo 3 videos antes de decidir si se adopta.
 - Nueva sección: "Secretos de Leonida" (viaje en el tiempo: portal en la planta nuclear al Vice City original, 12 interruptores, moto). Cristian confirmó que el portal es real jugando; falta que dé los pasos exactos y se agregue al sitio ANTES del video. Después de la prueba de estilo se hace la historia.
+
+## Serie nueva: "¿Qué pasaría si...?" (decidida 23-nov, Cristian)
+- Historias de "qué pasaría si GTA VI existiera en un lugar o situación real de México" (ej. Neza, el Metro, la Central de Abasto). Sin gameplay ni material de Rockstar.
+- **Gancho fijo: "¿Qué pasaría si…?" en el segundo 0**, con la voz desde el primer cuadro. Esta serie siempre arranca así.
+- Cuidados: humor sin burlarse de la gente, sin negocios ni personas reales, sin estereotipos fuertes, sin palabras que TikTok limita (violencia, drogas, policía: usar "persecución", "caos"). Siempre: sitio de fans no afiliado a Rockstar Games ni Take-Two y etiqueta de IA.
+- Objetivo: seguidores, comentarios y compartidos (no tráfico a Google). Cada video cierra con UNA página real del sitio.
+- Prueba: mínimo 3 videos y se comparan contra motion graphics (salto en 3 s, tiempo promedio, comentarios, compartidos). Si ganan, la serie se queda.
+- Prueba de gancho (hipótesis, pendiente de Cristian): en las demás series, mismo tema con "¿Qué pasaría si…?" contra el gancho actual en el Lote 5; decidir con 3 pruebas, no con 1.
