@@ -60,3 +60,55 @@ KPIs: vistas por video (mediana actual IG 402, TikTok 538), compartidos y guarda
 ## Pendiente
 - Ver 2-3 reels completos de gtacoulture (918 mil, 1.3 M, 226 mil) y de El Tina (194 mil, 190 mil) para describir el gancho animado, el ritmo y el cierre.
 - Fechas de publicación de esos reels (para saber si es tiempo o gancho).
+
+## PROPUESTA: secciones, calendario y banco de ganchos (v1, 24-nov; la aprueba Cristian, no cambia serie.md ni estrategia.md todavía)
+
+### 5 secciones (de las 10 que hay)
+1. DINERO (pilar en IG). Absorbe Top 5 y "cómo no perder tu dinero". Ya trae BuckMe, nave de 10.000, cromos, encargo de Randy.
+2. GRATIS Y SECRETOS. Absorbe Gratis, Secretos y easter eggs y Portales (guía de 12 pasos). Armas en patrullas, coche con nitro, torre de radio, portal.
+3. ¿QUÉ PASA SI...? Absorbe Errores y ¿Se puede...? Todo lo que es consecuencia o sí/no.
+4. LUCÍA (pilar en TikTok).
+5. UBICACIONES "TODOS los X" (nueva). Bancos 22, gimnasios 9, comisarías 5, empeños 19, bomberos 4. Lleva a la enciclopedia; primero en inglés para @gta6encyclopedia.en.
+Datos curiosos y noticias: máximo 1 por semana (rinden poco).
+Las partes siguen numeradas por sección, pero "Parte N" va chico arriba y NO es el gancho.
+
+### Calendario de subida (semana tipo, 14 videos; 12:00 y 20:00 CDMX)
+| | 12:00 | 20:00 |
+|---|---|---|
+| Lun | Dinero | ¿Qué pasa si? |
+| Mar | Gratis/Secretos | Lucía |
+| Mié | Dinero | Ubicaciones |
+| Jue | ¿Qué pasa si? | Gratis/Secretos |
+| Vie | Dinero | Lucía |
+| Sáb | Ubicaciones | Gratis/Secretos |
+| Dom | Dinero | ¿Qué pasa si? |
+Reglas: nunca 2 del mismo tipo seguidos; el mismo archivo y la misma pregunta de caption en todas las redes; cada video lleva UNA página del sitio; Cristian da el va. Si un día no sale, se recorre.
+
+### Banco de ganchos (voz en el segundo 0 / texto en pantalla ≤12 palabras)
+Todos salen de datos ya verificados en serie.md; los marcados (c) se confirman jugando antes.
+DINERO
+- A: "10.000 dólares te esperan en esta nave." / "NAVE · 10.000 $"
+- B: "Un cromo vale hasta más de mil dólares. Este, seis mil." / "CROMO DE 6.000 $" (Leroy Rook, bodega roja cerca de Hamlet)
+- C: "Este encargo paga diez mil de bono si no rayas el coche." / "+10.000 $ SIN DAÑOS" (Randy)
+- D: "Los 5 trabajos que más pagan en GTA VI." / "TOP 5 PAGOS"
+GRATIS Y SECRETOS
+- A: "Armas gratis en la cajuela de una patrulla." / "ARMAS GRATIS · PATRULLAS"
+- B: "Un coche con nitro, gratis, junto a la casa de Jason." / "NITRO GRATIS"
+- C: "Hay un portal al Vice City original. Son 12 pasos." / "PORTAL AL VICE CITY ORIGINAL" (c: descubrimiento de jugadores)
+- D: "Sube a esta torre de radio y salta." / "EL SECRETO DE LA TORRE" (c)
+¿QUÉ PASA SI...?
+- A: "¿Qué pasa si empiezas Tourist Trap con efectivo? Lo pierdes." / "EFECTIVO PERDIDO"
+- B: "¿Qué pasa si bajas mucho tu relación con Lucía? Pierdes un final." / "PIERDES UN FINAL"
+- C: "¿Qué pasa si vendes tus cromos? Nada: no pierdes avance." / "VENDER CROMOS · SIN RIESGO"
+- D: "¿Se puede detonar en GTA VI? Sí, pero solo Jason y Lucía." / "¿SE PUEDE DETONAR?"
+LUCÍA
+- A: "¿Te ama o solo son socios?" / "¿TE AMA?" (ya usado)
+- B: "Lucía tiene 4 niveles. ¿En cuál estás?" / "4 NIVELES"
+- C: "Lo que más sube tu relación con Lucía: tiempo fuera de misiones." / "LO QUE MÁS LA SUBE"
+- D: "4 cosas que arruinan tu relación con Lucía." / "LO QUE LO ARRUINA"
+UBICACIONES
+- A: "22 bancos, solo 8 con bóveda. Aquí están todos." / "22 BANCOS · 8 BÓVEDAS"
+- B: "9 gimnasios en Vice City: dónde está cada uno." / "9 GIMNASIOS"
+- C: "5 comisarías en GTA VI: dónde están." / "5 COMISARÍAS"
+- D: "19 casas de empeño y cuál te queda más cerca." / "19 EMPEÑOS"
+Prueba: por sección, 2 ganchos distintos (A y B) en videos distintos y comparar salto 3 s.
