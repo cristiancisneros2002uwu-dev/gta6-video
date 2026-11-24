@@ -1,0 +1,47 @@
+{
+ "voz_id": "pNInz6obpgDQGcFmaJgB",
+ "modelo": "eleven_multilingual_v2",
+ "caracteres": 327,
+ "frases": [
+  {
+   "texto": "Tu GTA seis tiene configuración de gringo.",
+   "inicio": 0.0,
+   "fin": 2.891
+  },
+  {
+   "texto": "Cámbiala con estos cinco ajustes.",
+   "inicio": 3.065,
+   "fin": 5.132
+  },
+  {
+   "texto": "Uno: unidades en métrico.",
+   "inicio": 5.259,
+   "fin": 7.279
+  },
+  {
+   "texto": "Dos: retícula en punto.",
+   "inicio": 7.523,
+   "fin": 9.381
+  },
+  {
+   "texto": "Tres: avisos de progreso.",
+   "inicio": 9.532,
+   "fin": 11.413
+  },
+  {
+   "texto": "Cuatro: subtítulos solo en misiones.",
+   "inicio": 11.529,
+   "fin": 14.292
+  },
+  {
+   "texto": "Cinco: interfaz de minijuegos, para puentear y usar ganzúa.",
+   "inicio": 14.466,
+   "fin": 18.251
+  },
+  {
+   "texto": "¿Cuál vas a cambiar primero? La guía completa está en gtaseisencyclopedia.com",
+   "inicio": 18.332,
+   "fin": 23.731
+  }
+ ]
+}
