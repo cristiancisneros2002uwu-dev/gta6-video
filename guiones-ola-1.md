@@ -59,3 +59,18 @@ Nota: PS5
 - Mansión: ubicación exacta, modelo del deportivo, si los guardias reaparecen, cifra de la caja fuerte, si el deportivo se puede vender.
 - Cajero: modelo de grúa, ubicación de Ill-Eagle Fireworks, que el tinte rosa sí sale.
 - Auto de Rápido y Furioso: ubicación exacta; dónde y cuánto cuesta registrarlo (NO se dice en el video hasta confirmar).
+
+## FORMATO CARICATURA — Neza y 5 ajustes (decisión de Cristian, 24-nov 02:17)
+Los dos van en caricatura con Flami (flamenco rosa, lentes) y Gus (cocodrilo verde nervioso), mismo motor (plantilla/caricatura.py). Calidad más alta: cada escena con su propia coreografía y fondo dibujado, expresiones que cambian, objetos y movimiento de cámara. Texto de voz igual (ya aprobado). El chat de videos codifica las acciones nuevas.
+### NEZA (cada escena = una acción nueva)
+- Hook: Flami y Gus en un mapa estilo Leonida que se transforma en Neza (bordo, antenas, tianguis). Gus: "¿¡Neza!?"
+- Persecución: Mexibús naranja/rojo en calle dibujada con bordo de Xochiaca al fondo; Flami manejando, Gus colgado de la ventana; adelante un tipo con riñonera corriendo y tenis Jordan con etiqueta $500 que brillan; destellos de velocidad.
+- Escala: letrero de neón "EL ESCALA" (solo el nombre, sin dibujos de table dance), fila de compas (siluetas simples) un martes en la noche, luna y calendario con "MAR". Gus con cara de "no sé".
+- Vehículos: pesero y combi tuneada con neones, spoiler y bocinas en la ciclovía; Flami saca la cabeza con lentes y baila al ritmo.
+- Cierre: pines que se llenan en el mapa, Gus pregunta con burbuja "¿Qué colonia?"
+### 5 AJUSTES
+- Hook: Gus con sombrero y bandera gringa mirando un menú; Flami le cambia la ropa a "configuración mexicana".
+- Cada ajuste (1-5) con un ícono grande que Gus mueve: mph→km/h, punto de mira, avisos de progreso, subtítulos, minijuegos (ganzúa). Flami pone palomita en cada uno.
+- Cierre: Gus feliz en su menú; pregunta "¿Cuál cambias primero?"
+### Regla
+Sin nombrar marcas reales de tenis en pantalla si hay riesgo: usar "Jordan" solo en voz. Sin logos reales.
