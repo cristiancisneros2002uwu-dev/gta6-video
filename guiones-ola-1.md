@@ -1,13 +1,13 @@
 # guiones-ola-1.md — Guiones con tiempos (tiempos aproximados; los reales salen de la voz de ElevenLabs)
 Escritos por el Analista el 24-nov-2026 con los cambios de Cristian. Máximo 55 palabras de voz; gancho en el segundo 0; pregunta para comentar; cierre con el sitio. Sin gameplay ni capturas de otros. Texto en pantalla ≤12 palabras (*palabra* = resaltada).
 
-## 1. NEZA — ¿Y si GTA VI fuera en Neza? (55 palabras, ~23 s)
-Nota: concepto de fans, no es del juego; cierre de humor
-- 0:00-0:03 | VOZ: ¿Qué pasaría si GTA VI fuera en Neza? | PANTALLA: GTA VI EN *NEZA* (sello: Concepto de fans) | VISUAL: mapa estilo Leonida de Neza
-- 0:03-0:11 | VOZ: La persecución: en Mexibús, por el bordo de Xochiaca, tras un tipo con riñonera y Jordan "originales" de 500 pesos. | PANTALLA: PERSECUCIÓN EN *MEXIBÚS* | VISUAL: Mexibús persiguiendo a un tipo con tenis con etiqueta $500
-- 0:11-0:17 | VOZ: Misión secundaria: salir con tus compas un martes en la noche, como cuando salió GTA VI. | PANTALLA: MISIÓN: UN *MARTES* EN LA NOCHE | VISUAL: grupo de compas, calendario en martes
-- 0:17-0:19 | VOZ: Vehículos: peseros y combis. | PANTALLA: PESEROS · *COMBIS* | VISUAL: garaje con íconos
-- 0:19-0:22 | VOZ: ¿Qué colonia pondrías tú? Más en gta6encyclopedia.com | PANTALLA: ¿QUÉ *COLONIA*? | VISUAL: mapa con pines que se llenan
+## 1. NEZA — ¿Y si GTA VI fuera en Neza? (55 palabras, ~25 s)
+Nota: concepto de humor; sin sello. El Escala y "una que otra combi tuneada en la ciclovía" son el chiste: no quitar.
+- 0:00-0:03 | VOZ: ¿Qué pasaría si GTA VI fuera en Neza? | PANTALLA: GTA VI EN *NEZA* | VISUAL: mapa estilo Leonida de Neza
+- 0:03-0:11 | VOZ: Persecución: en Mexibús, por el bordo de Xochiaca, tras un tipo con riñonera y Jordan "originales" de 500 pesos. | PANTALLA: PERSECUCIÓN EN *MEXIBÚS* | VISUAL: Mexibús persiguiendo a un tipo con tenis con etiqueta $500
+- 0:11-0:16 | VOZ: Secundaria: ir al Escala con tus compas un martes en la noche. | PANTALLA: MISIÓN: EL *ESCALA* UN MARTES | VISUAL: grupo de compas, calendario en martes
+- 0:16-0:21 | VOZ: Vehículos: peseros y una que otra combi tuneada en la ciclovía. | PANTALLA: PESEROS · *COMBI TUNEADA* | VISUAL: garaje con íconos, combi con neones en ciclovía
+- 0:21-0:25 | VOZ: ¿Qué colonia pondrías tú? gta6encyclopedia.com | PANTALLA: ¿QUÉ *COLONIA*? | VISUAL: mapa con pines que se llenan
 
 ## 2. 5 AJUSTES (49 palabras, ~22 s)
 Nota: solo español
@@ -53,7 +53,7 @@ Nota: PS5
 - 0:18-0:22 | VOZ: ¿Cuál es tu favorita? La guía completa está en gta6encyclopedia.com | PANTALLA: ¿CUÁL ES TU *FAVORITA*? | VISUAL: íconos de películas
 
 ## Confirmar jugando antes de grabar
-- Neza: nada del juego; revisar nombres de lugares. Cambios del Analista: "riñonera" en vez de "mariconera"; sin nombrar el table dance (pueden limitar alcance en TikTok/IG; decide Cristian).
+- Neza: nada del juego; revisar nombres de lugares. Versión final de Cristian (Escala, combi tuneada).
 - Ajustes: nombres exactos de las opciones en el menú de PS5. Solo en español.
 - Controles: que la música siga al bajarte con doble Triángulo (si no: "sin apagar el motor"); cada combinación de botones.
 - Mansión: ubicación exacta, modelo del deportivo, si los guardias reaparecen, cifra de la caja fuerte, si el deportivo se puede vender.
