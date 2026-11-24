@@ -867,7 +867,7 @@ def scene_portal(s, st):
     if acc == 'p_hook':
         chip = pill(f"{s['serie']} · {s['parte']}", F('800', 32), fg=BG, padx=30, pady=10)
         tt = rich(s['texto'], F('title', 112), W - 2 * MX)
-        zap = sfx('[¡ZAP!]', 100)
+        zap = sfx('[ZAP!]' if en else '[¡ZAP!]', 100)
         def draw(fr, t):
             draw_common(fr, t)
             anim_in(fr, chip, CX, TOP + 10, t, 0, 'pop', .3)
@@ -907,7 +907,7 @@ def scene_portal(s, st):
         def draw(fr, t):
             draw_common(fr, t)
             ciudad_bg(fr, t)
-            anim_in(fr, pv, CX, 560, t, .05, 'pop', .3)
+            anim_in(fr, pv, CX, 515, t, .05, 'pop', .3)
             portal_at(fr, t, 140, G - 200, .42, clamp(1 - prog(t, 1.3, .6)))
             u = ease_out(prog(t, .1, 1.0)); x = 120 + 260 * u; moving = u < 1
             fl(fr, x, G - (saltito(t) if moving else 0), boca=0 if moving else .6, gafas=1., sc=FL * (.3 + .7 * min(1, u * 3)), pixel=True)
