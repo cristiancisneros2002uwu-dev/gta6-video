@@ -1,83 +1,61 @@
-# guiones-ola-1.md — Guiones nuevos (de los guiones de Cristian), listos para producir
-Escritos por el Analista el 24-nov-2026. Cada guion: gancho en el segundo 0, dato fuerte antes de 5 s, una pregunta para comentar, cierre con el sitio, máximo 55 palabras de voz. Sin gameplay ni capturas de otros: todo es motion graphics / mapas y contadores dibujados. Etiquetas pendientes de confirmar jugando van en "Confirmar". No tocar estrategia.md.
-Cada texto en pantalla ≤12 palabras (*palabra* = resaltada en naranja). Los tiempos salen de la voz real.
+# guiones-ola-1.md — Guiones con tiempos (tiempos aproximados; los reales salen de la voz de ElevenLabs)
+Escritos por el Analista el 24-nov-2026 con los cambios de Cristian. Máximo 55 palabras de voz; gancho en el segundo 0; pregunta para comentar; cierre con el sitio. Sin gameplay ni capturas de otros. Texto en pantalla ≤12 palabras (*palabra* = resaltada).
 
-## 1. NEZA — "¿Y si GTA VI fuera en Neza?" (52 palabras; concepto de fans, no es del juego)
-Voz completa: "¿Qué pasaría si GTA VI fuera en Neza? La persecución: en Mexibús, por el bordo de Xochiaca, tras un tipo con riñonera y Jordan "originales" de 500 pesos. Misión secundaria: salir con tus compas un martes en la noche, como cuando salió GTA VI. Vehículos: peseros y combis. ¿Qué colonia pondrías tú? Más en gta6encyclopedia.com"
-Escenas (texto / visual):
-1. "GTA VI EN *NEZA*" + sello chico "Concepto de fans, no es del juego" / mapa estilo Leonida de Neza, patrulla persiguiendo un Mexibús.
-2. "MISIÓN: VENDER *TAMALES*" / puesto con contador de ventas subiendo.
-3. "MISIÓN: SOBREVIVIR AL *TRÁFICO*" / barra de vida que baja.
-4. "LA PERLA · DE *NOCHE*" / ecualizador neón.
-5. "PESEROS · COMBIS *TUNEADAS*" / garaje con íconos.
-6. "¿QUÉ *COLONIA*?" / mapa con pines que se llenan.
-Cierre distinto al estándar (humor): "Más de GTA VI en gta6encyclopedia.com". Caption: ¿Qué colonia pondrías tú? Serie nueva en prueba: "¿Y si GTA VI fuera en...?" (siguientes: Monterrey, otra colonia de CDMX). Humor cariñoso, sin burlas.
-Confirmar: nada del juego; revisar que los nombres de lugares estén bien escritos.
+## 1. NEZA — ¿Y si GTA VI fuera en Neza? (55 palabras, ~23 s)
+Nota: concepto de fans, no es del juego; cierre de humor
+- 0:00-0:03 | VOZ: ¿Qué pasaría si GTA VI fuera en Neza? | PANTALLA: GTA VI EN *NEZA* (sello: Concepto de fans) | VISUAL: mapa estilo Leonida de Neza
+- 0:03-0:11 | VOZ: La persecución: en Mexibús, por el bordo de Xochiaca, tras un tipo con riñonera y Jordan "originales" de 500 pesos. | PANTALLA: PERSECUCIÓN EN *MEXIBÚS* | VISUAL: Mexibús persiguiendo a un tipo con tenis con etiqueta $500
+- 0:11-0:17 | VOZ: Misión secundaria: salir con tus compas un martes en la noche, como cuando salió GTA VI. | PANTALLA: MISIÓN: UN *MARTES* EN LA NOCHE | VISUAL: grupo de compas, calendario en martes
+- 0:17-0:19 | VOZ: Vehículos: peseros y combis. | PANTALLA: PESEROS · *COMBIS* | VISUAL: garaje con íconos
+- 0:19-0:22 | VOZ: ¿Qué colonia pondrías tú? Más en gta6encyclopedia.com | PANTALLA: ¿QUÉ *COLONIA*? | VISUAL: mapa con pines que se llenan
 
-## 2. 5 AJUSTES (49 palabras)
-Voz: "Tu GTA VI tiene configuración de gringo. Cámbiala con estos cinco ajustes. Uno: unidades en métrico. Dos: retícula en punto. Tres: avisos de progreso. Cuatro: subtítulos solo en misiones. Cinco: interfaz de minijuegos, para puentear y usar ganzúa. ¿Cuál vas a cambiar primero? La guía completa está en gta6encyclopedia.com"
-Escenas:
-1. "TU GTA VI VIENE EN *MILLAS*" / velocímetro mph que gira a km/h.
-2. "5 AJUSTES · PS5 · *GUÁRDALO*" / lista que se arma.
-3. "1 · UNIDADES: *MÉTRICO*" / interruptor km y °C.
-4. "2 · RETÍCULA: *PUNTO*" / mira compleja se reduce a punto.
-5. "3 · AVISOS DE PROGRESO: *ON*"
-6. "4 · SUBTÍTULOS: SOLO *MISIONES*"
-7. "5 · INTERFAZ DE *MINIJUEGOS*"
-8. "¿CUÁL *PRIMERO*?"
-Confirmar: nombres exactos de cada opción en el menú (PS5).
+## 2. 5 AJUSTES (49 palabras, ~22 s)
+Nota: solo español
+- 0:00-0:03 | VOZ: Tu GTA VI tiene configuración de gringo. | PANTALLA: CONFIGURACIÓN DE *GRINGO* | VISUAL: velocímetro mph que gira a km/h
+- 0:03-0:05 | VOZ: Cámbiala con estos cinco ajustes. | PANTALLA: 5 AJUSTES · PS5 · *GUÁRDALO* | VISUAL: lista que se arma
+- 0:05-0:07 | VOZ: Uno: unidades en métrico. | PANTALLA: 1 · UNIDADES: *MÉTRICO* | VISUAL: interruptor km y °C
+- 0:07-0:09 | VOZ: Dos: retícula en punto. | PANTALLA: 2 · RETÍCULA: *PUNTO* | VISUAL: mira compleja que se reduce a punto
+- 0:09-0:11 | VOZ: Tres: avisos de progreso. | PANTALLA: 3 · AVISOS DE PROGRESO | VISUAL: ícono de aviso que se activa
+- 0:11-0:13 | VOZ: Cuatro: subtítulos solo en misiones. | PANTALLA: 4 · SUBTÍTULOS: SOLO *MISIONES* | VISUAL: barra de subtítulos
+- 0:13-0:17 | VOZ: Cinco: interfaz de minijuegos, para puentear y usar ganzúa. | PANTALLA: 5 · INTERFAZ DE *MINIJUEGOS* | VISUAL: íconos de llave y ganzúa
+- 0:17-0:22 | VOZ: ¿Cuál vas a cambiar primero? La guía completa está en gta6encyclopedia.com | PANTALLA: ¿CUÁL *PRIMERO*? | VISUAL: los 5 íconos en fila
 
-## 3. CONTROLES OCULTOS (53 palabras)
-Voz: "Bájate del coche sin quitar la música: toca Triángulo dos veces. Control uno de cinco ocultos en PS5. Dos: L3 y Cuadrado voltean tu coche. Tres: L3 más R3, cámara lenta. Cuatro: Círculo caminando y te sientas. Cinco: Cuadrado en el coche, portazo. ¿Cuál no conocías? La guía completa está en gta6encyclopedia.com"
-Escenas:
-1. "MOTOR *PRENDIDO*: △ △" / botón Triángulo parpadea dos veces, coche con motor encendido.
-2. "5 CONTROLES *OCULTOS* · GUÁRDALO"
-3. "2 · L3 + □ = *VOLTEAR*" / coche volcado que gira.
-4. "3 · L3 + R3 = *CÁMARA LENTA*"
-5. "4 · ○ = *SENTARTE*"
-6. "5 · □ EN EL COCHE = *PORTAZO*"
-7. "¿CUÁL NO *CONOCÍAS*?"
-Confirmar: cada combinación de botones en PS5 antes de grabar.
+## 3. CONTROLES OCULTOS (52 palabras, ~23 s)
+Nota: PS5
+- 0:00-0:04 | VOZ: Bájate del coche sin quitar la música: toca Triángulo dos veces. | PANTALLA: MOTOR *PRENDIDO*: △ △ | VISUAL: botón Triángulo parpadea dos veces
+- 0:04-0:07 | VOZ: Control uno de cinco ocultos en PS5. | PANTALLA: 5 CONTROLES *OCULTOS* · GUÁRDALO | VISUAL: lista de 5 que se arma
+- 0:07-0:10 | VOZ: Dos: L3 y Cuadrado voltean tu coche. | PANTALLA: 2 · L3 + □ = *VOLTEAR* | VISUAL: coche volcado que gira
+- 0:10-0:13 | VOZ: Tres: L3 más R3, cámara lenta. | PANTALLA: 3 · L3 + R3 = *CÁMARA LENTA* | VISUAL: reloj en cámara lenta
+- 0:13-0:16 | VOZ: Cuatro: Círculo caminando y te sientas. | PANTALLA: 4 · ○ = *SENTARTE* | VISUAL: personaje sentándose
+- 0:16-0:18 | VOZ: Cinco: Cuadrado en el coche, portazo. | PANTALLA: 5 · □ EN EL COCHE = *PORTAZO* | VISUAL: puerta que se abre de golpe
+- 0:18-0:22 | VOZ: ¿Cuál no conocías? La guía completa está en gta6encyclopedia.com | PANTALLA: ¿CUÁL NO *CONOCÍAS*? | VISUAL: 5 íconos
 
-## 4. MANSIÓN DE 30 MIL (53 palabras)
-Voz: "Más de 30 mil dólares, armas legendarias y un superdeportivo gratis, en una mansión de Vespucci. Sube las escaleras, enfrenta a los guardias y entra al cuarto del fondo: caja fuerte y armas. Abajo espera el deportivo. ¿Qué te llevas primero: dinero, armas o coche? La guía completa está en gta6encyclopedia.com"
-Escenas:
-1. "+30.000 $ · ARMAS · *DEPORTIVO*" / contador animado de $0 a $30.000.
-2. "ISLA DE *VESPUCCI*" / mapa dibujado con pin.
-3. "ESCALERAS → *GUARDIAS*" / dibujo de la mansión por pisos.
-4. "CUARTO DEL FONDO: *CAJA FUERTE*"
-5. "Y ABAJO: *SUPERDEPORTIVO*"
-6. "¿LO *VENDES*?"
-Confirmar: ubicación exacta dentro de la isla, modelo del deportivo, si los guardias reaparecen, cifra de la caja fuerte.
+## 4. MANSIÓN DE 30 MIL (51 palabras, ~21 s)
+- 0:00-0:06 | VOZ: Más de 30 mil dólares, armas legendarias y un superdeportivo gratis, en una mansión de Vespucci. | PANTALLA: +30.000 $ · ARMAS · *DEPORTIVO* | VISUAL: contador animado de $0 a $30.000 + mapa con pin
+- 0:06-0:09 | VOZ: Sube las escaleras, enfrenta a los guardias | PANTALLA: ESCALERAS → *GUARDIAS* | VISUAL: mansión dibujada por pisos
+- 0:09-0:13 | VOZ: y entra al cuarto del fondo: caja fuerte y armas. | PANTALLA: CUARTO DEL FONDO: *CAJA FUERTE* | VISUAL: caja fuerte abriéndose
+- 0:13-0:15 | VOZ: Abajo espera el deportivo. | PANTALLA: ABAJO: *SUPERDEPORTIVO* | VISUAL: deportivo dibujado
+- 0:15-0:21 | VOZ: ¿Qué te llevas primero: dinero, armas o coche? La guía completa está en gta6encyclopedia.com | PANTALLA: ¿QUÉ TE *LLEVAS*? | VISUAL: 3 íconos
 
-## 5. CAJERO CON GRÚA (52 palabras)
-Voz: "¿Corto de dinero? Arranca un cajero entero con una grúa pequeña. Ve a Ill-Eagle Fireworks, mueve el vehículo que estorba y engancha el cajero en reversa. Acelera hasta que se suelte, rómpelo y saca el dinero. Ojo: algunas cajas traen tinte rosa. ¿Lo intentas? La guía completa está en gta6encyclopedia.com"
-Escenas:
-1. "ARRANCA UN *CAJERO* ENTERO" / grúa dibujada enganchando un cajero.
-2. "GRÚA *PEQUEÑA*" / ícono de la grúa.
-3. "ILL-EAGLE *FIREWORKS*" / mapa con pin.
-4. "ENGANCHA EN *REVERSA*" / animación del gancho.
-5. "ACELERA HASTA QUE *SUELTE*" / barra de tensión.
-6. "OJO: TINTE *ROSA*" / caja que estalla en rosa.
-7. "¿LO *INTENTAS*?"
-Confirmar: modelo de la grúa, ubicación exacta de Ill-Eagle Fireworks, que el tinte rosa sí sale.
+## 5. CAJERO CON GRÚA (50 palabras, ~22 s)
+- 0:00-0:04 | VOZ: ¿Corto de dinero? Arranca un cajero entero con una grúa pequeña. | PANTALLA: ARRANCA UN *CAJERO* ENTERO | VISUAL: grúa enganchando un cajero
+- 0:04-0:08 | VOZ: Ve a Ill-Eagle Fireworks, mueve el vehículo que estorba | PANTALLA: ILL-EAGLE *FIREWORKS* | VISUAL: mapa con pin
+- 0:08-0:11 | VOZ: y engancha el cajero en reversa. | PANTALLA: ENGANCHA EN *REVERSA* | VISUAL: animación del gancho
+- 0:11-0:15 | VOZ: Acelera hasta que se suelte, rómpelo y saca el dinero. | PANTALLA: ACELERA HASTA QUE *SUELTE* | VISUAL: barra de tensión
+- 0:15-0:18 | VOZ: Ojo: algunas cajas traen tinte rosa. | PANTALLA: OJO: TINTE *ROSA* | VISUAL: caja que estalla en rosa
+- 0:18-0:21 | VOZ: ¿Lo intentas? La guía completa está en gta6encyclopedia.com | PANTALLA: ¿LO *INTENTAS*? | VISUAL: íconos
 
-## 6. AUTO DE RÁPIDO Y FURIOSO (55 palabras)
-Voz: "El auto más famoso de Rápido y Furioso está en GTA VI. Penumbra verde del 97, en un garaje del centro de Vespucci Island. Ábrelo con ganzúa: si rompes la ventana, suena la alarma. Mándaselo a tu amigo que se las sabe de memoria. ¿Cuál es tu favorita? La guía completa está en gta6encyclopedia.com"
-Escenas:
-1. "EL AUTO DE *RÁPIDO Y FURIOSO*" / silueta del coche con neón verde.
-2. "PENUMBRA *VERDE* DEL 97"
-3. "VESPUCCI ISLAND · *CENTRO*" / mapa con pin.
-4. "ABRE CON *GANZÚA*" / candado.
-5. "¡ALARMA SI ROMPES LA *VENTANA*!" / ícono de alarma.
-6. "MÁNDASELO A UN *FAN*" 
-7. "¿CUÁL ES TU *FAVORITA*?"
-Confirmar: dónde y cuánto cuesta registrarlo (la portada de @gtacoulture dice gratis con Moses; tu guion del Charger dice 23 mil): NO decirlo en el video hasta confirmar. Ubicación exacta dentro de la isla.
+## 6. AUTO DE RÁPIDO Y FURIOSO (54 palabras, ~22 s)
+- 0:00-0:04 | VOZ: El auto más famoso de Rápido y Furioso está en GTA VI. | PANTALLA: EL AUTO DE *RÁPIDO Y FURIOSO* | VISUAL: silueta con neón verde
+- 0:04-0:09 | VOZ: Penumbra verde del 97, en un garaje del centro de Vespucci Island. | PANTALLA: PENUMBRA *VERDE* DEL 97 · VESPUCCI ISLAND | VISUAL: mapa con pin
+- 0:09-0:14 | VOZ: Ábrelo con ganzúa: si rompes la ventana, suena la alarma. | PANTALLA: ABRE CON *GANZÚA* · ¡ALARMA! | VISUAL: candado y alarma
+- 0:14-0:18 | VOZ: Mándaselo a tu amigo que se las sabe de memoria. | PANTALLA: MÁNDASELO A TU *AMIGO FAN* | VISUAL: ícono de compartir
+- 0:18-0:22 | VOZ: ¿Cuál es tu favorita? La guía completa está en gta6encyclopedia.com | PANTALLA: ¿CUÁL ES TU *FAVORITA*? | VISUAL: íconos de películas
 
-## Cambios de Cristian (24-nov 02:01) ya aplicados arriba
-- Neza: textos de su guion (Mexibús, bordo de Xochiaca, Jordan "originales" de 500 pesos, martes en la noche con tus compas, peseros y combis). Cambios del Analista: "riñonera" en vez de "mariconera" y sin nombrar el table dance (ambas palabras pueden limitar el alcance en TikTok/IG); recorte a 55 palabras. Si Cristian quiere conservarlas, es decisión suya.
-- Ajustes: gancho de Cristian ("configuración de gringo"). SOLO en español (sin versión en inglés).
-- Controles: gancho de Cristian ("sin quitar la música"). Confirmar jugando que la música sigue al bajarte con doble Triángulo; si no, usar "sin apagar el motor".
-- Mansión: cierre cambiado (ya no dice vender; Cristian cree que no se puede). Confirmar si el deportivo se puede vender.
-- Cajero: gancho de Cristian ("¿Corto de dinero?") + el cajero entero para que el gancho tenga dato concreto.
-- Auto de Rápido y Furioso: gancho y cierre de Cristian. Recortado a 55 palabras.
+## Confirmar jugando antes de grabar
+- Neza: nada del juego; revisar nombres de lugares. Cambios del Analista: "riñonera" en vez de "mariconera"; sin nombrar el table dance (pueden limitar alcance en TikTok/IG; decide Cristian).
+- Ajustes: nombres exactos de las opciones en el menú de PS5. Solo en español.
+- Controles: que la música siga al bajarte con doble Triángulo (si no: "sin apagar el motor"); cada combinación de botones.
+- Mansión: ubicación exacta, modelo del deportivo, si los guardias reaparecen, cifra de la caja fuerte, si el deportivo se puede vender.
+- Cajero: modelo de grúa, ubicación de Ill-Eagle Fireworks, que el tinte rosa sí sale.
+- Auto de Rápido y Furioso: ubicación exacta; dónde y cuánto cuesta registrarlo (NO se dice en el video hasta confirmar).
