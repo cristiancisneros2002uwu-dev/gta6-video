@@ -1,0 +1,42 @@
+{
+ "voz_id": "pNInz6obpgDQGcFmaJgB",
+ "modelo": "eleven_multilingual_v2",
+ "caracteres": 341,
+ "frases": [
+  {
+   "texto": "Did Jason just break time in GTA six?",
+   "inicio": 0.0,
+   "fin": 2.926
+  },
+  {
+   "texto": "Players found a portal inside the nuclear plant.",
+   "inicio": 3.1,
+   "fin": 5.654
+  },
+  {
+   "texto": "Jason travels to an old Vice City, and Kent Paul is there.",
+   "inicio": 5.898,
+   "fin": 9.683
+  },
+  {
+   "texto": "The portal brings them both back. Kent is key in Vice City and San Andreas.",
+   "inicio": 10.008,
+   "fin": 14.721
+  },
+  {
+   "texto": "When they return, Throwback one of five appears: looks like four more trips.",
+   "inicio": 14.965,
+   "fin": 20.131
+  },
+  {
+   "texto": "Have you seen it yet?",
+   "inicio": 20.247,
+   "fin": 21.107
+  },
+  {
+   "texto": "Follow for Part two.",
+   "inicio": 21.316,
+   "fin": 22.848
+  }
+ ]
+}
