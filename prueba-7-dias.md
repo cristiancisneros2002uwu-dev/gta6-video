@@ -27,7 +27,7 @@ Se cambia solo la voz de la escena 1 (y el texto si se indica). Lo demás de cad
 | se-puede-01 | Voz: "¿Se puede detonar en GTA VI?" El "Sí" queda en pantalla en la escena 1 (regla de la serie: respuesta en los primeros 2 s). |
 | gratis-02 | SIN CAMBIO |
 | lucia-03 | SIN CAMBIO |
-| secretos-01 | Por decidir: Cristian descartó "Hay un huevo de verdad" y "Sube a esta torre y lánzate". Opciones: A "Hay un nido de huevos en lo alto de esta torre. Lanza uno." B "¿Qué pasa si lanzas un huevo desde esta torre?" C "Esta torre esconde una escena secreta." Por defecto va la B. |
+| secretos-01 | Voz: "Esta torre esconde una escena secreta." (opción C, elegida por Cristian 24-nov 01:15) |
 | lucia-04 | Voz: "5 consejos para conquistar a Lucía." |
 | datos-curiosos-01 | CONTROL, sin cambio |
 | Ubicaciones (nuevo, dom 29) | "22 bancos, solo 8 con bóveda. Aquí están todos." |
