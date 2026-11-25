@@ -2,7 +2,6 @@
   lineas = ["# Créditos de ElevenLabs", "", f"Actualizado: {datetime.datetime.utcnow():%Y-%m-%d %H:%M} UTC", ""]
 /home/runner/work/gta6-video/gta6-video/tools/tts.py:126: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
   f"- Reinicia: {datetime.datetime.utcfromtimestamp(sub['next_character_count_reset_unix']):%Y-%m-%d}"
-Voz: 5-ajustes-caricatura (327 caracteres)
-Voz: neza-caricatura (343 caracteres)
-Listo: 2 audios nuevos
+Voz: controles-ocultos-caricatura (385 caracteres)
+Listo: 1 audios nuevos
 creditos.md actualizado
