@@ -23,10 +23,11 @@ Regla interna: serie y número son SOLO para organizarnos; nunca salen en pantal
 | Gratis — Gratis en GTA VI | Parte 2 | Coche con nitro sin localizador junto a la casa de Jason (caricatura, prueba de estilo: Flami y Gus) | 2026-11-23 |
 | Portales Multidimensionales en GTA 6 | Parte 1 | Portal en la planta nuclear al Vice City antiguo, Kent Paul y Throwback 1/5 (caricatura Flami y Gus; descubrimiento de jugadores, sin confirmar; también en inglés para @gta6encyclopedia.en) | 2026-11-23 |
 | Controles ocultos (caricatura, PS5 y Xbox) | #1 | 5 controles: bajarte sin apagar el motor (el radio sigue), voltear coche, cámara lenta, sentarte, portazo (Flami y Gus) | 2026-11-25 |
+| Gratis — Gratis en GTA VI | Parte 3 | Bugatti de Bad Bunny (Truffade Thrax): Isla Starfish, guardias, pickup, hueco y celular (caricatura Flami y Gus; mapa provisional; sin serie/número en pantalla) | 2026-11-25 |
 
 ## Siguientes
 - Dinero: Parte 5
-- Gratis: Parte 3
+- Gratis: Parte 4
 - Lucía: Parte 5 (prepara la casa antes de que salga, Capítulo 1)
 - ¿Se puede...?: #2
 - Errores: #2
