@@ -1,4 +1,4 @@
-Última actualización 23-nov: Portales Multidimensionales P1 (caricatura, ES + EN) listo para publicar. Antes: cierre de 14 videos (22-nov): corregidos con líneas de Verdad Lucía P1-P4, Gratis P1, ¿Se puede? #1, Dinero P2-P4, Errores #1, Secretos #1, Datos #1 y Top 5 #1 (versión sin ranking). Esperan OK de Verdad al MP4 y va de Cristian para publicar.
+Última actualización 25-nov: Controles ocultos (caricatura, PS5 y Xbox) listo para publicar a las 12:00. Antes: 23-nov: Portales Multidimensionales P1 (caricatura, ES + EN) listo para publicar. Antes: cierre de 14 videos (22-nov): corregidos con líneas de Verdad Lucía P1-P4, Gratis P1, ¿Se puede? #1, Dinero P2-P4, Errores #1, Secretos #1, Datos #1 y Top 5 #1 (versión sin ranking). Esperan OK de Verdad al MP4 y va de Cristian para publicar.
 
 # serie.md — gta6encyclopedia
 
@@ -22,6 +22,7 @@ Regla: cada serie sigue su orden (Parte 1, 2, 3... / #1, #2, #3...) sin saltar n
 | Secretos y easter eggs | #1 | El huevo de Pascua de la torre de radio (subida larga, lanzarlo, salto BASE) | 2026-11-22 |
 | Gratis — Gratis en GTA VI | Parte 2 | Coche con nitro sin localizador junto a la casa de Jason (caricatura, prueba de estilo: Flami y Gus) | 2026-11-23 |
 | Portales Multidimensionales en GTA 6 | Parte 1 | Portal en la planta nuclear al Vice City antiguo, Kent Paul y Throwback 1/5 (caricatura Flami y Gus; descubrimiento de jugadores, sin confirmar; también en inglés para @gta6encyclopedia.en) | 2026-11-23 |
+| Controles ocultos (caricatura, PS5 y Xbox) | #1 | 5 controles: bajarte sin apagar el motor (el radio sigue), voltear coche, cámara lenta, sentarte, portazo (Flami y Gus) | 2026-11-25 |
 
 ## Siguientes
 - Dinero: Parte 5
