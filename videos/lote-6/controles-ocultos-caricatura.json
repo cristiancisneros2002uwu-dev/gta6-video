@@ -14,8 +14,8 @@
    "tipo": "cartoon",
    "accion": "c_motor",
    "dur": 3.0,
-   "voz": "Uno: doble Triángulo o doble ye: te bajas sin apagar el motor.",
-   "sub": "Uno: doble Triángulo o doble Y: te bajas sin apagar el motor."
+   "voz": "Uno: doble Triángulo o doble ye: te bajas sin apagar el motor. El radio sigue sonando.",
+   "sub": "Uno: doble Triángulo o doble Y: te bajas sin apagar el motor. El radio sigue sonando."
   },
   {
    "tipo": "cartoon",
