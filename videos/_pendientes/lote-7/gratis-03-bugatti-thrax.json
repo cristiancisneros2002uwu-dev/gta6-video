@@ -1,10 +1,7 @@
 {
  "modelo": "eleven_multilingual_v2",
  "prefijo": "",
- "titulo": "Gratis en GTA VI: Parte 3 — El Bugatti de Bad Bunny (Truffade Thrax) (caricatura)",
- "serie": "Gratis",
- "numero": 3,
- "formato": "PARTE",
+ "titulo": "El Bugatti de Bad Bunny (Truffade Thrax) gratis en GTA VI (caricatura)",
  "escenas": [
   {
    "tipo": "cartoon",
@@ -85,7 +82,7 @@
    "accion": "b_cierre",
    "dur": 5.2,
    "voz": "¿Cuál sería tu primer viaje? Guía completa en GTA seis encyclopedia punto com.",
-   "sub": "¿Cuál sería tu primer viaje? Guía completa en gta6encyclopedia.com",
+   "sub": "¿Cuál sería tu primer viaje? Guía completa en nuestro sitio.",
    "sub_size": 56
   },
   {

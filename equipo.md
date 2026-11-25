@@ -5,6 +5,7 @@ Reglas completas: instrucciones-proyecto.md (reemplazan todo lo anterior). El eq
 - Decimos la verdad lo mejor que podamos; si nos equivocamos, ni modo. No se detiene ni se rehace un video por detalles.
 - PROHIBIDO "según las guías" (nosotros somos la guía).
 - Cristian da el va solo para publicar.
+- NUNCA mostrar en pantalla series, partes ni números ("Parte 3", "Gratis en GTA VI", "#2", "Sigue para la Parte 4"). Es solo organización interna (serie.md). El enlace gta6encyclopedia.com solo va en el cierre final.
 
 Bitácora
 - 2026-11-22 (orden de Cristian, 16:21): se retiran Verdad, Máquina y el resto de agentes; reglas nuevas simples. Motivo: el exceso de verificación y de agentes alargó horas la corrección de errores menores y empeoró los videos. Verdad.md y correcciones-enciclopedia.md quedan solo como referencia.

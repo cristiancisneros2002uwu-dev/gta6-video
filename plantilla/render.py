@@ -1045,8 +1045,7 @@ def numeracion(spec):
     en = spec.get('idioma') == 'en'
     lab = (lambda k: f'PART {k}' if en else f'PARTE {k}') if fmt == 'PARTE' else (lambda k: f'#{k}')
     for s in spec['escenas']:
-        if s['tipo'] == 'hook' or (s['tipo'] == 'cartoon' and s.get('accion') in ('llega', 'p_hook', 'b_hook')): s['parte'] = lab(n)
-        if s['tipo'] == 'cartoon' and s.get('accion') == 'b_cierre': s['siguiente'] = lab(n + 1)
+        if s['tipo'] == 'hook' or (s['tipo'] == 'cartoon' and s.get('accion') in ('llega', 'p_hook')): s['parte'] = lab(n)
         if s['tipo'] == 'cta': s['siguiente'] = lab(n + 1)
 
 def build(spec):

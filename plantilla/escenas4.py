@@ -506,7 +506,6 @@ def bg_interior():
 # =================================================================== 1 · GANCHO
 def b_hook(s):
     D = s['dur']; gratis = s.get('t_gratis', D - 1.0)
-    parte = s.get('parte', 'PARTE 3')
     def draw(fr, t):
         R.put(fr, bg_alfombra(), 540, 1210, 1, 1, alpha=eo(pr(t, 0, .3)), anchor=(540, 560))
         # reflectores
@@ -515,9 +514,7 @@ def b_hook(s):
                 tx = 380 + math.sin(t * 2.2 + ph) * 60
                 d.polygon([(x0 - 20, 660), (x0 + 20, 660), (tx + 150, 1180), (tx - 150, 1180)], fill=(255, 240, 200, 34))
         capa(fr, luces)
-        R.anim_in(fr, E.pil('GRATIS EN GTA VI', 40, bg=(74, 38, 120)), 540, 350, t, 0, 'pop', .25)
-        R.anim_in(fr, E.pilg(parte, 64, 40, 14), 540, 440, t, .08, 'pop', .3)
-        E.titulo(fr, t, '¿EL BUGATTI DE *BAD BUNNY*?', 88, 590, .1)
+        E.titulo(fr, t, '¿EL BUGATTI DE *BAD BUNNY*?', 96, 560, .05)
         # Gus de artista: poses y caras que cambian
         poses = (('celebra', 'orgullo', 0.), ('cadera', 'feliz', .6), ('senala', 'orgullo', .3), ('celebra', 'feliz', .9))
         k = min(len(poses) - 1, int(t / .75))
@@ -848,7 +845,6 @@ def b_adentro(s):
 # =================================================================== 8 · CIERRE
 def b_cierre(s):
     D = s['dur']
-    sig = s.get('siguiente', 'PARTE 4')
     def draw(fr, t):
         # costa al atardecer: mar, arena y carretera
         def costa(d):
@@ -865,8 +861,6 @@ def b_cierre(s):
             x = (xs - t * 180) % (R.W + 300) - 150
             R.put(fr, R.spr('palmera', math.sin(t * 2 + k)), x, 1035, .5, .5, anchor=(190, 690))
         E.titulo(fr, t, '¿YA LO *TIENES*?', 110, 548)
-        R.anim_in(fr, E.pilg('gta6encyclopedia.com', 50, 34, 12), 540, 690, t, .3, 'pop', .3)
-        R.anim_in(fr, E.pil('SIGUE PARA LA ' + sig, 40, bg=(74, 38, 120)), 540, 780, t, .6, 'pop', .3)
         # Gus pasa tocando el claxon (ida y vuelta)
         sc = .5
         for (t0, t1, izq) in ((.2, 2.0, False), (2.4, D - .3, True)):
@@ -887,5 +881,5 @@ def b_cierre(s):
                 if .3 < u < .7: golpe(fr, '[¡PIII PIII!]', cx, 920, t, t0 + (t1 - t0) * .3, 64, -5 if not izq else 5)
         # Flami saluda; al final pregunta por el primer viaje
         E.FL(fr, 900, G - 30, .58, 'feliz' if t < 2.2 else 'amor', boca=.4, gafas=1, cuello=.3, ala='saluda' if int(t * 3) % 2 else 'arriba', lente='estrella', flip=True, sy=.58 * idle(t, 6))
-        R.pop_burbuja(fr, E.bub('¿Primer viaje?', 0, 48), 800, 975, t, 2.2)
+        R.pop_burbuja(fr, E.bub('¿Primer viaje?', 0, 48), 760, 900, t, 2.2)
     return draw

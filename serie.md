@@ -2,7 +2,7 @@
 
 # serie.md — gta6encyclopedia
 
-Regla: cada serie sigue su orden (Parte 1, 2, 3... / #1, #2, #3...) sin saltar números. Usa siempre el número de "Siguientes".
+Regla interna: serie y número son SOLO para organizarnos; nunca salen en pantalla, voz, subtítulos ni caption. Cada serie sigue su orden (Parte 1, 2, 3... / #1, #2, #3...) sin saltar números. Usa siempre el número de "Siguientes".
 
 | Serie | Número | Tema | Fecha |
 |---|---|---|---|
