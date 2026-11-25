@@ -7,44 +7,51 @@
    "tipo": "cartoon",
    "accion": "c_hook",
    "dur": 3.0,
-   "voz": "Juegas GTA seis como turista si no conoces estos cinco controles."
+   "voz": "Juegas GTA seis como turista si no conoces estos cinco controles.",
+   "sub": "Juegas GTA VI como turista si no conoces estos 5 controles."
   },
   {
    "tipo": "cartoon",
    "accion": "c_motor",
    "dur": 3.0,
-   "voz": "Uno: doble Triángulo o doble ye: te bajas sin apagar el motor."
+   "voz": "Uno: doble Triángulo o doble ye: te bajas sin apagar el motor.",
+   "sub": "Uno: doble Triángulo o doble Y: te bajas sin apagar el motor."
   },
   {
    "tipo": "cartoon",
    "accion": "c_voltear",
    "dur": 3.0,
-   "voz": "Dos: ele tres y Cuadrado, o ele ese y equis: volteas tu coche."
+   "voz": "Dos: ele tres y Cuadrado, o ele ese y equis: volteas tu coche.",
+   "sub": "Dos: L3 y Cuadrado, o LS y X: volteas tu coche."
   },
   {
    "tipo": "cartoon",
    "accion": "c_lenta",
    "dur": 3.0,
-   "voz": "Tres: aprieta los dos sticks: cámara lenta."
+   "voz": "Tres: aprieta los dos sticks: cámara lenta.",
+   "sub": "Tres: aprieta los dos sticks: cámara lenta."
   },
   {
    "tipo": "cartoon",
    "accion": "c_sentar",
    "dur": 3.0,
-   "voz": "Cuatro: Círculo o be caminando: te sientas."
+   "voz": "Cuatro: Círculo o be caminando: te sientas.",
+   "sub": "Cuatro: Círculo o B caminando: te sientas."
   },
   {
    "tipo": "cartoon",
    "accion": "c_portazo",
    "dur": 3.0,
-   "voz": "Cinco: Cuadrado o equis en el coche: portazo."
+   "voz": "Cinco: Cuadrado o equis en el coche: portazo.",
+   "sub": "Cinco: Cuadrado o X en el coche: portazo."
   },
   {
    "tipo": "cartoon",
    "accion": "c_cierre",
    "dur": 3.0,
    "voz": "¿Cuál no conocías? Guía completa en gta6encyclopedia.com",
-   "sub_size": 52
+   "sub_size": 52,
+   "sub": "¿Cuál no conocías? Guía completa en gta6encyclopedia.com"
   },
   {
    "tipo": "end",
