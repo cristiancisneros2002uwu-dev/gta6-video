@@ -694,6 +694,9 @@ def saltito(t, v=11., a=16.): return abs(math.sin(t * v)) * a
 
 def scene_cartoon(s, st):
     if s['accion'].startswith('p_'): return scene_portal(s, st)
+    if s['accion'][:2] == 'b_':
+        import escenas2, escenas3, escenas4; escenas2.R = escenas3.R = escenas4.R = sys.modules[__name__]
+        return getattr(escenas4, s['accion'])(s)
     if s['accion'][:2] == 'c_':
         import escenas2, escenas3; escenas2.R = escenas3.R = sys.modules[__name__]
         return getattr(escenas3, s['accion'])(s)
@@ -1042,7 +1045,8 @@ def numeracion(spec):
     en = spec.get('idioma') == 'en'
     lab = (lambda k: f'PART {k}' if en else f'PARTE {k}') if fmt == 'PARTE' else (lambda k: f'#{k}')
     for s in spec['escenas']:
-        if s['tipo'] == 'hook' or (s['tipo'] == 'cartoon' and s.get('accion') in ('llega', 'p_hook')): s['parte'] = lab(n)
+        if s['tipo'] == 'hook' or (s['tipo'] == 'cartoon' and s.get('accion') in ('llega', 'p_hook', 'b_hook')): s['parte'] = lab(n)
+        if s['tipo'] == 'cartoon' and s.get('accion') == 'b_cierre': s['siguiente'] = lab(n + 1)
         if s['tipo'] == 'cta': s['siguiente'] = lab(n + 1)
 
 def build(spec):

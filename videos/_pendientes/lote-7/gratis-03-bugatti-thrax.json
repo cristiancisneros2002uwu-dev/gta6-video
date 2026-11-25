@@ -1,0 +1,99 @@
+{
+ "modelo": "eleven_multilingual_v2",
+ "prefijo": "",
+ "titulo": "Gratis en GTA VI: Parte 3 — El Bugatti de Bad Bunny (Truffade Thrax) (caricatura)",
+ "serie": "Gratis",
+ "numero": 3,
+ "formato": "PARTE",
+ "escenas": [
+  {
+   "tipo": "cartoon",
+   "accion": "b_hook",
+   "dur": 3.4,
+   "t_gratis": 2.5,
+   "voz": "¿Quieres el Bugatti de Bad Bunny en GTA VI? Gratis."
+  },
+  {
+   "tipo": "cartoon",
+   "accion": "b_thrax",
+   "dur": 2.6,
+   "t_sello": 0.7,
+   "voz": "Es el Truffade Thrax. Guárdalo."
+  },
+  {
+   "tipo": "cartoon",
+   "accion": "b_mapa",
+   "dur": 2.8,
+   "mapa": {
+    "isla": "ISLA STARFISH",
+    "vecina": "ISLA WAXMAN",
+    "pin": [
+     700,
+     186
+    ],
+    "etiqueta": [
+     330,
+     80
+    ],
+    "ruta": [
+     [
+      60,
+      290
+     ],
+     [
+      290,
+      330
+     ]
+    ],
+    "_nota": "Provisional. pin = mansión; etiqueta = nombre de la isla; ruta = de dónde a dónde rema Gus (x 0-940, y 0-560)."
+   },
+   "voz": "Uno: ve a la mansión de Isla Starfish."
+  },
+  {
+   "tipo": "cartoon",
+   "accion": "b_guardias",
+   "dur": 2.3,
+   "t_tiro": 0.3,
+   "t_sale": 1.5,
+   "voz": "Dos: quita a los guardias."
+  },
+  {
+   "tipo": "cartoon",
+   "accion": "b_pickup",
+   "dur": 3.0,
+   "t_llega": 0.9,
+   "voz": "Tres: pega una pickup a la puerta del garaje."
+  },
+  {
+   "tipo": "cartoon",
+   "accion": "b_hueco",
+   "dur": 2.8,
+   "t_salto": 0.35,
+   "t_cel": 1.3,
+   "voz": "Cuatro: salta al hueco y saca el celular."
+  },
+  {
+   "tipo": "cartoon",
+   "accion": "b_adentro",
+   "dur": 2.6,
+   "t_pop": 0.25,
+   "t_arranca": 1.0,
+   "voz": "Cinco: apareces adentro. Llévatelo."
+  },
+  {
+   "tipo": "cartoon",
+   "accion": "b_cierre",
+   "dur": 5.2,
+   "voz": "¿Cuál sería tu primer viaje? Guía completa en GTA seis encyclopedia punto com.",
+   "sub": "¿Cuál sería tu primer viaje? Guía completa en gta6encyclopedia.com",
+   "sub_size": 56
+  },
+  {
+   "tipo": "end",
+   "dur": 2.0
+  }
+ ],
+ "sin_panel_sub": true,
+ "sin_logo_esquina": true,
+ "voz_id": "pNInz6obpgDQGcFmaJgB"
+}

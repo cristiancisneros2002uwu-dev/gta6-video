@@ -87,7 +87,7 @@ ALAS = {'reposo': (118, 408), 'arriba': (118, 196), 'senala': (428, 346), 'sosti
         'cadera': (150, 420), 'abre': (70, 250), 'saluda': (178, 150)}
 
 
-def flami2(emo='feliz', boca=0., gafas=1., cuello=0., ala='reposo', mira=(0, 0), sudor=0, lente=''):
+def flami2(emo='feliz', boca=0., gafas=1., cuello=0., ala='reposo', mira=(0, 0), sudor=0, lente='', lentes_y=None):
     """Sprite 440x620 anclado en los pies (220, 610). Mira a la derecha.
     emo: feliz, enojo, asombro, triste, amor, guino, mareo. ala: nombre o (x, y) de la punta."""
     c = L2(440, 620)
@@ -134,7 +134,7 @@ def flami2(emo='feliz', boca=0., gafas=1., cuello=0., ala='reposo', mira=(0, 0),
             c.linea([(hx - 12, by + 8), (hx + 22, by - 8)], 7, OUT); c.linea([(hx + 66, by + 8), (hx + 32, by - 8)], 7, OUT)
         elif emo == 'asombro':
             c.linea([(hx - 10, by - 10), (hx + 22, by - 14)], 7, OUT); c.linea([(hx + 64, by - 10), (hx + 32, by - 14)], 7, OUT)
-    gy = ey - 58 * (1 - gafas)
+    gy = ey - 58 * (1 - gafas) if lentes_y is None else ey + lentes_y      # lentes_y: lentes bajados sobre el pico
     for (x0, x1) in ((hx - 14, hx + 26), (hx + 28, hx + 68)):
         c.rrect(x0, gy - 16, x1, gy + 22, 14, (34, 22, 60), ow=5)
     c.linea([(hx + 24, gy - 6), (hx + 30, gy - 6)], 6, OUT)
