@@ -1,0 +1,42 @@
+{
+ "voz_id": "pNInz6obpgDQGcFmaJgB",
+ "modelo": "eleven_multilingual_v2",
+ "caracteres": 409,
+ "frases": [
+  {
+   "texto": "Juegas GTA seis como turista si no conoces estos cinco controles.",
+   "inicio": 0.0,
+   "fin": 4.284
+  },
+  {
+   "texto": "Uno: doble Triángulo o doble ye: te bajas sin apagar el motor. El radio sigue sonando.",
+   "inicio": 4.458,
+   "fin": 10.913
+  },
+  {
+   "texto": "Dos: ele tres y Cuadrado, o ele ese y equis: volteas tu coche.",
+   "inicio": 11.064,
+   "fin": 16.022
+  },
+  {
+   "texto": "Tres: aprieta los dos sticks: cámara lenta.",
+   "inicio": 16.149,
+   "fin": 19.864
+  },
+  {
+   "texto": "Cuatro: Círculo o be caminando: te sientas.",
+   "inicio": 20.108,
+   "fin": 23.719
+  },
+  {
+   "texto": "Cinco: Cuadrado o equis en el coche: portazo.",
+   "inicio": 23.928,
+   "fin": 27.376
+  },
+  {
+   "texto": "¿Cuál no conocías? Guía completa en gtaseisencyclopedia.com",
+   "inicio": 27.55,
+   "fin": 33.483
+  }
+ ]
+}
