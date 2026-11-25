@@ -7,6 +7,11 @@
 - Títulos: Bricolage Grotesque (fuentes/, peso 800) · Texto: Figtree (Google Fonts)
 - Sitio: gta6encyclopedia.com · TikTok: @gta6encyclopedia y @gta6encyclopedia.en
 
+## Reglas fijas de texto (orden de Cristian, 25-nov-2026)
+- Nunca en pantalla ni en voz: series, partes, números ("Parte 3", "#2", "Gratis en GTA VI"). Es solo organización interna (serie.md).
+- Nunca decir el enlace en la voz ni deletrear el dominio ("guía completa en gta6encyclopedia.com"). El cierre hablado termina con una pregunta al público.
+- El enlace solo se ve en el logo del cierre final y en el caption.
+
 ## Archivos
 - logos/: ícono, logo horizontal (oscuro/claro), nombre solo, foto de perfil, portada FB
 - fondos/atardecer-leonida.png: fondo ilustrado original de la marca (sin texto)
