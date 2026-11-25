@@ -1,0 +1,47 @@
+{
+ "voz_id": "pNInz6obpgDQGcFmaJgB",
+ "modelo": "eleven_multilingual_v2",
+ "caracteres": 354,
+ "frases": [
+  {
+   "texto": "¿Quieres el Bugatti de Bad Bunny en GTA seis? Gratis.",
+   "inicio": 0.0,
+   "fin": 3.576
+  },
+  {
+   "texto": "Es el Truffade Thrax. Guárdalo.",
+   "inicio": 3.692,
+   "fin": 6.153
+  },
+  {
+   "texto": "Uno: ve a la mansión de Isla Starfish.",
+   "inicio": 6.478,
+   "fin": 9.741
+  },
+  {
+   "texto": "Dos: quita a los guardias.",
+   "inicio": 9.95,
+   "fin": 11.981
+  },
+  {
+   "texto": "Tres: pega una pickup a la puerta del garaje.",
+   "inicio": 12.156,
+   "fin": 15.058
+  },
+  {
+   "texto": "Cuatro: salta al hueco y saca el celular.",
+   "inicio": 15.139,
+   "fin": 17.879
+  },
+  {
+   "texto": "Cinco: apareces adentro. Llévatelo.",
+   "inicio": 18.123,
+   "fin": 20.921
+  },
+  {
+   "texto": "¿Cuál sería tu primer viaje? Guía completa en GTA seis encyclopedia punto com.",
+   "inicio": 20.944,
+   "fin": 26.377
+  }
+ ]
+}
