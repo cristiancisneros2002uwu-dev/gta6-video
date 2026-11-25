@@ -1,10 +1,10 @@
 # Créditos de ElevenLabs
 
-Actualizado: 2026-11-25 16:54 UTC
+Actualizado: 2026-11-25 17:05 UTC
 
 - Plan: starter
-- Gastados: **4,787** de 34,215
-- Quedan: **29,428**
+- Gastados: **4,941** de 34,215
+- Quedan: **29,274**
 - Reinicia: 2026-12-22
 
 Caracteres en los audios guardados en voz/: 7,092 (21 audios)
