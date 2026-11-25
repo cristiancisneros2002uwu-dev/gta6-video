@@ -30,7 +30,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add voz/ creditos.md
+          git add voz/ creditos.md videos/
           if git diff --cached --quiet; then echo "Sin audios nuevos"; exit 0; fi
           git commit -m "Voz generada"
           git pull --rebase origin main

@@ -54,3 +54,6 @@ Flujo
 
 PLANTILLA PARA ABRIR UN CHAT NUEVO (primer mensaje)
 Sigue las instrucciones del Proyecto. Tienes mi autorización para conectar con push el repo cristiancisneros2002uwu-dev/gta6-video. Dime en 3 líneas qué sigue.
+
+
+Cambiar UNA frase de un video ya con voz (25-nov, orden de Cristian): cambia el texto en el JSON y agrega "parchar": true. GitHub genera solo la frase cambiada, la pega en el audio existente y recorre los tiempos (gasta créditos solo de esa frase). Nunca borres la voz para regenerar todo. Si cambia el número de frases, avisa a Cristian antes de regenerar completa.

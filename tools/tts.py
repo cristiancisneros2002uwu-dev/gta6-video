@@ -50,13 +50,14 @@ def frases(d):
     return [hablar(s["voz"].strip(), d.get("idioma", "es")) for s in d["escenas"] if s.get("voz", "").strip() and s["tipo"] != "end"]
 
 
-def tts(texto, modelo=None, idioma="es"):
+def tts(texto, modelo=None, idioma="es", prev=None, sig=None):
     modelo = modelo or MODEL_ID
     body = json.dumps({
         "text": texto,
         "model_id": modelo,
         "language_code": idioma,
         "voice_settings": {"stability": 0.5, "similarity_boost": 0.75, "style": 0.0, "speed": 1.0},
+        **({"previous_text": prev} if prev else {}), **({"next_text": sig} if sig else {}),
     }).encode()
     req = urllib.request.Request(
         f"https://api.elevenlabs.io/v1/text-to-speech/{VOICE_ID}/with-timestamps?output_format=mp3_44100_128",
@@ -77,13 +78,69 @@ def tts(texto, modelo=None, idioma="es"):
         sys.exit(f"ElevenLabs {e.code}: {msg}")
 
 
+def pegar(viejo, meta, cambios, salida):
+    """Reemplaza SOLO las frases cambiadas dentro del audio viejo (el resto no se toca ni gasta créditos).
+    cambios = {indice: (mp3_nuevo, inicio_nuevo, fin_nuevo)}. Devuelve la lista de frases con tiempos nuevos."""
+    import subprocess
+    fr = meta["frases"]; n = len(fr)
+    c = [0.0] + [(fr[i - 1]["fin"] + fr[i]["inicio"]) / 2 for i in range(1, n)] + [None]
+    ins, partes, nuevas, shift = ["-i", viejo], [], [], 0.0
+    for i in range(n):
+        a, b = c[i], c[i + 1]
+        if i in cambios:
+            mp3, st, en = cambios[i]
+            izq = fr[i]["inicio"] - a
+            der = (b - fr[i]["fin"]) if b is not None else 0.35
+            ns, ne = max(0.0, st - izq), en + der
+            k = len(ins) // 2; ins += ["-i", mp3]
+            partes.append(f"[{k}:a]atrim={ns:.3f}:{ne:.3f},asetpts=PTS-STARTPTS[p{i}]")
+            nuevas.append({"texto": None, "inicio": round(a + shift + (st - ns), 3), "fin": round(a + shift + (en - ns), 3)})
+            if b is not None: shift += (ne - ns) - (b - a)
+        else:
+            fin_ = f":{b:.3f}" if b is not None else ""
+            partes.append(f"[0:a]atrim={a:.3f}{fin_},asetpts=PTS-STARTPTS[p{i}]")
+            nuevas.append({"texto": fr[i]["texto"], "inicio": round(fr[i]["inicio"] + shift, 3), "fin": round(fr[i]["fin"] + shift, 3)})
+    fc = ";".join(partes) + ";" + "".join(f"[p{i}]" for i in range(n)) + f"concat=n={n}:v=0:a=1[o]"
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error"] + ins + ["-filter_complex", fc, "-map", "[o]", "-ar", "44100", "-b:a", "128k", salida], check=True)
+    return nuevas
+
+
+def parchar(f, d, mp3, meta_path):
+    """Si el JSON trae "parchar": true y el audio ya existe, genera solo las frases que cambiaron y las pega."""
+    meta = json.load(open(meta_path, encoding="utf8"))
+    nuevas_t = frases(d)
+    if len(nuevas_t) != len(meta["frases"]):
+        print(f"{f}: cambió el número de frases; no se puede parchar (quita 'parchar' para regenerar todo)"); return 0
+    cambios, gastados = {}, 0
+    for i, (t_new, old) in enumerate(zip(nuevas_t, meta["frases"])):
+        if t_new == old["texto"]: continue
+        prev = nuevas_t[i - 1] if i else None; sig = nuevas_t[i + 1] if i + 1 < len(nuevas_t) else None
+        r = tts(t_new, meta.get("modelo", MODEL_ID), d.get("idioma", "es"), prev, sig)
+        al = r.get("alignment") or r.get("normalized_alignment")
+        tmp = f"/tmp/parche_{i}.mp3"; open(tmp, "wb").write(base64.b64decode(r["audio_base64"]))
+        cambios[i] = (tmp, al["character_start_times_seconds"][0], al["character_end_times_seconds"][-1]); gastados += len(t_new)
+        print(f"Parche frase {i + 1}: {len(t_new)} caracteres")
+    if not cambios: return 0
+    out = pegar(mp3, meta, cambios, mp3 + ".nuevo.mp3")
+    for i, o in enumerate(out):
+        o["texto"] = o["texto"] or nuevas_t[i]
+    os.replace(mp3 + ".nuevo.mp3", mp3)
+    meta["frases"] = out; meta["caracteres"] = meta.get("caracteres", 0) + gastados
+    json.dump(meta, open(meta_path, "w", encoding="utf8"), ensure_ascii=False, indent=1)
+    d.pop("parchar", None); json.dump(d, open(f, "w", encoding="utf8"), ensure_ascii=False, indent=1)
+    return len(cambios)
+
+
 hechos = 0
 for f in sorted(glob.glob("videos/lote-*/*.json")):
     nombre = os.path.splitext(os.path.basename(f))[0]
     mp3, meta = f"voz/{nombre}.mp3", f"voz/{nombre}.json"
-    if os.path.exists(mp3) and os.path.exists(meta):
-        continue
     d = json.load(open(f, encoding="utf8"))
+    if os.path.exists(mp3) and os.path.exists(meta):
+        if d.get("parchar"):
+            VOICE_ID = d.get("voz_id") or VOICE_ID
+            hechos += parchar(f, d, mp3, meta)
+        continue
     fr = frases(d)
     modelo = d.get("modelo", MODEL_ID)
     VOICE_ID = d.get("voz_id") or (buscar_voz(d["voz_nombre"]) if d.get("voz_nombre") else os.environ.get("VOICE_ID", "pNInz6obpgDQGcFmaJgB"))
