@@ -1,0 +1,57 @@
+{
+ "modelo": "eleven_multilingual_v2",
+ "prefijo": "",
+ "titulo": "5 controles ocultos (caricatura)",
+ "escenas": [
+  {
+   "tipo": "cartoon",
+   "accion": "c_hook",
+   "dur": 3.0,
+   "voz": "Juegas GTA seis como turista si no conoces estos cinco controles."
+  },
+  {
+   "tipo": "cartoon",
+   "accion": "c_motor",
+   "dur": 3.0,
+   "voz": "Uno: doble Triángulo o doble ye: te bajas sin apagar el motor."
+  },
+  {
+   "tipo": "cartoon",
+   "accion": "c_voltear",
+   "dur": 3.0,
+   "voz": "Dos: ele tres y Cuadrado, o ele ese y equis: volteas tu coche."
+  },
+  {
+   "tipo": "cartoon",
+   "accion": "c_lenta",
+   "dur": 3.0,
+   "voz": "Tres: aprieta los dos sticks: cámara lenta."
+  },
+  {
+   "tipo": "cartoon",
+   "accion": "c_sentar",
+   "dur": 3.0,
+   "voz": "Cuatro: Círculo o be caminando: te sientas."
+  },
+  {
+   "tipo": "cartoon",
+   "accion": "c_portazo",
+   "dur": 3.0,
+   "voz": "Cinco: Cuadrado o equis en el coche: portazo."
+  },
+  {
+   "tipo": "cartoon",
+   "accion": "c_cierre",
+   "dur": 3.0,
+   "voz": "¿Cuál no conocías? Guía completa en gta6encyclopedia.com",
+   "sub_size": 52
+  },
+  {
+   "tipo": "end",
+   "dur": 2.0
+  }
+ ],
+ "sin_panel_sub": true,
+ "sin_logo_esquina": true,
+ "voz_id": "pNInz6obpgDQGcFmaJgB"
+}
