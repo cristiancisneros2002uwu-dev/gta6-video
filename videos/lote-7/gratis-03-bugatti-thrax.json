@@ -81,8 +81,8 @@
    "tipo": "cartoon",
    "accion": "b_cierre",
    "dur": 5.2,
-   "voz": "¿Cuál sería tu primer viaje? Guía completa en GTA seis encyclopedia punto com.",
-   "sub": "¿Cuál sería tu primer viaje? Guía completa en nuestro sitio.",
+   "voz": "Mándaselo a tu amigo el más fan de Bad Bunny.",
+   "sub": "Mándaselo a tu amigo el más fan de Bad Bunny.",
    "sub_size": 56
   },
   {
@@ -92,5 +92,6 @@
  ],
  "sin_panel_sub": true,
  "sin_logo_esquina": true,
- "voz_id": "pNInz6obpgDQGcFmaJgB"
+ "voz_id": "pNInz6obpgDQGcFmaJgB",
+ "parchar": true
 }

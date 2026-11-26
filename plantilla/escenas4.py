@@ -881,5 +881,5 @@ def b_cierre(s):
                 if .3 < u < .7: golpe(fr, '[¡PIII PIII!]', cx, 920, t, t0 + (t1 - t0) * .3, 64, -5 if not izq else 5)
         # Flami saluda; al final pregunta por el primer viaje
         E.FL(fr, 900, G - 30, .58, 'feliz' if t < 2.2 else 'amor', boca=.4, gafas=1, cuello=.3, ala='saluda' if int(t * 3) % 2 else 'arriba', lente='estrella', flip=True, sy=.58 * idle(t, 6))
-        R.pop_burbuja(fr, E.bub('¿Primer viaje?', 0, 48), 760, 900, t, 2.2)
+        R.pop_burbuja(fr, E.bub('¡Mándaselo!', 0, 48), 760, 900, t, 2.2)
     return draw
