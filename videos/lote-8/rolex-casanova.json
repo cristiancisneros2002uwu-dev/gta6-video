@@ -53,7 +53,8 @@
    "tipo": "cartoon",
    "accion": "r_cuarto",
    "dur": 4.6,
-   "voz": "Cuatro: en la habitación de la izquierda está el Rolex. Llévatelo."
+   "voz": "Cuatro: en la habitación de la izquierda está el Rolex. Llévatelo.",
+   "t_pone": 3.2
   },
   {
    "tipo": "cartoon",
