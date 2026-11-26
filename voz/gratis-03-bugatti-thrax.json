@@ -1,7 +1,7 @@
 {
  "voz_id": "pNInz6obpgDQGcFmaJgB",
  "modelo": "eleven_multilingual_v2",
- "caracteres": 354,
+ "caracteres": 399,
  "frases": [
   {
    "texto": "¿Quieres el Bugatti de Bad Bunny en GTA seis? Gratis.",
@@ -39,9 +39,9 @@
    "fin": 20.921
   },
   {
-   "texto": "¿Cuál sería tu primer viaje? Guía completa en GTA seis encyclopedia punto com.",
-   "inicio": 20.944,
-   "fin": 26.377
+   "texto": "Mándaselo a tu amigo el más fan de Bad Bunny.",
+   "inicio": 20.932,
+   "fin": 23.3
   }
  ]
 }
