@@ -694,6 +694,9 @@ def saltito(t, v=11., a=16.): return abs(math.sin(t * v)) * a
 
 def scene_cartoon(s, st):
     if s['accion'].startswith('p_'): return scene_portal(s, st)
+    if s['accion'][:2] == 'r_':
+        import escenas2, escenas4, escenas5; escenas2.R = escenas4.R = escenas5.R = sys.modules[__name__]
+        return getattr(escenas5, s['accion'])(s)
     if s['accion'][:2] == 'b_':
         import escenas2, escenas3, escenas4; escenas2.R = escenas3.R = escenas4.R = sys.modules[__name__]
         return getattr(escenas4, s['accion'])(s)

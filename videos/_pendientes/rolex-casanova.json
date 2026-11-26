@@ -1,0 +1,72 @@
+{
+ "modelo": "eleven_multilingual_v2",
+ "prefijo": "",
+ "titulo": "Rolex arcoíris de medio millón en Casanova Island (caricatura)",
+ "escenas": [
+  {
+   "tipo": "cartoon",
+   "accion": "r_hook",
+   "dur": 3.8,
+   "voz": "¿Quieres un Rolex de medio millón de dólares en GTA VI?"
+  },
+  {
+   "tipo": "cartoon",
+   "accion": "r_mapa",
+   "dur": 3.4,
+   "mapa": {
+    "isla": "CASANOVA ISLAND",
+    "pin": [
+     590,
+     228
+    ],
+    "etiqueta": [
+     638,
+     62
+    ],
+    "ruta": [
+     [
+      320,
+      500
+     ],
+     [
+      520,
+      448
+     ]
+    ],
+    "_nota": "pin = casa marcada; etiqueta = nombre; ruta = de dónde a dónde llega Gus (x 0-940, y 0-560)."
+   },
+   "voz": "Uno: ve a Casanova Island, en Vice City."
+  },
+  {
+   "tipo": "cartoon",
+   "accion": "r_alarma",
+   "dur": 5.0,
+   "voz": "Dos: entra a la casa de lujo. No suena ninguna alarma, lootea tranquilo."
+  },
+  {
+   "tipo": "cartoon",
+   "accion": "r_escaleras",
+   "dur": 3.0,
+   "voz": "Tres: sube las escaleras."
+  },
+  {
+   "tipo": "cartoon",
+   "accion": "r_cuarto",
+   "dur": 4.6,
+   "voz": "Cuatro: en la habitación de la izquierda está el Rolex. Llévatelo."
+  },
+  {
+   "tipo": "cartoon",
+   "accion": "r_cierre",
+   "dur": 3.2,
+   "voz": "¿Cuál sería tu primer lujo en Vice City?"
+  },
+  {
+   "tipo": "end",
+   "dur": 2.0
+  }
+ ],
+ "sin_panel_sub": true,
+ "sin_logo_esquina": true,
+ "voz_id": "pNInz6obpgDQGcFmaJgB"
+}
