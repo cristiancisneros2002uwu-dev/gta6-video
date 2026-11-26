@@ -5,6 +5,7 @@ import json, sys
 sys.path.insert(0, 'plantilla')
 import render as R
 spec = json.load(open(sys.argv[1], encoding='utf8'))
+R.OPT['sin_panel'] = bool(spec.get('sin_panel_sub')); R.OPT['sin_logo'] = bool(spec.get('sin_logo_esquina'))
 st, scenes, total = R.build(spec)
 s, draw, subs, T0 = scenes[0]
 R.frame(st, (s, draw, None, T0), float(sys.argv[3]) if len(sys.argv) > 3 else 1.8).save(sys.argv[2])
