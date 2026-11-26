@@ -47,8 +47,9 @@ Entrega de cada lote
 - En el chat, al final: orden sugerido de publicación (2-3 por día, 12:00 y 19:30-21:00 CDMX), 10 hashtags generales del lote y la nota de páginas fuente.
 Miniatura (portada) — desde el Lote 5 (orden de Cristian, 22-nov-2026)
 - A cada video del Lote 5 en adelante se le diseña su propia miniatura/portada (imagen vertical 1080x1920, estilo de marca, con el gancho del video en texto grande dentro del margen seguro). Se entrega suelta junto al MP4 con el mismo nombre (<nombre>.png). Los Lotes 1-4 no llevan.
+- SIEMPRE entrega la portada, en TODOS los videos, sin que Cristian la pida: junto con el MP4 y el .txt, suelta en el chat, mismo nombre (<nombre>.png). Se genera con tools/miniatura.py (fotograma de la escena 1 sin subtítulos; ajusta el segundo si hace falta) y NO lleva serie, parte ni número. Un video no se da por entregado sin su portada. (Orden de Cristian, 25-nov-2026.)
 Captions cortos (orden de Cristian, 22-nov-2026)
-- El .txt de cada video lleva caption CORTO: pregunta de gancho + una línea de contenido + número de serie + hashtags. TikTok e Instagram con el mismo texto y hashtags distintos (Instagram cierra con "link en bio"). Sin párrafos largos. Anticípate: entrégalo ya corto, sin que lo pida.
+- El .txt de cada video lleva caption CORTO: pregunta de gancho + una línea de contenido + hashtags (sin serie ni número). TikTok e Instagram con el mismo texto y hashtags distintos (Instagram cierra con "link en bio"). Sin párrafos largos. Anticípate: entrégalo ya corto, sin que lo pida.
 Créditos de ElevenLabs (al final de cada lote)
 - Haz git pull y lee creditos.md. En 3 líneas: créditos gastados en el lote (suma "caracteres" de los voz/*.json del lote), total gastado y cuántos quedan, y fecha de reinicio. El contador de creditos.md no es confiable hasta que Cristian revise Usage en elevenlabs.io: dilo. Si quedan menos de 5,000, avisa en negritas.
 Flujo
