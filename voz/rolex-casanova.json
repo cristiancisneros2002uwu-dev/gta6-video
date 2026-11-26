@@ -1,7 +1,7 @@
 {
  "voz_id": "pNInz6obpgDQGcFmaJgB",
  "modelo": "eleven_multilingual_v2",
- "caracteres": 305,
+ "caracteres": 345,
  "frases": [
   {
    "texto": "¿Quieres un Rolex de medio millón de dólares en GTA seis?",
@@ -29,9 +29,9 @@
    "fin": 20.503
   },
   {
-   "texto": "",
-   "inicio": 20.712,
-   "fin": 22.848
+   "texto": "¿Cuál sería tu primer lujo en Vice City?",
+   "inicio": 20.608,
+   "fin": 23.023
   }
  ]
 }
