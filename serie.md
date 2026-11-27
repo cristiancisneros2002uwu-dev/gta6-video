@@ -1,4 +1,4 @@
-Última actualización 26-nov: Rolex arcoíris de Casanova Island (caricatura) entregado con voz, texto y portada. Antes: 25-nov: Controles ocultos (caricatura, PS5 y Xbox) listo para publicar a las 12:00. Antes: 23-nov: Portales Multidimensionales P1 (caricatura, ES + EN) listo para publicar. Antes: cierre de 14 videos (22-nov): corregidos con líneas de Verdad Lucía P1-P4, Gratis P1, ¿Se puede? #1, Dinero P2-P4, Errores #1, Secretos #1, Datos #1 y Top 5 #1 (versión sin ranking). Esperan OK de Verdad al MP4 y va de Cristian para publicar.
+Última actualización 26-nov: patrulla Tempesta de Vice Beach (caricatura) entregada con voz, texto y portada. Antes: Rolex arcoíris de Casanova Island (caricatura) entregado con voz, texto y portada. Antes: 25-nov: Controles ocultos (caricatura, PS5 y Xbox) listo para publicar a las 12:00. Antes: 23-nov: Portales Multidimensionales P1 (caricatura, ES + EN) listo para publicar. Antes: cierre de 14 videos (22-nov): corregidos con líneas de Verdad Lucía P1-P4, Gratis P1, ¿Se puede? #1, Dinero P2-P4, Errores #1, Secretos #1, Datos #1 y Top 5 #1 (versión sin ranking). Esperan OK de Verdad al MP4 y va de Cristian para publicar.
 
 # serie.md — gta6encyclopedia
 
@@ -25,10 +25,11 @@ Regla interna: serie y número son SOLO para organizarnos; nunca salen en pantal
 | Controles ocultos (caricatura, PS5 y Xbox) | #1 | 5 controles: bajarte sin apagar el motor (el radio sigue), voltear coche, cámara lenta, sentarte, portazo (Flami y Gus) | 2026-11-25 |
 | Gratis — Gratis en GTA VI | Parte 3 | Bugatti de Bad Bunny (Truffade Thrax): Isla Starfish, guardias, pickup, hueco y celular (caricatura Flami y Gus; mapa provisional; sin serie/número en pantalla) | 2026-11-25 |
 | Gratis — Gratis en GTA VI | Parte 4 | Rolex arcoíris en Casanova Island: casa sin alarma, piso de arriba, habitación izquierda (caricatura Flami y Gus; videos/lote-8/rolex-casanova.json; sin serie/número en pantalla) | 2026-11-26 |
+| Gratis — Gratis en GTA VI | Parte 5 | Patrulla Pegassi Police Tempesta en la comisaría de Vice Beach, clonador de llaves (caricatura Flami y Gus; videos/lote-9/patrulla-tempesta.json; sin serie/número en pantalla) | 2026-11-26 |
 
 ## Siguientes
 - Dinero: Parte 5
-- Gratis: Parte 5
+- Gratis: Parte 6
 - Lucía: Parte 5 (prepara la casa antes de que salga, Capítulo 1)
 - ¿Se puede...?: #2
 - Errores: #2

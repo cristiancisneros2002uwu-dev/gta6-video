@@ -14,6 +14,7 @@ src = sys.argv[1]
 nombre = os.path.splitext(os.path.basename(src))[0]
 salida = sys.argv[2] if len(sys.argv) > 2 else f"salida/{nombre}.mp4"
 d = json.load(open(src, encoding="utf8"))
+COLA = d.get("cola", COLA)   # opcional: alarga la última escena hablada
 fr = json.load(open(f"voz/{nombre}.json", encoding="utf8"))["frases"]
 
 voz = [i for i, s in enumerate(d["escenas"]) if s.get("voz", "").strip() and s["tipo"] != "end"]
