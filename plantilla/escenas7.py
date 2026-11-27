@@ -606,7 +606,7 @@ def t_sala(s):
         if p > 0:
             cx, cy = 660, 905 + math.sin(t * 4) * 10
             B_rayos(fr, cx, cy, t)
-            giro = math.cos((t - c2) * 5.2) if t < c2 + 1.2 else math.cos(1.2 * 5.2) + (1 - math.cos(1.2 * 5.2)) * eo(pr(t, c2 + 1.2, .3))
+            giro = math.cos(2 * math.pi * cl((t - c2 - .2) / .6))           # una vuelta y queda de frente
             R.put(fr, cromo(giro < 0), cx, cy, max(.06, abs(giro)) * 1.35 * p, 1.35 * p, rot=math.sin(t * 3) * 4, anchor=(120, 170))
             for i, (dx, dy) in enumerate(((-170, -140), (170, -100), (150, 150), (-160, 120))): E.destello(fr, cx + dx, cy + dy, t, i * .27, 1.2)
         E.FL(fr, 950, G + 30, .5, 'feliz' if t < c2 else 'amor', boca=.4 if t > c2 else 0, gafas=1 if t < c2 else 0, cuello=.4, ala='cadera' if t < c2 else 'arriba', flip=True, sy=.5 * idle(t, 6 if t < c2 else 12))

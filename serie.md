@@ -1,4 +1,4 @@
-Última actualización 26-nov: patrulla Tempesta de Vice Beach (caricatura) entregada con voz, texto y portada. Antes: Rolex arcoíris de Casanova Island (caricatura) entregado con voz, texto y portada. Antes: 25-nov: Controles ocultos (caricatura, PS5 y Xbox) listo para publicar a las 12:00. Antes: 23-nov: Portales Multidimensionales P1 (caricatura, ES + EN) listo para publicar. Antes: cierre de 14 videos (22-nov): corregidos con líneas de Verdad Lucía P1-P4, Gratis P1, ¿Se puede? #1, Dinero P2-P4, Errores #1, Secretos #1, Datos #1 y Top 5 #1 (versión sin ranking). Esperan OK de Verdad al MP4 y va de Cristian para publicar.
+Última actualización 27-nov: cuarto secreto de Lake Tallaloko (caricatura) entregado con voz, texto y portada. Antes: 26-nov: patrulla Tempesta de Vice Beach (caricatura) entregada con voz, texto y portada. Antes: Rolex arcoíris de Casanova Island (caricatura) entregado con voz, texto y portada. Antes: 25-nov: Controles ocultos (caricatura, PS5 y Xbox) listo para publicar a las 12:00. Antes: 23-nov: Portales Multidimensionales P1 (caricatura, ES + EN) listo para publicar. Antes: cierre de 14 videos (22-nov): corregidos con líneas de Verdad Lucía P1-P4, Gratis P1, ¿Se puede? #1, Dinero P2-P4, Errores #1, Secretos #1, Datos #1 y Top 5 #1 (versión sin ranking). Esperan OK de Verdad al MP4 y va de Cristian para publicar.
 
 # serie.md — gta6encyclopedia
 
@@ -26,6 +26,7 @@ Regla interna: serie y número son SOLO para organizarnos; nunca salen en pantal
 | Gratis — Gratis en GTA VI | Parte 3 | Bugatti de Bad Bunny (Truffade Thrax): Isla Starfish, guardias, pickup, hueco y celular (caricatura Flami y Gus; mapa provisional; sin serie/número en pantalla) | 2026-11-25 |
 | Gratis — Gratis en GTA VI | Parte 4 | Rolex arcoíris en Casanova Island: casa sin alarma, piso de arriba, habitación izquierda (caricatura Flami y Gus; videos/lote-8/rolex-casanova.json; sin serie/número en pantalla) | 2026-11-26 |
 | Gratis — Gratis en GTA VI | Parte 5 | Patrulla Pegassi Police Tempesta en la comisaría de Vice Beach, clonador de llaves (caricatura Flami y Gus; videos/lote-9/patrulla-tempesta.json; sin serie/número en pantalla) | 2026-11-26 |
+| Secretos y easter eggs | #2 | El cuarto secreto de los $70,000 en Lake Tallaloko: Poppers de Watson Bay, correo de Marcus, casa junto al lago, código 7304 (caricatura Flami y Gus; videos/lote-10/cuarto-tallaloko.json; sin serie/número en pantalla) | 2026-11-27 |
 
 ## Siguientes
 - Dinero: Parte 5
@@ -35,7 +36,7 @@ Regla interna: serie y número son SOLO para organizarnos; nunca salen en pantal
 - Errores: #2
 - Datos curiosos: #2
 - Top 5: #2
-- Secretos y easter eggs: #2
+- Secretos y easter eggs: #3
 - Portales Multidimensionales en GTA 6: Parte 2
 - Controles ocultos (caricatura, PS5 y Xbox): #2
 - ¿Qué pasaría si...? (nueva serie, 23-nov, decisión de Cristian): #1 (en prueba; mínimo 3 videos antes de decidir si se queda)

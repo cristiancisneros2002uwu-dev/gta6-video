@@ -36,13 +36,15 @@
      ]
     ],
     "_nota": "x 0-940, y 0-560. pin = tienda; etiqueta = nombre de la zona; ruta = de dónde a dónde camina Gus."
-   }
+   },
+   "t_puerta": 2.1
   },
   {
    "tipo": "cartoon",
    "accion": "t_foto",
    "dur": 4.6,
-   "voz": "Toma el dinero de la mesa y fotografía el código del correo de Marcus."
+   "voz": "Toma el dinero de la mesa y fotografía el código del correo de Marcus.",
+   "t_foto": 2.2
   },
   {
    "tipo": "cartoon",
@@ -68,19 +70,30 @@
    "tipo": "cartoon",
    "accion": "t_sala",
    "dur": 2.9,
-   "voz": "En la sala hay cartera y cromo."
+   "voz": "En la sala hay cartera y cromo.",
+   "t_cartera": 0.35,
+   "t_cromo": 0.7
   },
   {
    "tipo": "cartoon",
    "accion": "t_teclado",
    "dur": 3.6,
-   "voz": "Arriba, marca siete, tres, cero, cuatro."
+   "voz": "Arriba, marca siete, tres, cero, cuatro.",
+   "t_teclas": [
+    1.45,
+    2.34,
+    3.28,
+    4.35
+   ],
+   "t_abre": 4.6
   },
   {
    "tipo": "cartoon",
    "accion": "t_cuarto",
    "dur": 5.1,
-   "voz": "Ahí están el cuchillo legendario y la caja. ¿Irías?"
+   "voz": "Ahí están el cuchillo legendario y la caja. ¿Irías?",
+   "t_cofre": 2.1,
+   "t_pregunta": 3.3
   },
   {
    "tipo": "end",
