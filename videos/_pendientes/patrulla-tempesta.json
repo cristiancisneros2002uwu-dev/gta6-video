@@ -1,0 +1,79 @@
+{
+ "modelo": "eleven_multilingual_v2",
+ "prefijo": "",
+ "titulo": "Patrulla Tempesta en la comisaría de Vice Beach (caricatura)",
+ "escenas": [
+  {
+   "tipo": "cartoon",
+   "accion": "v_hook",
+   "dur": 3.8,
+   "voz": "¿Una patrulla que es una Pegassi Tempesta en GTA VI?"
+  },
+  {
+   "tipo": "cartoon",
+   "accion": "v_mapa",
+   "dur": 4.0,
+   "voz": "Ve a la comisaría de Vice Beach. Está justo en medio.",
+   "mapa": {
+    "zona": "VICE BEACH",
+    "pin": [
+     430,
+     330
+    ],
+    "etiqueta_pin": "COMISARÍA",
+    "etiqueta": [
+     470,
+     62
+    ],
+    "parque": [
+     178,
+     106,
+     372,
+     286
+    ],
+    "ruta": [
+     [
+      850,
+      490
+     ],
+     [
+      760,
+      370
+     ]
+    ],
+    "_nota": "x 0-940, y 0-560. pin = comisaría; parque = [x0,y0,x1,y1]; etiqueta = nombre de la zona; ruta = de dónde a dónde llega Gus flotando."
+   }
+  },
+  {
+   "tipo": "cartoon",
+   "accion": "v_clonador",
+   "dur": 3.2,
+   "voz": "Necesitas el clonador de llaves."
+  },
+  {
+   "tipo": "cartoon",
+   "accion": "v_gratis",
+   "dur": 2.8,
+   "voz": "Con él la manejas gratis."
+  },
+  {
+   "tipo": "cartoon",
+   "accion": "v_garaje",
+   "dur": 4.2,
+   "voz": "Y si avanzaste bastante en la historia, te la quedas."
+  },
+  {
+   "tipo": "cartoon",
+   "accion": "v_cierre",
+   "dur": 2.8,
+   "voz": "¿Te la llevarías?"
+  },
+  {
+   "tipo": "end",
+   "dur": 2.0
+  }
+ ],
+ "sin_panel_sub": true,
+ "sin_logo_esquina": true,
+ "voz_id": "pNInz6obpgDQGcFmaJgB"
+}
