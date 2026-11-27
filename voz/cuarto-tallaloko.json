@@ -1,0 +1,42 @@
+{
+ "voz_id": "pNInz6obpgDQGcFmaJgB",
+ "modelo": "eleven_multilingual_v2",
+ "caracteres": 363,
+ "frases": [
+  {
+   "texto": "¿Setenta mil dólares en dos minutos?",
+   "inicio": 0.0,
+   "fin": 2.31
+  },
+  {
+   "texto": "En el súper Poppers de Watson Bay, entra por la puerta de empleados.",
+   "inicio": 3.425,
+   "fin": 7.941
+  },
+  {
+   "texto": "Toma el dinero de la mesa y fotografía el código del correo de Marcus.",
+   "inicio": 8.185,
+   "fin": 12.086
+  },
+  {
+   "texto": "En la casa junto a Lake Tallaloko, entra por el muro trasero.",
+   "inicio": 12.527,
+   "fin": 16.335
+  },
+  {
+   "texto": "En la sala hay cartera y cromo.",
+   "inicio": 16.544,
+   "fin": 18.483
+  },
+  {
+   "texto": "Arriba, marca siete, tres, cero, cuatro.",
+   "inicio": 18.692,
+   "fin": 23.568
+  },
+  {
+   "texto": "Ahí están el cuchillo legendario y la caja. ¿Irías?",
+   "inicio": 23.951,
+   "fin": 27.91
+  }
+ ]
+}
