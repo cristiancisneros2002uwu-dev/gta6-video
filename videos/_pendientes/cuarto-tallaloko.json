@@ -1,0 +1,94 @@
+{
+ "modelo": "eleven_multilingual_v2",
+ "prefijo": "",
+ "titulo": "El cuarto secreto de los $70,000 en Lake Tallaloko (caricatura)",
+ "escenas": [
+  {
+   "tipo": "cartoon",
+   "accion": "t_hook",
+   "dur": 3.0,
+   "voz": "¿Setenta mil dólares en dos minutos?"
+  },
+  {
+   "tipo": "cartoon",
+   "accion": "t_poppers",
+   "dur": 4.6,
+   "voz": "En el súper Poppers de Watson Bay, entra por la puerta de empleados.",
+   "mapa": {
+    "zona": "WATSON BAY",
+    "pin": [
+     370,
+     300
+    ],
+    "etiqueta_pin": "POPPERS",
+    "etiqueta": [
+     300,
+     62
+    ],
+    "ruta": [
+     [
+      90,
+      380
+     ],
+     [
+      240,
+      290
+     ]
+    ],
+    "_nota": "x 0-940, y 0-560. pin = tienda; etiqueta = nombre de la zona; ruta = de dónde a dónde camina Gus."
+   }
+  },
+  {
+   "tipo": "cartoon",
+   "accion": "t_foto",
+   "dur": 4.6,
+   "voz": "Toma el dinero de la mesa y fotografía el código del correo de Marcus."
+  },
+  {
+   "tipo": "cartoon",
+   "accion": "t_muro",
+   "dur": 4.2,
+   "voz": "En la casa junto a Lake Tallaloko, entra por el muro trasero.",
+   "mapa": {
+    "etiqueta": "TALLALOKO",
+    "lago": [
+     50,
+     24,
+     304,
+     112
+    ],
+    "casa": [
+     180,
+     172
+    ],
+    "_nota": "mini mapa x 0-380, y 0-250. lago = [x0,y0,x1,y1] (arriba = norte); casa = [x,y]."
+   }
+  },
+  {
+   "tipo": "cartoon",
+   "accion": "t_sala",
+   "dur": 2.9,
+   "voz": "En la sala hay cartera y cromo."
+  },
+  {
+   "tipo": "cartoon",
+   "accion": "t_teclado",
+   "dur": 3.6,
+   "voz": "Arriba, marca siete, tres, cero, cuatro."
+  },
+  {
+   "tipo": "cartoon",
+   "accion": "t_cuarto",
+   "dur": 5.1,
+   "voz": "Ahí están el cuchillo legendario y la caja. ¿Irías?"
+  },
+  {
+   "tipo": "end",
+   "dur": 2.0
+  }
+ ],
+ "cola": 2.0,
+ "sin_panel_sub": true,
+ "sin_logo_esquina": true,
+ "voz_id": "pNInz6obpgDQGcFmaJgB"
+}
