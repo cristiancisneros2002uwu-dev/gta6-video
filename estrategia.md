@@ -56,8 +56,8 @@ Google ya nos manda ~73 clics al día, 69% de las impresiones vienen de EE. UU.,
 ## Serie nueva: "¿Qué pasaría si...?" (decidida 23-nov, Cristian)
 - Historias de "qué pasaría si GTA VI existiera en un lugar o situación real de México" (ej. Neza, el Metro, la Central de Abasto). Sin gameplay ni material de Rockstar.
 - **Gancho fijo: "¿Qué pasaría si…?" en el segundo 0**, con la voz desde el primer cuadro. Esta serie siempre arranca así.
-- Cuidados: humor sin burlarse de la gente, sin negocios ni personas reales, sin estereotipos fuertes, sin palabras que TikTok limita (violencia, drogas, policía: usar "persecución", "caos"). Siempre: sitio de fans no afiliado a Rockstar Games ni Take-Two y etiqueta de IA.
-- **Cierre fijo con pregunta para comentar (idea de Cristian): "¿Y a ti? ¿Qué colonia te gustaría que fuera GTA VI? Dímelo en comentarios".** Va antes de la línea del sitio. Meta: comentarios > 0 en cada video.
+- Cuidados: humor sin burlarse de la gente, sin negocios ni personas reales, sin estereotipos fuertes, sin palabras que TikTok limita (violencia, drogas, policía: usar "persecución", "caos"). Siempre etiqueta de IA (sin línea de "no afiliado" en descripciones).
+- **Cierre fijo con pregunta para comentar (idea de Cristian): "¿Y a ti? ¿Qué colonia te gustaría que fuera GTA VI? Dímelo en comentarios".**  Meta: comentarios > 0 en cada video.
 - Objetivo: seguidores, comentarios y compartidos (no tráfico a Google). Cada video cierra con UNA página real del sitio.
 - Prueba: mínimo 3 videos y se comparan contra motion graphics (salto en 3 s, tiempo promedio, comentarios, compartidos). Si ganan, la serie se queda.
 - Prueba de gancho (hipótesis, pendiente de Cristian): en las demás series, mismo tema con "¿Qué pasaría si…?" contra el gancho actual en el Lote 5; decidir con 3 pruebas, no con 1.

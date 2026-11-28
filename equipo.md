@@ -7,6 +7,8 @@ Reglas completas: instrucciones-proyecto.md (reemplazan todo lo anterior). El eq
 - Cristian da el va solo para publicar.
 - NUNCA mostrar en pantalla series, partes ni números ("Parte 3", "Gratis en GTA VI", "#2", "Sigue para la Parte 4"). Es solo organización interna (serie.md). El enlace gta6encyclopedia.com solo va en el cierre final y NUNCA se dice en la voz (ni "guía completa en gta6encyclopedia.com").
 
+- SIN la línea "sitio de fans no afiliado a Rockstar" en descripciones, captions ni .txt (orden de Cristian, 27-nov-2026).
+
 Bitácora
 - 2026-11-22 (orden de Cristian, 16:21): se retiran Verdad, Máquina y el resto de agentes; reglas nuevas simples. Motivo: el exceso de verificación y de agentes alargó horas la corrección de errores menores y empeoró los videos. Verdad.md y correcciones-enciclopedia.md quedan solo como referencia.
 - 2026-11-22 (orden de Cristian, 17:05): desde el Lote 5 cada video lleva miniatura diseñada (<nombre>.png); captions siempre cortos. Detalle en instrucciones-proyecto.md.

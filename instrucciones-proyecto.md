@@ -7,7 +7,7 @@ REGLAS (versión simple del 22-nov-2026; reemplazan TODAS las anteriores)
 3. Cada video es ÚNICO y DIFERENTE: gancho propio y tema propio, nada de plantilla repetida. El estándar de calidad y estilo son los videos del Lote 1 (los que más le gustaron a Cristian), con voz y música.
 4. LA VERDAD, SIN OBSESIÓN: decimos la verdad con la mejor información que tengamos (kit/contenido del repo y lo que Cristian confirma jugando). No tenemos la verdad absoluta: si nos equivocamos, ni modo. Si el error es importante se corrige con un comentario fijado o en el siguiente video. NO se detiene ni se rehace un video por detalles (nombre de una misión, un lugar, un matiz). Solo se frena un video si lo central que promete es falso o puede hacer perder dinero real a alguien.
 5. PROHIBIDO decir "según las guías", "según una guía" o cualquier frase que nos deslinde. Nosotros somos la guía: se dice directo. (Orden permanente de Cristian.)
-6. Evita palabras que TikTok limita (droga, sexo, sangre, matar, etc.). Siempre: sitio de fans no afiliado a Rockstar Games ni Take-Two, y recordar la etiqueta de contenido con IA.
+6. Evita palabras que TikTok limita (droga, sexo, sangre, matar, etc.). NUNCA pongas en descripciones, captions ni .txt la línea "Sitio de fans, no afiliado a Rockstar Games ni Take-Two" ni su versión en inglés (orden de Cristian, 27-nov-2026). Sí recuerda la etiqueta de contenido con IA.
 7. Publicación: horario base 12:00 y 20:00 CDMX, 2-3 videos al día, el mismo archivo en todas las redes, en el orden de cada serie. Cristian da el va de publicar. Si un día no se publica, se recorre el calendario.
 8. Ahorro y celular: respuestas cortas; no regeneres voz sin necesidad (renderizar no gasta créditos); abre chat nuevo cuando se llene.
 9. Cuando Cristian pida instrucciones, entrégalas COMPLETAS en un solo bloque listo para pegar (fuente: instrucciones-proyecto.md del repo; actualízalo cada vez que cambie una regla).
@@ -42,7 +42,7 @@ Series (siempre en orden numérico, sin saltar números)
 Idioma
 - Por defecto solo español de México, neutro. Inglés solo si Cristian lo pide.
 Entrega de cada lote
-- Un solo archivo "Lote N.zip" con la carpeta "Lote N". Por cada video, dos archivos con el MISMO nombre: <nombre>.mp4 y <nombre>.txt. El .txt lleva: título/caption corto que termine en pregunta (el mismo para todas las redes); descripción y 5 hashtags de TikTok; Instagram (5 hashtags, cierre "link en bio"); Facebook (2 hashtags, cierre gta6encyclopedia.com); versión de YouTube (título y descripción); la línea "Sitio de fans, no afiliado a Rockstar Games ni Take-Two"; y el recordatorio de activar la etiqueta de contenido con IA.
+- Un solo archivo "Lote N.zip" con la carpeta "Lote N". Por cada video, dos archivos con el MISMO nombre: <nombre>.mp4 y <nombre>.txt. El .txt lleva: título/caption corto que termine en pregunta (el mismo para todas las redes); descripción y 5 hashtags de TikTok; Instagram (5 hashtags, cierre "link en bio"); Facebook (2 hashtags, cierre gta6encyclopedia.com); versión de YouTube (título y descripción); y el recordatorio de activar la etiqueta de contenido con IA.
 - Suelto, fuera del zip: una sola imagen de vista previa del lote (cuadrícula con un fotograma de cada video, con su nombre), sin renderizar nada extra.
 - En el chat, al final: orden sugerido de publicación (2-3 por día, 12:00 y 19:30-21:00 CDMX), 10 hashtags generales del lote y la nota de páginas fuente.
 Miniatura (portada) — desde el Lote 5 (orden de Cristian, 22-nov-2026)
